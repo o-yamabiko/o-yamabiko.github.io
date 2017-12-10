@@ -1,2 +1,6 @@
 theme: jekyll-theme-slate
 markdown: kramdown
+collections:
+  tusin:
+    output: true
+    permalink: :title.html
