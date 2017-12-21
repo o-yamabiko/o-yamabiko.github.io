@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" />
-<!-- Website Design By: www.happyworm.com -->
-<title>My Demo : jPlayer as an audio playlist player</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<!--link href="../../dist/skin/blue.monday/css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" /-->
-<link href="../../dist/skin/blue.monday/css/memimoi.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="../../lib/jquery.min.js"></script>
-<script type="text/javascript" src="../../dist/jplayer/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="../../dist/add-on/jplayer.playlist.min.js"></script>
+<!doctype html>
+<html lang="ja" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="./css/pandoc.css">
+<link href="./css/memimoi.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jPlayer-2.9.2/lib/jquery.min.js"></script>
+<script type="text/javascript" src="jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js"></script>
+
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready(function(){
@@ -20,54 +20,54 @@ $(document).ready(function(){
 	}, [
 		{
 			title:"やまびこ通信2017年12月号",
-			mp3:"./sounds/sound0001.mp3",
-			oga:"./sounds/sound0001.ogg"
+			mp3:"./media/tusin201712/sound0001.mp3",
+			oga:"./media/tusin201712/sound0001.ogg"
 		},
 		{
 			title:"〈11月活動報告〉",
-			mp3:"./sounds/sound0002.mp3",
-			oga:"./sounds/sound0002.ogg"
+			mp3:"./media/tusin201712/sound0002.mp3",
+			oga:"./media/tusin201712/sound0002.ogg"
 		},
 		{
 			title:"〈１2月活動予定〉",
-			mp3:"./sounds/sound0003.mp3",
-			oga:"./sounds/sound0003.ogg"
+			mp3:"./media/tusin201712/sound0003.mp3",
+			oga:"./media/tusin201712/sound0003.ogg"
 		},
 		{
 			title:"〈録音図書(デイジー版CD)作成〉",
-			mp3:"./sounds/sound0004.mp3",
-			oga:"./sounds/sound0004.ogg"
+			mp3:"./media/tusin201712/sound0004.mp3",
+			oga:"./media/tusin201712/sound0004.ogg"
 		},
 		{
 			title:"〈対面音訳〉",
-			mp3:"./sounds/sound0005.mp3",
-			oga:"./sounds/sound0005.ogg"
+			mp3:"./media/tusin201712/sound0005.mp3",
+			oga:"./media/tusin201712/sound0005.ogg"
 		},
 		{
 			title:"新入会員から",
-			mp3:"./sounds/sound0006.mp3",
-			oga:"./sounds/sound0006.ogg"
+			mp3:"./media/tusin201712/sound0006.mp3",
+			oga:"./media/tusin201712/sound0006.ogg"
 		},
 		{
 			title:"〈十条台句会〉会員の方の俳句をお楽しみください。",
-			mp3:"./sounds/sound0007.mp3",
-			oga:"./sounds/sound0007.ogg"
+			mp3:"./media/tusin201712/sound0007.mp3",
+			oga:"./media/tusin201712/sound0007.ogg"
 		},
 		{
 			title:"Let's try!!",
-			mp3:"./sounds/sound0008.mp3",
-			oga:"./sounds/sound0008.ogg"
+			mp3:"./media/tusin201712/sound0008.mp3",
+			oga:"./media/tusin201712/sound0008.ogg"
 		},
 		{
 			title:"以上でやまびこ通信2017年12月号を終わります。",
-			mp3:"./sounds/sound0009.mp3",
-			oga:"./sounds/sound0009.ogg"
+			mp3:"./media/tusin201712/sound0009.mp3",
+			oga:"./media/tusin201712/sound0009.ogg"
 		}
 	], {
 		playlistOptions: {
  		   autoPlay: true
     		},
-  		swfPath: "../../dist/jplayer",
+  		swfPath: "jPlayer-2.9.2/dist/jplayer",
 		supplied: "oga, mp3",
 		wmode: "window",
 		useStateClassSkin: true,
@@ -78,8 +78,11 @@ $(document).ready(function(){
 });
 //]]>
 </script>
-</head>
-<body>
+
+<title>やまびこ通信2017年12月号</title>
+ </head>
+  <body>
+    <div class="content">
 <div id="jquery_jplayer_1" class="jp-jplayer"></div>
 <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
 	<div class="jp-type-playlist">
@@ -111,6 +114,17 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
-</body>
+<img src="media/tusin201712-1.png" alt="やまびこ通信2017年12月号ページ1" srcset="media/tusin201712-1.svg" />
 
+<img src="media/tusin201712-2.png" alt="やまびこ通信2017年12月号ページ2" srcset="media/tusin201712-2.svg" />
+    </div>
+    <footer>
+      <div>
+        文責： {{ page.author }}
+      </div>
+      <div>
+    	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
+      </div>
+    </footer>
+  </body>
 </html>
