@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="./css/pandoc.css">
+<link href="./css/memimoi.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="./jPlayer-2.9.2/lib/jquery.min.js"></script>
+<script type="text/javascript" src="./jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="./jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js"></script>
+<title>{{ page.title }}</title>
+ </head>
+  <body>
+    <div class="content">
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+	<div class="jp-type-playlist">
+		<div class="jp-gui jp-interface">			
+			<div class="jp-controls">
+				<button class="jp-play" role="button" tabindex="0">一時停止・再生<br />||&#9654;</button>
+				<button class="jp-previous" role="button" tabindex="0">前のセクション<br />|&#9664;&#9664;</button>
+				<button class="jp-next" role="button" tabindex="0">次のセクション<br />&#9654;&#9654;|</button>
+				<button class="jp-stop" role="button" tabindex="0">停止<br />■</button>
+			</div>
+			<div class="jp-progress">
+				<div class="jp-seek-bar">
+					<div class="jp-play-bar"></div>
+				</div>
+			</div>
+			<div class="jp-time-holder">
+				<!--div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+				<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div-->
+			</div>
+		</div>
+		<!--div class="jp-playlist">
+			<ul>
+				<li>&nbsp;</li>
+			</ul>
+		</div-->
+		<div class="jp-no-solution">
+			<span>更新が必要です。</span>
+			音を聞くには、ブラウザか<a href="http://get.adobe.com/flashplayer/" target="_blank">フラッシュ・プラグイン</a>をアップデートしてください。
+		</div>
+	</div>
+</div>
+      {{ content }}
+    </div>
+    <footer>
+      <div>
+        文責： {{ page.author }}
+      </div>
+      <div>
+    	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
+      </div>
+    </footer>
+  </body>
+</html>
