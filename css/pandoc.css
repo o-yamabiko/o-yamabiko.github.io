@@ -333,8 +333,8 @@ table td {
  .nav {
    position: fixed;
    top: 0;
-   left: 0;
-   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
  }
  .pglink {
    padding: .5em;
