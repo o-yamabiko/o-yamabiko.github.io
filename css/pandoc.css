@@ -330,4 +330,15 @@ table td {
     page-break-after: avoid;
   }
 }
-
+ .left {
+   background: rgba(124, 202, 241, .4);
+   position: fixed;
+   bottom: 0;
+   left: 0;
+ }
+ .right {
+   background: rgba(124, 202, 241, .4);
+   position: fixed;
+   bottom: 0;
+   right: 0;
+ }
