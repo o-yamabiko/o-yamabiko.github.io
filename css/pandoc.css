@@ -331,6 +331,7 @@ table td {
   }
 }
  .nav {
+   width: 12em;
    position: fixed;
    top: 0;
    margin-left: auto;
