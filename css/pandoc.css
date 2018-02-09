@@ -331,14 +331,18 @@ table td {
   }
 }
  .left {
-   background: rgba(124, 202, 241, .4);
+   padding: 2em;
+   color: rgb(62, 101, 120);
+   background: rgba(124, 202, 240, .4);
    position: fixed;
-   bottom: 0;
+   top: 0;
    left: 0;
  }
  .right {
-   background: rgba(124, 202, 241, .4);
+   padding: 2em;
+   color: rgb(62, 101, 120);
+   background: rgba(124, 202, 240, .4);
    position: fixed;
-   bottom: 0;
+   top: 0;
    right: 0;
  }
