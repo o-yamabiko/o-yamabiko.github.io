@@ -332,16 +332,14 @@ table td {
 }
  .left {
    padding: .5em;
-   color: rgb(62, 101, 120);
-   background: rgba(124, 202, 240, .4);
+   background: rgba(109, 179, 214, .4);
    position: fixed;
    top: 0;
    left: 0;
  }
  .right {
    padding: .5em;
-   color: rgb(62, 101, 120);
-   background: rgba(124, 202, 240, .4);
+   background: rgba(109, 179, 214, .4);
    position: fixed;
    top: 0;
    right: 0;
