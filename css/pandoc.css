@@ -331,7 +331,7 @@ table td {
   }
 }
  .left {
-   padding: 2em;
+   padding: .5em;
    color: rgb(62, 101, 120);
    background: rgba(124, 202, 240, .4);
    position: fixed;
@@ -339,7 +339,7 @@ table td {
    left: 0;
  }
  .right {
-   padding: 2em;
+   padding: .5em;
    color: rgb(62, 101, 120);
    background: rgba(124, 202, 240, .4);
    position: fixed;
