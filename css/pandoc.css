@@ -330,17 +330,14 @@ table td {
     page-break-after: avoid;
   }
 }
- .left {
-   padding: .5em;
-   background: rgba(109, 179, 214, .4);
+ .nav {
    position: fixed;
    top: 0;
    left: 0;
+   text-align: center;
  }
- .right {
+ .pglink {
    padding: .5em;
    background: rgba(109, 179, 214, .4);
-   position: fixed;
-   top: 0;
-   right: 0;
  }
+
