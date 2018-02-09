@@ -338,7 +338,8 @@ table td {
    margin-left: auto;
    margin-right: auto;
    min-height: 10em;
-   width: 12em;
+   width: 20em;
+   text-align: center;
  }
  .pglink {
    padding: .5em;
