@@ -3,7 +3,7 @@ layout: yomi
 oto: phrase/tusin201802
 title: 文節ハイライト 音声付きテキスト版
 author: 音訳グループやまびこ
-date: 2018-02-22T06:39:00Z
+date: 2018-03-23T17:50:00Z
 ---
 
 # <span data-dur="4.134" data-begin="0.03">やまびこ通信2018年2月号</span>
