@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## 音訳とは？
+障がいや高齢等の理由で文字や図表などを読むことが難しい人のために、情報を音声化する活動です。
 
-You can use the [editor on GitHub](https://github.com/o-yamabiko/o-yamabiko.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### 対面音訳
+利用者さまに図書館等へお出でいただき、書籍や書類をその場で読み上げます。
+無料のサービスです。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 録音図書作成
+著作権法に基づき、[DAISY規格](http://www.dinf.ne.jp/doc/daisy/)に準拠した録音図書を製作します。図書館や自治体からの依頼や自主制作のほか、利用者さまから直接のご依頼も受けています。利用者さまにはCD代100円などの実費だけご負担いただきます。
+1. 肉声による録音図書  
+   単行本1冊分を肉声で音声化するには最低3ヶ月かかります。ご依頼はお早めに。
+2. 合成音声による録音図書  
+   [AI Talkが組み込まれたChattyInfty3](http://www.sciaccess.net/jp/ChattyInfty/)を使って、500ページあたり約1ヶ月程度で仕上げます。
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### その他
+印刷物のテキスト化、機器の設定など、情報の音声化に際してお困りのことがあれば、できる限りのお手伝いをします。
 
-```markdown
-Syntax highlighted code block
+## やまびこ通信
 
-# Header 1
-## Header 2
-### Header 3
+音訳グループやまびこが発行している月刊誌です。
+これまでの活動内容、これからの活動予定、十条台句会から寄せられた俳句、クイズなど。
 
-- Bulleted
-- List
+- [テスト用](phrase.html)
+- [2018年3月号](tusin201803.html)
+- [2018年2月号](tusin201802.html)
+- [2018年1月号](tusin201801.html)
+- [2017年12月号](tusin201712.html)
 
-1. Numbered
-2. List
+これ以前の号は紙に印刷する形で発行していました。
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/o-yamabiko/o-yamabiko.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
