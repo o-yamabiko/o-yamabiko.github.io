@@ -8,11 +8,16 @@
    top: 0;
    right: 0;
    left: 0;
+   z-index: -1;
 }
 .page-header h1 {
    padding-top:2em;
 }
 .main-content {
+   position: relative;
+   top: 0;
+   right: 0;
+   left: 0;
 }
 .controller {
    position: fixed;
