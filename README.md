@@ -1,5 +1,4 @@
 ---
-layout: default
 oto: readme/sound0001
 date: 2018-03-24T08:27:00Z
 ---
