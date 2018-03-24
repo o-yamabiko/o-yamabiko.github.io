@@ -13,7 +13,7 @@
 1. 肉声による録音図書  
    単行本1冊分を肉声で音声化するには最低3ヶ月かかります。ご依頼はお早めに。
 2. 合成音声による録音図書  
-   [AITalkが組み込まれたChattyInfty3](http://www.sciaccess.net/jp/ChattyInfty/)を使って、500ページあたり約1ヶ月程度で仕上げます。
+   [AITalkが組み込まれたChattyInfty3](http://www.sciaccess.net/jp/ChattyInfty/)を使って、500ページあたり1ヶ月程度で仕上げます。
 
 
 ### その他
