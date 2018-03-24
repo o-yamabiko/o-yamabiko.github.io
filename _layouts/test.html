@@ -12,6 +12,16 @@
     <link rel="stylesheet" type="text/css" href="css/yomitop.css">
   </head>
   <body>
+    <section class="page-header">
+      <h1 class="project-name"><span data-dur="2.708" data-begin="0.000">{{ site.title | default: site.github.repository_name }}</span></h1>
+      <h2 class="project-tagline"><span data-dur="6.426" data-begin="2.708">{{ site.description | default: site.github.project_tagline }}</span></h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
 	<div class="controller">
             <p class="loading">
                 <em><img src="media/loader.gif" alt="Initializing audio"> Loading audio…</em>
@@ -19,9 +29,9 @@
 
             <p class="passage-audio" hidden>
                 <audio id="passage-audio" class="passage" controls autoplay>
-                    <source src="media/readme/sound0001.mp3" type="audio/mp3">
-                    <source src="media/readme/sound0001.ogg" type="audio/ogg">
-                    <source src="media/readme/sound0001.wav" type="audio/wav">
+                    <source src="media/{{ page.oto }}.mp3" type="audio/mp3">
+                    <source src="media/{{ page.oto }}.ogg" type="audio/ogg">
+                    <source src="media/{{ page.oto }}.wav" type="audio/wav">
                     <em class="error"><strong>残念！</strong> お使いのブラウザはHTML5オーディオに対応していないようです。</em>
                 </audio>
             </p>
@@ -46,16 +56,6 @@
                 <p class="error"><em><strong>お知らせ:</strong> このページの読み上げ機能 HTML5 read-along を利用するには、 JavaScript を有効にしておく必要があります。</em></p>
             </noscript>
 	</div>
-    <section class="page-header">
-      <h1 class="project-name"><span data-dur="2.708" data-begin="0.000">{{ site.title | default: site.github.repository_name }}</span></h1>
-      <h2 class="project-tagline"><span data-dur="6.426" data-begin="2.708">{{ site.description | default: site.github.project_tagline }}</span></h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
     </section>
 
     <section class="main-content">
