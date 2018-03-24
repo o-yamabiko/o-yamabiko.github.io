@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: test
 oto: readme/sound0001
 ---
 音訳者注：「リンク」と読み上げられたところで、タブキー、続けてすぐにエンターキーを押すと、リンク先に移動します。
