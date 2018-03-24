@@ -2,16 +2,9 @@
  * audio controller for default.html
  */
 
-.page-header {
-   position: fixed;
-   top: 0;
-   right: 0;
-   left: 0;
-}
-.main-content {
-   top: 20em;
-}
 .controller {
+   position: fixed;
+   top: 1em;
    right: 0;
    left: 0;
    margin-left: auto;
