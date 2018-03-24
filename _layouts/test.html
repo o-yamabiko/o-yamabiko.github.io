@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <section class="page-header">
-      <h1 class="project-name"><span data-dur="2.708" data-begin="0.000">{{ site.title | default: site.github.repository_name }}</span></h1>
-      <h2 class="project-tagline"><span data-dur="6.426" data-begin="2.708">{{ site.description | default: site.github.project_tagline }}</span></h2>
 	<div class="controller">
             <p class="loading">
                 <em><img src="media/loader.gif" alt="Initializing audio"> Loading audio…</em>
@@ -48,6 +45,9 @@
                 <p class="error"><em><strong>お知らせ:</strong> このページの読み上げ機能 HTML5 read-along を利用するには、 JavaScript を有効にしておく必要があります。</em></p>
             </noscript>
 	</div>
+    <section class="page-header">
+      <h1 class="project-name"><span data-dur="2.708" data-begin="0.000">{{ site.title | default: site.github.repository_name }}</span></h1>
+      <h2 class="project-tagline"><span data-dur="6.426" data-begin="2.708">{{ site.description | default: site.github.project_tagline }}</span></h2>
     </section>
 
     <section class="main-content">
