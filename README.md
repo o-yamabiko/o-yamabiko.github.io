@@ -1,3 +1,8 @@
+---
+layout: default
+oto: readme/sound0001
+date: 2018-03-24T08:27:00Z
+---
 ## <span data-dur="4.649" data-begin="9.134">音訳とは？&ensp;私たちの活動について</span>
 
 <span data-dur="6.511" data-begin="13.783">障がいや高齢等の理由で文字や図表などを読むことが難しい人のために、</span>
