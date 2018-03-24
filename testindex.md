@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: yomi
 oto: readme/sound0001
 ---
 ## <span data-dur="4.649" data-begin="9.134">音訳とは？&ensp;私たちの活動について</span>
