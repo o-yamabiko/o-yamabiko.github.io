@@ -1,6 +1,9 @@
 ---
 layout: yomi
 oto: phrase/tusin201802
+background: phrase/1032782.jpg
+imagefrom: Illust AC
+imagefromurl: https://www.ac-illust.com/
 title: 文節ハイライト 音声付きテキスト版
 author: 音訳グループやまびこ
 date: 2018-03-23T17:50:00Z
