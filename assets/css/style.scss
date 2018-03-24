@@ -13,6 +13,8 @@ body {
    right: 0;
    left: 0;
    padding-top: 8em;
+   background: rgba(255, 255, 255, .95);
+   z-index: -1;
 }
 .controller {
    position: fixed;
