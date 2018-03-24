@@ -1,7 +1,9 @@
 ---
-layout: yomi
+layout: test
 oto: readme/sound0001
 ---
+音訳者注：「リンク」と読み上げられたところで、タブキーとエンターキーを続けて押すと、リンク先に移動します。
+音訳者注、終わり。
 ## <span data-dur="4.649" data-begin="9.134">音訳とは？&ensp;私たちの活動について</span>
 
 <span data-dur="6.511" data-begin="13.783">障がいや高齢等の理由で文字や図表などを読むことが難しい人のために、</span>
@@ -15,7 +17,7 @@ oto: readme/sound0001
 
 ### <span data-dur="2.614" data-begin="38.355">録音図書作成</span>
 
-[<span data-dur="4.73" data-begin="40.969">著作権法第三十七条に基づき、</span>](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1)
+<span data-dur="4.73" data-begin="40.969">[著作権法第三十七条](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1)に基づき、</span>
 <span data-dur="6.514" data-begin="45.699">[DAISY規格](http://www.dinf.ne.jp/doc/daisy/)に準拠した録音図書を製作します。図書館や自治体からの依頼や自主製作のほか、利用者さまから直接のご依頼も受けています。</span>
 <span data-dur="4.445" data-begin="52.213">図書館や自治体からの依頼や自主製作のほか、</span>
 <span data-dur="5.54" data-begin="56.658">利用者さまから直接のご依頼も受けています。</span>
