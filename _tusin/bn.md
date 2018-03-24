@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: default
 title: やまびこ通信 バックナンバー
 author: 音訳グループやまびこ
 date: 2018-03-24T08:50:00Z
