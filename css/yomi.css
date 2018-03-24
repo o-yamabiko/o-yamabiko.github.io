@@ -417,6 +417,8 @@ article > footer {
 }
 
 footer {
+    padding: 1em;
+    max-width: 42em;
     margin-bottom: 0.5em;
     line-height: 1.4em;
     font-size: small;
