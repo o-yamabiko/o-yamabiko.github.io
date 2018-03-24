@@ -358,7 +358,7 @@ table td {
 
 .controller {
    position: fixed;
-   top: 0;
+   top: 1em;
    right: 0;
    left: 0;
    margin-left: auto;
@@ -366,7 +366,9 @@ table td {
    min-height: 7em;
    max-width: 42em;
    background: rgba(255, 255, 255, .95);
-   box-shadow: 2px 4px #cccccc;
+   border-color: aaa;
+   border-width:3px;
+   border-style:outset;
 }
 .passage-audio {
     height: 2em;
