@@ -8,12 +8,18 @@
    top: 0;
    right: 0;
    left: 0;
+   padding-top:5em;
+   z-index: -1;
 }
 .main-content {
    margin-top: 19em;
 }
 .controller {
-   margin-left: auto;
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+margin-left: auto;
    margin-right: auto;
    min-height: 7em;
    max-width: 42em;
