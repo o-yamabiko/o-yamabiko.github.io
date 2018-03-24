@@ -27,7 +27,7 @@ article {
   font-size: medium;
   line-height: 1.7;
   padding: 1em;
-  margin: auto;
+  margin: 1em auto;
   max-width: 42em;
   background: #fefefe;
 }
@@ -367,8 +367,8 @@ table td {
    max-width: 42em;
    background: rgba(255, 255, 255, .95);
    border-color: aaa;
-   border-width:3px;
-   border-style:outset;
+   border-width: 3px;
+   border-style: outset;
 }
 .passage-audio {
     height: 2em;
