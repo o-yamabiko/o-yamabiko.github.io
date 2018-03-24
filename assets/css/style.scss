@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 }
 .main-content {
-   position: relative;
+   position: absolute;
    top: 0;
    right: 0;
    left: 0;
