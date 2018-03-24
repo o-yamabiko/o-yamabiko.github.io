@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 show_downloads: false
 title: 音訳グループ やまびこ
-locale: ja
+page_lang: ja
 description: 東京都北区を中心に活動している ボランティアグループです。
 markdown: kramdown
 collections:
