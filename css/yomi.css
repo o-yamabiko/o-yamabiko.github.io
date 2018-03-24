@@ -11,7 +11,17 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-body article {
+body {
+  color: #222;
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font-size: 12px;
+  line-height: 1.7;
+  padding: 1em;
+  margin: auto;
+  background: #fefefe;
+}
+
+article {
   color: #222;
   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
   font-size: 12px;
