@@ -19,11 +19,11 @@
     }
     </style>
         {% endif %}
-        {% if page.bgcolorl %}
+        {% if page.backgroundcolor %}
     <style>
 body {
-  background-color: '{{ page.bgcolorl }}';
-  background-image: linear-gradient(-90deg, '{{ page.bgcolorr }}', '{{ page.bgcolorl }}');
+  background-color: {{ page.backgroundcolor }};
+  background-image: linear-gradient('-90deg, {{ page.backgroundcolor }}, {{ backgroundgradient }}');
 }
   h1,
   h2,
@@ -31,7 +31,7 @@ body {
   h4,
   h5,
   h6 {
-    color: '{{ page.bgcolorl }}';
+    color: {{ page.backgroundcolor }};
   }
     </style>
         {% endif %}
