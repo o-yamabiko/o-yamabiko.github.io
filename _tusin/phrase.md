@@ -8,7 +8,7 @@ title: 文節ハイライト 音声付きテキスト版
 author: 音訳グループ やまびこ
 date: 2018-03-23T17:50:00Z
 mae: tusin201803
-tugi: tusin201805
+#tugi: tusin201805
 ---
 
 # <span data-dur="4.134" data-begin="0.03">やまびこ通信2018年2月号</span>
