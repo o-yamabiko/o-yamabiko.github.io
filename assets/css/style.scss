@@ -8,30 +8,14 @@ body {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 }
 .main-content {
-  @include large {
-    max-width: 48rem;
-    padding: 2rem 6rem;
-    margin: 0 auto;
-    font-size: 1.1rem;
-  }
-
-  @include medium {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-    font-size: 1rem;
-  }
-
    position: absolute;
-   top: 0;
+   top: 1em;
    right: 0;
    left: 0;
    padding-top: 10em;
    background: rgba(255, 255, 255, .85);
    z-index: -1;
+   max-width: 48rem;
 }
 
 .controller {
