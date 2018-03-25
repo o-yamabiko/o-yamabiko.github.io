@@ -58,7 +58,7 @@ margin-left: auto;
    margin-right: auto;
    min-height: 7em;
    max-width: 46em;
-   background: rgba(255, 255, 255, .95);
+   background: rgba(255, 255, 255, .90);
    border-color: aaa;
    border-width: 3px;
    border-style: outset;
@@ -128,7 +128,10 @@ q {
  }
  .pglink {
    padding: 1em;
-   background: rgba(186, 232, 255, .9);
+   background: rgba(255, 255, 255, .90);
+   border-color: aaa;
+   border-width: 3px;
+   border-style: outset;
  }
 
 

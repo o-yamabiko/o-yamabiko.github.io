@@ -342,6 +342,9 @@ table td {
  }
  .pglink {
    padding: 1em;
-   background: rgba(109, 179, 214, .4);
+   background: rgba(255, 255, 255, .90);
+   border-color: aaa;
+   border-width: 3px;
+   border-style: outset;
  }
 
