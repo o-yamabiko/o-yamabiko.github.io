@@ -7,6 +7,8 @@ imagefromurl: https://www.ac-illust.com/
 title: 文節ハイライト 音声付きテキスト版
 author: 音訳グループ やまびこ
 date: 2018-03-23T17:50:00Z
+prev: tusin201803
+next: tusin201805
 ---
 
 # <span data-dur="4.134" data-begin="0.03">やまびこ通信2018年2月号</span>
@@ -92,4 +94,4 @@ date: 2018-03-23T17:50:00Z
 
 <span data-dur="6.337" data-begin="237.234">これでやまびこ通信2018年2月号を終わります。</span>
 <span data-dur="1.151" data-begin="243.571">&nbsp;</span>
- 
+
