@@ -1,5 +1,5 @@
 ---
-layout: yomi
+layout: caymanyomi
 oto: phrase/tusin201802
 background: phrase/1032782.jpg
 imagefrom: Illust AC
