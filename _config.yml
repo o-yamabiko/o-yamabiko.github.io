@@ -8,3 +8,6 @@ collections:
   tusin:
     output: true
     permalink: :title.html
+  info:
+    output: true
+    permalink: :title.html
