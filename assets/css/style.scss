@@ -116,9 +116,12 @@ q {
 
 //page navigation
  .nav {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   left: 0;
    margin-left: auto;
    margin-right: auto;
-   min-height: 10em;
    width: 20em;
    text-align: center;
  }
