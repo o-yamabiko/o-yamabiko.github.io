@@ -39,10 +39,10 @@ body {
 .main-content {
    position: absolute;
    top: 2em;
-   bottom: 2em;
    right: 1em;
    left: 1em;
    padding-top: 9em;
+   margin-bottom: 2em;
    background: rgba(255, 255, 255, .90);
    z-index: -1;
    max-width: 48rem;
