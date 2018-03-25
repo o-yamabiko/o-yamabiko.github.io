@@ -4,8 +4,8 @@ title: やまびこ通信 バックナンバー
 author: 音訳グループやまびこ
 date: 2018-03-25T07:05:00Z
 oto: bn/sound0001
-iro: #2679B9
-gra: #ffffff
+iro: 2679B9
+gra: ffffff
 ---
 
 # <span data-dur="3.426" data-begin="0.000">やまびこ通信&ensp;バックナンバー</span>
