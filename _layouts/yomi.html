@@ -7,8 +7,17 @@
     <meta name="robots" content="noindex">
     <link rel="stylesheet" type="text/css" href="css/yomi.css">
     <title>{{ page.title }}</title>
+        {% if page.background %}
+    <style>
+    body {
+    background-image: url('media/{{ page.background }}');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    </style>
+        {% endif %}
  </head>
-  <body style="background-image: url('media/{{ page.background }}'); background-repeat: no-repeat; background-attachment: fixed;">
+  <body>
         <article>
 	<div class="controller">
             <p class="loading">

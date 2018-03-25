@@ -10,6 +10,31 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+        {% if page.background %}
+    <style>
+    body {
+    background-image: url('media/{{ page.background }}');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    </style>
+        {% endif %}
+        {% if page.bgcolorl %}
+    <style>
+body {
+  background-color: {{ page.bgcolorl }};
+  background-image: linear-gradient(-90deg, {{ page.bgcolorr }}, {{ page.bgcolorl }});
+}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: {{ page.bgcolorl }};
+  }
+    </style>
+        {% endif %}
   </head>
   <body>
         {% if page.oto %}
@@ -68,8 +93,10 @@
        {% if page.imagefrom %}
 	  <div class="site-footer-credits">背景画像： <a href="{{ page.imagefromurl }}">{{ page.imagefrom }}</a></div>
         {% endif %}
+        {% if page.oto %}
           <div class="site-footer-credits">このページの読み上げ機能に使っているJavaScriptについて：<br />
 	    The read-along feature is powered by <a href="https://github.com/westonruter/html5-audio-read-along">the read-along code</a> created by <a href="http://westonruter.github.com/">Weston Ruter</a>, licensed <a href="http://www.opensource.org/licenses/MIT" rel="license">MIT</a>/<a href="http://www.gnu.org/licenses/gpl.html" rel="license">GPL</a>.</div>
+        {% endif %}
       </footer>
     </section>
             </div>
