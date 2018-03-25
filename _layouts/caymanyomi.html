@@ -19,11 +19,11 @@
     }
     </style>
         {% endif %}
-        {% if page.backgroundcolor %}
+        {% if page.iro %}
     <style>
 body {
-  background-color: {{ page.backgroundcolor }};
-  background-image: linear-gradient('-90deg, {{ page.backgroundcolor }}, {{ backgroundgradient }}');
+  background-color: #{{ page.iro }};
+  background-image: linear-gradient(-90deg, #{{ page.gra }}, #{{ page.iro }});
 }
   h1,
   h2,
@@ -31,7 +31,7 @@ body {
   h4,
   h5,
   h6 {
-    color: {{ page.backgroundcolor }};
+    color: #{{ page.iro }};
   }
     </style>
         {% endif %}
