@@ -22,8 +22,8 @@
         {% if page.bgcolorl %}
     <style>
 body {
-  background-color: {{ page.bgcolorl }};
-  background-image: linear-gradient(-90deg, {{ page.bgcolorr }}, {{ page.bgcolorl }});
+  background-color: '{{ page.bgcolorl }}';
+  background-image: linear-gradient(-90deg, '{{ page.bgcolorr }}', '{{ page.bgcolorl }}');
 }
   h1,
   h2,
@@ -31,7 +31,7 @@ body {
   h4,
   h5,
   h6 {
-    color: {{ page.bgcolorl }};
+    color: '{{ page.bgcolorl }}';
   }
     </style>
         {% endif %}
