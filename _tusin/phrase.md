@@ -2,8 +2,8 @@
 layout: caymanyomi
 oto: phrase/tusin201802
 background: phrase/1032782.jpg
-imagefrom: Illust AC
-imagefromurl: https://www.ac-illust.com/
+imagefrom: このはな @ Illust AC
+imagefromurl: https://www.ac-illust.com/main/detail.php?id=1032782&word=%E6%A1%9C83
 title: 文節ハイライト 音声付きテキスト版
 author: 音訳グループ やまびこ
 date: 2018-03-23T17:50:00Z
