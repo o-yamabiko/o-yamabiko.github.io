@@ -15,7 +15,25 @@ body {
    padding-top: 10em;
    background: rgba(255, 255, 255, .85);
    z-index: -1;
+
+  @include large {
+    max-width: 56rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
 }
+
 .controller {
    position: fixed;
    top: 0;
