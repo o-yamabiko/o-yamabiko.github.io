@@ -141,16 +141,14 @@ q {
     #parent #popup {
       display: none;
     }
-    #parent #popup {
-      display: none;
-    }
     #parent:hover #popup {
       display: block;
+      color: $body-text-color;
       position: absolute;
-   background: rgba(255, 255, 255, .90);
-   border-color: aaa;
-   border-width: 3px;
-   border-style: outset;
-   margin-right: 5em;
+      background: rgba(255, 255, 255, .90);
+      border-color: aaa;
+      border-width: 3px;
+      border-style: outset;
+      margin-right: 5em;
     }
 
