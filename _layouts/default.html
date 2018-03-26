@@ -38,7 +38,7 @@
                 <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
             </p>
             <p class="autofocus-current-word" hidden>
-                <input type="checkbox" id="autofocus-current-word"><!--make autofocus false for avoiding conflict with users' TTS-->
+                <input type="checkbox" id="autofocus-current-word"><!--make autofocus unchecked for avoiding conflict with users' TTS-->
                 <label for="autofocus-current-word">テキスト表示範囲を自動的に移動</label>
             </p>
 
@@ -49,7 +49,7 @@
             <div id="passage-text" class="passage">
     <section class="main-content">
       <h1 class="project-name"><span data-dur="2.708" data-begin="0.000">音訳グループ やまびこ</span></h1>
-      <p class="project-tagline"><span data-dur="5.248" data-begin="2.708">東京都北区を中心に活動する ボランティアグループ</span></p>
+      <!--A long title is annoying on TTS browsers. p class="project-tagline"><span data-dur="5.248" data-begin="2.708">東京都北区を中心に活動する ボランティアグループ</span></p-->
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
