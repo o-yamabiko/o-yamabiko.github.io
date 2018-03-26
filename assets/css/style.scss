@@ -140,16 +140,14 @@ q {
     }
     #parent:hover #popup {
       display: block;
-      width: 160px;
-      background-color: #555;
-      color: #fff;
-      text-align: center;
-      border-radius: 6px;
-      padding: 8px 0;
       position: absolute;
+   background: rgba(255, 255, 255, .90);
+   border-color: aaa;
+   border-width: 3px;
+   border-style: outset;
       z-index: 1;
-      bottom: 125%;
-      left: 50%;
+      bottom: 1em;
+      left: 1em;
       margin-left: -80px;
     }
 
