@@ -2,8 +2,8 @@
   <span data-dur="45.676" data-begin="7.956">（注）</span>
   <div id="popup">この声がお手元の読み上げ音声と重なる場合は、
 読み上げのオンオフを切り替えてください。<br />
-PC-TalkerならCtrlAltF2、
-WindowsナレーターならCtrlWindowsキーEnterです。<br />
+PC-TalkerならCtrl Alt F2、
+WindowsナレーターならCtrl Windowsキー Enterです。<br />
 今お聞きの音声のオンオフ切り替えはスペース・キー。<br />
 「リンク」と読み上げられたところですぐにTabキー1回・Enter1回押すと、
 リンク先に移動。<br />
