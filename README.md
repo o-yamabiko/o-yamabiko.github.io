@@ -1,4 +1,16 @@
-<span data-dur="49.857" data-begin="7.956">（注）</span>  
+<div id="parent">
+  <span data-dur="49.857" data-begin="7.956">（注）</span>
+  <div id="popup">PC-Talkerの声が重なる場合は、
+  CtrlAltF2を同時に押して、
+  PC-Talkerのオンオフを切り替えてください。
+  Windowsナレーターの声が重なる場合は、
+  CtrlWindowsキーEnterを同時に押して、
+  ナレーターのオンオフを切り替えてください。
+  「リンク」と読み上げられたところですぐにタブキー1回・エンターキー1回押すと、
+  リンク先に移動。
+  Altキーを押しながら左矢印を押すとこのページに戻ります。
+  再生・停止の切り替えはスペースキー。</div>
+</div>
 
 ## <span data-dur="4.65" data-begin="57.813">音訳とは？&ensp;私たちの活動について</span>
 
