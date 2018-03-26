@@ -135,6 +135,12 @@ q {
  }
 
 //popup
+    #parent {
+      color: $body-link-color;
+  }
+    #parent #popup {
+      display: none;
+    }
     #parent #popup {
       display: none;
     }
