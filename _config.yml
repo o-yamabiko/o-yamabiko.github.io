@@ -2,7 +2,6 @@ lang: ja
 theme: jekyll-theme-cayman
 show_downloads: false
 title: 音訳グループ やまびこ
-description: 東京都北区
 markdown: kramdown
 collections:
   tusin:
