@@ -7,7 +7,10 @@
 var ReadAlong = {
     text_element: null,
     audio_element: null,
-    autofocus_current_word: true,
+    /**
+     * make autofocus false for avoiding conflict with users' TTS
+     */
+    autofocus_current_word: false,
 
     words: [],
 
