@@ -22,44 +22,49 @@
 
 ### <span data-dur="2.614" data-begin="60.895">録音図書作成</span>
 
-<span data-dur="4.729" data-begin="63.509">[著作権法第三十七条](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1)に基づき、</span>
-<span data-dur="6.514" data-begin="68.238">[DAISY規格](http://www.dinf.ne.jp/doc/daisy/)に準拠した録音図書を製作します。</span>  
-<span data-dur="4.446" data-begin="74.752">図書館や自治体からの依頼や自主製作のほか、</span>
-<span data-dur="5.54" data-begin="79.198">利用者さまから直接のご依頼も受けています。</span>
-<span data-dur="4.074" data-begin="84.738">利用者さまからのご依頼は無料で受けていますが、</span>
-<span data-dur="7.413" data-begin="88.812">CDを当方で用意する場合はCD代として100円ご負担いただきます。</span>
+<span data-dur="2.857" data-begin="63.509"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.782" data-begin="66.366">著作権法第三十七条</a></span>
+<span data-dur="1.476" data-begin="68.148">に基づき、</span>
+<span data-dur="1.612" data-begin="69.624"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="1.782" data-begin="71.236">DAISY規格</a></span>
+<span data-dur="4.498" data-begin="73.018">に準拠した録音図書を製作します。</span>
+<span data-dur="4.445" data-begin="77.516">図書館や自治体からの依頼や自主製作のほか、</span>
+<span data-dur="5.54" data-begin="81.961">利用者さまから直接のご依頼も受けています。</span>
+<span data-dur="4.074" data-begin="87.501">利用者さまからのご依頼は無料で受けていますが、</span>
+<span data-dur="7.414" data-begin="91.575">CDを当方で用意する場合はCD代として100円ご負担いただきます。</span>
 
-- <span data-dur="3.358" data-begin="96.225">人の声による録音図書</span>  
-<span data-dur="4.662" data-begin="99.583">単行本1冊分を人の声で録音する場合、</span>
-<span data-dur="5.574" data-begin="104.245">録音図書の完成までに最低3ヶ月かかります。</span>
-<span data-dur="3.297" data-begin="109.819">ご依頼はお早めに。</span>
-- <span data-dur="3.717" data-begin="113.116">合成音声による録音図書</span>  
-<span data-dur="5.501" data-begin="116.833">[AITalkが組み込まれたChattyInfty3](http://www.sciaccess.net/jp/ChattyInfty/)を使って、</span>
-<span data-dur="5.191" data-begin="122.334">500ページあたり1ヶ月程度で仕上げます。</span>
+- <span data-dur="3.357" data-begin="98.989">人の声による録音図書</span>  
+<span data-dur="4.662" data-begin="102.346">単行本1冊分を人の声で録音する場合、</span>
+<span data-dur="5.574" data-begin="107.008">録音図書の完成までに最低3ヶ月かかります。</span>
+<span data-dur="3.297" data-begin="112.582">ご依頼はお早めに。</span>
+- <span data-dur="3.718" data-begin="115.879">合成音声による録音図書</span>
+<span data-dur="3.862" data-begin="119.597"><a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="1.781" data-begin="123.459">AITalkが組み込まれたChattyInfty3</a></span>
+<span data-dur="1.348" data-begin="125.240">を使って、</span>
+<span data-dur="5.191" data-begin="126.588">500ページあたり1ヶ月程度で仕上げます。</span>
 
-### <span data-dur="1.717" data-begin="127.525">その他</span>
+### <span data-dur="1.717" data-begin="131.779">その他</span>
 
-<span data-dur="2.548" data-begin="129.242">印刷物のテキストデータ化、</span>
-<span data-dur="1.763" data-begin="131.790">機器の設定など、</span>
-<span data-dur="4.613" data-begin="133.553">書かれた情報の音声化に際してお困りのことがあれば、</span>
-<span data-dur="4.078" data-begin="138.166">できる限りのお手伝いをします。</span>
+<span data-dur="2.549" data-begin="133.496">印刷物のテキストデータ化、</span>
+<span data-dur="1.763" data-begin="136.045">機器の設定など、</span>
+<span data-dur="4.612" data-begin="137.808">書かれた情報の音声化に際してお困りのことがあれば、</span>
+<span data-dur="4.078" data-begin="142.420">できる限りのお手伝いをします。</span>
 
-### <span data-dur="2.249" data-begin="142.244">やまびこ通信</span>
+### <span data-dur="2.249" data-begin="146.498">やまびこ通信</span>
 
-<span data-dur="4.869" data-begin="144.493">音訳グループやまびこが発行している月刊誌です。</span>
-<span data-dur="1.296" data-begin="149.362">内容は、</span>
-<span data-dur="2.322" data-begin="150.658">前月の活動報告、</span>
-<span data-dur="2.144" data-begin="152.980">当月の活動予定、</span>
-<span data-dur="1.319" data-begin="155.124">実績、</span>
-<span data-dur="3.002" data-begin="156.443">十条台句会から寄せられた俳句、</span>
-<span data-dur="2.481" data-begin="159.445">クイズなど。</span>
+<span data-dur="4.869" data-begin="148.747">音訳グループやまびこが発行している月刊誌です。</span>
+<span data-dur="1.296" data-begin="153.616">内容は、</span>
+<span data-dur="2.322" data-begin="154.912">前月の活動報告、</span>
+<span data-dur="2.144" data-begin="157.234">当月の活動予定、</span>
+<span data-dur="1.319" data-begin="159.378">実績、</span>
+<span data-dur="3.002" data-begin="160.697">十条台句会から寄せられた俳句、</span>
+<span data-dur="2.481" data-begin="163.699">クイズなど。</span>
 
-- <span data-dur="2.721" data-begin="161.926">[最新号](tusin201804.html)</span>
-- <span data-dur="2.84" data-begin="164.647">[バックナンバー](bn.html)</span>
+- <span data-dur="1.46" data-begin="166.180"><a href="tusin201804.html" data-dur="2.282" data-begin="167.640">最新号</a></span>
+- <span data-dur="1.634" data-begin="169.922"><a href="bn.html" data-dur="2.282" data-begin="171.556">バックナンバー</a></span>
 
-## <span data-dur="1.943" data-begin="167.487">お問い合わせ</span>
+## <span data-dur="1.943" data-begin="173.838">お問い合わせ</span>
 
-<span data-dur="7.598" data-begin="169.430">定例会：第2・第4金曜日10時～12時／中央図書館3階</span>  
-<span data-dur="8.512" data-begin="177.028">連絡先：やまびこ代表&ensp;円谷千恵子（ツムラヤ・チエコ）03（3907）2909</span>  
-<span data-dur="3.919" data-begin="185.540">[このサイトについてのお問い合わせ](mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて)</span>
-<span data-dur="6.145" data-begin="189.459"><!--以上でこのページの読み上げは終わりです。--> </span>
+<span data-dur="7.597" data-begin="175.781">定例会：第2・第4金曜日10時～12時／中央図書館3階</span>  
+<span data-dur="8.513" data-begin="183.378">連絡先：やまびこ代表&ensp;円谷千恵子（ツムラヤ・チエコ）03（3907）2909</span>  
+<span data-dur="2.728" data-begin="191.891">このサイトについてのお問い合わせ</span>
+<a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="1.582" data-begin="194.619">このサイトについてのお問い合わせ</a>
+<span data-dur="4.995" data-begin="196.201"><!--以上でこのページの読み上げは終わりです。--></span>
+<span data-dur="1.15" data-begin="201.196">&nbsp;</span>

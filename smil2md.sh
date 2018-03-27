@@ -5,8 +5,10 @@ echo '---' > $2.md
 echo 'layout: caymanyomi' >> $2.md
 echo 'title: ' >> $2.md
 echo 'author: 音訳グループ やまびこ' >> $2.md
-echo 'date: '`date +%Y-%m-%dT%T%Z` >> $2.md
+echo 'date: '`date +%Y-%m-%dT%TZ` >> $2.md
 echo 'oto: '$2'/sound0001' >> $2.md
+echo 'iro: ' >> $2.md
+echo 'gra: ' >> $2.md
 echo 'background: ' >> $2.md
 echo 'imagefrom: ' >> $2.md
 echo 'imagefromurl: ' >> $2.md
@@ -42,6 +44,7 @@ awk '{
 paste dur-begin.tsv paroles.tsv > base.tsv
 # make span
 sed \
+    -e 's/\([0-9\.]*\)\t\([0-9\.]*\)\t\(（リンク）\)/<a href=\"\" data-dur=\"\1\" data-begin=\"\2\">\3<\/a>/' \
     -e 's/\([0-9\.]*\)\t\([0-9\.]*\)\t\(.*\)/<span data-dur=\"\1\" data-begin=\"\2\">\3<\/span>/' \
     base.tsv >> ../$2.md
 # remove temp files
@@ -49,6 +52,7 @@ sed \
 cd sounds
 ../../wav2mp3ogg.sh
 cd -
-mv sounds ../media/$2
+mkdir -p ../media/$2
+cp -i sounds/* ../media/$2
 cd ..
 
