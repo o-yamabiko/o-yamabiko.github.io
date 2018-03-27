@@ -55,7 +55,7 @@
 <span data-dur="2.481" data-begin="159.445">クイズなど。</span>
 
 - <span data-dur="1.5" data-begin="161.926"><a href="tusin201804.html" data-dur="1.221" data-begin="163.426">最新号</a></span>
-- <a href="bn.html"><span data-dur="2.84" data-begin="164.647">バックナンバー</span></a>
+- <a href="bn.html" data-dur="2.84" data-begin="164.647">バックナンバー</a>
 
 ## <span data-dur="1.943" data-begin="167.487">お問い合わせ</span>
 
