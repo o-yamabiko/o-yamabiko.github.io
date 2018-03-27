@@ -118,7 +118,7 @@ q {
 //page navigation
  .nav {
    position: fixed;
-   bottom: 0;
+   bottom: 10em;
    right: 0;
    left: 0;
    margin-left: auto;
@@ -127,7 +127,6 @@ q {
    text-align: center;
  }
  .pglink {
-   margin: 1em;
    padding: 1em;
    background: rgba(255, 255, 255, .90);
    border-color: aaa;
