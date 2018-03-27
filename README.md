@@ -35,7 +35,7 @@
 <span data-dur="4.662" data-begin="102.346">単行本1冊分を人の声で録音する場合、</span>
 <span data-dur="5.574" data-begin="107.008">録音図書の完成までに最低3ヶ月かかります。</span>
 <span data-dur="3.297" data-begin="112.582">ご依頼はお早めに。</span>
-- <span data-dur="3.718" data-begin="115.879">合成音声による録音図書</span>
+- <span data-dur="3.718" data-begin="115.879">合成音声による録音図書</span>  
 <span data-dur="3.862" data-begin="119.597"><a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="1.781" data-begin="123.459">AITalkが組み込まれたChattyInfty3</a></span>
 <span data-dur="1.348" data-begin="125.240">を使って、</span>
 <span data-dur="5.191" data-begin="126.588">500ページあたり1ヶ月程度で仕上げます。</span>
@@ -64,7 +64,7 @@
 
 <span data-dur="7.597" data-begin="175.781">定例会：第2・第4金曜日10時～12時／中央図書館3階</span>  
 <span data-dur="8.513" data-begin="183.378">連絡先：やまびこ代表&ensp;円谷千恵子（ツムラヤ・チエコ）03（3907）2909</span>  
-<span data-dur="2.728" data-begin="191.891">このサイトについてのお問い合わせ</span>
-<a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="1.582" data-begin="194.619">このサイトについてのお問い合わせ</a>
+<span data-dur="2.728" data-begin="191.891"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="1.582" data-begin="194.619">このサイトについてのお問い合わせ</a></span>
+
 <span data-dur="4.995" data-begin="196.201"><!--以上でこのページの読み上げは終わりです。--></span>
 <span data-dur="1.15" data-begin="201.196">&nbsp;</span>
