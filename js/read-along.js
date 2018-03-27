@@ -169,7 +169,10 @@ var ReadAlong = {
             if (!e.target.dataset.begin) {
                 return;
             }
-            e.preventDefault();
+	   /**
+	    *don't prevent?
+            *e.preventDefault();
+	    */
 
             var i = e.target.dataset.index;
             that.audio_element.currentTime = that.words[i].begin + 0.01; //Note: times apparently cannot be exactly set and sometimes select too early
