@@ -176,16 +176,8 @@ var ReadAlong = {
             that.selectCurrentWord();
         }
         that.text_element.addEventListener('click', on_select_word_el, false);
-	/** 13=Enter
-	* change keycode: avoid conflict with 'open link'
-        * that.text_element.addEventListener('keypress', function (e) {
-        *     if ( (e.charCode || e.keyCode) === 13) {
-        *         on_select_word_el.call(this, e);
-        *     }
-        * }, false);
-	*/
         that.text_element.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 81 /*Q*/) {
+            if ( (e.charCode || e.keyCode) === 13 /*Enter*/) {
                 on_select_word_el.call(this, e);
             }
         }, false);
