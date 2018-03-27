@@ -54,7 +54,7 @@
 <span data-dur="3.002" data-begin="156.443">十条台句会から寄せられた俳句、</span>
 <span data-dur="2.481" data-begin="159.445">クイズなど。</span>
 
-- <span data-dur="1.5" data-begin="161.926">[最新号](tusin201804.html)</span><!--dur 2.721-->
+- <span data-dur="1.5" data-begin="161.926">[<span data-dur="1.221" data-begin="163.426">最新号</span>](tusin201804.html)</span><!--dur 2.721-->
 - <span data-dur="2.84" data-begin="164.647">[バックナンバー](bn.html)</span>
 
 ## <span data-dur="1.943" data-begin="167.487">お問い合わせ</span>
