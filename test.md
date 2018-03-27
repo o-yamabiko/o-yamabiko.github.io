@@ -22,8 +22,8 @@
 
 ### <span data-dur="2.614" data-begin="60.895">録音図書作成</span>
 
-<span data-dur="4.729" data-begin="63.509">[著作権法第三十七条](http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1)に基づき、</span>
-<span data-dur="6.514" data-begin="68.238">[DAISY規格](http://www.dinf.ne.jp/doc/daisy/)に準拠した録音図書を製作します。</span>  
+<a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="4.729" data-begin="63.509">著作権法第三十七条に基づき、</a>
+<a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="6.514" data-begin="68.238">DAISY規格に準拠した録音図書を製作します。</a>  
 <span data-dur="4.446" data-begin="74.752">図書館や自治体からの依頼や自主製作のほか、</span>
 <span data-dur="5.54" data-begin="79.198">利用者さまから直接のご依頼も受けています。</span>
 <span data-dur="4.074" data-begin="84.738">利用者さまからのご依頼は無料で受けていますが、</span>
@@ -34,7 +34,7 @@
 <span data-dur="5.574" data-begin="104.245">録音図書の完成までに最低3ヶ月かかります。</span>
 <span data-dur="3.297" data-begin="109.819">ご依頼はお早めに。</span>
 - <span data-dur="3.717" data-begin="113.116">合成音声による録音図書</span>  
-<a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="4.501" data-begin="116.833">AITalkが組み込まれたChattyInfty3</a><span data-dur="1" data-begin="121.334">を使って、</span>
+<a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="5.501" data-begin="116.833">AITalkが組み込まれたChattyInfty3を使って、</a>
 <span data-dur="5.191" data-begin="122.334">500ページあたり1ヶ月程度で仕上げます。</span>
 
 ### <span data-dur="1.717" data-begin="127.525">その他</span>
