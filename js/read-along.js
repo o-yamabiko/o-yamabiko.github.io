@@ -177,7 +177,7 @@ var ReadAlong = {
         }
         that.text_element.addEventListener('click', on_select_word_el, false);
         that.text_element.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 81 /*13Enter 81Q*/) {
+            if ( (e.charCode || e.keyCode) === 9 /*13Enter 9Tab*/) {
                 on_select_word_el.call(this, e);
             }
         }, false);
