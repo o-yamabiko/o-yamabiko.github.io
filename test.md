@@ -34,7 +34,7 @@
 <span data-dur="5.574" data-begin="104.245">録音図書の完成までに最低3ヶ月かかります。</span>
 <span data-dur="3.297" data-begin="109.819">ご依頼はお早めに。</span>
 - <span data-dur="3.717" data-begin="113.116">合成音声による録音図書</span>  
-<span data-dur="5.501" data-begin="116.833">[AITalkが組み込まれたChattyInfty3](http://www.sciaccess.net/jp/ChattyInfty/)を使って、</span>
+<a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="4.501" data-begin="116.833">AITalkが組み込まれたChattyInfty3</a><span data-dur="1" data-begin="121.334">を使って、</span>
 <span data-dur="5.191" data-begin="122.334">500ページあたり1ヶ月程度で仕上げます。</span>
 
 ### <span data-dur="1.717" data-begin="127.525">その他</span>
@@ -54,12 +54,12 @@
 <span data-dur="3.002" data-begin="156.443">十条台句会から寄せられた俳句、</span>
 <span data-dur="2.481" data-begin="159.445">クイズなど。</span>
 
-- <span data-dur="1.5" data-begin="161.926"><a href="tusin201804.html" data-dur="1.221" data-begin="163.426">最新号</a></span>
+- <a href="tusin201804.html" data-dur="2.721" data-begin="161.926">最新号</a>
 - <a href="bn.html" data-dur="2.84" data-begin="164.647">バックナンバー</a>
 
 ## <span data-dur="1.943" data-begin="167.487">お問い合わせ</span>
 
 <span data-dur="7.598" data-begin="169.430">定例会：第2・第4金曜日10時～12時／中央図書館3階</span>  
 <span data-dur="8.512" data-begin="177.028">連絡先：やまびこ代表&ensp;円谷千恵子（ツムラヤ・チエコ）03（3907）2909</span>  
-<span data-dur="3.919" data-begin="185.540">[このサイトについてのお問い合わせ](mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて)</span>
+<a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="3.919" data-begin="185.540">このサイトについてのお問い合わせ</a>
 <span data-dur="6.145" data-begin="189.459"><!--以上でこのページの読み上げは終わりです。--> </span>

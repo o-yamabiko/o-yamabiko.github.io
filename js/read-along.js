@@ -170,7 +170,8 @@ var ReadAlong = {
                 return;
             }
 	   /**
-	    *don't prevent?
+	    * modified by Guskant:
+	    *don't prevent default in order to open link when speaking 'link'.
             *e.preventDefault();
 	    */
 
