@@ -332,7 +332,7 @@ table td {
 }
  .nav {
    position: fixed;
-   bottom: 0;
+   bottom: 2em;
    right: 0;
    left: 0;
    margin-left: auto;
