@@ -111,15 +111,6 @@ q {
 .initialized span[data-begin] {
     cursor: pointer;
 }
-.initialized a[data-begin]:focus,
-.initialized a[data-begin]:hover {
-    background-color: #FFFFCA;
-    box-shadow: 0px 0px 4px #FFFFCA;
-}
-.initialized a[data-begin].speaking {
-    background-color: yellow;
-    box-shadow: 0px 0px 4px yellow;
-}
 .error {
     color: red;
 }
@@ -127,9 +118,10 @@ q {
 //page navigation
  .nav {
    position: fixed;
-   bottom: 1em;
+   bottom: 0;
    right: 0;
    left: 0;
+   margin-bottom: 1em;
    margin-left: auto;
    margin-right: auto;
    width: 20em;
