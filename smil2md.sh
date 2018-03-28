@@ -9,11 +9,10 @@ echo 'date: '`date +%Y-%m-%dT%TZ` >> $2.md
 echo 'oto: '$2'/sound0001' >> $2.md
 echo 'iro: ' >> $2.md
 echo 'gra: ' >> $2.md
-echo 'background: ' >> $2.md
+echo 'background: '$2'/default.jpg' >> $2.md
 echo 'imagefrom: ' >> $2.md
 echo 'imagefromurl: ' >> $2.md
-echo 'mae: ' >> $2.md
-echo '#tugi: ' >> $2.md
+echo 'navigation: true' >> $2.md
 echo '---' >> $2.md
 echo '   ' >> $2.md
 
