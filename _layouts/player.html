@@ -50,6 +50,15 @@
       <div>
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
       </div>
+        <div><a href="/p{{ page.url }}">印刷用ページを開く</a></div>
+       {% if page.previous %}
+<div class="nav">
+<span class="pglink"><a href="{{ page.previous }}.html">前号</a></span>
+         {% if page.next %}
+<span class="pglink"><a href="{{ page.next }}.html">次号</a></span>
+         {% endif %}
+</div> 
+       {% endif %}
     </footer>
   </body>
 </html>
