@@ -24,7 +24,7 @@
 
 <span data-dur="2.857" data-begin="65.855"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.782" data-begin="68.712">著作権法第三十七条</a></span>
 <span data-dur="1.476" data-begin="70.494">に基づき、</span>
-<span data-dur="1.612" data-begin="71.970">DAISY規格<a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="1.782" data-begin="73.582">（リンク）</a></span>
+<span data-dur="1.612" data-begin="71.970"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="1.782" data-begin="73.582">DAISY規格</a></span>
 <span data-dur="4.497" data-begin="75.364">に準拠した録音図書を製作します。</span>  
 <span data-dur="4.446" data-begin="79.861">図書館や自治体からの依頼や自主製作のほか、</span>
 <span data-dur="5.54" data-begin="84.307">利用者さまから直接のご依頼も受けています。</span>
