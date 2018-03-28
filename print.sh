@@ -12,4 +12,8 @@ do
       done
   cd -
 done
-
+echo '---' > _p/index.md
+echo 'layout: print' >> _p/index.md
+echo '---' >> _p/index.md
+echo '# 音訳グループ やまびこ' >> _p/index.md
+sed -n '10,$p' README.md >> _p/index.md

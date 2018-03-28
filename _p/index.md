@@ -1,9 +1,7 @@
 ---
 layout: print
 ---
-
 # 音訳グループ やまびこ
-
 ## <span data-dur="4.649" data-begin="24.586">音訳とは？&ensp;私たちの活動について</span>
 
 <span data-dur="7.975" data-begin="29.235">私たちは東京都北区を中心に活動している音訳ボランティアグループです。</span>  
