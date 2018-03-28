@@ -1,6 +1,8 @@
 ---
 layout: print
 oto: tusin201804/sound0001
+iro: FC3A81
+gra: 84E7FF
 background: tusin201804/1032782.jpg
 imagefrom: このはな @ Illust AC
 imagefromurl: https://www.ac-illust.com/main/detail.php?id=1032782&word=%E6%A1%9C83
