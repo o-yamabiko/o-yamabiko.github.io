@@ -45,7 +45,6 @@
       {{ content }}
 
       <footer class="site-footer">
-        <div><a href="/p{{ page.url }}">印刷用ページを開く</a></div>
        {% if page.navigation %}
 <div class="nav">
          {% if page.previous %}
@@ -104,6 +103,7 @@
             <noscript>
                 <p class="error"><em><strong>お知らせ:</strong> このページの読み上げ機能 HTML5 read-along を利用するには、 JavaScript を有効にしておく必要があります。</em></p>
             </noscript>
+	    <div style="position: absolute; left: auto; right: 1em; bottom: 1em; font-size: small;"><a href="/p{{ page.url }}">印刷用ページを開く</a></div>
 
         </div>
         {% endif %}
