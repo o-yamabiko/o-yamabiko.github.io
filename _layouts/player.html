@@ -45,12 +45,11 @@
     </div>
     <footer>
       <div>
-        文責： {{ page.author }}
+        文責： <a href="{{ site.url }}">音訳グループ やまびこ</a>
       </div>
       <div>
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
       </div>
-       <div>このサイトは<a href="{{ site.url }}">音訳グループ やまびこ</a>が運営しています。</div>
 	    <div style="position: fixed; left: auto; right: 1em; top: 1em; font-size: small; background: rgba(255, 255, 255, .90);"><a href="/p{{ page.url }}">印刷用ページ</a></div>
        {% if page.navigation %}
 <div class="nav">
