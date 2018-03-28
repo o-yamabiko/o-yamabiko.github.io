@@ -10,3 +10,6 @@ collections:
   info:
     output: true
     permalink: :title.html
+  p:
+    output: true
+    permalink: :p/title.html    
