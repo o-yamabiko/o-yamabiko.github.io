@@ -7,8 +7,7 @@ imagefromurl: https://www.ac-illust.com/main/detail.php?id=1032782&word=%E6%A1%9
 title: やまびこ通信 2018年4月号
 author: 音訳グループ やまびこ
 date: 2018-03-30T17:50:00Z
-mae: tusin201803
-#tugi: tusin201805
+navigation: true
 ---
 
 # <span data-dur="4.134" data-begin="0.03">やまびこ通信2018年2月号</span>
