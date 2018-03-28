@@ -46,11 +46,11 @@
 
       <footer class="site-footer">
         <div><a href="/p{{ page.url }}">印刷用ページを開く</a></div>
-       {% if page.previous %}
+       {% if page.mae %}
 <div class="nav">
-<span class="pglink"><a href="{{ page.previous }}.html">前号</a></span>
-         {% if page.next %}
-<span class="pglink"><a href="{{ page.next }}.html">次号</a></span>
+<span class="pglink"><a href="{{ page.mae }}.html">前号</a></span>
+         {% if page.tugi %}
+<span class="pglink"><a href="{{ page.tugi }}.html">次号</a></span>
          {% endif %}
 </div> 
        {% endif %}
