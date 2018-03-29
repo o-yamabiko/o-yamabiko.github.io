@@ -79,7 +79,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="4.509" data-begin="175.998">読んだだけで暖かくなるといいのですが…。</span>
 <span class="naka"></span>
 
-> 立春を過ぎてもなお<ruby>余寒<rt>(　　)</rt><ruby>の厳しい日々です。
+> 立春を過ぎてもなお<ruby>余寒<rt>(　　)</rt></ruby>の厳しい日々です。
 > 
 > <ruby>火鉢<rt>(　　)</rt></ruby>の<ruby>熾火<rt>(　　)</rt></ruby>を集め、<ruby>雪達磨<rt>(　　　)</rt></ruby>を作って<ruby>悴<rt>(　　)</rt></ruby>んだ手を<ruby>翳<rt>(　　)</rt></ruby>す。
 > 
