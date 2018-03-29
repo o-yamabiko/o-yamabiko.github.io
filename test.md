@@ -40,11 +40,12 @@ date: 2018-03-30T17:50:00Z
 | <span data-dur="9.325" data-begin="71.862">北区図書館情報1月及び北区の部屋だより第102号他</span> | 1時間30分 |
 
 ## <span data-dur="2.067" data-begin="81.186">対面音訳</span>
-
 <span data-dur="6.017" data-begin="83.253" markdown="1">
+
 | 1月 | 15件 |
 |:----|:-----|
 | 本年度累計 | 136件|
+
 </span>
 
 ## ほっと一句
