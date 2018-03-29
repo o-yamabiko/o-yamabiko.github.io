@@ -100,7 +100,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="1.692" data-begin="231.7">イラスト</span>  
 <span data-dur="1.769" data-begin="233.391">まんべくん</span>  
 <span data-dur="2.076" data-begin="235.159">イラスト終わり</span>
-<span class="naka"><img src="media/test/test-012.jpg" /><img src="media/test/test-012.jpg" /></span>
+<img class="naka" src="media/test/test-012.jpg" />
 
 <span data-dur="6.337" data-begin="237.234">これでやまびこ通信2018年2月号を終わります。</span>
 
