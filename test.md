@@ -77,8 +77,8 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="2.912" data-begin="165.663">寒い日が続きますね。</span>
 <span data-dur="7.424" data-begin="168.574">今月は昔懐かしい暖房具に因んだ漢字の読みを集めてみました。</span>  
 <span data-dur="4.509" data-begin="175.998">読んだだけで暖かくなるといいのですが…。</span>
+
 <div class="naka">
---------------
 立春を過ぎてもなお<ruby>余寒<rt>(　　)</rt><ruby>の厳しい日々です。
 
 <ruby>火鉢<rt>(　　)</rt></ruby>の<ruby>熾火<rt>(　　)</rt></ruby>を集め、<ruby>雪達磨<rt>(　　　)</rt></ruby>を作って<ruby>悴<rt>(　　)</rt></ruby>んだ手を<ruby>翳<rt>(　　)</rt></ruby>す。
@@ -94,9 +94,8 @@ date: 2018-03-30T17:50:00Z
 さらに小さいものが<ruby>懐炉<rt>(　　)</rt></ruby>。
 
 ともあれ<ruby>長閑<rt>(　　)</rt></ruby>な春の日が待ち遠しいですね。
-
-------------
 </div>
+
 <span data-dur="6.407" data-begin="184.845">（**「足下」**は何と読みましたか？広辞苑には「そっか」とありますが・・・、</span>
 <span data-dur="4.363" data-begin="191.251">さて皆さんのご意見はいかが？）</span>
 
