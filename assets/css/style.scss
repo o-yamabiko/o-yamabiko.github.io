@@ -168,15 +168,23 @@ q {
 //arrange images
       .hidari {
         float: left;
+	width: 30%;
+	max-width: 5em;
+	height: auto;
       }
       .migi {
         float: right;
+	width: 30%;
+	max-width: 5em;
+	height: auto;
       }
       .naka {
         clear: both;
         display: block;
         margin-left: auto;
         margin-right: auto;
+	height: 5em;
+	width: auto;
       }
       h1,h2,h3,h4,h5,h6 {
         clear: both;
