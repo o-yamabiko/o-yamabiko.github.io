@@ -24,7 +24,7 @@ date: 2018-03-30T17:50:00Z
 
 <img src="media/test/test-002.jpg" alt="cut" />
 
-## <span data-dur="2.586" data-begin="30.839">〈2月活動予定〉</span>
+## <span data-dur="2.586" data-begin="30.839">2月活動予定</span>
 <span data-dur="4.302" data-begin="33.425">2日 周年パネル作成委員会</span>  
 <span data-dur="3.156" data-begin="37.726">4日 ユニバーサル部会</span>  
 <span data-dur="3.435" data-begin="40.882">4日 バリアフリー朗読会</span>  
@@ -34,18 +34,20 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="4.454" data-begin="57.969">23日 定例会／勉強会</span>
 
 ## <span data-dur="4.311" data-begin="62.423">〈録音図書(デイジー版CD)作成〉</span>
-<span data-dur="5.128" data-begin="66.734">支援室だより第87号 ― 30分</span>  
-<span data-dur="9.325" data-begin="71.862">北区図書館情報1月及び北区の部屋だより第102号他 ― 1時間30分</span>
+|<span data-dur="5.128" data-begin="66.734">支援室だより第87号</span> | 30分|
+|<span data-dur="9.325" data-begin="71.862">北区図書館情報1月及び北区の部屋だより第102号他</span> | 1時間30分|
 
-## <span data-dur="2.067" data-begin="81.186">〈対面音訳〉</span>
-<span data-dur="6.017" data-begin="83.253">☆1月・・・15件(本年度累計136件)</span>
+## <span data-dur="2.067" data-begin="81.186">対面音訳</span>
+<span data-dur="6.017" data-begin="83.253">|1月| 15件|本年度累計136件|</span>
 
-## <span data-dur="6.704" data-begin="89.27">今月も〈十条台句会〉会員の方の俳句をご紹介します。</span>
+## ほっと一句
+<span data-dur="6.704" data-begin="89.27">今月も〈十条台句会〉会員の方の俳句をご紹介します。</span>
+
 <span data-dur="3.895" data-begin="95.973">好物は 熱めの白湯や 初雀</span>
 
 <span data-dur="1.391" data-begin="99.867">真貴</span>
 
-## <span data-dur="2.833" data-begin="101.258">〈新入会員のひとこと〉</span>
+## <span data-dur="2.833" data-begin="101.258">新入会員のひとこと</span>
 <img class="migi" src="media/test/test-003.jpg" alt="cut" />
 <span data-dur="2.214" data-begin="104.09">はじめまして。</span>
 <span data-dur="5.205" data-begin="106.304">まだ何がわからないかもわからないような感じです。</span>
@@ -64,13 +66,11 @@ date: 2018-03-30T17:50:00Z
 
 <span data-dur="2.086" data-begin="148.458">神代寛子</span>
 
-## <span data-dur="13.371" data-begin="150.543">定例会：第2・第4金曜日10時～12時／中央図書館3階〝やまびこ〝代表：円谷03（3907）2909</span>
-
 <img class="obi" src="media/test/test-006.jpg" alt="cut" />
 
 ## <span data-dur="1.75" data-begin="163.914">Let's&ensp;try!!</span>
 
-<img class="migi" src="media/test/test-009.jpg" alt="cut" />
+<img class="hidari" src="media/test/test-009.jpg" alt="cut" />
 <span data-dur="2.912" data-begin="165.663">寒い日が続きますね。</span>
 <span data-dur="7.424" data-begin="168.574">今月は昔懐かしい暖房具に因んだ漢字の読みを集めてみました。</span>  
 <span data-dur="4.509" data-begin="175.998">読んだだけで暖かくなるといいのですが…。</span>
@@ -80,10 +80,13 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="6.407" data-begin="184.845">（**「足下」**は何と読みましたか？広辞苑には「そっか」とありますが・・・、</span>
 <span data-dur="4.363" data-begin="191.251">さて皆さんのご意見はいかが？）</span>
 
-### <span data-dur="2.208" data-begin="195.614">《1月の答え》</span>
+### <span data-dur="2.208" data-begin="195.614">1月の答え</span>
 
 <img class="naka" src="media/test/test-010.jpg" alt="北海道の地図" />
 
+<img class="migi" src="media/test/test-014.jpg" alt="cut" />
+<img class="migi" src="media/test/test-011.jpg" alt="まんべくん" />
+<span class="migi" data-dur="1.769" data-begin="233.391">まんべくん</span>  
 <span data-dur="2.811" data-begin="197.822">①おといねっぷ</span>  
 <span data-dur="2.39" data-begin="200.632">②おしゃまんべ</span>  
 <span data-dur="2.482" data-begin="203.022">③てしかが</span>  
@@ -98,12 +101,11 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="2.755" data-begin="226.045">⑫あっさぶ</span>  
 <span data-dur="2.901" data-begin="228.799">⑬わっさむ</span>
 
-<img class="migi" src="media/test/test-014.jpg" alt="cut" />
-<img class="hidari" src="media/test/test-011.jpg" alt="まんべくん" />
-<span data-dur="1.692" data-begin="231.7">イラスト</span>  
-<span data-dur="1.769" data-begin="233.391">まんべくん</span>  
-<span data-dur="2.076" data-begin="235.159">イラスト終わり</span>
 <img class="obi" src="media/test/test-012.jpg" alt="cut" />
+
+## お問い合わせ
+定例会：第2・第4金曜日10時～12時／中央図書館3階  
+連絡先：やまびこ代表 円谷千恵子（ツムラヤ・チエコ）03（3907）2909
 
 <span data-dur="6.337" data-begin="237.234">これでやまびこ通信2018年2月号を終わります。</span>
 
