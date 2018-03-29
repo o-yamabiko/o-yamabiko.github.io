@@ -41,9 +41,11 @@ date: 2018-03-30T17:50:00Z
 
 ## <span data-dur="2.067" data-begin="81.186">対面音訳</span>
 
+<span data-dur="6.017" data-begin="83.253" markdown="1">
 | 1月 | 15件 |
 |:----|:-----|
 | 本年度累計 | 136件|
+</span>
 
 ## ほっと一句
 <span data-dur="6.704" data-begin="89.27">今月も〈十条台句会〉会員の方の俳句をご紹介します。</span>
