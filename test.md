@@ -21,6 +21,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="3.389" data-begin="18.118">14日 ユニバーサル部会</span>  
 <span data-dur="3.842" data-begin="21.506">19日 合同ボランティア会</span>  
 <span data-dur="5.492" data-begin="25.347">26日 定例会／勉強会・役員会</span>
+
 <img src="media/test/test-002.jpg" alt="cut" />
 
 ## <span data-dur="2.586" data-begin="30.839">〈2月活動予定〉</span>
