@@ -37,12 +37,7 @@ date: 2018-03-30T17:50:00Z
 
 | <span data-dur="5.128" data-begin="66.734">支援室だより第87号</span> | 30分 |
 | ---- | ------- |
-| 北区図書館情報1月及び北区の部屋だより第102号他 | 1時間30分 |
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| <span data-dur="9.325" data-begin="71.862">北区図書館情報1月及び北区の部屋だより第102号他</span> | 1時間30分 |
 
 ## <span data-dur="2.067" data-begin="81.186">対面音訳</span>
 | 1月 | 15件 |
