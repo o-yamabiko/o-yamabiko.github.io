@@ -12,12 +12,12 @@ date: 2018-03-30T17:50:00Z
 #navigation: true
 ---
 画像の入り方のサンプル
-# <span style="width: 1em; height: auto;" markdown="1">![](test/test-001.jpg)</span><span data-dur="4.134" data-begin="0.03">やまびこ通信2018年2月号</span>
+# <span style="width: 1em; height: auto;" markdown="1">![](media/test/test-001.jpg)</span><span data-dur="4.134" data-begin="0.03">やまびこ通信2018年2月号</span>
 <span data-dur="2.721" data-begin="4.164">No.123</span>  
 <span data-dur="4.353" data-begin="6.885">2018年2月9日発行</span>
 
 ## <span data-dur="2.724" data-begin="11.238">〈1月活動報告〉</span>
-<span class="migi" markdown="1">![](test/test-002.jpg)</span>
+<span class="migi" markdown="1">![](media/test/test-002.jpg)</span>
 <span data-dur="4.157" data-begin="13.961">12日 定例会／勉強会</span>  
 <span data-dur="3.389" data-begin="18.118">14日 ユニバーサル部会</span>  
 <span data-dur="3.842" data-begin="21.506">19日 合同ボランティア会</span>  
