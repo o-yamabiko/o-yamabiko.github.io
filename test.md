@@ -85,7 +85,7 @@ date: 2018-03-30T17:50:00Z
 
 ### <span data-dur="2.208" data-begin="195.614">1月の答え</span>
 
-<img class="naka" src="media/test/test-010.jpg" alt="北海道の地図" />
+<img class="obi" src="media/test/test-010.jpg" alt="北海道の地図" />
 
 <img class="migi" src="media/test/test-011.jpg" alt="まんべくん" />
 <span class="migi" data-dur="1.769" data-begin="233.391">まんべくん</span>  
