@@ -86,7 +86,6 @@ date: 2018-03-30T17:50:00Z
 
 <img class="migi" src="media/test/test-011.jpg" alt="まんべくん" />
 <span class="migi" data-dur="1.769" data-begin="233.391">まんべくん</span>  
-<img class="hidari" src="media/test/test-014.jpg" alt="cut" />
 <span data-dur="2.811" data-begin="197.822">①おといねっぷ</span>  
 <span data-dur="2.39" data-begin="200.632">②おしゃまんべ</span>  
 <span data-dur="2.482" data-begin="203.022">③てしかが</span>  
@@ -95,6 +94,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="2.576" data-begin="210.594">⑥わっかない</span>  
 <span data-dur="2.335" data-begin="213.17">⑦ましけ</span>  
 <span data-dur="2.613" data-begin="215.504">⑧おこっぺ</span>  
+<img class="migi" src="media/test/test-014.jpg" alt="cut" />
 <span data-dur="2.506" data-begin="218.116">⑨まっかり</span>  
 <span data-dur="2.51" data-begin="220.622">⑩かもえない</span>  
 <span data-dur="2.913" data-begin="223.132">⑪とどほっけ</span>  
