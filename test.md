@@ -77,6 +77,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="2.912" data-begin="165.663">寒い日が続きますね。</span>
 <span data-dur="7.424" data-begin="168.574">今月は昔懐かしい暖房具に因んだ漢字の読みを集めてみました。</span>  
 <span data-dur="4.509" data-begin="175.998">読んだだけで暖かくなるといいのですが…。</span>
+<span class="naka"></span>
 
 > 立春を過ぎてもなお<ruby>余寒<rt>(　　)</rt><ruby>の厳しい日々です。
 > 
