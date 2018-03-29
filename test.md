@@ -80,7 +80,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="4.363" data-begin="191.251">さて皆さんのご意見はいかが？）</span>
 
 ### <span data-dur="2.208" data-begin="195.614">《1月の答え》</span>
-<img class="hidari" src="media/test/test-010.jpg" />
+<img src="media/test/test-010.jpg" />
 <span data-dur="2.811" data-begin="197.822">①おといねっぷ</span>  
 <span data-dur="2.39" data-begin="200.632">②おしゃまんべ</span>  
 <span data-dur="2.482" data-begin="203.022">③てしかが</span>  
