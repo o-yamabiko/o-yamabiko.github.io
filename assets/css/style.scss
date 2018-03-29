@@ -165,3 +165,20 @@ q {
       padding: 1em;
     }
 
+//arrange images
+      .hidari {
+        float: left;
+      }
+      .migi {
+        float: right;
+      }
+      .naka {
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1,h2,h3,h4,h5,h6 {
+        clear: both;
+      }
+
