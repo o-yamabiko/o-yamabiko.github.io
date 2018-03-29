@@ -78,14 +78,14 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="7.424" data-begin="168.574">今月は昔懐かしい暖房具に因んだ漢字の読みを集めてみました。</span>  
 <span data-dur="4.509" data-begin="175.998">読んだだけで暖かくなるといいのですが…。</span>
 
-> 立春を過ぎてもなお<ruby>余寒<rt>(　　)</rt><ruby>の厳しい日々です。  
-> <ruby>火鉢<rt>(　　)</rt></ruby>の<ruby>熾火<rt>(　　)</rt></ruby>を集め、<ruby>雪達磨<rt>(　　　)</rt></ruby>を作って<ruby>悴<rt>(　　)</rt></ruby>んだ手を<ruby>翳<rt>(　　)</rt></ruby>す。  
-> 昔は手に<ruby>皹<rt>(　　)</rt></ruby>(<ruby>皸<rt>(　　)</rt></ruby>)や<ruby>霜焼<rt>(　　)</rt></ruby>けができている子供も多かったですね。  
-> 寒いと恋しくなるのは<ruby>火燵<rt>(　　)</rt></ruby>。室町時代に<ruby>囲炉裏<rt>(　　　)</rt></ruby>の上に<ruby>櫓<rt>(　　)</rt></ruby>を組み、<ruby>蒲団<rt>(　　)</rt></ruby>をかけたのが起源とか。  
-> 古くは熱源として<ruby>木炭<rt>(　　)</rt></ruby>や<ruby>炭団<rt>(　　)</rt></ruby>（後に<ruby>練炭<rt>(　　)</rt></ruby>、<ruby>豆炭<rt>(　　)</rt></ruby>）などを用いました。  
-> <ruby>行火<rt>(　　)</rt></ruby>は直接手足に当てて暖を取るもの。 <ruby>湯湯婆<rt>(　　　)</rt></ruby>のように蒲団の<ruby>足下<rt>(　　)</rt></ruby>に入れます。  
-> さらに小さいものが<ruby>懐炉<rt>(　　)</rt></ruby>。  
-> ともあれ<ruby>長閑<rt>(　　)</rt></ruby>な春の日が待ち遠しいですね。
+立春を過ぎてもなお<ruby>余寒<rt>(　　)</rt><ruby>の厳しい日々です。  
+<ruby>火鉢<rt>(　　)</rt></ruby>の<ruby>熾火<rt>(　　)</rt></ruby>を集め、<ruby>雪達磨<rt>(　　　)</rt></ruby>を作って<ruby>悴<rt>(　　)</rt></ruby>んだ手を<ruby>翳<rt>(　　)</rt></ruby>す。  
+昔は手に<ruby>皹<rt>(　　)</rt></ruby>(<ruby>皸<rt>(　　)</rt></ruby>)や<ruby>霜焼<rt>(　　)</rt></ruby>けができている子供も多かったですね。  
+寒いと恋しくなるのは<ruby>火燵<rt>(　　)</rt></ruby>。室町時代に<ruby>囲炉裏<rt>(　　　)</rt></ruby>の上に<ruby>櫓<rt>(　　)</rt></ruby>を組み、<ruby>蒲団<rt>(　　)</rt></ruby>をかけたのが起源とか。  
+古くは熱源として<ruby>木炭<rt>(　　)</rt></ruby>や<ruby>炭団<rt>(　　)</rt></ruby>（後に<ruby>練炭<rt>(　　)</rt></ruby>、<ruby>豆炭<rt>(　　)</rt></ruby>）などを用いました。  
+<ruby>行火<rt>(　　)</rt></ruby>は直接手足に当てて暖を取るもの。 <ruby>湯湯婆<rt>(　　　)</rt></ruby>のように蒲団の<ruby>足下<rt>(　　)</rt></ruby>に入れます。  
+さらに小さいものが<ruby>懐炉<rt>(　　)</rt></ruby>。  
+ともあれ<ruby>長閑<rt>(　　)</rt></ruby>な春の日が待ち遠しいですね。
 
 <span data-dur="6.407" data-begin="184.845">（**「足下」**は何と読みましたか？広辞苑には「そっか」とありますが・・・、</span>
 <span data-dur="4.363" data-begin="191.251">さて皆さんのご意見はいかが？）</span>
