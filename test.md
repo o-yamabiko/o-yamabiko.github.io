@@ -22,7 +22,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="3.842" data-begin="21.506">19日 合同ボランティア会</span>  
 <span data-dur="5.492" data-begin="25.347">26日 定例会／勉強会・役員会</span>
 
-<img class="naka" src="media/test/test-002.jpg" alt="cut" />
+<img src="media/test/test-002.jpg" alt="cut" />
 
 ## <span data-dur="2.586" data-begin="30.839">2月活動予定</span>
 <span data-dur="4.302" data-begin="33.425">2日 周年パネル作成委員会</span>  
@@ -34,11 +34,15 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="4.454" data-begin="57.969">23日 定例会／勉強会</span>
 
 ## <span data-dur="4.311" data-begin="62.423">〈録音図書(デイジー版CD)作成〉</span>
+|:----|:-------|
 |<span data-dur="5.128" data-begin="66.734">支援室だより第87号</span> | 30分|
 |<span data-dur="9.325" data-begin="71.862">北区図書館情報1月及び北区の部屋だより第102号他</span> | 1時間30分|
 
 ## <span data-dur="2.067" data-begin="81.186">対面音訳</span>
-<span data-dur="6.017" data-begin="83.253">|1月| 15件|本年度累計136件|</span>
+<span data-dur="6.017" data-begin="83.253">
+|:----|:-----|:---|
+|1月| 15件|本年度累計136件|
+</span>
 
 ## ほっと一句
 <span data-dur="6.704" data-begin="89.27">今月も〈十条台句会〉会員の方の俳句をご紹介します。</span>
