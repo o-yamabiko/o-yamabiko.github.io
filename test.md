@@ -84,9 +84,10 @@ date: 2018-03-30T17:50:00Z
 
 <img class="naka" src="media/test/test-010.jpg" alt="北海道の地図" />
 
-<img class="migi" src="media/test/test-014.jpg" alt="cut" />
 <img class="migi" src="media/test/test-011.jpg" alt="まんべくん" />
 <span class="migi" data-dur="1.769" data-begin="233.391">まんべくん</span>  
+
+<img class="migi" src="media/test/test-014.jpg" alt="cut" />
 <span data-dur="2.811" data-begin="197.822">①おといねっぷ</span>  
 <span data-dur="2.39" data-begin="200.632">②おしゃまんべ</span>  
 <span data-dur="2.482" data-begin="203.022">③てしかが</span>  
