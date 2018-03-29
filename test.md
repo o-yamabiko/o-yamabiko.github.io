@@ -6,12 +6,11 @@ layout: caymanyomi
 #background: tusin201804/1032782.jpg
 #imagefrom: このはな @ Illust AC
 #imagefromurl: https://www.ac-illust.com/main/detail.php?id=1032782&word=%E6%A1%9C83
-title: やまびこ通信 2018年4月号
+title: 画像の入り方のサンプル
 author: 音訳グループ やまびこ
 date: 2018-03-30T17:50:00Z
 #navigation: true
 ---
-画像の入り方のサンプル
 # <img class="gyo" src="media/test/test-001.jpg" alt="cut" /><span data-dur="4.134" data-begin="0.03">やまびこ通信2018年2月号</span><img class="gyo" src="media/test/test-001.jpg" alt="cut" />
 <span data-dur="2.721" data-begin="4.164">No.123</span>  
 <span data-dur="4.353" data-begin="6.885">2018年2月9日発行</span>
@@ -111,5 +110,4 @@ date: 2018-03-30T17:50:00Z
 定例会：第2・第4金曜日10時～12時／中央図書館3階  
 連絡先：やまびこ代表 円谷千恵子（ツムラヤ・チエコ）03（3907）2909
 
-<span data-dur="6.337" data-begin="237.234">これでやまびこ通信2018年2月号を終わります。</span>
 
