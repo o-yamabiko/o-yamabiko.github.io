@@ -34,12 +34,17 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="4.454" data-begin="57.969">23日 定例会／勉強会</span>
 
 ## <span data-dur="4.311" data-begin="62.423">〈録音図書(デイジー版CD)作成〉</span>
-|:----|:-------|
-|<span data-dur="5.128" data-begin="66.734">支援室だより第87号</span> | 30分|
-|<span data-dur="9.325" data-begin="71.862">北区図書館情報1月及び北区の部屋だより第102号他</span> | 1時間30分|
+| ---- | ------- |
+| 支援室だより第87号 | 30分 |
+| 北区図書館情報1月及び北区の部屋だより第102号他 | 1時間30分 |
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 ## <span data-dur="2.067" data-begin="81.186">対面音訳</span>
-<span data-dur="6.017" data-begin="83.253">
+<span data-dur="6.017" data-begin="83.253" markdown="1">
 |:----|:-----|:---|
 |1月| 15件|本年度累計136件|
 </span>
