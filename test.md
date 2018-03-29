@@ -66,7 +66,7 @@ date: 2018-03-30T17:50:00Z
 
 ## <span data-dur="13.371" data-begin="150.543">定例会：第2・第4金曜日10時～12時／中央図書館3階〝やまびこ〝代表：円谷03（3907）2909</span>
 
-<img class="naka" src="media/test/test-006.jpg" alt="cut" />
+<img class="obi" src="media/test/test-006.jpg" alt="cut" />
 
 ## <span data-dur="1.75" data-begin="163.914">Let's&ensp;try!!</span>
 
@@ -81,7 +81,9 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="4.363" data-begin="191.251">さて皆さんのご意見はいかが？）</span>
 
 ### <span data-dur="2.208" data-begin="195.614">《1月の答え》</span>
-<img src="media/test/test-010.jpg" alt="北海道の地図" />
+
+<img class="naka" src="media/test/test-010.jpg" alt="北海道の地図" />
+
 <span data-dur="2.811" data-begin="197.822">①おといねっぷ</span>  
 <span data-dur="2.39" data-begin="200.632">②おしゃまんべ</span>  
 <span data-dur="2.482" data-begin="203.022">③てしかが</span>  
@@ -101,7 +103,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="1.692" data-begin="231.7">イラスト</span>  
 <span data-dur="1.769" data-begin="233.391">まんべくん</span>  
 <span data-dur="2.076" data-begin="235.159">イラスト終わり</span>
-<img class="naka" src="media/test/test-012.jpg" alt="cut" />
+<img class="obi" src="media/test/test-012.jpg" alt="cut" />
 
 <span data-dur="6.337" data-begin="237.234">これでやまびこ通信2018年2月号を終わります。</span>
 
