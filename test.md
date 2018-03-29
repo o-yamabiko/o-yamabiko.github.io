@@ -35,7 +35,6 @@ date: 2018-03-30T17:50:00Z
 
 ## <span data-dur="4.311" data-begin="62.423">〈録音図書(デイジー版CD)作成〉</span>
 
-|:--- | ---:|
 | <span data-dur="5.128" data-begin="66.734">支援室だより第87号</span> | 30分 |
 | <span data-dur="9.325" data-begin="71.862">北区図書館情報1月及び北区の部屋だより第102号他</span> | 1時間30分 |
 
