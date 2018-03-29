@@ -17,11 +17,12 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="4.353" data-begin="6.885">2018年2月9日発行</span>
 
 ## <span data-dur="2.724" data-begin="11.238">〈1月活動報告〉</span>
-<span class="migi" markdown="1">![](media/test/test-002.jpg)</span>
+<span class="migi" markdown="1">![](media/test/test-003.jpg)</span>
 <span data-dur="4.157" data-begin="13.961">12日 定例会／勉強会</span>  
 <span data-dur="3.389" data-begin="18.118">14日 ユニバーサル部会</span>  
 <span data-dur="3.842" data-begin="21.506">19日 合同ボランティア会</span>  
 <span data-dur="5.492" data-begin="25.347">26日 定例会／勉強会・役員会</span>
+<span class="naka">![](media/test/test-002.jpg)</span>
 
 ## <span data-dur="2.586" data-begin="30.839">〈2月活動予定〉</span>
 <span data-dur="4.302" data-begin="33.425">2日 周年パネル作成委員会</span>  
