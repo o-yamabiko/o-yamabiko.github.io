@@ -21,7 +21,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="3.389" data-begin="18.118">14日 ユニバーサル部会</span>  
 <span data-dur="3.842" data-begin="21.506">19日 合同ボランティア会</span>  
 <span data-dur="5.492" data-begin="25.347">26日 定例会／勉強会・役員会</span>
-<img class="naka" src="media/test/test-002.jpg" />
+<img src="media/test/test-002.jpg" alt="cut" />
 
 ## <span data-dur="2.586" data-begin="30.839">〈2月活動予定〉</span>
 <span data-dur="4.302" data-begin="33.425">2日 周年パネル作成委員会</span>  
@@ -45,7 +45,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="1.391" data-begin="99.867">真貴</span>
 
 ## <span data-dur="2.833" data-begin="101.258">〈新入会員のひとこと〉</span>
-<img class="migi" src="media/test/test-003.jpg" />
+<img class="migi" src="media/test/test-003.jpg" alt="cut" />
 <span data-dur="2.214" data-begin="104.09">はじめまして。</span>
 <span data-dur="5.205" data-begin="106.304">まだ何がわからないかもわからないような感じです。</span>
 <span data-dur="2.729" data-begin="111.509">神代と申します。</span>
@@ -65,22 +65,22 @@ date: 2018-03-30T17:50:00Z
 
 ## <span data-dur="13.371" data-begin="150.543">定例会：第2・第4金曜日10時～12時／中央図書館3階〝やまびこ〝代表：円谷03（3907）2909</span>
 
-<img class="naka" src="media/test/test-006.jpg" />
+<img class="naka" src="media/test/test-006.jpg" alt="cut" />
 
 ## <span data-dur="1.75" data-begin="163.914">Let's&ensp;try!!</span>
 
-<img class="migi" src="media/test/test-009.jpg" />
+<img class="migi" src="media/test/test-009.jpg" alt="cut" />
 <span data-dur="2.912" data-begin="165.663">寒い日が続きますね。</span>
 <span data-dur="7.424" data-begin="168.574">今月は昔懐かしい暖房具に因んだ漢字の読みを集めてみました。</span>  
 <span data-dur="4.509" data-begin="175.998">読んだだけで暖かくなるといいのですが…。</span>
 
 <span data-dur="4.339" data-begin="180.506">[クイズの問題の読み上げは省略。]</span>
 
-<span data-dur="6.407" data-begin="184.845">（「足下」は何と読みましたか？広辞苑には「そっか」とありますが・・・、</span>
+<span data-dur="6.407" data-begin="184.845">（**「足下」**は何と読みましたか？広辞苑には「そっか」とありますが・・・、</span>
 <span data-dur="4.363" data-begin="191.251">さて皆さんのご意見はいかが？）</span>
 
 ### <span data-dur="2.208" data-begin="195.614">《1月の答え》</span>
-<img src="media/test/test-010.jpg" />
+<img src="media/test/test-010.jpg" alt="北海道の地図" />
 <span data-dur="2.811" data-begin="197.822">①おといねっぷ</span>  
 <span data-dur="2.39" data-begin="200.632">②おしゃまんべ</span>  
 <span data-dur="2.482" data-begin="203.022">③てしかが</span>  
@@ -95,12 +95,12 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="2.755" data-begin="226.045">⑫あっさぶ</span>  
 <span data-dur="2.901" data-begin="228.799">⑬わっさむ</span>
 
-<img class="migi" src="media/test/test-014.jpg" />
-<img class="hidari" src="media/test/test-011.jpg" />
+<img class="migi" src="media/test/test-014.jpg" alt="cut" />
+<img class="hidari" src="media/test/test-011.jpg" alt="まんべくん" />
 <span data-dur="1.692" data-begin="231.7">イラスト</span>  
 <span data-dur="1.769" data-begin="233.391">まんべくん</span>  
 <span data-dur="2.076" data-begin="235.159">イラスト終わり</span>
-<img class="naka" src="media/test/test-012.jpg" />
+<img class="naka" src="media/test/test-012.jpg" alt="cut" />
 
 <span data-dur="6.337" data-begin="237.234">これでやまびこ通信2018年2月号を終わります。</span>
 
