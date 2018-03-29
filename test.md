@@ -69,7 +69,7 @@ date: 2018-03-30T17:50:00Z
 
 <span data-dur="2.086" data-begin="148.458">神代寛子</span>
 
-<img class="obi" src="media/test/test-006.jpg" alt="cut" />
+<img class="naka" src="media/test/test-006.jpg" alt="cut" />
 
 ## <span data-dur="1.75" data-begin="163.914">Let's&ensp;try!!</span>
 
@@ -85,7 +85,7 @@ date: 2018-03-30T17:50:00Z
 
 ### <span data-dur="2.208" data-begin="195.614">1月の答え</span>
 
-<img class="obi" src="media/test/test-010.jpg" alt="北海道の地図" />
+<img class="naka" src="media/test/test-010.jpg" alt="北海道の地図" />
 
 <img class="migi" src="media/test/test-011.jpg" alt="まんべくん" />
 <span class="migi" data-dur="1.769" data-begin="233.391">まんべくん</span>  
@@ -104,7 +104,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="2.755" data-begin="226.045">⑫あっさぶ</span>  
 <span data-dur="2.901" data-begin="228.799">⑬わっさむ</span>
 
-<img class="obi" src="media/test/test-012.jpg" alt="cut" />
+<img class="naka" src="media/test/test-012.jpg" alt="cut" />
 
 ## お問い合わせ
 定例会：第2・第4金曜日10時～12時／中央図書館3階  
