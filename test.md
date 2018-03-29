@@ -54,8 +54,8 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="2.851" data-begin="114.238">音訳のサークルに入れていただいた、</span>
 <span data-dur="2.154" data-begin="117.089">と知人に話したところ、</span>
 <span data-dur="4.538" data-begin="119.242">「じゃあこれはどう音訳するの？」と聞かれ、</span>
-<img class="migi" src="media/test/test-003.jpg" alt="cut" />
 <span data-dur="5.082" data-begin="123.78">まだ全く答えられません！本文が全て横書きで、</span>
+<img class="migi" src="media/test/test-003.jpg" alt="cut" />
 <span data-dur="3.081" data-begin="128.862">左右2列になっているという場合、</span>
 <span data-dur="2.389" data-begin="131.942">これを言う説明がいるかや、</span>
 <span data-dur="3.431" data-begin="134.33">どのページにも同じマークがある場合、</span>
