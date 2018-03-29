@@ -83,7 +83,7 @@ date: 2018-03-30T17:50:00Z
 > 
 > <ruby>火鉢<rt>(　　)</rt></ruby>の<ruby>熾火<rt>(　　)</rt></ruby>を集め、<ruby>雪達磨<rt>(　　　)</rt></ruby>を作って<ruby>悴<rt>(　　)</rt></ruby>んだ手を<ruby>翳<rt>(　　)</rt></ruby>す。
 > 
-> 昔は手に<ruby>皹<rt>(　　)</rt></ruby>(<ruby>皸<rt>(　　)</rt></ruby>)や<ruby>霜焼<rt>(　　)</rt></ruby>けができている子供も多かったですね。
+> 昔は手に<ruby>皹<rt>(　　)</rt></ruby>（<ruby>皸<rt>(　　)</rt></ruby>）や<ruby>霜焼<rt>(　　)</rt></ruby>けができている子供も多かったですね。
 > 
 > 寒いと恋しくなるのは<ruby>火燵<rt>(　　)</rt></ruby>。室町時代に<ruby>囲炉裏<rt>(　　　)</rt></ruby>の上に<ruby>櫓<rt>(　　)</rt></ruby>を組み、<ruby>蒲団<rt>(　　)</rt></ruby>をかけたのが起源とか。
 > 

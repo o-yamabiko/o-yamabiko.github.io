@@ -200,7 +200,12 @@ q {
       }
 
 //blockquote color
-.main-content blockquote {
-color: #3A4E56;
-}
+    .main-content blockquote {
+      color: #3A4E56;
+    }
+
+//ruby size
+    rt {
+      font-size: large;
+    }
 
