@@ -15,7 +15,7 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="2.721" data-begin="4.164">No.123</span>  
 <span data-dur="4.353" data-begin="6.885">2018年2月9日発行</span>
 
-## <span data-dur="2.724" data-begin="11.238">〈1月活動報告〉</span>
+## <span data-dur="2.724" data-begin="11.238">1月活動報告</span>
 <span data-dur="4.157" data-begin="13.961">12日 定例会／勉強会</span>  
 <span data-dur="3.389" data-begin="18.118">14日 ユニバーサル部会</span>  
 <span data-dur="3.842" data-begin="21.506">19日 合同ボランティア会</span>  
