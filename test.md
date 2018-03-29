@@ -48,13 +48,13 @@ date: 2018-03-30T17:50:00Z
 <span data-dur="1.391" data-begin="99.867">真貴</span>
 
 ## <span data-dur="2.833" data-begin="101.258">新入会員のひとこと</span>
-<img class="migi" src="media/test/test-003.jpg" alt="cut" />
 <span data-dur="2.214" data-begin="104.09">はじめまして。</span>
 <span data-dur="5.205" data-begin="106.304">まだ何がわからないかもわからないような感じです。</span>
 <span data-dur="2.729" data-begin="111.509">神代と申します。</span>
 <span data-dur="2.851" data-begin="114.238">音訳のサークルに入れていただいた、</span>
 <span data-dur="2.154" data-begin="117.089">と知人に話したところ、</span>
 <span data-dur="4.538" data-begin="119.242">「じゃあこれはどう音訳するの？」と聞かれ、</span>
+<img class="migi" src="media/test/test-003.jpg" alt="cut" />
 <span data-dur="5.082" data-begin="123.78">まだ全く答えられません！本文が全て横書きで、</span>
 <span data-dur="3.081" data-begin="128.862">左右2列になっているという場合、</span>
 <span data-dur="2.389" data-begin="131.942">これを言う説明がいるかや、</span>
@@ -86,8 +86,7 @@ date: 2018-03-30T17:50:00Z
 
 <img class="migi" src="media/test/test-011.jpg" alt="まんべくん" />
 <span class="migi" data-dur="1.769" data-begin="233.391">まんべくん</span>  
-
-<img class="migi" src="media/test/test-014.jpg" alt="cut" />
+<img class="hidari" src="media/test/test-014.jpg" alt="cut" />
 <span data-dur="2.811" data-begin="197.822">①おといねっぷ</span>  
 <span data-dur="2.39" data-begin="200.632">②おしゃまんべ</span>  
 <span data-dur="2.482" data-begin="203.022">③てしかが</span>  
