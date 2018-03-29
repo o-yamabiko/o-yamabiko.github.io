@@ -27,13 +27,13 @@ sed \
 sed \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
-    index.html > temp
+    index.html > temp1
 sed \
     -e 's/^.*span id=\"[a-zA-Z0-9_]*\">\(.*\)<\/span.*$/\1/' \
     -e '/^[ \t]*</d' \
     -e 's/<span [a-zA-Z0-9_\"=]*>//g' \
     -e 's/<\/span>//g' \
-    temp > paroles.tsv
+    temp1 > paroles.tsv
 # calculate dur-begin.tsv
 awk '{
     printf("%s\t%3.3f\n", $2-$1, $1)
@@ -45,9 +45,29 @@ paste dur-begin.tsv paroles.tsv > base.tsv
 sed \
     -e 's/\([0-9\.]*\)\t\([0-9\.]*\)\t\(（リンク）\)/<a href=\"\" data-dur=\"\1\" data-begin=\"\2\">\3<\/a><\/span>/' \
     -e 's/\([0-9\.]*\)\t\([0-9\.]*\)\t\(.*\)/<span data-dur=\"\1\" data-begin=\"\2\">\3<\/span>/' \
-    base.tsv >> ../$2.md
+    base.tsv > temp3
+sed \
+    -e ':a;N;$!ba;s/<\/span>\n<a/<a/g' \
+    temp3 > temp4
+sed \
+    -e '/>&thinsp;/d' \
+    -e '/>&nbsp;/d' \
+    -e 's/&ensp;/ /g' \
+    -e 's/　/ /g' \
+    -e 's/\(.*>\)\(.*\)\(<a.*>\)\(（リンク）\)\(.*\)/\1\3\2\5/' \
+    -e 's/\(.*>やまびこ通信.*バックナンバー<.*\)$/# \1/' \
+    -e 's/\(.*>[0-9]*年[0-9]*月号<.*\)$/- \1/' \
+    -e 's/\(.*>やまびこ通信[0-9]*年[0-9]*月号<.*\)$/# \1/' \
+    -e 's/\(.*月活動報告<.*\)$/## \1/' \
+    -e 's/\(.*月活動予定<.*\)$/## \1/' \
+    -e 's/\(.*>録音図書.*作成<.*\)$/## \1/' \
+    -e 's/\(.*>対面音訳<.*\)$/## \1/' \
+    -e 's/\(.*十条台句会.*\)$/## \1/' \
+    -e 's/\(.*try!!<.*\)$/## \1/' \
+    -e 's/\(.*月の答え<.*\)$/### \1/' \
+    temp4 >> ../$2.md
 # remove temp files
-#rm *.tsv temp
+#rm *.tsv temp[0-9]
 cd sounds
 ../../wav2mp3ogg.sh
 cd -
