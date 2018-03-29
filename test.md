@@ -87,7 +87,7 @@ date: 2018-03-30T17:50:00Z
 > 
 > 寒いと恋しくなるのは<ruby>火燵<rt>(　　)</rt></ruby>。室町時代に<ruby>囲炉裏<rt>(　　　)</rt></ruby>の上に<ruby>櫓<rt>(　　)</rt></ruby>を組み、<ruby>蒲団<rt>(　　)</rt></ruby>をかけたのが起源とか。
 > 
-> 古くは熱源として<ruby>木炭<rt>(　　)</rt></ruby>や<ruby>炭団<rt>(　　)</rt></ruby>(後に<ruby>練炭<rt>(　　)</rt></ruby>、<ruby>豆炭<rt>(　　)</rt></ruby>）などを用いました。
+> 古くは熱源として<ruby>木炭<rt>(　　)</rt></ruby>や<ruby>炭団<rt>(　　)</rt></ruby>（後に<ruby>練炭<rt>(　　)</rt></ruby>、<ruby>豆炭<rt>(　　)</rt></ruby>）などを用いました。
 > 
 > <ruby>行火<rt>(　　)</rt></ruby>は直接手足に当てて暖を取るもの。 <ruby>湯湯婆<rt>(　　　)</rt></ruby>のように蒲団の<ruby>足下<rt>(　　)</rt></ruby>に入れます。
 > 
