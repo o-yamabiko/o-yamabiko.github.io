@@ -17,8 +17,10 @@ $header-bg-color-secondary: #DDBB55;
 //$section-headings-color: #159957 !default;
 $section-headings-color: #DB5D57;
 //$body-text-color: #606c71 !default;
+$body-text-color: #3E474B;
 //$body-link-color: #1e6bb8 !default;
 //$blockquote-text-color: #819198 !default;
+$blockquote-text-color: #3A4E56;
 
 // Code
 //$code-bg-color: #f3f6fa !default;
@@ -198,11 +200,6 @@ q {
       h1,h2,h3,h4,h5,h6 {
         clear: both;
       }
-
-//blockquote color
-    .main-content blockquote {
-      color: #3A4E56;
-    }
 
 //ruby size in blockquote
     blockquote ruby {
