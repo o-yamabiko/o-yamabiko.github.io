@@ -204,11 +204,13 @@ q {
       color: #3A4E56;
     }
 
-//ruby size
-    ruby {
-      font-size: x-large;
-    }
-    rt {
+//ruby size in blockquote
+    blockquote ruby {
       font-size: large;
+      font-weight: bold;
+    }
+    blockquote rt {
+      font-size: large;
+      font-weight: normal;
     }
 

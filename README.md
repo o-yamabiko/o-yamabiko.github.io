@@ -63,7 +63,7 @@
 ## <span data-dur="1.943" data-begin="176.183">お問い合わせ</span>
 
 <span data-dur="7.598" data-begin="178.126">定例会：第2・第4金曜日10時～12時／中央図書館3階</span>  
-<span data-dur="8.512" data-begin="185.724">連絡先：やまびこ代表&ensp;円谷千恵子（ツムラヤ・チエコ）03（3907）2909</span>  
+<span data-dur="8.512" data-begin="185.724">連絡先：やまびこ代表 <ruby>円谷千恵子<rt>（ツムラヤ・チエコ）</rt></ruby> 03（3907）2909</span>  
 <span data-dur="2.729" data-begin="194.236"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="1.582" data-begin="196.965">このサイトについてのお問い合わせ</a></span>
 
 <span data-dur="4.995" data-begin="198.547"><!--以上でこのページの読み上げは終わりです。--></span>
