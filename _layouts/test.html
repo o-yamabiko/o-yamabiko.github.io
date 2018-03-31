@@ -10,12 +10,6 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-<link href="./jPlayer-2.9.2/dist/skin/blue.monday/css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="./jPlayer-2.9.2/lib/jquery.min.js"></script>
-<script type="text/javascript" src="./jPlayer-2.9.2/dist/jplayer/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="./jPlayer-2.9.2/dist/add-on/jplayer.playlist.min.js"></script>
-    
     <style>
         {% if page.oto %}
       .main-content {
@@ -95,62 +89,14 @@
                     <source src="media/{{ page.oto }}.mp3" type="audio/mp3">
                     <source src="media/{{ page.oto }}.ogg" type="audio/ogg">
                     <source src="media/{{ page.oto }}.wav" type="audio/wav">
-<!--jplayer for old browser-->
-<div class="error">
-<div id="jquery_jplayer_1" class="jp-jplayer"></div>
-<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player" style="margin: 0 auto; max-width: 100% !important;">
-	<div class="jp-type-playlist">
-		<div class="jp-gui jp-interface">
-			<div class="jp-controls">
-				<button class="jp-play" role="button" tabindex="0">停止・再生</button>
-			</div>
-			<div class="jp-progress">
-				<div class="jp-seek-bar">
-					<div class="jp-play-bar"></div>
-				</div>
-			</div>
-			<div class="jp-time-holder">
-				<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
-				<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
-			</div>
-		</div>
-		<div class="jp-no-solution">
-			<span>更新が必要です。</span>
-			音を聞くには、ブラウザか<a href="http://get.adobe.com/flashplayer/" target="_blank">フラッシュ・プラグイン</a>をアップデートしてください。
-		</div>
-	</div>
-</div>
-<script type="text/javascript">
-//<![CDATA[
-$(document).ready(function(){
-
-	new jPlayerPlaylist({
-		jPlayer: "#jquery_jplayer_1",
-		cssSelectorAncestor: "#jp_container_1"
-	}, [
-		{
-			title:"読み上げ音声",
-			mp3:"./media/{{ page.oto }}.mp3",
-			oga:"./media/{{ page.oto }}.ogg"
-		}
-	], {
-		playlistOptions: {
- 		   autoPlay: true
-    		},
-		swfPath: "./jPlayer-2.9.2/dist/jplayer",
-		supplied: "oga, mp3",
-		wmode: "window",
-		useStateClassSkin: true,
-		autoBlur: false,
-		smoothPlayBar: true,
-		keyEnabled: true
-	});
-$("#jquery_jplayer_1").jPlayer("volume", 1);
-});
-//]]>
-</script>
-</div>
-<!--end jplayer for old browser-->
+<!--object or embed for old browsers-->
+    <object>
+        <param name="autostart" value="true">
+        <param name="src" value="media/{{ page.oto }}.mp3">
+        <param name="autoplay" value="true">
+        <param name="controller" value="true">
+        <embed src="media/{{ page.oto }}.mp3" controller="true" autoplay="true" autostart="true" type="audio/mpeg"></embed>
+    </object>
                 </audio>
             </p>
             <p class="passage-audio-unavailable" hidden>
@@ -193,4 +139,5 @@ $("#jquery_jplayer_1").jPlayer("volume", 1);
         <script src="js/main.js"></script>
   </body>
 </html>
+
 
