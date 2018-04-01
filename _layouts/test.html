@@ -31,15 +31,18 @@
       }
         {% endif %}
         {% if page.background %}
-	<!--[if gt IE 8]>< -->
       body {
         background-image: url('media/{{ page.background }}');
         background-repeat: no-repeat;
         background-attachment: fixed;
       }
-	<!-- ><![endif]-->
         {% endif %}
     </style>
+	<!--[if lte IE 8]>
+      body {
+        background-color: #ffffff;
+      }
+	<![endif]-->
   </head>
   <body>
    <div id="passage-text" class="passage">
