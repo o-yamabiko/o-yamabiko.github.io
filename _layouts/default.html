@@ -51,7 +51,14 @@
                     <source src="media/index/sound0001.mp3" type="audio/mp3">
                     <source src="media/index/sound0001.ogg" type="audio/ogg">
                     <source src="media/index/sound0001.wav" type="audio/wav">
-                    <em class="error"><strong>残念！</strong> お使いのブラウザはHTML5オーディオに対応していないようです。</em>
+<!--object or embed for old browsers-->
+    <object class="error" type="audio/mpeg">
+        <param name="autostart" value="true">
+        <param name="src" value="media/index/sound0002.mp3">
+        <param name="autoplay" value="true">
+        <param name="controller" value="true">
+        <embed src="media/index/sound0002.mp3" controller="true" autoplay="true" autostart="true" type="audio/mpeg" />
+    </object>
                 </audio>
             </p>
             <p class="passage-audio-unavailable" hidden>
