@@ -38,6 +38,7 @@ body {
   background-image: linear-gradient(-90deg, $header-bg-color-secondary, $header-bg-color);
 }
 
+//larger font in narrow screen
 .main-content {
    position: absolute;
    top: 2em;
@@ -48,6 +49,7 @@ body {
    background: rgba(255, 255, 255, .90);
    z-index: -1;
    max-width: 48rem;
+   font-size: calc(125% - 0.3vw);
 }
 
 //reading aloud
