@@ -51,6 +51,9 @@ body {
    max-width: 48rem;
    font-size: calc(125% - 0.3vw);
 }
+.main-content h1 {
+   font-size: calc(175% + 2vw)
+}
 
 //reading aloud
 .controller {
