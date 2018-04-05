@@ -120,6 +120,19 @@ q {
 .initialized span[data-begin] {
     cursor: pointer;
 }
+//valid also for div
+.initialized div[data-begin]:focus,
+.initialized div[data-begin]:hover {
+    background-color: #FFFFCA;
+    box-shadow: 0px 0px 4px #FFFFCA;
+}
+.initialized div[data-begin].speaking {
+    background-color: yellow;
+    box-shadow: 0px 0px 4px yellow;
+}
+.initialized div[data-begin] {
+    cursor: pointer;
+}
 //valid also for link
 .initialized a[data-begin]:focus,
 .initialized a[data-begin]:hover {
