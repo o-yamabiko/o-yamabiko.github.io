@@ -171,11 +171,8 @@ var ReadAlong = {
             if (!e.target.dataset.begin) {
                 return;
             }
-	   /**
-	    * modified by Guskant:
-	    *don't prevent default in order to open link when speaking 'link'.
-	    */
-            //e.preventDefault();
+	    // test
+            e.preventDefault();
 
             var i = e.target.dataset.index;
             that.audio_element.currentTime = that.words[i].begin + 0.01; //Note: times apparently cannot be exactly set and sometimes select too early
