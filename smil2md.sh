@@ -24,8 +24,8 @@ sed \
     -e '/ *</d' \
     mrii0001.smil > begin-end.tsv
 # extract paroles
-sed \
-    -e 's/<span class=\"infty_silent\">\([^<]*\)<\/span>/SILENT<\1>SILENT/g' \
+LC_COLLATE=C.UTF-8 sed \
+    -e 's/<span class=\"infty_silent\">\([^｜<]*\)<\/span>/SILENT<\1>SILENT/g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
     index.html > temp1
@@ -50,10 +50,12 @@ sed \
 sed \
     -e ':a;N;$!ba;s/<\/span>\n<a/<a/g' \
     temp3 > temp4
-LC_COLLATE=C.UTF-8 sed \
+sed \
     -e '/>&thinsp;/d' \
     -e '/>&nbsp;/d' \
     -e 's/&ensp;/ /g' \
+    temp4 > temp5
+LC_COLLATE=C.UTF-8 sed \
     -e 's/　/ /g' \
     -e 's/\(.*>\)\(.*\)\(<a.*>\)\(（リンク）\)\(.*\)/\1\3\2\5/' \
     -e 's/\(.*>やまびこ通信.*バックナンバー<.*\)$/\n# \1\n/' \
@@ -69,8 +71,9 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*月の答え<.*\)$/\n### \1\n/' \
     -e 's/SILENT<（\(カット\)\([0-9]*\)）>SILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
     -e 's/｜\(.*\)SILENT< *(\([ぁ-ゟ゠ァ-ヿ]*\)) *>SILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/SILENT<\(.*\)>SILENT/ (\1) /g' \
-    temp4 >> ../$2.md
+    -e 's/>\(.*\)SILENT< *(\([ぁ-ゟ゠ァ-ヿ]*\)) *>SILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/SILENT<\(.*\)>SILENT/\1/g' \
+    temp5 >> ../$2.md
 # remove temp files
 #rm *.tsv temp[0-9]
 cd sounds
