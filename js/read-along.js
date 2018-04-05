@@ -136,9 +136,7 @@ var ReadAlong = {
 
     removeWordSelection: function() {
         // There should only be one element with .speaking, but selecting all for good measure
-	// test no span
-        //var spoken_word_els = this.text_element.querySelectorAll('span[data-begin].speaking');
-        var spoken_word_els = this.text_element.querySelectorAll('[data-begin].speaking');
+        var spoken_word_els = this.text_element.querySelectorAll('span[data-begin].speaking');
         Array.prototype.forEach.call(spoken_word_els, function (spoken_word_el) {
             spoken_word_el.classList.remove('speaking');
         });
@@ -171,8 +169,8 @@ var ReadAlong = {
             if (!e.target.dataset.begin) {
                 return;
             }
-	    // test
-            e.preventDefault();
+	    // modified from original: don't prevent default for link
+            //e.preventDefault();
 
             var i = e.target.dataset.index;
             that.audio_element.currentTime = that.words[i].begin + 0.01; //Note: times apparently cannot be exactly set and sometimes select too early
