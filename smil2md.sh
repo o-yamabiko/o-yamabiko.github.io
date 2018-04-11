@@ -1,4 +1,5 @@
 #!/bin/bash
+# Ruby at a character other than the beginning of a phrase should be prefixedby ｜.
 # It requires MultimediaDAISY2.02 files under directory $1 consisting of only one section. $2 is a project name.
 # create base md
 echo '---' > $2.md
