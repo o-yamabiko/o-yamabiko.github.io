@@ -169,8 +169,6 @@ input:checked + .slider:before {
         ga('send', 'pageview');
       </script>
     {% endif %}
-        <script src="js/read-along.js"></script>
-        <script src="js/main.js"></script>
 	<script>
 	function showtext() {
   // Get the checkbox
@@ -211,6 +209,12 @@ function togglePlay() {
   } else {
     audioControl.pause();
   }
+  // If audio is played, the checkbox is checked
+  if (audioControl.paused == true){
+    playSwitch.checked = false;
+  } else {
+    playSwitch.checked = true;
+  }
 } 
 function setPlay() { 
     audioControl.play();
@@ -226,6 +230,8 @@ if (!window.console){
     };
 }
 	</script>
+        <script src="js/read-along.js"></script>
+        <script src="js/main.js"></script>
   </body>
 </html>
 
