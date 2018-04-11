@@ -14,13 +14,18 @@
       .main-content {
          padding-top: 9em;
       }
-      .new {
+      .wrap:hover .new:before {
          display: none;
       }
-      .wrap:hover:after .old {
+      .wrap:hover .old:before {
+         display: block;
+	 text-align: center;
+	 background-color: white;
+      }
+      .wrap:hover .old:after {
          display: none;
      }
-      .wrap:hover:after .new {
+      .wrap:hover .new:after {
          display: block;
      }
     </style>
