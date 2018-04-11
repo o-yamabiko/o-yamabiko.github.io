@@ -104,7 +104,7 @@ input:checked + .slider:before {
                 <em><img src="media/loader.gif" alt="Initializing audio"> Loading audio…</em>
             </p>
             <p class="passage-audio" hidden>
-                <audio id="passage-audio" class="passage" controls autoplay>
+                <audio id="passage-audio" class="passage" autoplay>
                     <source src="media/index/sound0001.mp3" type="audio/mp3">
                     <source src="media/index/sound0001.ogg" type="audio/ogg">
                     <source src="media/index/sound0001.wav" type="audio/wav">
@@ -119,11 +119,15 @@ input:checked + .slider:before {
                 </audio>
             </p>
 
+	    <label class="switch" style="font-weight: bold; text-indent: 2em; font-size: smaller;">
+	        <input type="checkbox" id="playswitch" onclick="togglePlay()" checked><span class="slider round"></span>
+		<label for="playswitch">読み上げる</label>
+	    </label>
 	    
-<label class="switch">
+<!--label class="switch">
   <input type="checkbox" checked>
   <span class="slider round"></span>
-</label>
+</label-->
 
 
 
@@ -139,10 +143,6 @@ input:checked + .slider:before {
             <p class="playback-rate-unavailable" hidden>
                 <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
             </p>
-	    <p style="font-weight: bold; text-indent: 2em; font-size: smaller;">
-	        <input type="checkbox" id="playswitch" onclick="togglePlay()">
-		<label for="playswitch">読み上げる</label>
-	    </p>
 	    <p style="font-weight: bold; text-indent: 2em; font-size: smaller;">
 	        <input type="checkbox" id="hyoji" onclick="showtext()">
 		<label for="hyoji">テキストを表示</label>
