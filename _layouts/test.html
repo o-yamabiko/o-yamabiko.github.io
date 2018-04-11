@@ -74,9 +74,12 @@
             <p class="playback-rate-unavailable" hidden>
                 <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
             </p>
-            <p class="autofocus-current-word" hidden>
-	        <input type="checkbox" id="hyoji" onclick="showtext()"> テキストを表示<br />
-                <input style="indent: 2em;" type="checkbox" id="autofocus-current-word" checked><!--make autofocus unchecked for avoiding conflict with users' TTS-->
+	    <p style="font-weight: heavy;">
+	        <input type="checkbox" id="hyoji" onclick="showtext()">
+		テキストを表示
+	    </p>
+            <p style="text-indent: 2em;" class="autofocus-current-word" hidden>
+                <input type="checkbox" id="autofocus-current-word" checked><!--make autofocus unchecked for avoiding conflict with users' TTS-->
                 <label for="autofocus-current-word">テキスト表示範囲を自動的に移動</label>
             </p>
 
