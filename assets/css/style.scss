@@ -96,6 +96,18 @@ margin-left: auto;
 .playback-rate label {
     font-weight: bold;
 }
+//fix width of playback-rate indicator
+.playback-rate {
+    width: 20em;
+    text-align: center;
+}
+.playback-rate #playback-slow {
+padding-left: 0;
+}
+.playback-rate #playback-rate {
+padding-right: 0;
+}
+
 q {
     quotes: "“" "”" "‘" "’";
 }
