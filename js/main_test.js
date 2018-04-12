@@ -34,10 +34,7 @@ window.addEventListener('load', function (e) {
         if (supports_playback_rate) {
             var rate_range_element = document.getElementById('playback-rate');
             rate_range_element.disabled = false;
-            rate_range_element.addEventListener('keyup', function (e) {
-                args.audio_element.playbackRate = audio.playbackRate;
-            }, false);
-            rate_range_element.addEventListener('change', function (e) {
+            rate_range_element.addEventListener(('keyup' || 'change'), function (e) {
                 args.audio_element.playbackRate = this.valueAsNumber;
             }, false);
         }
