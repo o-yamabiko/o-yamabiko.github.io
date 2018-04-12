@@ -203,17 +203,12 @@ function setForte() {
 function togglePlay() { 
   // Get the checkbox
   var playSwitch = document.getElementById("playswitch");
-  // If the checkbox is checked, play audio
-  if (playSwitch.checked == true){
+  if (audioControl.paused || audioControl.ended ){
+    playSwitch.checked = false;
     audioControl.play();
   } else {
-    audioControl.pause();
-  }
-  // If audio is played, the checkbox is checked
-  if (audioControl.paused == true){
-    playSwitch.checked = false;
-  } else {
     playSwitch.checked = true;
+    audioControl.pause();
   }
 } 
 function setPlay() { 
