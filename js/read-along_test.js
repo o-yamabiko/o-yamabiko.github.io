@@ -211,7 +211,7 @@ var ReadAlong = {
         document.addEventListener('keypress', function (e) {
             if ( e.which === (49 || 97) /*1*/) {
                 e.preventDefault();
-                    that.audio_element.playbackRate = that.audio_element.playbackRate - 0.5 ;
+                    that.audio_element.playbackRate = that.audio_element.playbackRate - 0.25 ;
                 document.getElementById("hayasa").innerHTML = String(that.audio_element.playbackRate) + "倍速";
             }
         }, false);
