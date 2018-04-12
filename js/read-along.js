@@ -185,10 +185,10 @@ var ReadAlong = {
         }, false);
 
         /**
-         * Spacebar or zero key toggles playback
+         * Spacebar toggles playback
          */
         document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === (32 || 48 || 96) /*Space or zero*/) {
+            if ( (e.charCode || e.keyCode) === 32 /*Space*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
