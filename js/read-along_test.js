@@ -199,30 +199,18 @@ var ReadAlong = {
         }, false);
 
         /**
-         * 6-9 make faster
+         * make faster or slower
          */
         document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === (54 || 102) /*6*/) {
+            if ( e.which === 38 /*up arrow*/) {
                 e.preventDefault();
-                    that.audio_element.playbackRate = 1.5 ;
+                    that.audio_element.playbackRate = that.audio_element.playbackRate + 0.5 ;
             }
         }, false);
         document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === (55 || 103) /*7*/) {
+            if ( e.which === 40 /*down arrow*/) {
                 e.preventDefault();
-                    that.audio_element.playbackRate = 2 ;
-            }
-        }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === (56 || 104) /*8*/) {
-                e.preventDefault();
-                    that.audio_element.playbackRate = 2.5 ;
-            }
-        }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === (57 || 105) /*9*/) {
-                e.preventDefault();
-                    that.audio_element.playbackRate = 3 ;
+                    that.audio_element.playbackRate = that.audio_element.playbackRate - 0.5 ;
             }
         }, false);
 
