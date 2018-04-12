@@ -199,22 +199,44 @@ var ReadAlong = {
         }, false);
 
         /**
-         * Up arrow makes faster
+         * 6-9 make faster
          */
         document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 38 /*Up arrow*/) {
+            if ( (e.charCode || e.keyCode) === (54 || 102) /*6*/) {
                 e.preventDefault();
-                    that.audio_element.playbackRate = that.audio_element.playbackRate + 0.5 ;
+                    that.audio_element.playbackRate = 1.2 ;
+            }
+        }, false);
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === (55 || 103) /*7*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = 1.4 ;
             }
         }, false);
 
         /**
-         * Down arrow makes slower
+         * 1-4 make slower
          */
         document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 40 /*Down arrow*/) {
+            if ( (e.charCode || e.keyCode) === (52 || 100) /*4*/) {
                 e.preventDefault();
-                    that.audio_element.playbackRate = that.audio_element.playbackRate - 0.5 ;
+                    that.audio_element.playbackRate = 0.9 ;
+            }
+        }, false);
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === (51 || 99) /*3*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = 0.8 ;
+            }
+        }, false);
+
+        /**
+         * 5 makes normal speed
+         */
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === (53 || 101) /*5*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = 1 ;
             }
         }, false);
 
