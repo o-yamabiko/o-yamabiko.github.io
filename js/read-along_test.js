@@ -199,12 +199,12 @@ var ReadAlong = {
         }, false);
 
         /**
-         * Up arrow makes faster
+         * makes faster
          */
         document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 38 /*Up arrow*/) {
+            if ( (e.charCode || e.keyCode) === 50 /*2*/) {
                 e.preventDefault();
-                    that.audio_element.playbackRate = that.audio_element.playbackRate ** 1.3 ;
+                    that.audio_element.playbackRate = that.audio_element.playbackRate * 2 ;
             }
         }, false);
 
