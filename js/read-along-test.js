@@ -203,29 +203,23 @@ var ReadAlong = {
          * added to the original: make faster or slower, forward or backword
          */
         document.addEventListener('keypress', function (e) {
-            if ( e.which === 38 /*up*/) {
+            if ( e.which === (51 || 99) /*3*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "倍速";
             }
         }, false);
         document.addEventListener('keypress', function (e) {
-            if ( e.which === 40 /*down*/) {
+            if ( e.which === (50 || 98) /*2*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "倍速";
             }
         }, false);
         document.addEventListener('keypress', function (e) {
-            if ( e.which === 37 /*left*/) {
+            if ( e.which === (49 || 97) /*1*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
-            }
-        }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === 39 /*right*/) {
-                e.preventDefault();
-                    that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
         }, false);
 
