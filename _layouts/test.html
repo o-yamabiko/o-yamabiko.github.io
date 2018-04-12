@@ -204,10 +204,10 @@ function togglePlay() {
   var playSwitch = document.getElementById("playswitch");
   if (audioControl.paused || audioControl.ended ){
     playSwitch.checked = true;
-    audioControl.pause();
+    audioControl.play();
   } else {
     playSwitch.checked = false;
-    audioControl.play();
+    audioControl.pause();
   }
 } 
 	</script>
