@@ -1,4 +1,5 @@
-/*global ReadAlong */
+/*global ReadAlong 
+ * some parts were modified by Guskant. */
 window.addEventListener('load', function (e) {
     try {
         var args = {
@@ -31,16 +32,17 @@ window.addEventListener('load', function (e) {
             return is_playback_rate_changed;
         }(args.audio_element));
 
+/* modified from the original: use buttons for changing playbackRate. */
         if (supports_playback_rate) {
             var rate_fast_element = document.getElementById('playback-rate');
             var rate_slow_element = document.getElementById('playback-slow');
             rate_fast_element.disabled = false;
             rate_fast_element.addEventListener('click', function (e) {
-                args.audio_element.playbackRate = args.audio_element.playbackRate + 0.5;
+                args.audio_element.playbackRate = args.audio_element.playbackRate + 0.2;
                 document.getElementById("hayasa").innerHTML = String(args.audio_element.playbackRate) + "倍速";
             }, false);
             rate_slow_element.addEventListener('click', function (e) {
-                args.audio_element.playbackRate = args.audio_element.playbackRate - 0.25;
+                args.audio_element.playbackRate = args.audio_element.playbackRate - 0.2;
                 document.getElementById("hayasa").innerHTML = String(args.audio_element.playbackRate) + "倍速";
             }, false);
 	    
