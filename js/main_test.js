@@ -37,6 +37,9 @@ window.addEventListener('load', function (e) {
             rate_range_element.addEventListener('change', function (e) {
                 args.audio_element.playbackRate = this.valueAsNumber;
             }, false);
+            rate_range_element.addEventListener('keypress', function (e) {
+                args.audio_element.playbackRate = audio.playbackRate;
+            }, false);
         }
         else {
             document.querySelector('.playback-rate-unavailable').hidden = false;
