@@ -121,15 +121,15 @@
   }
 }
 
-var aud = document.getElementById("passage-audio");
+var speed = document.getElementById("passage-audio").playbackRate;
 function setFast() { 
-    aud.playbackRate = aud.playbackRate + 0.5;
-    document.getElementById("hayasa").innerHTML = String(aud.playbackRate) + "倍速";
+    speed = speed + 0.5;
+    document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
 } 
 function setSlow() { 
-    aud.playbackRate = aud.playbackRate - 0.25;
-    document.getElementById("hayasa").innerHTML = String(aud.playbackRate) + "倍速";
- 
+    speed = speed + 0.5;
+    document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
+} 
 	</script>
   </body>
 </html>
