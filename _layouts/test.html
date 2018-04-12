@@ -77,11 +77,12 @@
 	    <p style="font-weight: bold; text-indent: 2em; font-size: smaller;">
 	        <input type="checkbox" id="hyoji" onclick="showtext()">
 		<label for="hyoji">テキストを表示</label>
-	    </p>
-            <p id="bun" style="display: none; text-indent: 4em;" class="autofocus-current-word" hidden>
+		
+            <span id="view" style="display: none;" class="autofocus-current-word" hidden>
                 <input type="checkbox" id="autofocus-current-word" checked>
                 <label for="autofocus-current-word">テキスト表示範囲を自動的に移動</label>
-            </p>
+            </span>
+	    </p>
 
             <noscript>
                 <p class="error"><em><strong>お知らせ:</strong> このページの読み上げ機能 HTML5 read-along を利用するには、 JavaScript を有効にしておく必要があります。</em></p>
@@ -107,13 +108,16 @@
   // Get the checkbox
   var checkBox = document.getElementById("hyoji");
   // Get the output text
-  var text = document.getElementById("bun");
+  var bun = document.getElementById("bun");
+  var view = document.getElementById("view");
 
   // If the checkbox is checked, display the output text
   if (checkBox.checked == true){
-    text.style.display = "block";
+    bun.style.display = "block";
+    view.style.display = "inline";
   } else {
-    text.style.display = "none";
+    bun.style.display = "none";
+    view.style.display = "none";
   }
 }
 	</script>
