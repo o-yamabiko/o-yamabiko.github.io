@@ -3,6 +3,7 @@
  * @author Weston Ruter, X-Team
  * @license MIT/GPL
  * https://github.com/westonruter/html5-audio-read-along
+ * some parts were modified by Guskant.
  */
 var ReadAlong = {
     text_element: null,
@@ -169,7 +170,7 @@ var ReadAlong = {
             if (!e.target.dataset.begin) {
                 return;
             }
-	    // modified from original: don't prevent default for link
+	    // modified from the original: don't prevent default for link
             //e.preventDefault();
 
             var i = e.target.dataset.index;
@@ -195,6 +196,24 @@ var ReadAlong = {
                 else {
                     that.audio_element.pause();
                 }
+            }
+        }, false);
+
+        /**
+         * added to the original: make faster or slower
+         */
+        document.addEventListener('keypress', function (e) {
+            if ( e.which === (50 || 98) /*2*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
+                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "倍速";
+            }
+        }, false);
+        document.addEventListener('keypress', function (e) {
+            if ( e.which === (49 || 97) /*1*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
+                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "倍速";
             }
         }, false);
 
