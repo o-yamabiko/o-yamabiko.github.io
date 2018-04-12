@@ -68,7 +68,7 @@
 
             <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
                 <label for="playback-rate">読み上げの速さ:</label>
-                <input id="playback-rate" type="range" min="0.5" max="2.0" value="1.0" step="0.1" disabled onchange='this.nextElementSibling.textContent = String(Math.round(this.valueAsNumber * 10) / 10) + "\u00D7";' onkeypress='var audio = document.getElementById("passage-audio"); this.nextElementSibling.textContent = String(Math.round(audio.playbackRate) + "\u00D7";'>
+                <input id="playback-rate" type="range" min="0.5" max="2.0" value="1.0" step="0.1" disabled onchange='this.nextElementSibling.textContent = String(Math.round(this.valueAsNumber * 10) / 10) + "\u00D7";' onkeypress='this.nextElementSibling.textContent = String(document.getElementById("passage-audio") + "\u00D7";'>
                 <output>1&times;</output>
             </p>
             <p class="playback-rate-unavailable" hidden>
