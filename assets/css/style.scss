@@ -102,10 +102,10 @@ margin-left: auto;
     text-align: center;
 }
 .playback-rate #playback-slow {
-padding-left: 0;
+    float: left;
 }
 .playback-rate #playback-rate {
-padding-right: 0;
+    float: right;
 }
 
 q {
