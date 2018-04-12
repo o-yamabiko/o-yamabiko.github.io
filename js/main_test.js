@@ -34,15 +34,15 @@ window.addEventListener('load', function (e) {
         if (supports_playback_rate) {
             var rate_range_element = document.getElementById('playback-rate');
             rate_range_element.disabled = false;
-	    var speed = args.audio_element.playbackRate;
-    function setFast() { 
-    speed = speed + 0.5;
-    document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
-},
-    function setSlow() { 
-    speed = speed - 0.5;
-    document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
-};
+	    var speed = document.getElementById('passage-audio').playbackRate;
+            function setFast() { 
+                speed = speed + 0.5;
+                document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
+}
+            function setSlow() { 
+                speed = speed - 0.5;
+                document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
+}
             //rate_range_element.addEventListener('change', function (e) {
             //    args.audio_element.playbackRate = this.valueAsNumber;
             //}, false);
