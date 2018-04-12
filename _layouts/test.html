@@ -119,17 +119,6 @@ input:checked + .slider:before {
                 </audio>
             </p>
 
-	    <p style="font-weight: bold; text-indent: 2em; font-size: smaller;">
-	        <input type="checkbox" id="playswitch" onclick="togglePlay()" checked>
-		<label for="playswitch">読み上げる</label>
-	    </p>
-<!--label class="switch">
-  <input type="checkbox" checked>
-  <span class="slider round"></span>
-</label-->
-
-
-
             <p class="passage-audio-unavailable" hidden>
                 <em class="error"><strong>残念！</strong> お使いのブラウザはMP3やOggの形式の音声に対応していないため、読み上げ音声を再生できません。</em>
             </p>
@@ -202,12 +191,11 @@ function setForte() {
 function togglePlay() { 
   // Get the checkbox
   var playSwitch = document.getElementById("playswitch");
-  if (audioControl.paused || audioControl.ended ){
-    playSwitch.checked = true;
-    audioControl.play();
-  } else {
-    playSwitch.checked = false;
-    audioControl.pause();
+  if (playSwitch.checked == true) {
+      audioControl.pause();
+  }
+  else {
+      audioControl.play();
   }
 } 
 	</script>
