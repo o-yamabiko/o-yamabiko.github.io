@@ -43,6 +43,22 @@
   </div>
 
 	<div class="controller">
+	    <p>
+	        <input type="checkbox" id="hyoji" onclick="showtext()">
+		<label for="hyoji" style="font-weight: bold; text-indent: 2em; font-size: smaller; padding-right: 2em;">テキストを表示</label>
+		
+            <span id="view" style="display: none;" class="autofocus-current-word" hidden>
+                <input type="checkbox" id="autofocus-current-word" checked>
+                <label for="autofocus-current-word">表示範囲を自動的に移動</label>
+            </span>
+	    </p>
+            <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
+	        <button id="playback-slow" type="button">ゆっくり</button> <span id="hayasa">1倍速</span> <button id="playback-rate" type="button">すばやく</button>
+            </p>
+	    <p class="playback-rate-unavailable" hidden>
+                <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
+            </p>
+
             <p class="loading">
                 <em><img src="media/loader.gif" alt="Initializing audio"> Loading audio…</em>
             </p>
@@ -65,22 +81,6 @@
             <p class="passage-audio-unavailable" hidden>
                 <em class="error"><strong>残念！</strong> お使いのブラウザはMP3やOggの形式の音声に対応していないため、読み上げ音声を再生できません。</em>
             </p>
-
-            <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
-	        <button id="playback-slow" type="button">ゆっくり</button> <span id="hayasa">1倍速</span> <button id="playback-rate" type="button">すばやく</button>
-            </p>
-	    <p class="playback-rate-unavailable" hidden>
-                <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
-            </p>
-	    <p>
-	        <input type="checkbox" id="hyoji" onclick="showtext()">
-		<label for="hyoji" style="font-weight: bold; text-indent: 2em; font-size: smaller; padding-right: 2em;">テキストを表示</label>
-		
-            <span id="view" style="display: none;" class="autofocus-current-word" hidden>
-                <input type="checkbox" id="autofocus-current-word" checked>
-                <label for="autofocus-current-word">表示範囲を自動的に移動</label>
-            </span>
-	    </p>
 
             <noscript>
                 <p class="error"><em><strong>お知らせ:</strong> このページの読み上げ機能 HTML5 read-along を利用するには、 JavaScript を有効にしておく必要があります。</em></p>
