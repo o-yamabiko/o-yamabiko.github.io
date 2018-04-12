@@ -42,7 +42,7 @@
 - <span data-dur="3.358" data-begin="113.248">人の声による録音図書</span>  
 <span data-dur="4.662" data-begin="116.606">単行本1冊分を人の声で録音する場合、</span>
 <span data-dur="4.81" data-begin="121.268">3ヶ月程度を目安として完成させます。</span>
-- <span data-dur="3.717" data-begin="126.078">合成音声による録音図書</span>
+- <span data-dur="3.717" data-begin="126.078">合成音声による録音図書</span>  
 <span data-dur="3.862" data-begin="129.795"><a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="1.782" data-begin="133.657">AITalkが組み込まれたChattyInfty3</a></span>
 <span data-dur="1.348" data-begin="135.439">を使って、</span>
 <span data-dur="5.191" data-begin="136.787">500ページあたり1ヶ月程度で仕上げます。</span>
