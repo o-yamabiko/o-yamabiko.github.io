@@ -204,13 +204,25 @@ var ReadAlong = {
         document.addEventListener('keypress', function (e) {
             if ( (e.charCode || e.keyCode) === (54 || 102) /*6*/) {
                 e.preventDefault();
-                    that.audio_element.playbackRate = 1.2 ;
+                    that.audio_element.playbackRate = 1.5 ;
             }
         }, false);
         document.addEventListener('keypress', function (e) {
             if ( (e.charCode || e.keyCode) === (55 || 103) /*7*/) {
                 e.preventDefault();
-                    that.audio_element.playbackRate = 1.4 ;
+                    that.audio_element.playbackRate = 2 ;
+            }
+        }, false);
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === (56 || 104) /*8*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = 2.5 ;
+            }
+        }, false);
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === (57 || 105) /*9*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = 3 ;
             }
         }, false);
 
@@ -227,6 +239,18 @@ var ReadAlong = {
             if ( (e.charCode || e.keyCode) === (51 || 99) /*3*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = 0.8 ;
+            }
+        }, false);
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === (50 || 98) /*2*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = 0.7 ;
+            }
+        }, false);
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === (49 || 97) /*1*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = 0.6 ;
             }
         }, false);
 
