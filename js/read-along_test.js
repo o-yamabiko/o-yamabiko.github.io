@@ -202,15 +202,17 @@ var ReadAlong = {
          * make faster or slower
          */
         document.addEventListener('keypress', function (e) {
-            if ( e.which === 38 /*up arrow*/) {
+            if ( e.which === (50 || 98) /*2*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.5 ;
+                document.getElementById("hayasa").innerHTML = that.audio_element.playbackRate;
             }
         }, false);
         document.addEventListener('keypress', function (e) {
-            if ( e.which === 40 /*down arrow*/) {
+            if ( e.which === (49 || 97) /*1*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.5 ;
+                document.getElementById("hayasa").innerHTML = that.audio_element.playbackRate;
             }
         }, false);
 
