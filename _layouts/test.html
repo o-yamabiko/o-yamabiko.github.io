@@ -121,13 +121,14 @@
   }
 }
 
-var speed = document.getElementById("passage-audio").playbackRate;
 function setFast() { 
+    var speed = document.getElementById("passage-audio").playbackRate
     speed = speed + 0.5;
     document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
 } 
 function setSlow() { 
-    speed = speed + 0.5;
+    var speed = document.getElementById("passage-audio").playbackRate
+    speed = speed - 0.5;
     document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
 } 
 	</script>
