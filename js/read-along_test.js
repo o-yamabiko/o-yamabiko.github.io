@@ -205,14 +205,14 @@ var ReadAlong = {
             if ( e.which === (50 || 98) /*2*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.5 ;
-                document.getElementById("hayasa").innerHTML = that.audio_element.playbackRate;
+                document.getElementById("hayasa").innerHTML = String(that.audio_element.playbackRate) + "倍速";
             }
         }, false);
         document.addEventListener('keypress', function (e) {
             if ( e.which === (49 || 97) /*1*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.5 ;
-                document.getElementById("hayasa").innerHTML = that.audio_element.playbackRate;
+                document.getElementById("hayasa").innerHTML = String(that.audio_element.playbackRate) + "倍速";
             }
         }, false);
 
