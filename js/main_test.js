@@ -34,9 +34,17 @@ window.addEventListener('load', function (e) {
         if (supports_playback_rate) {
             var rate_range_element = document.getElementById('playback-rate');
             rate_range_element.disabled = false;
-            rate_range_element.addEventListener(('keyup' || 'change'), function (e) {
-                args.audio_element.playbackRate = this.valueAsNumber;
+            rate_range_element.addEventListener(('keypress' || 'change'), function (e) {
+		args.audio_element.playbackRate = this.valueAsNumber;
+            if ( (e.charCode || e.keyCode) === (52 || 100) /*4*/) {
+                e.preventDefault();
+                    args.audio_element.playbackRate = 0.9 ;
+            }
             }, false);
+            if ( (e.charCode || e.keyCode) === (57 || 105) /*9*/) {
+                e.preventDefault();
+                    args.audio_element.playbackRate = 3 ;
+            }
         }
         else {
             document.querySelector('.playback-rate-unavailable').hidden = false;
