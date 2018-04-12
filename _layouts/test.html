@@ -119,11 +119,10 @@ input:checked + .slider:before {
                 </audio>
             </p>
 
-	    <label class="switch">
-	        <input type="checkbox" id="playswitch" onclick="togglePlay()" checked><span class="slider round"></span>
-	    </label>
-            <label for="playswitch">読み上げる</label>
-
+	    <p style="font-weight: bold; text-indent: 2em; font-size: smaller;">
+	        <input type="checkbox" id="playswitch" onclick="togglePlay()" checked>
+		<label for="playswitch">読み上げる</label>
+	    </p>
 <!--label class="switch">
   <input type="checkbox" checked>
   <span class="slider round"></span>
@@ -204,26 +203,13 @@ function togglePlay() {
   // Get the checkbox
   var playSwitch = document.getElementById("playswitch");
   if (audioControl.paused || audioControl.ended ){
-    playSwitch.checked = false;
-    audioControl.play();
-  } else {
     playSwitch.checked = true;
     audioControl.pause();
+  } else {
+    playSwitch.checked = false;
+    audioControl.play();
   }
 } 
-function setPlay() { 
-    audioControl.play();
-} 
-function setPause() { 
-    audioControl.pause();
-} 
-if (!window.console){
-    window.console = {
-        log : function(msg){
-            // do nothing.
-        }
-    };
-}
 	</script>
         <script src="js/read-along.js"></script>
         <script src="js/main.js"></script>
