@@ -35,7 +35,8 @@ window.addEventListener('load', function (e) {
             var rate_range_element = document.getElementById('playback-rate');
             rate_range_element.disabled = false;
             rate_range_element.addEventListener('change', function (e) {
-		args.audio_element.playbackRate = this.valueAsNumber;
+                args.audio_element.playbackRate = this.valueAsNumber;
+            }, false);
         }
         else {
             document.querySelector('.playback-rate-unavailable').hidden = false;
