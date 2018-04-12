@@ -16,7 +16,40 @@ window.addEventListener('load', function (e) {
             throw new Error('Cannot play any of the available sources');
         }
 
+        var supports_playback_rate = (function (audio) {
+            if (typeof audio.playbackRate !== 'number' || isNaN(audio.playbackRate)) {
+                return false;
+            }
 
+            // For Opera, since it doesn't currently support playbackRate and yet
+            // has it defined as 1.0, we can detect Opera support by changing
+            // the playbackRate and see if the change sticks.
+            var original_playback_rate = audio.playbackRate;
+            audio.playbackRate += 1.0;
+            var is_playback_rate_changed = (original_playback_rate !== audio.playbackRate);
+            audio.playbackRate = original_playback_rate;
+            return is_playback_rate_changed;
+        }(args.audio_element));
+
+        if (supports_playback_rate) {
+            var rate_range_element = document.getElementById('playback-rate');
+            rate_range_element.disabled = false;
+	    var speed = args.audio_element.playbackRate;
+    function setFast() { 
+    speed = speed + 0.5;
+    document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
+},
+    function setSlow() { 
+    speed = speed - 0.5;
+    document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
+};
+            //rate_range_element.addEventListener('change', function (e) {
+            //    args.audio_element.playbackRate = this.valueAsNumber;
+            //}, false);
+        }
+        else {
+            document.querySelector('.playback-rate-unavailable').hidden = false;
+        }
 
         ReadAlong.init(args);
 
@@ -25,6 +58,9 @@ window.addEventListener('load', function (e) {
         }, false);
 
         document.querySelector('.passage-audio').hidden = false;
+        if (supports_playback_rate) {
+            document.querySelector('.playback-rate').hidden = false;
+        }
         document.querySelector('.autofocus-current-word').hidden = false;
     }
     catch (err) {
