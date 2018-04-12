@@ -32,17 +32,18 @@ window.addEventListener('load', function (e) {
         }(args.audio_element));
 
         if (supports_playback_rate) {
-            var rate_range_element = document.getElementById('playback-rate');
-            rate_range_element.disabled = false;
-	    var speed = document.getElementById('passage-audio').playbackRate;
-            function setFast() { 
-                speed = speed + 0.5;
-                document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
-}
-            function setSlow() { 
-                speed = speed - 0.5;
-                document.getElementById("hayasa").innerHTML = String(speed) + "倍速";
-}
+            var rate_fast_element = document.getElementById('playback-rate');
+            var rate_slow_element = document.getElementById('playback-slow');
+            rate_fast_element.disabled = false;
+            rate_fast_element.addEventListener('click', function (e) {
+                args.audio_element.playbackRate = args.audio_element.playbackRate + 0.5;
+                document.getElementById("hayasa").innerHTML = String(args.audio_element.playbackRate) + "倍速";
+            }, false);
+            rate_slow_element.addEventListener('click', function (e) {
+                args.audio_element.playbackRate = args.audio_element.playbackRate - 0.25;
+                document.getElementById("hayasa").innerHTML = String(args.audio_element.playbackRate) + "倍速";
+            }, false);
+	    
             //rate_range_element.addEventListener('change', function (e) {
             //    args.audio_element.playbackRate = this.valueAsNumber;
             //}, false);
