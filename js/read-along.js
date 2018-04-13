@@ -171,8 +171,8 @@ var ReadAlong = {
                 return;
             }
 	    // modified from the original: don't prevent default for link.
-	    // enabled again for preventing number keys' behaviour of NVDA. 
-            e.preventDefault();
+	    // enabled once for preventing number keys' behaviour of NVDA, but failed.
+            //e.preventDefault();
 
             var i = e.target.dataset.index;
             that.audio_element.currentTime = that.words[i].begin + 0.01; //Note: times apparently cannot be exactly set and sometimes select too early
