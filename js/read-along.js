@@ -171,7 +171,7 @@ var ReadAlong = {
                 return;
             }
 	    // modified from the original: don't prevent default for link.
-	    // enabled again for prevent toggling checkbox by Space key. 
+	    // enabled again for preventing number keys' behaviour of NVDA. 
             e.preventDefault();
 
             var i = e.target.dataset.index;
