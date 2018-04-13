@@ -65,7 +65,7 @@ body {
    left: 0;
 margin-left: auto;
    margin-right: auto;
-   min-height: 9em;
+   min-height: 10em;
    max-width: 46em;
    background: rgba(255, 255, 255, .90);
    border-color: aaa;
@@ -91,6 +91,7 @@ margin-left: auto;
 .autofocus-current-word,
 .playback-rate {
     font-size: smaller;
+    padding-bottom: 1em;
 }
 .autofocus-current-word label,
 .playback-rate label {
