@@ -1,5 +1,6 @@
 ---
 layout: print
+title: 音訳グループ やまびこ
 ---
 # 音訳グループ やまびこ
 ## <span data-dur="4.65" data-begin="35.014">音訳とは？ 私たちの活動について</span>
