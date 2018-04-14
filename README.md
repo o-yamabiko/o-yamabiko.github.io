@@ -1,18 +1,18 @@
-<div id="parent">
-<span data-dur="30.256" data-begin="4.758">注：</span>
-<div id="popup">
-私の声のオンオフ切り替えはスペース・キー。<br />
-速さの調節は、
-数字の3のキーで早口、
-2のキーでゆっくり、
-1のキーで5秒戻ります。<br />
-私の声をオフにして、
-「音声なし
-（印刷用）ページ」を開くと、
-スクリーンリーダーでも読めます。
+
+<!--div id="parent" no need of popup-->
+<span data-dur="1.393" data-begin="4.758">注：</span>  
+<!--div id="popup" no need of popup-->
+<span data-dur="5.483" data-begin="6.151">私の声のオンオフ切り替えはスペース・キー。</span>  
+<span data-dur="1.919" data-begin="11.634">速さの調節は、</span>
+<span data-dur="2.602" data-begin="13.553">数字の3のキーで早口、</span>
+<span data-dur="1.869" data-begin="16.155">2のキーでゆっくり、</span>
+<span data-dur="3.838" data-begin="18.024">1のキーで5秒戻ります。</span>  
+<span data-dur="2.317" data-begin="21.862">私の声をオフにして、</span>
+<span data-dur="4.256" data-begin="24.179">「音声なし（印刷用）ページ」を開くと、</span>
+<span data-dur="6.579" data-begin="28.435">スクリーンリーダーでも読めます。</span>
 <!--注終わり。-->
-</div>
-</div>
+<!--/div>
+</div no need of popup-->
 
 ## <span data-dur="4.65" data-begin="35.014">音訳とは？ 私たちの活動について</span>
 
