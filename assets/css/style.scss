@@ -290,8 +290,6 @@ $toggle-disabled-tab-bg: #FFFFFF;
   cursor: pointer;
   user-select: none;
   margin: 0 0 5px 0;
-  font-weight: bold;
-  padding: 0.5em;
 
   // add default box-sizing for this scope
   &, &:after, &:before,
@@ -309,7 +307,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
     height: 1.8em;
     line-height: 1.2em;
     overflow: hidden;
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
     border-radius: 2em;
     padding: 0.2em 1em;
