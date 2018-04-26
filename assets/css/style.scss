@@ -247,13 +247,13 @@ q {
 
 // checkbox
 // Variables
-@toggle-enabled-bg: #0F9A25;
-@toggle-enabled-color: #ffffff;
-@toggle-enabled-tab-bg: #FFFFFF;
+$toggle-enabled-bg: #0F9A25;
+$toggle-enabled-color: #ffffff;
+$toggle-enabled-tab-bg: #FFFFFF;
 
-@toggle-disabled-bg: #de474e;
-@toggle-disabled-color: #ffffff;
-@toggle-disabled-tab-bg: #FFFFFF;
+$toggle-disabled-bg: #de474e;
+$toggle-disabled-color: #ffffff;
+$toggle-disabled-tab-bg: #FFFFFF;
 
 /** EXAMPLE
   <label class="tgl">
@@ -291,7 +291,7 @@ q {
     text-align: center;
     border-radius: 2em;
     padding: 0.2em 1em;
-    border: 1px solid darken(@toggle-enabled-tab-bg, 2);
+    border: 1px solid darken($toggle-enabled-tab-bg, 2);
     box-shadow:
     inset 0 2px 0 rgba(0,0,0,.2),
     0 2px 0 rgba(255,255,255,0.7);
@@ -318,7 +318,7 @@ q {
       height: 1.3em;
       margin-left: -1.45em;
       top: 0.2em;
-      background: @toggle-enabled-tab-bg;
+      background: $toggle-enabled-tab-bg;
       transition:
         left 0.3s cubic-bezier( 0.175, 0.885, 0.320, 0.97 ),
         background 0.3s ease-in-out;  
@@ -334,16 +334,16 @@ q {
     // Off
     &:not(:checked) {
       + span {
-        background: @toggle-disabled-bg;
-        color: @toggle-disabled-color;
+        background: $toggle-disabled-bg;
+        color: $toggle-disabled-color;
         padding-left: 1.6em;
         padding-right: 0.4em;
         &:before {
           content: attr(data-off);
-          color: @toggle-disabled-color;
+          color: $toggle-disabled-color;
         }
         &:after {
-          background: @toggle-disabled-tab-bg;
+          background: $toggle-disabled-tab-bg;
           left: 1.6em;
         }
       }
@@ -352,15 +352,15 @@ q {
     // On
     &:checked {
       + span {
-        background: @toggle-enabled-bg;
-        color: @toggle-enabled-color;
+        background: $toggle-enabled-bg;
+        color: $toggle-enabled-color;
         padding-left: 0.4em;
         padding-right: 1.6em;
         &:before {
           content: attr(data-on);
         }
         &:after {
-          background: @toggle-enabled-tab-bg;
+          background: $toggle-enabled-tab-bg;
           left: 100%;
         }
       }
@@ -379,13 +379,13 @@ q {
   input[type="checkbox"]{
     &:not(:checked) {
       + span {
-        background: lighten(desaturate(@toggle-enabled-bg, 100%), 20%);
-        color: darken(desaturate(@toggle-disabled-color, 100%), 0%);
+        background: lighten(desaturate($toggle-enabled-bg, 100%), 20%);
+        color: darken(desaturate($toggle-disabled-color, 100%), 0%);
         &:before {
-          color: darken(desaturate(@toggle-disabled-color, 100%), 0%);
+          color: darken(desaturate($toggle-disabled-color, 100%), 0%);
         }
         &:after {
-          background: desaturate(@toggle-disabled-tab-bg, 100%);
+          background: desaturate($toggle-disabled-tab-bg, 100%);
         }
       }
     }
