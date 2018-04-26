@@ -438,3 +438,21 @@ $toggle-disabled-tab-bg: #FFFFFF;
   line-height: 26px;
 }
 
+// logo
+#logo {
+   position: fixed;
+   top: 8em;
+   bottom: 2em;
+   right: 0;
+   left: 0;
+   margin-left: auto;
+   margin-right: auto;
+   min-height: 30em;
+   max-width: 46em;
+   background: rgba(255, 255, 255, 0);
+   z-index: -1;
+   background-size: 30em;
+   background-position: 50% 0;
+   background-repeat: no-repeat;
+}
+
