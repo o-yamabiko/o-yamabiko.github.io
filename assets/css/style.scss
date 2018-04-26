@@ -57,7 +57,7 @@ body {
 //   font-size: calc(150% + 1.5vw)
 //}
 
-//reading aloud
+//reading aloud: modified from https://github.com/westonruter/html5-audio-read-along
 .controller {
    position: fixed;
    top: 0;
@@ -245,9 +245,9 @@ q {
 	padding-bottom: 2em;
       }
 
-// checkbox
+// checkbox: modified from https://codepen.io/labithiotis/pen/byskq
 // Variables
-$toggle-enabled-bg: #0F9A25;
+$toggle-enabled-bg: #1A6CD4;
 $toggle-enabled-color: #ffffff;
 $toggle-enabled-tab-bg: #FFFFFF;
 

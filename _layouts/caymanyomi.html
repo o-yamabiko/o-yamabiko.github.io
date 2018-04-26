@@ -84,13 +84,16 @@
 	    <div style="position: absolute; left: auto; right: 1em; top: 1em; font-size: small; background: rgba(255, 255, 255, .90);"><a href="/p{{ page.url }}">音声なし（印刷用）ページ</a></div>
 
 	    <p style="margin-left: 1rem; margin-top: 3rem;">
-	        <input type="checkbox" id="hyoji" onclick="showtext()">
-		<label for="hyoji" style="font-weight: bold; padding-right: 1em;">文字を表示</label>
-		
-            <span id="view" style="display: none;" class="autofocus-current-word" hidden>
-                <input type="checkbox" id="autofocus-current-word" checked>
-                <label for="autofocus-current-word">表示範囲を自動的に移動</label>
-            </span>
+              <label for="hyoji" class="tgl tgl-gray">  
+                <input type="checkbox" id="hyoji" onclick="showtext()">
+                <span data-on="文字表示中" data-off="文字を表示"></span>
+              </label>
+              <span id="view" style="display: none;" class="autofocus-current-word">
+                <label for="autofocus-current-word" class="tgl tgl-gray">
+		  <input type="checkbox" id="autofocus-current-word" checked="">
+                  <span data-on="自動スクロール中" data-off="表示範囲を自動に"></span>
+                </label>
+              </span>
 	    </p>
             <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
 	        <button id="playback-slow" type="button">ゆっくり</button> <span id="hayasa">1倍速</span> <button id="playback-rate" type="button">すばやく</button>
