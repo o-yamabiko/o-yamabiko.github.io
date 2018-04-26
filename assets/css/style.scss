@@ -104,13 +104,33 @@ margin-left: auto;
 }
 .playback-rate #playback-slow {
     float: left;
+    width:8em;
+    border: none;
+    border-radius: 2em;
+    padding: 0.5em;
+    color: #ffffff;
+    font-weight: bold;
+    text-align:left;
+    background: #4D90E4;
+    background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A);
 }
 .playback-rate #playback-rate {
     float: right;
+    width:8em;
+    border: none;
+    border-radius: 2em;
+    padding: 0.5em;
+    color: #ffffff;
+    font-weight: bold;
+    text-align:left;
+    background: #4D90E4;
+    background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A, #4D90E4, #0F4D9A, #4D90E4, #0F4D9A);
 }
 #hayasa {
 font-size: normal;
 font-weight: bold;
+position:relative;
+bottom:-0.5em;
 }
 
 q {
