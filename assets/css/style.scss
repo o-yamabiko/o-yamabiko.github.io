@@ -99,6 +99,8 @@ margin-left: auto;
 }
 //fix width of playback-rate indicator
 .playback-rate {
+    position: relative;
+    left: 1.2em;
     width: 20em;
     text-align: center;
 }
