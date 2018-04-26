@@ -15,6 +15,9 @@
       .main-content {
          padding-top: 12em;
       }
+      #logo {
+         background-image: url('media/index/webtop.png');
+      }
         {% endif %}
         {% if page.iro %}
       body {
@@ -40,6 +43,9 @@
     </style>
   </head>
   <body{% if page.oto %} onload="showtext()"{% endif %}>
+        {% if page.oto %}
+  <div id="logo"></div>
+        {% endif %}
    <div id="passage-text" class="passage">
     <section class="main-content" id="bun"{% if page.oto %} style="display:none"{% endif %}>
 
