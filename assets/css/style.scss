@@ -118,10 +118,10 @@ margin-left: auto;
 }
 .playback-rate #playback-rate {
     float: right;
-    width:8em;
+    width: 8em;
     border: none;
     border-radius: 0.5em;
-    padding: 0.5em;
+    padding: 0.5em 0em 0.5em 0em;
     color: #ffffff;
     font-weight: bold;
     text-align:left;
@@ -131,9 +131,10 @@ margin-left: auto;
 }
 .playback-rate #skew {
     float: right;
-    width:8em;
+    width: 5em;
     border: none;
-    padding-left: 1.2em;
+    margin-left: 1.2em;
+    padding: 0em;
     transform: skewX(40deg);
 }
 #hayasa {
