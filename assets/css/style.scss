@@ -118,7 +118,7 @@ margin-left: auto;
 }
 .playback-rate #playback-rate {
     float: right;
-    width: 8em;
+    width: 6em;
     border: none;
     border-radius: 0.5em;
     padding: 0.5em 0em 0.5em 0em;
@@ -131,9 +131,9 @@ margin-left: auto;
 }
 .playback-rate #skew {
     float: right;
-    width: 5em;
+    width: 4em;
     border: none;
-    margin-left: 1em;
+    margin-left: 0.5em;
     margin-right: 1.2em;
     padding: 0em;
     transform: skewX(40deg);
