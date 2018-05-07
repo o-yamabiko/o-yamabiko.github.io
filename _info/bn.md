@@ -16,7 +16,7 @@ gra: 95B926
 
 <span data-dur="3.883" data-begin="23.236">以下は読み上げ版のリストです。</span>
 
-<span data-dur="3.344" data-begin="27.119">リスト項目5件。</span>
+<!--span data-dur="3.344" data-begin="27.119">リスト項目5件。</span-->
 - <span data-dur="2.624" data-begin="30.463"><a href="tusin201805.html" data-dur="1.932" data-begin="33.087">2018年5月号</a></span>
 - <span data-dur="2.624" data-begin="30.463"><a href="tusin201804.html" data-dur="1.932" data-begin="33.087">2018年4月号</a></span>
 - <span data-dur="2.735" data-begin="35.019"><a href="tusin201803.html" data-dur="1.932" data-begin="37.754">2018年3月号</a></span>
