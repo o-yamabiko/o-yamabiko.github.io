@@ -13,6 +13,7 @@ for i in *.pre
 	-e 's/? */？/g' \
 	-e 's/ *\[/［/g' \
 	-e 's/\] */］/g' \
+	-e 's/№/No\./g' \
 	-e 'y/“"/""/' \
 	$i > $i-temp
 	LC_COLLATE=C.UTF-8 sed \

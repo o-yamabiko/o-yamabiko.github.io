@@ -253,6 +253,14 @@ q {
 	max-width: 25em;
 	height: auto;
       }
+      .caption {
+        font-size: small;
+	font-weight: bold;
+	margin-left: auto;
+        margin-right: auto;
+	width: 90%;
+	max-width: 28rem;
+      }
       h1,h2,h3,h4,h5,h6 {
         clear: both;
       }
