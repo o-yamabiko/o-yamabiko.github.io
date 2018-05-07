@@ -66,7 +66,7 @@
 <span data-dur="3.003" data-begin="186.785">十条台句会から寄せられた俳句、</span>
 <span data-dur="2.48" data-begin="189.788">クイズなど。</span>
 
-- <span data-dur="1.46" data-begin="192.268"><a href="tusin201804.html" data-dur="2.282" data-begin="193.728">最新号</a></span>
+- <span data-dur="1.46" data-begin="192.268"><a href="tusin201805.html" data-dur="2.282" data-begin="193.728">最新号</a></span>
 - <span data-dur="1.634" data-begin="196.010"><a href="bn.html" data-dur="2.282" data-begin="197.644">バックナンバー</a></span>
 
 ## <span data-dur="1.943" data-begin="199.926">お問い合わせ</span>
