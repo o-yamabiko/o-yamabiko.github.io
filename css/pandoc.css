@@ -344,7 +344,7 @@ table td {
  .pglinkl {
    position: absolute;
    left: 0;
-   bottom: 2em;
+   bottom: 0;
    padding: 1em;
    background: rgba(255, 255, 255, .90);
    border-color: aaa;
@@ -354,7 +354,7 @@ table td {
  .pglinkr {
    position: absolute;
    right: 0;
-   bottom: 2em;
+   bottom: 0;
    padding: 1em;
    background: rgba(255, 255, 255, .90);
    border-color: aaa;
