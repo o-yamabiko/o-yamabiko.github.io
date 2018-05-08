@@ -63,7 +63,7 @@ body {
    top: 0;
    right: 0;
    left: 0;
-margin-left: auto;
+   margin-left: auto;
    margin-right: auto;
    min-height: 10em;
    max-width: 46em;
@@ -194,15 +194,23 @@ q {
    left: 0;
    margin-left: auto;
    margin-right: auto;
-   width: 20em;
-   text-align: center;
+   max-width: 46em;
  }
- .pglink {
+ .pglinkr {
    padding: 1em;
    background: rgba(255, 255, 255, .90);
    border-color: aaa;
    border-width: 3px;
    border-style: outset;
+   float: right;
+ }
+ .pglinkl {
+   padding: 1em;
+   background: rgba(255, 255, 255, .90);
+   border-color: aaa;
+   border-width: 3px;
+   border-style: outset;
+   float: left;
  }
 
 //popup
