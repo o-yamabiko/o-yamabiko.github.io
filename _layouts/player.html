@@ -58,13 +58,13 @@
       <div>
         文責： <a href="{{ site.url }}">音訳グループ やまびこ</a>
       </div>
-      <div>
+      <div style="padding-bottom: 5em;">
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
       </div>
        {% if page.navigation %}
 <div class="nav">
          {% if page.previous %}
-<span class="pglink"><a href="{{ page.previous.url }}">前号</a></span>
+<span class="pglink" style="margin-right: 50%;"><a href="{{ page.previous.url }}">前号</a></span>
          {% endif %}
          {% if page.next %}
 <span class="pglink"><a href="{{ page.next.url }}">次号</a></span>
