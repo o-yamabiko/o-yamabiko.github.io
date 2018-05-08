@@ -340,6 +340,7 @@ table td {
     page-break-after: avoid;
   }
 }
+//page navigation
  .nav {
    position: fixed;
    bottom: 2em;
@@ -347,15 +348,23 @@ table td {
    left: 0;
    margin-left: auto;
    margin-right: auto;
-   width: 20em;
-   text-align: center;
+   max-width: 46em;
  }
- .pglink {
+ .pglinkr {
    padding: 1em;
    background: rgba(255, 255, 255, .90);
    border-color: aaa;
    border-width: 3px;
    border-style: outset;
+   float: right;
+ }
+ .pglinkl {
+   padding: 1em;
+   background: rgba(255, 255, 255, .90);
+   border-color: aaa;
+   border-width: 3px;
+   border-style: outset;
+   float: left;
  }
 
 .controller {
