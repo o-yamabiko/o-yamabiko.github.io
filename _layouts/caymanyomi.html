@@ -53,11 +53,11 @@
     <meta name="msapplication-config" content="/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff"-->
   </head>
-  <body>
+  <body{% if page.oto %} onload="showtext()"{% endif %}>
         {% if page.oto %}
   <div id="logo"></div>
         {% endif %}
-   <div id="passage-text" class="passage"{% if page.oto %} onload="showtext()"{% endif %}>
+   <div id="passage-text" class="passage">
     <section class="main-content" id="bun"{% if page.oto %} style="display:none"{% endif %}>
 
       {% if site.github.is_project_page %}
