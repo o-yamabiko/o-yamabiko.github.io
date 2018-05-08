@@ -329,6 +329,7 @@ table td {
   h2, h3 {
     page-break-after: avoid;
   }
+}
 
 //page navigation
  .nav {
@@ -356,4 +357,5 @@ table td {
    border-style: outset;
    float: left;
  }
+
 
