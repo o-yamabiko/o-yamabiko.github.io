@@ -64,10 +64,10 @@
        {% if page.navigation %}
 <div class="nav">
          {% if page.previous %}
-<span class="pglink" style="text-align: left;"><a href="{{ page.previous.url }}">前号</a></span>
+<span class="pglink" style="position: absolute; left: 0;"><a href="{{ page.previous.url }}">前号</a></span>
          {% endif %}
          {% if page.next %}
-<span class="pglink" style="margin-left: auto; margin-right: 0;"><a href="{{ page.next.url }}">次号</a></span>
+<span class="pglink" style="position: absolute; right: 0;"><a href="{{ page.next.url }}">次号</a></span>
          {% endif %}
 </div> 
        {% endif %}
