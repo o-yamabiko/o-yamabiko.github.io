@@ -45,6 +45,7 @@ for i in *.pre
 	-e 's/⒅/ (18) /g' \
 	-e 's/⒆/ (19) /g' \
 	-e 's/⒇/ (20) /g' \
+	-e 's/．/\. /g' \
 	$i-temp > $i-temp2
 	sed \
 	-e 's/^ *//' \
