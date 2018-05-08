@@ -35,5 +35,5 @@ grep $1 bn.list > search
 
 	fi
 
-rm search
+rm search temp.md
 
