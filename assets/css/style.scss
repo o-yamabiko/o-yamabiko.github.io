@@ -275,6 +275,11 @@ q {
       font-weight: normal;
     }
 
+//less padding of blockquote
+    .main-content blockquote {
+      padding:0 0.1rem;
+    }
+
 // haigou
       .haigo {
         clear: both;
