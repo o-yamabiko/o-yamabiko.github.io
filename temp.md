@@ -13,10 +13,3 @@ gra: 95B926
 
 以下は読み上げ版のリストです。
 
-- <a href="tusin201805.html">2018年5月号</a>
-- <a href="tusin201804.html">2018年4月号</a>
-- <a href="tusin201803.html">2018年3月号</a>
-- <a href="tusin201802.html">2018年2月号</a>
-- <a href="tusin201801.html">2018年1月号</a>
-- <a href="tusin201712.html">2017年12月号</a>
-
