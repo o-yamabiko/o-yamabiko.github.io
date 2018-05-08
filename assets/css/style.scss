@@ -277,7 +277,10 @@ q {
 
 //less padding of blockquote
     .main-content blockquote {
-      padding:0 0.1rem;
+      padding: 0.5em 0 0 0;
+    }
+    .main-content blockquote li {
+      padding: 0;
     }
 
 // haigou
