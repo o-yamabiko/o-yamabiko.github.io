@@ -330,8 +330,6 @@ table td {
     page-break-after: avoid;
   }
 }
-
-//page navigation
  .nav {
    position: fixed;
    bottom: 2em;
@@ -349,4 +347,4 @@ table td {
    border-width: 3px;
    border-style: outset;
  }
- 
+
