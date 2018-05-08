@@ -23,7 +23,6 @@
     <meta name="theme-color" content="#ffffff"-->
  </head>
 <body>
-<div>
 <div id="jquery_jplayer_1" class="jp-jplayer"></div>
 <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player" style="margin: 0 auto; max-width: 100% !important;">
 	<div class="jp-type-playlist">
@@ -60,9 +59,8 @@
         文責： <a href="{{ site.url }}">音訳グループ やまびこ</a>
       </div>
       <div>
-    	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="padding-bottom: 5em">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
+    	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
       </div>
-    </footer>
        {% if page.navigation %}
 <div class="nav">
          {% if page.previous %}
@@ -73,6 +71,6 @@
          {% endif %}
 </div> 
        {% endif %}
-</div>
+    </footer>
   </body>
 </html>
