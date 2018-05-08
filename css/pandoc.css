@@ -334,15 +334,13 @@ table td {
 //page navigation
  .nav {
    position: fixed;
-   top: 90%;
    bottom: 2em;
    right: 0;
    left: 0;
    margin-left: auto;
    margin-right: auto;
-   width: 100%;
-   max-width: 42em;
-   height: auto;
+   width: 20em;
+   text-align: center;
  }
  .pglinkr {
    padding: 1em;
