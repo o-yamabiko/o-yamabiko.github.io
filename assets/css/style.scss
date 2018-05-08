@@ -236,10 +236,26 @@ q {
 	height: auto;
 	margin:1em 1em 1em 0em;
       }
+      blockquote .hidari {
+        clear: both;
+        float: left;
+	width: 32%;
+	max-width: 5em;
+	height: auto;
+	margin:1em 1em 1em 0em;
+      }
       .migi {
         clear: both;
         float: right;
 	width: 30%;
+	max-width: 5em;
+	height: auto;
+	margin:1em 0em 1em 1em;
+      }
+      blockquote .migi {
+        clear: both;
+        float: right;
+	width: 32%;
 	max-width: 5em;
 	height: auto;
 	margin:1em 0em 1em 1em;
@@ -281,7 +297,7 @@ q {
       margin: 0;
     }
     .main-content blockquote ul {
-      margin-left: 0.5em;
+      margin-left: 2em;
       padding-left: 0;
     }
 
