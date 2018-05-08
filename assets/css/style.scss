@@ -194,23 +194,29 @@ q {
    left: 0;
    margin-left: auto;
    margin-right: auto;
+   width: 100%;
    max-width: 46em;
- }
- .pglinkr {
-   padding: 1em;
-   background: rgba(255, 255, 255, .90);
-   border-color: aaa;
-   border-width: 3px;
-   border-style: outset;
-   float: right;
+   text-align: center;
  }
  .pglinkl {
+   position: absolute;
+   left: 0;
+   bottom: 0;
    padding: 1em;
    background: rgba(255, 255, 255, .90);
    border-color: aaa;
    border-width: 3px;
    border-style: outset;
-   float: left;
+ }
+ .pglinkr {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   padding: 1em;
+   background: rgba(255, 255, 255, .90);
+   border-color: aaa;
+   border-width: 3px;
+   border-style: outset;
  }
 
 //popup
