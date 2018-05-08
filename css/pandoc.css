@@ -337,7 +337,11 @@ table td {
    bottom: 2em;
    right: 0;
    left: 0;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
    max-width: 42em;
+   height: auto;
  }
  .pglinkr {
    padding: 1em;

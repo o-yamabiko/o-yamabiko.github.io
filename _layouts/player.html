@@ -52,16 +52,6 @@
 		</div>
 	</div>
 </div>
-       {% if page.navigation %}
-<div class="nav">
-         {% if page.previous %}
-<span class="pglinkl"><a href="{{ page.previous.url }}">前号</a></span>
-         {% endif %}
-         {% if page.next %}
-<span class="pglinkr"><a href="{{ page.next.url }}">次号</a></span>
-         {% endif %}
-</div> 
-       {% endif %}
     <div>
       {{ content }}
     </div>
@@ -73,6 +63,16 @@
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" style="padding-bottom: 5em">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
       </div>
     </footer>
+       {% if page.navigation %}
+<div class="nav">
+         {% if page.previous %}
+<span class="pglinkl"><a href="{{ page.previous.url }}">前号</a></span>
+         {% endif %}
+         {% if page.next %}
+<span class="pglinkr"><a href="{{ page.next.url }}">次号</a></span>
+         {% endif %}
+</div> 
+       {% endif %}
 </div>
   </body>
 </html>
