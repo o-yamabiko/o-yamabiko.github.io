@@ -71,16 +71,6 @@
       {{ content }}
 
       <footer class="site-footer">
-       {% if page.navigation %}
-<div class="nav">
-         {% if page.previous %}
-<span class="pglink"><a href="{{ page.previous.url }}">前号</a></span>
-         {% endif %}
-         {% if page.next %}
-<span class="pglink"><a href="{{ page.next.url }}">次号</a></span>
-         {% endif %}
-</div> 
-       {% endif %}
        <div class="site-footer-owner"><a href="{{ site.url }}">音訳グループ やまびこ</a></div>
        {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
@@ -96,6 +86,16 @@
       </footer>
     </section>
    </div>
+       {% if page.navigation %}
+<div class="nav">
+         {% if page.previous %}
+<span class="pglink"><a href="{{ page.previous.url }}">前号</a></span>
+         {% endif %}
+         {% if page.next %}
+<span class="pglink"><a href="{{ page.next.url }}">次号</a></span>
+         {% endif %}
+</div> 
+       {% endif %}
         {% if page.oto %}
 	<div class="controller">
 	    <div style="position: absolute; left: auto; right: 1em; top: 1em; font-size: small; background: rgba(255, 255, 255, .90);"><a href="/p{{ page.url }}">音声なし（印刷用）ページ</a></div>
