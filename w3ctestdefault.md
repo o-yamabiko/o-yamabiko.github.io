@@ -1,6 +1,7 @@
 ---
 layout: w3ctestdefault
 ---
+
 <span data-dur="1.393" data-begin="8.860">注：</span>  
 <span data-dur="5.483" data-begin="10.253">私の声のオンオフ切り替えはスペース・キー。</span>  
 <span data-dur="1.919" data-begin="15.736">速さの調節は、</span>
