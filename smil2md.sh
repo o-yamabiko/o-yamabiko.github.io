@@ -1,16 +1,32 @@
 #!/bin/bash
 # Ruby at a character other than the beginning of a phrase should be prefixedby ｜.
 # It requires MultimediaDAISY2.02 files under directory $1 consisting of only one section. $2 is a project name.
+
+YEAR="`echo $2 | sed -e 's/tusin\([0-9][0-9][0-9][0-9]\)[01][0-9]/\1/'`"
+MONTH2="`echo $2 | sed -e 's/tusin[0-9][0-9][0-9][0-9]\([01][0-9]\)/\1/'`"
+if [[ $MONTH2 == '0'* ]]; then
+  MONTH1="`echo $MONTH2 | sed -e 's/0\([0-9]\)/\1/'`"
+else
+  MONTH1=$MONTH2
+fi
+
 # create base md
 echo '---' > $2.md
 echo 'layout: caymanyomi' >> $2.md
-echo 'title: ' >> $2.md
+
+# if tusinYYYYmm
+if [[ $2 != tusin* ]]; then
+  echo 'title: ' >> $2.md
+else
+  echo 'title: やまびこ通信'$YEAR'年'$MONTH1'月号' >> $2.md
+fi
+
 echo 'author: 音訳グループ やまびこ' >> $2.md
 echo 'date: '`date +%Y-%m-%dT%TZ` >> $2.md
 echo 'oto: '$2'/sound0001' >> $2.md
 echo 'iro: ' >> $2.md
 echo 'gra: ' >> $2.md
-echo 'background: '$2'/default.jpg' >> $2.md
+echo 'background: '$2'/default.png' >> $2.md
 echo 'imagefrom: ' >> $2.md
 echo 'imagefromurl: ' >> $2.md
 echo 'navigation: true' >> $2.md

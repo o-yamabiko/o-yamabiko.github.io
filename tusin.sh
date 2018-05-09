@@ -2,10 +2,10 @@
 
 # $1 should be in the form "tusinYYYYmm".
 
-YEAR=`echo $1 | sed -e 's/tusin\([0-9][0-9][0-9][0-9]\)[01][0-9]/\1/'`
-MONTH2=`echo $1 | sed -e 's/tusin[0-9][0-9][0-9][0-9]\([01][0-9]\)/\1/'`
-if [ $MONTH2='0'* ]; then
-  MONTH1=`echo $MONTH2 | sed -e 's/0\([0-9]\)/\1/'`
+YEAR="`echo $1 | sed -e 's/tusin\([0-9][0-9][0-9][0-9]\)[01][0-9]/\1/'`"
+MONTH2="`echo $1 | sed -e 's/tusin[0-9][0-9][0-9][0-9]\([01][0-9]\)/\1/'`"
+if [[ $MONTH2 == '0'* ]]; then
+  MONTH1="`echo $MONTH2 | sed -e 's/0\([0-9]\)/\1/'`"
 else
   MONTH1=$MONTH2
 fi
