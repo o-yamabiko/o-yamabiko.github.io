@@ -98,7 +98,6 @@
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
       </div>
     </footer>
-</div>
        {% if page.navigation %}
 <div class="nav">
          {% if page.previous %}
@@ -109,5 +108,6 @@
          {% endif %}
 </div> 
        {% endif %}
+</div>
   </body>
 </html>
