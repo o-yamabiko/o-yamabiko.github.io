@@ -203,7 +203,7 @@ var ReadAlong = {
         /**
          * Up/down arrows, Shift, Ctrl or Alt stop playback (avoid conflict with PC-Talker)
          */
-        document.addEventListener('keypress', function (e) {
+        document.addEventListener('keydown', function (e) {
             if ( (e.charCode || e.keyCode) === (38 || 40 || 16 || 17 || 18) /*Up/down arrows, Shift, Ctrl or Alt*/) {
                 e.preventDefault();
                 that.audio_element.pause();
@@ -228,13 +228,25 @@ var ReadAlong = {
             }
         }, false);
         document.addEventListener('keypress', function (e) {
-            if ( e.which === (49 || 97 || 37) /*1 or left arrow*/) {
+            if ( e.which === (49 || 97) /*1*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
         document.addEventListener('keypress', function (e) {
-            if ( e.which === (52 || 100 || 39) /*4 or right arrow*/) {
+            if ( e.which === (52 || 100) /*4*/) {
+                e.preventDefault();
+                    that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
+            }
+        }, false);
+        document.addEventListener('keydown', function (e) {
+            if ( e.which === 37 /*Left arrow*/) {
+                e.preventDefault();
+                    that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
+            }
+        }, false);
+        document.addEventListener('keydown', function (e) {
+            if ( e.which === 39 /*Right arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
