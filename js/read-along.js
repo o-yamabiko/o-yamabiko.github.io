@@ -204,7 +204,7 @@ var ReadAlong = {
          * Up/down arrows, Shift, Ctrl or Alt stop playback (avoid conflict with PC-Talker)
          */
         document.addEventListener('keydown', function (e) {
-            if ( (e.charCode || e.keyCode) === (38 || 40 || 16 || 17 || 18) /*Up/down arrows, Shift, Ctrl or Alt*/) {
+            if ( (e.charCode || e.keyCode) === (40 || 38 || 16 || 17 || 18) /*Up/down arrows, Shift, Ctrl or Alt*/) {
                 e.preventDefault();
                 that.audio_element.pause();
             }
