@@ -201,10 +201,15 @@ var ReadAlong = {
         }, false);
 
         /**
-         * Up/down arrows, Shift, Ctrl or Alt stop playback (avoid conflict with PC-Talker)
+         * added to the original: Some browsers use keyCode, others use which.
+         */
+        var key = e.which || e.keyCode || 0;
+
+        /**
+         * added to the original: Down/Up arrows, Shift, Ctrl or Alt stop playback (avoid conflict with PC-Talker)
          */
         document.addEventListener('keydown', function (e) {
-            if ( (e.charCode || e.keyCode) === (40 || 38 || 16 || 17 || 18) /*Up/down arrows, Shift, Ctrl or Alt*/) {
+            if ( key === (40 || 38 || 16 || 17 || 18) /*Down/Up arrows, Shift, Ctrl or Alt*/) {
                 e.preventDefault();
                 that.audio_element.pause();
             }
