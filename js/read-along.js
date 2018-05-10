@@ -201,15 +201,10 @@ var ReadAlong = {
         }, false);
 
         /**
-         * added to the original: Some browsers use keyCode, others use which.
-         */
-        //var key = e.which || e.keyCode || 0;
-
-        /**
          * added to the original: Down/Up arrows, Shift, Ctrl or Alt stop playback (avoid conflict with PC-Talker)
          */
         document.addEventListener('keydown', function (e) {
-            if ( e.which === (40 || 38 || 16 || 17 || 18) /*Down/Up arrows, Shift, Ctrl or Alt*/) {
+            if ( e.which === (40 || 38) /*Down/Up arrows,  || 16 || 17 || 18Shift, Ctrl or Alt*/) {
                 e.preventDefault();
                 that.audio_element.pause();
             }
