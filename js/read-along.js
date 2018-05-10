@@ -201,6 +201,16 @@ var ReadAlong = {
         }, false);
 
         /**
+         * Up/down arrows, Shift, Ctrl or Alt stop playback (avoid conflict with PC-Talker)
+         */
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === (38 || 40 || 16 || 17 || 18) /*Up/down arrows, Shift, Ctrl or Alt*/) {
+                e.preventDefault();
+                that.audio_element.pause();
+            }
+        }, false);
+
+        /**
          * added to the original: make faster or slower, forward or backword
          */
         document.addEventListener('keypress', function (e) {
@@ -218,9 +228,15 @@ var ReadAlong = {
             }
         }, false);
         document.addEventListener('keypress', function (e) {
-            if ( e.which === (49 || 97) /*1*/) {
+            if ( e.which === (49 || 97 || 37) /*1 or left arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
+            }
+        }, false);
+        document.addEventListener('keypress', function (e) {
+            if ( e.which === (52 || 100 || 39) /*4 or right arrow*/) {
+                e.preventDefault();
+                    that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
         }, false);
 
