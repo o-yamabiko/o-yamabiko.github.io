@@ -97,6 +97,7 @@ cd sounds
 ../../wav2mp3ogg.sh
 cd -
 mkdir -p ../media/$2
-cp -i sounds/* ../media/$2
+cp -i sounds/*.mp3 ../media/$2
+cp -i sounds/*.ogg ../media/$2
 cd ..
 
