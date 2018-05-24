@@ -2,7 +2,8 @@
 layout: print
 title: 音訳グループ やまびこ
 ---
-# 音訳グループ やまびこ
+<h1 class="project-name" id="logotitle">音訳グループ やまびこ</h1>
+
 ## <span data-dur="4.65" data-begin="43.052">音訳とは？ 私たちの活動について</span>
 
 <span data-dur="7.975" data-begin="47.702">私たちは東京都北区を中心に活動している音訳ボランティアグループです。</span>
