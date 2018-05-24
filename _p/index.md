@@ -2,7 +2,7 @@
 layout: print
 title: 音訳グループ やまびこ
 ---
-<h1 class="project-name" id="logotitle">音訳グループ やまびこ</h1>
+<img class="naka" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />
 
 ## <span data-dur="4.65" data-begin="43.052">音訳とは？ 私たちの活動について</span>
 

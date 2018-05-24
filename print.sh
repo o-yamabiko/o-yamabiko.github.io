@@ -16,6 +16,6 @@ echo '---' > _p/index.md
 echo 'layout: print' >> _p/index.md
 echo 'title: 音訳グループ やまびこ' >> _p/index.md
 echo '---' >> _p/index.md
-echo '<h1 class="project-name" id="logotitle">音訳グループ やまびこ</h1>' >> _p/index.md
+echo '<img class="naka" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />' >> _p/index.md
 echo '' >> _p/index.md
 sed -n '/##/,$p' README.md >> _p/index.md
