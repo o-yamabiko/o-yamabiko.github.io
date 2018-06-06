@@ -45,6 +45,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/<span class=\"infty_silent\">\([^｜<]*\)<\/span>/SILENT<\1>SILENT/g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
+    -e 's/<\/span>\&nbsp; <span id=/<\/span>\n<span id=/g' \
     index.html > temp1
 sed \
     -e 's/^.*span id=\"[a-zA-Z0-9_]*\">\(.*\)<\/span.*$/\1/' \
