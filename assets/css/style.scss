@@ -68,7 +68,7 @@ body {
    min-height: 10em;
    max-width: 46em;
    background: rgba(255, 255, 255, .90);
-   border-color: aaa;
+   border-color: #aaa;
    border-width: 3px;
    border-style: outset;
 }
@@ -139,7 +139,7 @@ body {
     transform: skewX(40deg);
 }
 #hayasa {
-font-size: normal;
+font-size: medium;
 font-weight: bold;
 position:relative;
 bottom:-0.5em;
@@ -204,7 +204,7 @@ q {
    bottom: 0;
    padding: 1em;
    background: rgba(255, 255, 255, .90);
-   border-color: aaa;
+   border-color: #aaa;
    border-width: 3px;
    border-style: outset;
  }
@@ -214,7 +214,7 @@ q {
    bottom: 0;
    padding: 1em;
    background: rgba(255, 255, 255, .90);
-   border-color: aaa;
+   border-color: #aaa;
    border-width: 3px;
    border-style: outset;
  }
@@ -230,7 +230,7 @@ q {
       display: block;
       position: absolute;
       background: rgba(255, 255, 255, .90);
-      border-color: aaa;
+      border-color: #aaa;
       border-width: 3px;
       border-style: outset;
       margin-right: 5em;
