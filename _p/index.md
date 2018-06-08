@@ -42,7 +42,7 @@ title: 音訳グループ やまびこ
 <span data-dur="2.813" data-begin="140.849">まずご相談ください。</span>
 
 <span data-dur="1.56" data-begin="143.662">連絡先は、</span>
-<span data-dur="2.517" data-begin="145.222">やまびこ代表大川</span>
+<span data-dur="2.517" data-begin="145.222">やまびこ代表 大川</span>
 <span data-dur="1.627" data-begin="147.739">（電話番号</span>
 <span data-dur="4.419" data-begin="149.366">03-3910-7331）。</span>
 
@@ -90,7 +90,7 @@ title: 音訳グループ やまびこ
 <span data-dur="3.968" data-begin="274.935">見学や入会はいつでも受け付けていますので、</span>
 <span data-dur="6.458" data-begin="278.903">音訳のボランティアに興味のある方はお気軽にご連絡ください。</span>
 
-<span data-dur="4.407" data-begin="285.361">連絡先：やまびこ代表大川薫</span>
+<span data-dur="4.407" data-begin="285.361">連絡先：やまびこ代表 大川 薫</span>
 <span data-dur="4.069" data-begin="289.768">03-3910-7331</span>  
 <span data-dur="2.728" data-begin="293.837"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.632" data-begin="296.565">このサイトについてのお問い合わせ</a></span>
 
