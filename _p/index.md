@@ -46,52 +46,52 @@ title: 音訳グループ やまびこ
 <span data-dur="1.627" data-begin="147.739">（電話番号</span>
 <span data-dur="4.419" data-begin="149.366">03-3910-7331）。</span>
 
-<span data-dur="3.142" data-begin="153.785">原本と書き込み用のCDは、</span>
-<span data-dur="3.285" data-begin="156.927">そちらでご用意いただきます。</span>
-<span data-dur="7.97" data-begin="160.212">CDを当方で用意する場合はCD代として100円ご負担ください。</span>
+<span data-dur="6.409" data-begin="153.785">ご依頼の際は原本と書き込み用のCDをご用意ください。</span>
+<span data-dur="8.703" data-begin="160.194">CDを当方で用意する場合はCD代として100円ご負担いただきます。</span>
 
-- <span data-dur="3.707" data-begin="168.182">人の声による録音図書</span>  
-<span data-dur="3.818" data-begin="171.889">人の声で音訳・録音する場合、</span><span data-dur="4.59" data-begin="175.707">単行本1冊あたり3ヶ月程度を目安として</span><span data-dur="2.916" data-begin="180.297">完成させます。</span>
-- <span data-dur="4.067" data-begin="183.213">合成音声による録音図書</span>  
-<span data-dur="3.671" data-begin="187.280">合成音声AITalkが組み込まれた、</span><span data-dur="4.872" data-begin="190.951"><a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="1.782" data-begin="195.823">音声付き電子書籍の編集ソフトChattyInfty3</a></span><span data-dur="1.348" data-begin="197.605">を使って、</span><span data-dur="5.441" data-begin="198.953">500ページあたり1ヶ月程度で仕上げます。</span>
+- <span data-dur="3.707" data-begin="168.897">人の声による録音図書</span>  
+<span data-dur="3.819" data-begin="172.604">人の声で音訳・録音する場合、</span><span data-dur="4.59" data-begin="176.423">単行本1冊あたり3ヶ月程度を目安として</span><span data-dur="3.265" data-begin="181.013">完成させます。</span>
+- <span data-dur="4.068" data-begin="184.278">合成音声による録音図書</span>  
+<span data-dur="3.67" data-begin="188.346">合成音声AITalkが組み込まれた、</span><span data-dur="4.872" data-begin="192.016"><a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="1.782" data-begin="196.888">音声付き電子書籍の編集ソフトChattyInfty3</a></span><span data-dur="1.348" data-begin="198.670">を使って、</span><span data-dur="5.441" data-begin="200.018">500ページあたり1ヶ月程度で仕上げます。</span>
 
-### <span data-dur="2.066" data-begin="204.394">その他</span>
+### <span data-dur="2.067" data-begin="205.459">その他</span>
 
-<span data-dur="2.549" data-begin="206.460">印刷物のテキストデータ化、</span>
-<span data-dur="1.763" data-begin="209.009">機器の設定など、</span>
-<span data-dur="4.612" data-begin="210.772">書かれた情報の音声化に際してお困りのことがあれば、</span>
-<span data-dur="4.329" data-begin="215.384">できる限りのお手伝いをします。</span>
+<span data-dur="2.548" data-begin="207.526">印刷物のテキストデータ化、</span>
+<span data-dur="1.763" data-begin="210.074">機器の設定など、</span>
+<span data-dur="4.613" data-begin="211.837">書かれた情報の音声化に際してお困りのことがあれば、</span>
+<span data-dur="4.328" data-begin="216.450">できる限りのお手伝いをします。</span>
 
-## <span data-dur="2.599" data-begin="219.713">やまびこ通信</span>
+## <span data-dur="2.599" data-begin="220.778">やまびこ通信</span>
 
-<span data-dur="3.125" data-begin="222.312">音訳グループやまびこが発行している</span>
-<span data-dur="2.391" data-begin="225.437">月刊誌です。</span>
+<span data-dur="3.125" data-begin="223.377">音訳グループやまびこが発行している</span>
+<span data-dur="2.391" data-begin="226.502">月刊誌です。</span>
 
-<span data-dur="1.296" data-begin="227.828">内容は、</span>
-<span data-dur="2.322" data-begin="229.124">前月の活動報告、</span>
-<span data-dur="2.144" data-begin="231.446">当月の活動予定、</span>
-<span data-dur="1.319" data-begin="233.590">実績、</span>
-<span data-dur="3.002" data-begin="234.909">十条台句会から寄せられた俳句、</span>
-<span data-dur="2.481" data-begin="237.911">クイズなど。</span>
+<span data-dur="1.296" data-begin="228.893">内容は、</span>
+<span data-dur="2.322" data-begin="230.189">前月の活動報告、</span>
+<span data-dur="2.144" data-begin="232.511">当月の活動予定、</span>
+<span data-dur="1.319" data-begin="234.655">実績、</span>
+<span data-dur="3.002" data-begin="235.974">十条台句会から寄せられた俳句、</span>
+<span data-dur="2.481" data-begin="238.976">クイズなど。</span>
 
-- <span data-dur="1.459" data-begin="240.392"><a href="tusin201806.html" data-dur="2.282" data-begin="241.851">最新号</a></span>
-- <span data-dur="1.634" data-begin="244.133"><a href="bn.html" data-dur="2.632" data-begin="245.767">バックナンバー</a></span>
+- <span data-dur="1.46" data-begin="241.457"><a href="tusin201806.html" data-dur="2.282" data-begin="242.917">最新号</a></span>
+- <span data-dur="1.634" data-begin="245.199"><a href="bn.html" data-dur="2.632" data-begin="246.833">バックナンバー</a></span>
 
-## <span data-dur="2.122" data-begin="248.399">定例会</span>
+## <span data-dur="2.122" data-begin="249.465">定例会</span>
 
-<span data-dur="4.206" data-begin="250.521">第2・第4金曜日10時～12時に</span>
-<span data-dur="3.265" data-begin="254.727">北区立中央図書館3階で、</span>
-<span data-dur="5.677" data-begin="257.992">やまびこのメンバーが集まって定例会を開いています。</span>
+<span data-dur="4.205" data-begin="251.587">第2・第4金曜日10時～12時に</span>
+<span data-dur="3.265" data-begin="255.792">北区立中央図書館3階で、</span>
+<span data-dur="5.677" data-begin="259.057">やまびこのメンバーが集まって定例会を開いています。</span>
 
-<span data-dur="3.784" data-begin="263.669">第2金曜日の11時から1時間と、</span>
-<span data-dur="3.972" data-begin="267.453">第4金曜日の会議の残り時間を利用して、</span>
-<span data-dur="3.51" data-begin="271.425">勉強会もしています。</span>
+<span data-dur="3.785" data-begin="264.734">第2金曜日の11時から1時間と、</span>
+<span data-dur="3.971" data-begin="268.519">第4金曜日の会議の残り時間を利用して、</span>
+<span data-dur="3.51" data-begin="272.490">勉強会もしています。</span>
 
-<span data-dur="3.968" data-begin="274.935">見学や入会はいつでも受け付けていますので、</span>
-<span data-dur="6.458" data-begin="278.903">音訳のボランティアに興味のある方はお気軽にご連絡ください。</span>
+<span data-dur="3.968" data-begin="276.000">見学や入会はいつでも受け付けていますので、</span>
+<span data-dur="6.459" data-begin="279.968">音訳のボランティアに興味のある方はお気軽にご連絡ください。</span>
 
-<span data-dur="4.407" data-begin="285.361">連絡先：やまびこ代表 大川 薫</span>
-<span data-dur="4.069" data-begin="289.768">03-3910-7331</span>  
-<span data-dur="2.728" data-begin="293.837"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.632" data-begin="296.565">このサイトについてのお問い合わせ</a></span>
+<span data-dur="4.407" data-begin="286.427">連絡先：やまびこ代表 大川 薫</span>
+<span data-dur="4.068" data-begin="290.834">03-3910-7331</span>  
+<span data-dur="2.729" data-begin="294.902"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.632" data-begin="297.631">このサイトについてのお問い合わせ</a></span>
 
-<!--span data-dur="4.995" data-begin="299.197">以上でこのページの読み上げは終わりです。</span-->
+<!--span data-dur="4.995" data-begin="300.263">以上でこのページの読み上げは終わりです。</span-->
+
