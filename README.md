@@ -51,9 +51,9 @@
 <span data-dur="4.565" data-begin="142.040">人の声ほど音訳技術を駆使することはできませんが、</span>
 <span data-dur="5.346" data-begin="146.605">完成までにかかる時間が約3分の1になります。</span>
 <span data-dur="1.858" data-begin="151.951">今お聞きの声は、</span>
-<span data-dur="3.287" data-begin="153.809">合成音声のせいじです。</span>
+<span data-dur="3.287" data-begin="153.809">合成音声の「せいじ」です。</span>
 <span data-dur="1.059" data-begin="157.096">他に</span>
-<span data-dur="4.615" data-begin="158.155">なぎさの声でも作成できます。</span>
+<span data-dur="4.615" data-begin="158.155">「なぎさ」の声でも作成できます。</span>
 
 ### <span data-dur="2.066" data-begin="162.770">その他</span>
 

@@ -18,4 +18,6 @@ echo 'title: 音訳グループ やまびこ' >> _p/index.md
 echo '---' >> _p/index.md
 echo '<img class="naka" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />' >> _p/index.md
 echo '' >> _p/index.md
-sed -n '/##/,$p' README.md >> _p/index.md
+sed  -e 's/今お聞きの声は、/ホームページの声は、/' README.md > temp
+sed -n '/##/,$p' temp >> _p/index.md
+rm temp
