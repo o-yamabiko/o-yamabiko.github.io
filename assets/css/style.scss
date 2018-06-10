@@ -283,6 +283,15 @@ q {
 	max-width: 25em;
 	height: auto;
       }
+      .fullw {
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+	width: 100%;
+	max-width: 48rem;
+	height: auto;
+      }
       .caption {
         font-size: small;
 	font-weight: bold;
