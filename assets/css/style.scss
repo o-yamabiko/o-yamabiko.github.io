@@ -73,11 +73,12 @@ body {
    border-style: outset;
 }
 .passage-audio {
-    height: 1em;
+    height: 2em;
 }
 #passage-audio {
     width: 100%;
-    max-height: 1em;
+    max-height: 2em;
+    -webkit-margin-after: 1rem;
 }
 #passage-text {
     margin-top: 10em;
