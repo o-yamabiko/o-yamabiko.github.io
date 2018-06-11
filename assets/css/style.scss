@@ -95,6 +95,9 @@ body {
 .playback-rate {
     font-size: smaller;
     padding-bottom: 1em;
+// chrome on PC has too thick player
+    -webkit-margin-before: -0.2em;
+    -webkit-padding-before: -0.2em;
 }
 .autofocus-current-word label,
 .playback-rate label {
