@@ -33,10 +33,12 @@ date: 2018-06-11T04:01:05Z
 <span data-dur="2.564" data-begin="113.898">人の声で録音するほか、</span>
 <span data-dur="2.268" data-begin="116.462">2017年からは、</span>
 <span data-dur="5.851" data-begin="118.730">合成音声を使った音訳にも取り組み始めました。</span>
+
 <span data-dur="5.76" data-begin="124.581">人の声で音訳する録音図書の作成には時間がかかりますが、</span>
 <span data-dur="2.211" data-begin="130.341">音訳技術を活かして、</span>
 <span data-dur="4.473" data-begin="132.552">聞き取りやすく理解しやすいものをお届けできるように、</span>
 <span data-dur="3.814" data-begin="137.025">日々研鑽を積んでいます。</span>
+
 <span data-dur="3.955" data-begin="140.839">合成音声での音訳録音図書の作成は、</span>
 <span data-dur="4.565" data-begin="144.794">人の声ほど音訳技術を駆使することはできませんが、</span>
 <span data-dur="2.457" data-begin="149.359">完成までにかかる時間を</span>
@@ -80,7 +82,7 @@ date: 2018-06-11T04:01:05Z
 <span data-dur="3.968" data-begin="235.385">見学や入会はいつでも受け付けていますので、</span>
 <span data-dur="6.459" data-begin="239.353">音訳のボランティアに興味のある方はお気軽にご連絡ください。</span>
 
-<span data-dur="4.057" data-begin="245.812">連絡先：やまびこ代表大川薫</span>
+<span data-dur="4.057" data-begin="245.812">連絡先：やまびこ代表 大川 薫</span>
 <span data-dur="1.627" data-begin="249.869">（電話番号</span>
 <span data-dur="4.768" data-begin="251.496">03-3910-7331）</span>  
 <span data-dur="2.729" data-begin="256.264"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.632" data-begin="258.993">このサイトについてのお問い合わせ</a></span>
