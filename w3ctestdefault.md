@@ -1,81 +1,106 @@
 ---
 layout: w3ctestdefault
+date: 2018-06-11T04:01:05Z
 ---
+   
+<!--span data-dur="2.708" data-begin="2.050">音訳グループ やまびこ</span>
+<span data-dur="1.641" data-begin="4.758">読み上げ時間：</span>
+span data-dur="3.095" data-begin="6.399">約4分30秒</span-->
 
-<span data-dur="1.393" data-begin="8.860">注：</span>  
-<span data-dur="5.483" data-begin="10.253">私の声のオンオフ切り替えはスペース・キー。</span>  
-<span data-dur="1.919" data-begin="15.736">速さの調節は、</span>
-<span data-dur="5.277" data-begin="17.655">数字の3のキーを押せば押すほど早口になります。</span>  
-<span data-dur="2.776" data-begin="22.932">2のキーでゆっくりに。</span>  
-<span data-dur="4.503" data-begin="25.708">1のキーで5秒ずつ巻き戻し。</span>  
-<span data-dur="2.318" data-begin="30.211">私の声をオフにして、</span>
-<span data-dur="3.944" data-begin="32.529">「音声なし（印刷用）ページ」を開くと、</span>
-<span data-dur="3.742" data-begin="36.473">スクリーンリーダーでも読めます。</span>
-<!--span data-dur="2.837" data-begin="40.215">注終わり。</span-->
+<span data-dur="1.393" data-begin="9.494">注：</span>  
+<span data-dur="3.117" data-begin="10.887">私の声の速さの調節は、</span>
+<span data-dur="5.276" data-begin="14.004">数字の3のキーを押せば押すほど早口になります。</span>  
+<span data-dur="2.776" data-begin="19.280">2のキーでゆっくりに。</span>  
+<span data-dur="4.004" data-begin="22.056">1のキーで5秒ずつ巻き戻し。</span>  
+<span data-dur="5.966" data-begin="26.060">スペース・キーで停止・再生の切り替えができます。</span>  
+<span data-dur="2.263" data-begin="32.026">私の声を停止して、</span>
+<span data-dur="1.446" data-begin="34.289">「音声なし</span>
+<span data-dur="1.894" data-begin="35.735">（印刷用）ページ」</span>
+<span data-dur="1.308" data-begin="37.629">を開くと、</span>
+<span data-dur="3.743" data-begin="38.937">スクリーンリーダーでも読めます。</span>
 
-## <span data-dur="4.65" data-begin="43.052">音訳とは？ 私たちの活動について</span>
+<!--span data-dur="3.087" data-begin="42.680">注終わり。</span-->
 
-<span data-dur="7.975" data-begin="47.702">私たちは東京都北区を中心に活動している音訳ボランティアグループです。</span>
 
-<span data-dur="1.436" data-begin="55.677">音訳とは、</span>
-<span data-dur="6.511" data-begin="57.113">障がいや高齢等の理由で文字や図表などを読むことが難しい人のために、</span>
-<span data-dur="4.88" data-begin="63.624">書かれた情報を音声化することです。</span>
+## <span data-dur="4.999" data-begin="45.767">音訳とは？ 私たちの活動について</span>
 
-### <span data-dur="2.067" data-begin="68.504">対面音訳</span>
+<span data-dur="7.975" data-begin="50.766">私たちは東京都北区を中心に活動している音訳ボランティアグループです。</span>
 
-<span data-dur="3.263" data-begin="70.571">利用者さまに図書館等へお出でいただき、</span>
-<span data-dur="4.559" data-begin="73.834">書籍や書類をその場で読み上げます。</span>
+<span data-dur="1.436" data-begin="58.741">音訳とは、</span>
+<span data-dur="6.511" data-begin="60.177">障がいや高齢等の理由で文字や図表などを読むことが難しい人のために、</span>
+<span data-dur="5.13" data-begin="66.688">書かれた情報を音声化することです。</span>
 
-<span data-dur="4.612" data-begin="78.393">希望日の4日前までに中央図書館にお申し込みください</span>
-<span data-dur="1.627" data-begin="83.005">（電話番号</span>
-<span data-dur="4.927" data-begin="84.632">03-5993-1125）。</span>
+### <span data-dur="2.418" data-begin="71.818">対面音訳</span>
 
-### <span data-dur="2.614" data-begin="89.559">録音図書作成</span>
+<span data-dur="3.263" data-begin="74.236">利用者さまに図書館等へお出でいただき、</span>
+<span data-dur="4.558" data-begin="77.499">書籍や書類をその場で読み上げます。</span>
 
-<span data-dur="2.857" data-begin="92.173"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.782" data-begin="95.030">著作権法第三十七条</a></span>
-<span data-dur="1.476" data-begin="96.812">に基づき、</span>
-<span data-dur="1.612" data-begin="98.288"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="1.782" data-begin="99.900">DAISY規格</a></span>
-<span data-dur="4.498" data-begin="101.682">に準拠した録音図書を製作します。</span>
+<span data-dur="4.613" data-begin="82.057">希望日の4日前までに中央図書館にお申し込みください</span>
+<span data-dur="1.627" data-begin="86.670">（電話番号</span>
+<span data-dur="5.176" data-begin="88.297">03-5993-1125）。</span>
 
-<span data-dur="4.445" data-begin="106.180">図書館や自治体からの依頼や自主製作のほか、</span>
-<span data-dur="5.54" data-begin="110.625">利用者さまから直接のご依頼も受けています。</span>
-<span data-dur="4.56" data-begin="116.165">利用者さまからのご依頼は無料で受けます。</span>
-<span data-dur="0.999" data-begin="120.725">ただし、</span>
-<span data-dur="7.414" data-begin="121.724">CDを当方で用意する場合はCD代として100円ご負担いただきます。</span>
+### <span data-dur="2.964" data-begin="93.473">録音図書作成</span>
 
-- <span data-dur="3.357" data-begin="129.138">人の声による録音図書</span>  
-<span data-dur="4.663" data-begin="132.495">単行本1冊分を人の声で録音する場合、</span>
-<span data-dur="4.809" data-begin="137.158">3ヶ月程度を目安として完成させます。</span>
-- <span data-dur="3.718" data-begin="141.967">合成音声による録音図書</span>  
-<span data-dur="3.862" data-begin="145.685"><a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="1.782" data-begin="149.547">AITalkが組み込まれたChattyInfty3</a></span>
-<span data-dur="1.348" data-begin="151.329">を使って、</span>
-<span data-dur="5.19" data-begin="152.677">500ページあたり1ヶ月程度で仕上げます。</span>
+<span data-dur="2.858" data-begin="96.437"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.782" data-begin="99.295">著作権法第三十七条</a></span>
+<span data-dur="1.601" data-begin="101.077">に基づいて、</span>
+<span data-dur="2.829" data-begin="102.678">書籍や書類を音訳し、</span>
+<span data-dur="1.612" data-begin="105.507"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="1.782" data-begin="107.119">DAISY規格</a></span>
+<span data-dur="4.997" data-begin="108.901">に準拠した録音図書を製作します。</span>
 
-### <span data-dur="1.717" data-begin="157.867">その他</span>
+<span data-dur="2.564" data-begin="113.898">人の声で録音するほか、</span>
+<span data-dur="2.268" data-begin="116.462">2017年からは、</span>
+<span data-dur="5.851" data-begin="118.730">合成音声を使った音訳にも取り組み始めました。</span>
+<span data-dur="5.76" data-begin="124.581">人の声で音訳する録音図書の作成には時間がかかりますが、</span>
+<span data-dur="2.211" data-begin="130.341">音訳技術を活かして、</span>
+<span data-dur="4.473" data-begin="132.552">聞き取りやすく理解しやすいものをお届けできるように、</span>
+<span data-dur="3.814" data-begin="137.025">日々研鑽を積んでいます。</span>
+<span data-dur="3.955" data-begin="140.839">合成音声での音訳録音図書の作成は、</span>
+<span data-dur="4.565" data-begin="144.794">人の声ほど音訳技術を駆使することはできませんが、</span>
+<span data-dur="2.457" data-begin="149.359">完成までにかかる時間を</span>
+<span data-dur="3.675" data-begin="151.816">大幅に短縮することができます。</span>
+<span data-dur="1.858" data-begin="155.491">今お聞きの声は</span>
+<span data-dur="2.849" data-begin="157.349">合成音声です。</span>
+<span data-dur="4.146" data-begin="160.198">女性の声でも作成できます。</span>
 
-<span data-dur="2.549" data-begin="159.584">印刷物のテキストデータ化、</span>
-<span data-dur="1.763" data-begin="162.133">機器の設定など、</span>
-<span data-dur="4.612" data-begin="163.896">書かれた情報の音声化に際してお困りのことがあれば、</span>
-<span data-dur="4.079" data-begin="168.508">できる限りのお手伝いをします。</span>
+### <span data-dur="2.067" data-begin="164.344">その他</span>
 
-## <span data-dur="2.248" data-begin="172.587">やまびこ通信</span>
+<span data-dur="2.549" data-begin="166.411">印刷物のテキストデータ化、</span>
+<span data-dur="1.762" data-begin="168.960">機器の設定など、</span>
+<span data-dur="4.613" data-begin="170.722">書かれた情報の音声化に際してお困りのことがあれば、</span>
+<span data-dur="4.328" data-begin="175.335">できる限りのお手伝いをします。</span>
 
-<span data-dur="4.869" data-begin="174.835">音訳グループやまびこが発行している月刊誌です。</span>
+## <span data-dur="2.599" data-begin="179.663">やまびこ通信</span>
 
-<span data-dur="1.296" data-begin="179.704">内容は、</span>
-<span data-dur="2.322" data-begin="181.000">前月の活動報告、</span>
-<span data-dur="2.144" data-begin="183.322">当月の活動予定、</span>
-<span data-dur="1.319" data-begin="185.466">実績、</span>
-<span data-dur="3.003" data-begin="186.785">十条台句会から寄せられた俳句、</span>
-<span data-dur="2.48" data-begin="189.788">クイズなど。</span>
+<span data-dur="3.125" data-begin="182.262">音訳グループやまびこが発行している</span>
+<span data-dur="2.891" data-begin="185.387">月刊誌です。</span>
 
-- <span data-dur="1.46" data-begin="192.268"><a href="tusin201805.html" data-dur="2.282" data-begin="193.728">最新号</a></span>
-- <span data-dur="1.634" data-begin="196.010"><a href="bn.html" data-dur="2.282" data-begin="197.644">バックナンバー</a></span>
+<span data-dur="1.296" data-begin="188.278">内容は、</span>
+<span data-dur="2.322" data-begin="189.574">前月の活動報告、</span>
+<span data-dur="2.144" data-begin="191.896">当月の活動予定、</span>
+<span data-dur="1.319" data-begin="194.040">実績、</span>
+<span data-dur="3.002" data-begin="195.359">十条台句会から寄せられた俳句、</span>
+<span data-dur="2.481" data-begin="198.361">クイズなど。</span>
 
-## <span data-dur="1.943" data-begin="199.926">お問い合わせ</span>
+- <span data-dur="1.46" data-begin="200.842"><a href="tusin201806.html" data-dur="2.282" data-begin="202.302">最新号</a></span>
+- <span data-dur="1.634" data-begin="204.584"><a href="bn.html" data-dur="2.632" data-begin="206.218">バックナンバー</a></span>
 
-<span data-dur="7.597" data-begin="201.869">定例会：第2・第4金曜日10時～12時／中央図書館3階</span>  
-<span data-dur="4.607" data-begin="209.466">連絡先：やまびこ代表 <ruby>円谷千恵子<rt>（ツムラヤ・チエコ）</rt></ruby></span>
-<span data-dur="4.503" data-begin="214.073">03（3907）2909</span>  
-<span data-dur="7.723" data-begin="218.576"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.282" data-begin="221.304">このサイトについてのお問い合わせ</a></span>
-<!--以上でこのページの読み上げは終わりです。-->
+## <span data-dur="2.122" data-begin="208.850">定例会</span>
+
+<span data-dur="4.205" data-begin="210.972">第2・第4金曜日10時～12時に</span>
+<span data-dur="3.265" data-begin="215.177">北区立中央図書館3階で、</span>
+<span data-dur="5.677" data-begin="218.442">やまびこのメンバーが集まって定例会を開いています。</span>
+
+<span data-dur="3.785" data-begin="224.119">第2金曜日の11時から1時間と、</span>
+<span data-dur="3.971" data-begin="227.904">第4金曜日の会議の残り時間を利用して、</span>
+<span data-dur="3.51" data-begin="231.875">勉強会もしています。</span>
+
+<span data-dur="3.968" data-begin="235.385">見学や入会はいつでも受け付けていますので、</span>
+<span data-dur="6.459" data-begin="239.353">音訳のボランティアに興味のある方はお気軽にご連絡ください。</span>
+
+<span data-dur="4.057" data-begin="245.812">連絡先：やまびこ代表大川薫</span>
+<span data-dur="1.627" data-begin="249.869">（電話番号</span>
+<span data-dur="4.768" data-begin="251.496">03-3910-7331）</span>  
+<span data-dur="2.729" data-begin="256.264"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.632" data-begin="258.993">このサイトについてのお問い合わせ</a></span>
+
+<!--span data-dur="4.995" data-begin="261.625">以上でこのページの読み上げは終わりです。</span-->
+

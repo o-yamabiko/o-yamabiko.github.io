@@ -15,6 +15,7 @@ done
 echo '---' > _p/index.md
 echo 'layout: print' >> _p/index.md
 echo 'title: 音訳グループ やまびこ' >> _p/index.md
+sed -n '/date: /p' README.md >> _p/index.md
 echo '---' >> _p/index.md
 echo '<img class="fullw" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />' >> _p/index.md
 echo '' >> _p/index.md

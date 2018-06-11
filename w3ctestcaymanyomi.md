@@ -1,267 +1,251 @@
 ---
 layout: w3ctestcaymanyomi
-title: やまびこ通信 2018年5月号 
+title: やまびこ通信2018年6月号
 author: 音訳グループ やまびこ
-date: 2018-05-07T12:42:05Z
-oto: tusin201805/sound0001
-iro: 5F831B
-gra: eaf755
-background: tusin201805/1089674.png
-imagefrom: kabu @ Illust AC
-imagefromurl: https://www.ac-illust.com/main/detail.php?id=1089674&word=%E7%B7%91%E3%81%AE%E3%81%8D%E3%82%89%E3%81%8D%E3%82%89%E8%83%8C%E6%99%AF%E7%B4%A0%E6%9D%90
+date: 2018-06-06T15:21:36Z
+oto: tusin201806/sound0001
+iro: 435fb7
+gra: 96d8e8
+background: tusin201806/463910.jpg
+imagefrom: riele @ Illust AC
+imagefromurl: https://www.ac-illust.com/main/detail.php?id=463910
 navigation: true
 ---
    
 
-# <span data-dur="4.096" data-begin="2.050">やまびこ通信2018年5月号</span>
+# <span data-dur="4.563" data-begin="2.050">やまびこ通信2018年6月号</span>
 
-<span data-dur="2.477" data-begin="6.146">No.126</span>  
-<span data-dur="4.023" data-begin="8.623">2018年5月11日発行</span>
+<span data-dur="2.667" data-begin="6.613">No.127</span>  
+<span data-dur="4.374" data-begin="9.280">2018年6月8日発行</span>
+<!--span data-dur="1.64" data-begin="13.654">読み上げ時間：</span>
+<span data-dur="2.464" data-begin="15.294">約10分</span-->
 
-<!--span data-dur="1.582" data-begin="12.646">読み上げ時間：</span>
-<span data-dur="2.509" data-begin="14.228">7分42秒</span-->
+## <span data-dur="2.69" data-begin="17.758">5月活動報告</span>
 
-## <span data-dur="2.55" data-begin="16.737">4月活動報告</span>
+<img class="migi" src="media/tusin201806/cut1.png" alt="" />
 
-<img class="migi" src="media/tusin201805/cut1.png" alt="" />
+<span data-dur="1.544" data-begin="20.448">11日</span>
+<span data-dur="3.173" data-begin="21.992">やまびこ総会・懇親会</span>  
+<span data-dur="1.526" data-begin="25.165">13日</span>
+<span data-dur="2.284" data-begin="26.691">ユニバーサル部会</span>  
+<span data-dur="1.52" data-begin="28.975">17日</span>
+<span data-dur="3.154" data-begin="30.495">「夏体験ボランティア2018」</span>
+<span data-dur="2.645" data-begin="33.649">受入れ先説明会</span>  
+<span data-dur="1.594" data-begin="36.294">18日</span>
+<span data-dur="2.566" data-begin="37.888">合同ボランティア会</span>  
+<span data-dur="1.57" data-begin="40.454">25日</span>
+<span data-dur="2.817" data-begin="42.024">定例会/各部会</span>  
+<span data-dur="1.721" data-begin="44.841">27日</span>
+<span data-dur="5.764" data-begin="46.562">北区図書館活動区民の会総会・全体会</span>  
+<span data-dur="1.52" data-begin="52.326">30日</span>
+<span data-dur="4.17" data-begin="53.846">音訳者養成中級講座第1回</span>
+<span data-dur="3.084" data-begin="58.016">(全10回)</span>  
 
-<span data-dur="1.011" data-begin="19.287">8日</span>
-<span data-dur="2.278" data-begin="20.298">ユニバーサル部会</span>  
-<span data-dur="1.487" data-begin="22.576">13日</span>
-<span data-dur="2.786" data-begin="24.063">定例会／勉強会</span>  
-<span data-dur="1.026" data-begin="26.849">20日</span>
-<span data-dur="2.46" data-begin="27.875">合同ボランティア会</span>  
-<span data-dur="1.391" data-begin="30.335">24日</span>
-<span data-dur="4.923" data-begin="31.726">東京音訳グループ連絡会総会・講演会</span>  
-<span data-dur="1.391" data-begin="36.649">24日</span>
-<span data-dur="7.124" data-begin="38.040">平成29年度北区社会福祉協議会「夢ひろげ助成」報告書提出</span>  
-<span data-dur="1.628" data-begin="45.164">27日</span>
-<span data-dur="2.785" data-begin="46.792">定例会／勉強会</span>
+## <span data-dur="2.693" data-begin="61.100">6月活動予定</span>
 
-## <span data-dur="2.499" data-begin="49.577">5月活動予定</span>
+<img class="migi" src="media/tusin201806/cut2.png" alt="" />
 
-<img class="migi" src="media/tusin201805/cut2.png" alt="" />
+<span data-dur="1.08" data-begin="63.793">8日</span>
+<span data-dur="2.913" data-begin="64.873">定例会/勉強会</span>  
+<span data-dur="1.198" data-begin="67.786">9日</span>
+<span data-dur="4.82" data-begin="68.984">全国音訳ボランティアネットワークシンポジウム</span>  
+<span data-dur="1.025" data-begin="73.804">10日</span>
+<span data-dur="2.284" data-begin="74.829">ユニバーサル部会</span>  
+<span data-dur="1.526" data-begin="77.113">13日</span>
+<span data-dur="3.579" data-begin="78.639">音訳者養成中級講座</span>  
+<span data-dur="1.388" data-begin="82.218">15日</span>
+<span data-dur="2.566" data-begin="83.606">合同ボランティア会</span>  
+<span data-dur="1.446" data-begin="86.172">19日</span>
+<span data-dur="3.079" data-begin="87.618">東京音訳グループ連絡会</span>
+<span data-dur="1.813" data-begin="90.697">講演会</span>  
+<span data-dur="1.636" data-begin="92.510">22日</span>
+<span data-dur="2.913" data-begin="94.146">定例会/勉強会</span>  
+<span data-dur="1.721" data-begin="97.059">27日</span>
+<span data-dur="4.63" data-begin="98.780">音訳者養成中級講座</span>
 
-<span data-dur="1.497" data-begin="52.076">11日</span>
-<span data-dur="3.339" data-begin="53.573">やまびこ総会・懇親会</span>  
-<span data-dur="1.488" data-begin="56.912">13日</span>
-<span data-dur="2.277" data-begin="58.400">ユニバーサル部会</span>  
-<span data-dur="1.536" data-begin="60.677">18日</span>
-<span data-dur="2.459" data-begin="62.213">合同ボランティア会</span>  
-<span data-dur="1.496" data-begin="64.672">25日</span>
-<span data-dur="2.785" data-begin="66.168">定例会／勉強会</span>  
-<span data-dur="1.627" data-begin="68.953">27日</span>
-<span data-dur="5.308" data-begin="70.580">北区図書館活動区民の会総会・全体会</span>
+## <span data-dur="1.55" data-begin="103.410">録音図書</span><span data-dur="2.018" data-begin="104.960">（デイジー版CD）</span><span data-dur="1.775" data-begin="106.978">作成</span>
 
-## <span data-dur="3.853" data-begin="75.888">録音図書（デイジー版CD）作成</span>
+<!--span data-dur="1.648" data-begin="108.753">7件</span-->
+1. <span data-dur="2.208" data-begin="111.337">障害者福祉のしおり</span><span data-dur="2.332" data-begin="113.545">（平成30年度版）</span>  
+<span data-dur="3.034" data-begin="115.877">12時間50分</span>
+2. <span data-dur="3.111" data-begin="119.643">北区図書館情報5月</span><span data-dur="1.087" data-begin="122.754">（ぽけっと、</span><span data-dur="1.742" data-begin="123.841">北区の部屋だより</span><span data-dur="0.95" data-begin="125.583">ほか）</span>  
+<span data-dur="2.962" data-begin="126.533">1時間30分</span>
+3. <span data-dur="2.059" data-begin="130.489">高齢者福祉のしおり</span><span data-dur="2.021" data-begin="132.548">（平成30年度）</span>  
+<span data-dur="2.895" data-begin="134.569">4時間17分</span>
+4. <span data-dur="3.076" data-begin="138.371">おちゃのこ祭祭2018</span>  
+<span data-dur="2.183" data-begin="141.447">20分</span>
+5. <span data-dur="2.519" data-begin="144.423">北視協通信第1号</span><span data-dur="2.606" data-begin="146.942">（通巻251号）</span>  
+<span data-dur="2.361" data-begin="149.548">19分</span>
+6. <span data-dur="4.166" data-begin="152.902">平成30年度北社協事業案内</span>  
+<span data-dur="2.061" data-begin="157.068">10分</span>
+7. <span data-dur="3.401" data-begin="159.980">『NPO法人の税務 改訂版』</span><span data-dur="1.588" data-begin="163.381">2015</span><span data-dur="3.591" data-begin="164.969">｟合成音声録音デイジー｠</span>  
+<span data-dur="4.148" data-begin="168.560">約14時間30分</span>
 
-<span data-dur="1.671" data-begin="79.741">8件</span>
+## <span data-dur="2.068" data-begin="172.708">対面音訳</span>
 
-1. <span data-dur="5.601" data-begin="82.303">北区図書館情報4月（ぽけっと・北区の部屋だより他）：</span>  
-<span data-dur="2.462" data-begin="87.904">1時間30分</span>
-2. <span data-dur="2.769" data-begin="91.085">支援室だより第89号：</span>  
-<span data-dur="1.901" data-begin="93.854">30分</span>
-3. <span data-dur="1.569" data-begin="96.652">ドナルド・キーン</span><span data-dur="1.354" data-begin="98.221">知の巨人、</span><span data-dur="1.666" data-begin="99.575">日本美を語る！</span><span data-dur="1.34" data-begin="101.241">和楽ムック</span><span data-dur="1.555" data-begin="102.581">（図書館委託）：</span>  
-<span data-dur="2.479" data-begin="104.136">10時間30分</span>
-4. <span data-dur="1.181" data-begin="107.465">第5期</span><span data-dur="2.582" data-begin="108.646">北区障害福祉計画・</span><span data-dur="1.245" data-begin="111.228">第1期</span><span data-dur="2.676" data-begin="112.473">北区障害児福祉計画</span><span data-dur="1.649" data-begin="115.149">（障害福祉課）：</span>  
-<span data-dur="1.833" data-begin="116.798">6時間</span>
-5. <span data-dur="3.197" data-begin="119.365">北区地域包括ケア推進計画</span><span data-dur="1.51" data-begin="122.562">（高齢福祉課）：</span>  
-<span data-dur="2.063" data-begin="124.072">11時間</span>
-6. <span data-dur="2.731" data-begin="127.026">北区地域保健福祉計画、</span><span data-dur="2.963" data-begin="129.757">平成29～38年度</span><span data-dur="1.564" data-begin="132.720">（健康福祉課）：</span>  
-<span data-dur="2.229" data-begin="134.284">7時間10分</span>
-7. <span data-dur="1.758" data-begin="137.379">ペルシアの彼方へ</span><span data-dur="0.725" data-begin="139.137">（下）</span><span data-dur="1.523" data-begin="139.862">（自主制作、</span><span data-dur="1.322" data-begin="141.385">図書館へ）：</span>  
-<span data-dur="2.672" data-begin="142.707">16時間40分</span>
-8. <span data-dur="2.796" data-begin="146.284">電話機取扱説明書</span><span data-dur="0.987" data-begin="149.080">（個人）：</span>  
-<span data-dur="2.47" data-begin="150.067">6時間40分</span>
-
-## <span data-dur="2.099" data-begin="152.537">対面音訳</span>
-
-|<span data-dur="1.12" data-begin="154.636">4月</span>|<span data-dur="1.974" data-begin="155.756">13件</span>|
+|<span data-dur="1.151" data-begin="174.776">5月</span>|<span data-dur="1.686" data-begin="175.927">10件</span>|
 |:---|---:|
-|<span data-dur="1.779" data-begin="157.730">今年度累計</span>|<span data-dur="1.975" data-begin="159.509">13件</span>|
+|<span data-dur="1.785" data-begin="177.613">今年度累計</span>|<span data-dur="3.234" data-begin="179.398">23件</span>|
 
-## <span data-dur="1.783" data-begin="161.484">「第27回</span><span data-dur="3.183" data-begin="163.267">東京音訳グループ連絡会</span><span data-dur="2.102" data-begin="166.450">総会・講演会」</span><span data-dur="2.109" data-begin="168.552">参加報告</span>
+## <span data-dur="3.459" data-begin="182.632">やまびこ総会開催される!</span>
 
-<span data-dur="3.525" data-begin="170.661">2018．4．28</span>  
-<span data-dur="1.875" data-begin="174.186">田村まり子</span>
+<span data-dur="2.059" data-begin="186.091">5月11日、</span>
+<span data-dur="1.988" data-begin="188.150">やまびこの総会が</span>
+<span data-dur="3.29" data-begin="190.138">無事終了しました。</span>
+<span data-dur="1.306" data-begin="193.428">席上、</span>
+<span data-dur="3.723" data-begin="194.734">今年度の新しい役員が決まりましたので、</span>
+<span data-dur="2.866" data-begin="198.457">お知らせします。</span>
 
-<span data-dur="3.279" data-begin="176.061">平成30年4月24日に</span>
-<span data-dur="4.745" data-begin="179.340">東京音訳グループ連絡会総会が開催され、</span>
-<span data-dur="1.615" data-begin="184.085">全ての議事が</span>
-<span data-dur="3.488" data-begin="185.700">滞りなく承認されました。</span>
-<span data-dur="1.306" data-begin="189.188">終了後、</span>
-<span data-dur="2.35" data-begin="190.494">講演会：恵美三紀子氏</span>
-<span data-dur="2.033" data-begin="192.844">「音訳者としてこれから」</span>
-<span data-dur="0.764" data-begin="194.877">が、</span>
-<span data-dur="3.487" data-begin="195.641">約1時間半行われました。</span>
-<span data-dur="1.298" data-begin="199.128">内容は</span>
-<span data-dur="2.953" data-begin="200.426">以下のとおりです。</span>
+<img class="migi" src="media/tusin201806/cut3.png" alt="" />
 
-<span data-dur="4.199" data-begin="203.379">視覚障害者のための活動としての「音訳」。</span>
-<span data-dur="1.05" data-begin="207.578">そして、</span>
-<span data-dur="2.436" data-begin="208.628">ボランティアとは何かというと、</span>
-<span data-dur="1.894" data-begin="211.064">代償をもとめない、</span>
-<span data-dur="1.666" data-begin="212.958">自発的である、</span>
-<span data-dur="3.377" data-begin="214.624">強制されないという活動である。</span>
-<span data-dur="1.038" data-begin="218.001">しかし、</span>
-<span data-dur="2.311" data-begin="219.039">ボランティアの美名に隠れて</span>
-<span data-dur="2.854" data-begin="221.350">行政がやるべきことをやらないことは、</span>
-<span data-dur="2.256" data-begin="224.204">問題である。</span>
-<span data-dur="3.235" data-begin="226.460">広報は行政の仕事である。</span>
-<span data-dur="4.565" data-begin="229.695">ボランティアの活動が行政を駄目にしている部分がないか？</span>
-<span data-dur="4.198" data-begin="234.260">行政のやることまで手を出さないようにする等の意識を、</span>
-<span data-dur="2.883" data-begin="238.458">常に持っていて欲しい。</span>
-<span data-dur="0.845" data-begin="241.341">また、</span>
-<span data-dur="3.67" data-begin="242.186">「音訳」という技術は無償で提供しても、</span>
-<span data-dur="3.389" data-begin="245.856">交通費等は必要経費である。</span>
-<span data-dur="1.049" data-begin="249.245">そして、</span>
-<span data-dur="2.659" data-begin="250.294">&ldquo;墨字の情報を利用者に届ける&rdquo;</span>
-<span data-dur="2.591" data-begin="252.953">&ldquo;利用者の声を行政に届ける&rdquo;</span>
-<span data-dur="0.733" data-begin="255.544">は、</span>
-<span data-dur="3.641" data-begin="256.277">共にボランティアの仕事である。</span>
+<span data-dur="1.203" data-begin="201.323">会長：</span>
+<span data-dur="2.453" data-begin="202.526">大川 薫</span>  
+<span data-dur="1.392" data-begin="204.979">副会長：</span>
+<span data-dur="1.518" data-begin="206.371">伊藤智子、</span>
+<span data-dur="2.455" data-begin="207.889">小川三千恵</span>  
+<span data-dur="1.008" data-begin="210.344">監事：</span>
+<span data-dur="1.717" data-begin="211.352">円谷千恵子、</span>
+<span data-dur="2.48" data-begin="213.069">腰越圭子</span>  
+<span data-dur="1.615" data-begin="215.549">渉外部長：</span>
+<span data-dur="2.453" data-begin="217.164">大川 薫</span>  
+<span data-dur="1.495" data-begin="219.617">会計部長：</span>
+<span data-dur="2.385" data-begin="221.112">麻生登喜子</span>  
+<span data-dur="1.764" data-begin="223.497">会計副部長：</span>
+<span data-dur="2.297" data-begin="225.261">田村まり子</span>  
+<span data-dur="1.503" data-begin="227.558">総務部長：</span>
+<span data-dur="2.368" data-begin="229.061">伊藤智子</span>  
+<span data-dur="1.734" data-begin="231.429">総務副部長：</span>
+<span data-dur="2.381" data-begin="233.163">安瀬恵子</span>  
+<span data-dur="1.547" data-begin="235.544">研修部長：</span>
+<span data-dur="2.391" data-begin="237.091">石田澄子</span>  
+<span data-dur="1.8" data-begin="239.482">研修副部長：</span>
+<span data-dur="2.455" data-begin="241.282">小川三千恵</span>  
+<span data-dur="1.655" data-begin="243.737">制作部長：</span>
+<span data-dur="2.625" data-begin="245.392">下山桂子</span>  
+<span data-dur="1.884" data-begin="248.017">制作副部長：</span>
+<span data-dur="1.603" data-begin="249.901">大川 薫、</span>
+<span data-dur="2.367" data-begin="251.504">水野光子</span>
 
-<span data-dur="1.601" data-begin="259.918">必要なものを、</span>
-<span data-dur="1.653" data-begin="261.519">必要な方に、</span>
-<span data-dur="1.986" data-begin="263.172">必要な形にして、</span>
-<span data-dur="2.832" data-begin="265.158">必要な時に届ける。</span>
-<span data-dur="3.945" data-begin="267.990">一日も早く届けることが重要である。</span>
-<span data-dur="2.263" data-begin="271.935">これからの音訳対象は、</span>
-<span data-dur="3.486" data-begin="274.198">プライベートサービスを一番にしたい。</span>
-<span data-dur="1.017" data-begin="277.684">次に</span>
-<span data-dur="1.865" data-begin="278.701">地域性のあるもの</span>
-<span data-dur="2.643" data-begin="280.566">（地域情報誌等）。</span>
-<span data-dur="0.845" data-begin="283.209">また、</span>
-<span data-dur="5.084" data-begin="284.054">識字障害のある子供たちへの活動も求められる。</span>
+<span data-dur="3.288" data-begin="253.871">どうぞよろしくお願いします。</span>
 
-<span data-dur="0.976" data-begin="289.138">今後、</span>
-<span data-dur="4.195" data-begin="290.114">益々普及するであろうロボットにできない読解力は、</span>
-<span data-dur="2.497" data-begin="294.309">人間にのみある。</span>
-<span data-dur="2.522" data-begin="296.806">単調なAIのヨミにない</span>
-<span data-dur="2.087" data-begin="299.328">情報を伝えるという</span>
-<span data-dur="3.885" data-begin="301.415">意識を持った読みを心掛けたい。</span>
+### <span data-dur="1.98" data-begin="259.209">新任会長より</span>
 
-<span data-dur="1.279" data-begin="305.300">聞きづらい</span>
-<span data-dur="1.548" data-begin="306.579">四つの読みは、</span>
-<span data-dur="2.683" data-begin="308.127">①読解力のない読み</span>
-<span data-dur="2.168" data-begin="310.810">②間の変な読み</span>
-<span data-dur="2.985" data-begin="312.978">③発音のはっきりしない読み</span>
-<span data-dur="2.453" data-begin="315.963">④お経のような読み</span>
-<span data-dur="1.86" data-begin="318.416">である。</span>
+<span style="float: right;" data-dur="2.103" data-begin="261.189">大川 薫</span>
 
-<span data-dur="1.283" data-begin="320.276">これからは、</span>
-<span data-dur="4.312" data-begin="321.559">若い人達を巻き込んでいける音訳グループでいて欲しい、</span>
-<span data-dur="3.692" data-begin="325.871">どうか消滅しないでください。</span>
+#### <span data-dur="6.455" data-begin="263.292">やまびこの会員の皆様へ新任会長からの決意表明</span>
 
-## <span data-dur="1.317" data-begin="329.563">今月も</span><span data-dur="5.52" data-begin="330.880">十条台句会会員の方の俳句をお楽しみください。</span>
+<span data-dur="4.401" data-begin="269.747">大げさな題名を付けての挨拶です。</span>  
+<span data-dur="3.111" data-begin="274.148">いろいろな挨拶文を考えた挙句、</span>
+<span data-dur="1.127" data-begin="277.259">只々</span>
+<span data-dur="1.515" data-begin="278.386">「頑張ります！」</span>
+<span data-dur="3.602" data-begin="279.901">とだけ言わせて頂きます。</span>
+<span data-dur="2.33" data-begin="283.503">「音訳グループやまびこ」で</span>
+<span data-dur="4.96" data-begin="285.833">私が皆様をまとめたり引っ張って行けたりするだけの</span>
+<span data-dur="3.197" data-begin="290.793">技術も力もありません。</span>
+<span data-dur="1.158" data-begin="293.990">ですが、</span>
+<span data-dur="3.296" data-begin="295.148">組織は一人の力だけではなく、</span>
+<span data-dur="2.58" data-begin="298.444">円谷前会長を始め</span>
+<span data-dur="5.427" data-begin="301.024">頼れる諸先輩方や熱意溢れる会員皆さんの総力ですので、</span>
+<span data-dur="5.871" data-begin="306.451">そこだけは自信を持ってこの活動を進められます。</span>
+<span data-dur="2.332" data-begin="312.322">ここから導き出されたのは、</span>
+<span data-dur="5.053" data-begin="314.654">会員の皆様の音訳活動が楽しく有意義なものであるよう</span>
+<span data-dur="3.651" data-begin="319.707">雑用一手引受。</span>
+<span data-dur="3.02" data-begin="323.358">これが私の受けた仕事と</span>
+<span data-dur="1.914" data-begin="326.378">理解できましたので</span>
+<span data-dur="1.518" data-begin="328.292">胸を張って</span>
+<span data-dur="1.733" data-begin="329.810">「頑張りまっす！」</span>
+<span data-dur="2.588" data-begin="331.543">と言えます。</span>  
+<span data-dur="1.292" data-begin="334.131">今後とも</span>
+<span data-dur="4.819" data-begin="335.423">皆様のご協力を宜しくお願い致します。</span>
 
-<span data-dur="5.436" data-begin="336.400"><span data-dur="1.642" data-begin="341.836">糸電話</span> <span data-dur="1.917" data-begin="343.478">蝶につながり</span> <span data-dur="1.876" data-begin="345.395">もうしもし</span></span>
+## <span data-dur="2.021" data-begin="342.292">平成30年度</span><span data-dur="2.297" data-begin="344.313">図書館音訳図書の</span><span data-dur="3.158" data-begin="346.610">製作委託を受けました。</span>
 
-<span class="haigo" data-dur="2.406" data-begin="347.271"><ruby>郷<rt>(きょう)</rt></ruby></span>
+<span data-dur="4.948" data-begin="349.768">あと1冊は決定次第お知らせします。</span>
 
+- <span data-dur="12.583" data-begin="354.716">「TOKYO北区のKITAみち</span><span data-dur="2.841" data-begin="367.299">～目で見る北区の歴史～」</span>  
+<span data-dur="2.036" data-begin="370.140">北区中央図書館</span><span data-dur="2.63" data-begin="372.176">編集･発行</span>
+- <span data-dur="2.453" data-begin="374.806">「きつね装束殺人事件」</span>  
+<span data-dur="2.782" data-begin="377.259">七滝雅孝 著</span>
+- <span data-dur="3.097" data-begin="380.041">「浅見光彦と七人の探偵たち」</span>  
+<span data-dur="2.922" data-begin="383.138">内田康夫他 著</span>
+- <span data-dur="1.228" data-begin="386.060">「妖剣」</span><span data-dur="2.986" data-begin="387.288">（内田康夫文学賞受賞作）</span>  
+<span data-dur="3.069" data-begin="390.274">甲斐太朗 著</span>
 
-## <span data-dur="2.857" data-begin="349.677">やまびこ通信がウェブ化に</span>
+## <span data-dur="1.315" data-begin="393.343">今月も、</span><span data-dur="4.685" data-begin="394.658">十条台句会様からの俳句をお楽しみください。</span>
 
-<span data-dur="2.535" data-begin="352.534">2018年4月号から</span>
-<span data-dur="1.865" data-begin="355.069">やまびこ通信を</span>
-<span data-dur="1.342" data-begin="356.934">紙面から</span>
-<span data-dur="4.117" data-begin="358.276">web版でお届けすることになりました。</span>
+<span data-dur="12.641" data-begin="401.043">薫る風
+背高き孫を
+連れてくる</span>
 
-<span data-dur="1.358" data-begin="362.393">やまびこは</span>
-<span data-dur="1.875" data-begin="363.751">音訳グループなので、</span>
-<span data-dur="2.482" data-begin="365.626">音声化を聞いて頂くことが、</span>
-<span data-dur="3.019" data-begin="368.108">やまびこを知って頂くのに最適であり、</span>
-<span data-dur="2.406" data-begin="371.127">より多くの皆さんに</span>
-<span data-dur="1.727" data-begin="373.533">認知して頂き</span>
-<span data-dur="2.292" data-begin="375.260">興味を持って頂けたら</span>
-<span data-dur="3.537" data-begin="377.552">という思いから始めました。</span>
+<span class="haigo" data-dur="2.396" data-begin="413.684"><ruby>郷<rt>(きょう)</rt></ruby></span>
 
-## <span data-dur="1.749" data-begin="381.089">Let's try!!</span>
+## <span data-dur="1.678" data-begin="416.080">お知らせ</span>
 
-<span data-dur="1.334" data-begin="382.838">今月は</span>
-<span data-dur="3.019" data-begin="384.172">〈実は読み間違えている漢字ランキング〉</span>
-<span data-dur="2.782" data-begin="387.191">トップ10です。</span>
-<span data-dur="3.245" data-begin="389.973">正しいのはどちら？</span>
-<span data-dur="2.815" data-begin="393.218"><!--問題の読み上げは省略--></span>
+1. <span data-dur="3.079" data-begin="418.695">音訳者養成中級講座</span><span data-dur="1.535" data-begin="421.774">（全10回）</span><span data-dur="7.569" data-begin="423.309">が5月30日より中央図書館3階ホールで開催されます。</span>  
+<span data-dur="1.968" data-begin="430.878">受講生の皆さん、</span><span data-dur="0.945" data-begin="432.846">また、</span><span data-dur="1.797" data-begin="433.791">お手伝いの皆さん、</span><span data-dur="3.289" data-begin="435.588">どうぞよろしくお願いします。</span>
+2. <span data-dur="0.981" data-begin="440.959">＂夏、</span><span data-dur="2.266" data-begin="441.940">体験ボランティア＂</span>  
+<span data-dur="5.138" data-begin="444.206">今年も2名の体験者を募集します。</span>  
+<span data-dur="2.249" data-begin="449.344">7/27、</span><span data-dur="1.715" data-begin="451.593">8/10、</span><span data-dur="3.849" data-begin="453.308">8/24の日程で行われますので、</span><span data-dur="3.299" data-begin="457.157">ご協力お願いいたします。</span>
+3. <span data-dur="2.937" data-begin="462.800">北区図書館区民の会の</span><span data-dur="2.567" data-begin="465.737">10周年記念行事として</span><span data-dur="7.38" data-begin="468.304">パネル展示が6/29～8/31まで行われます。</span>  
+<span data-dur="4.471" data-begin="475.684">やまびこからは大川さんがパネル作成に参加して、</span><span data-dur="3.148" data-begin="480.155">読みやすいものが出来ました。</span><span data-dur="3.143" data-begin="483.303">ぜひご覧になってください。</span>
+4. <span data-dur="3.157" data-begin="488.703">おちゃのこ祭祭2018が</span><span data-dur="7.279" data-begin="491.860">6月9日(土)・10日(日)に滝野川会館で行われます。</span>  
+<span data-dur="4.919" data-begin="499.139">やまびこではチラシの音訳をお手伝いしました。</span><span data-dur="2.415" data-begin="504.058">お近くまでおでかけの折には</span><span data-dur="4.772" data-begin="506.473">立ち寄ってみてください。</span>
 
-<blockquote markdown="1">
-1位 乳離れ・・・チチ or チ
+## <span data-dur="1.963" data-begin="511.245">Let's try!!</span>
 
-2位 貼付・・・チョウフ or ハリツケ
+<img class="migi" src="media/tusin201806/cut4.png" alt="" />
 
-3位 続柄・・・ゾクガラ or ツヅキガラ
+<span data-dur="5.975" data-begin="513.208">今月は久しぶりにクロスワードを作ってみました。</span>
+<!--span data-dur="3.013" data-begin="519.183">問題の読み上げは省略</span-->
 
-4位 礼讃・・・ライサン or レイサン
+<span data-dur="0.94" data-begin="522.196">では、</span>
+<span data-dur="3.811" data-begin="523.136">お楽しみください。</span>
 
-5位 依存心・・・イゾンシン or イソンシン
+- <a href="https://o-yamabiko.github.io/tusin201806puzzle/" target="_blank">画面に直接入力して解く場合はこちら。</a>  
+パソコンより、スマートフォンやタブレットの方が操作しやすいです。古いブラウザではうまく表示されません。
+- <a href="https://o-yamabiko.github.io/media/tusin201806/puzzle.pdf" target="_blank">印刷して紙に書き込んで解く場合はこちら。</a>
 
-6位 漸く・・・シバラク or ヨウヤク
+### <span data-dur="2.207" data-begin="526.947">5月の答え</span>
 
-7位 早急・・・サッキュウ or ソウキュウ
+<span data-dur="1.013" data-begin="529.154">1位</span>
+<span data-dur="1.584" data-begin="530.167">乳離れ（チバナレ）</span>  
+<span data-dur="0.869" data-begin="531.751">2位</span>
+<span data-dur="1.586" data-begin="532.620">貼付（チョウフ）</span>  
+<span data-dur="1.066" data-begin="534.206">3位</span>
+<span data-dur="1.811" data-begin="535.272">続柄（ツヅキガラ）</span>  
+<span data-dur="1.011" data-begin="537.083">4位</span>
+<span data-dur="1.734" data-begin="538.094">礼賛（ライサン）</span>  
+<span data-dur="0.914" data-begin="539.828">5位</span>
+<span data-dur="1.782" data-begin="540.742">依存心（イソンシン）</span>  
+<span data-dur="1.029" data-begin="542.524">6位</span>
+<span data-dur="1.747" data-begin="543.553">漸く（ヨウヤク）</span>  
+<span data-dur="0.95" data-begin="545.300">7位</span>
+<span data-dur="1.732" data-begin="546.250">早急（サッキュウ）</span>  
+<span data-dur="1.02" data-begin="547.982">8位</span>
+<span data-dur="1.694" data-begin="549.002">間髪（カンハツ）</span>  
+<span data-dur="0.975" data-begin="550.696">9位</span>
+<span data-dur="1.719" data-begin="551.671">代替（ダイタイ）</span>  
+<span data-dur="1.008" data-begin="553.390">10位</span>
+<span data-dur="1.885" data-begin="554.398">御来迎（ゴライゴウ）</span>
 
-8位 間髪・・・カンパツ or カンハツ
+<span data-dur="3.136" data-begin="556.283">難読漢字・果物篇</span>  
+<span data-dur="2.231" data-begin="559.419">火龍果（ドラゴンフルーツ）</span>  
+<span data-dur="1.578" data-begin="561.650">藩石榴（グアバ）</span>  
+<span data-dur="1.712" data-begin="563.228">麝香猫果（ドリアン)</span>  
+<span data-dur="1.665" data-begin="564.940">鰐梨（アボカド）</span>  
+<span data-dur="1.565" data-begin="566.605">甘蕉（バナナ）</span>  
+<span data-dur="1.619" data-begin="568.170">万寿果･凡蕃瓜樹（パパイア）</span>  
+<span data-dur="1.665" data-begin="569.789">無花果・映日果（イチジク）</span>  
+<span data-dur="1.629" data-begin="571.454">檬果・芒果実（マンゴー）</span>  
+<span data-dur="1.786" data-begin="573.083">鳳梨（パイナップル）</span>  
+<span data-dur="2.074" data-begin="574.869">五斂子（スターフルーツ）</span>  
+<span data-dur="1.565" data-begin="576.943">茘枝（ライチ）</span>
 
-9位 代替・・・ダイタイ or ダイカエ
-
-10位 御来迎・・・ゴライコウ or ゴライゴウ
-</blockquote>
-
-<span data-dur="1.044" data-begin="396.033">次は</span>
-<span data-dur="3.103" data-begin="397.077">難読漢字・果物編です！</span>
-<span data-dur="2.815" data-begin="400.180"><!--問題の読み上げは省略--></span>
-
-<blockquote markdown="1">
-- <ruby>火龍果<rt>(　　　)</rt></ruby><img class="migi" src="media/tusin201805/cut3.png" alt="" />
-- <ruby>蕃石榴<rt>(　　　)</rt></ruby>
-- <ruby>麝香猫果<rt>(　　　　)</rt></ruby>
-- <ruby>鰐梨<rt>(　　)</rt></ruby>
-- <ruby>甘蕉<rt>(　　)</rt></ruby>
-- <ruby>万寿果・凡蕃瓜樹<rt>(　　　　　　　　)</rt></ruby>
-- <ruby>無花果・映日果<rt>(　　　　　　　)</rt></ruby>
-- <ruby>檬果・芒果<rt>(　　　　　)</rt></ruby>
-- <ruby>鳳梨<rt>(　　)</rt></ruby>
-- <ruby>五斂子<rt>(　　　)</rt></ruby>
-- <ruby>茘枝<rt>(　　)</rt></ruby>
-</blockquote>
-
-### <span data-dur="2.336" data-begin="402.995">4月号の答え</span>
-
-<blockquote markdown="1">
-<span data-dur="0.89" data-begin="405.331">1.</span>
-<span data-dur="1.871" data-begin="406.221"><ruby>一段落<rt>(いちだんらく)</rt></ruby></span>
-
-<span data-dur="0.718" data-begin="408.092">2.</span>
-<span data-dur="1.677" data-begin="408.810"><ruby>席巻<rt>(せっけん)</rt></ruby></span>
-
-<span data-dur="0.896" data-begin="410.487">3.</span>
-<span data-dur="1.572" data-begin="411.383"><ruby>野点<rt>(のだて)</rt></ruby></span>
-
-<span data-dur="0.85" data-begin="412.955">4．</span>
-<span data-dur="1.996" data-begin="413.805"><ruby>時々刻々<rt>(じじこっこく)</rt></ruby></span>
-
-<span data-dur="0.733" data-begin="415.801">5．</span>
-<span data-dur="1.597" data-begin="416.534"><ruby>好事家<rt>(こうずか)</rt></ruby></span>
-
-<span data-dur="0.891" data-begin="418.131">6．</span>
-<span data-dur="1.597" data-begin="419.022"><ruby>洒脱<rt>(しゃだつ)</rt></ruby></span>
-
-<span data-dur="0.866" data-begin="420.619">7.</span>
-<span data-dur="1.632" data-begin="421.485"><ruby>訥弁<rt>(とつべん)</rt></ruby></span>
-
-<span data-dur="0.906" data-begin="423.117">8．</span>
-<span data-dur="1.551" data-begin="424.023"><ruby>海鼠<rt>(なまこ)</rt></ruby></span>
-
-<span data-dur="0.855" data-begin="425.574">9．</span>
-<span data-dur="1.792" data-begin="426.429"><ruby>月世界<rt>(げっせかい)</rt></ruby></span>
-
-<span data-dur="0.838" data-begin="428.221">10.</span>
-<span data-dur="1.581" data-begin="429.059"><ruby>蝙蝠<rt>(こうもり)</rt></ruby></span>
-
-<span data-dur="1.218" data-begin="430.640">11.</span>
-<span data-dur="1.596" data-begin="431.858"><ruby>驟雨<rt>(しゅうう)</rt></ruby></span>
-</blockquote>
-
-<span data-dur="6.967" data-begin="433.454">定例会：第2・第4金曜日10時～12時／中央図書館3階</span>  
-<span data-dur="4.324" data-begin="440.421">連絡先：やまびこ代表 <ruby>円谷千恵子<rt>(ツムラヤ・チエコ)</rt></ruby></span>  
-<span data-dur="5.372" data-begin="444.745">電話番号：03（3907）2909</span>  
-<span data-dur="2.383" data-begin="450.117"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.252" data-begin="452.500">このサイトについてはこちらへ</a></span>
-<span data-dur="5.897" data-begin="454.752"><!--以上でやまびこ通信2018年5月号を終わります。--></span>
+<span data-dur="1.272" data-begin="578.508">定例会：</span>
+<span data-dur="6.695" data-begin="579.780">第2・第4金曜日10時～12時／中央図書館3階</span>  
+<span data-dur="1.447" data-begin="586.475">連絡先：</span>
+<span data-dur="3.481" data-begin="587.922">やまびこ代表 大川 薫</span>  
+<span data-dur="1.627" data-begin="591.403">電話番号：</span>
+<span data-dur="4.069" data-begin="593.030">03-3910-7331</span>  
+<span data-dur="2.525" data-begin="597.099"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.281" data-begin="599.624">このサイトについてはこちらへ</a></span>
+<!--span data-dur="6.618" data-begin="601.905">以上でやまびこ通信2018年6月号を終わります。</span-->

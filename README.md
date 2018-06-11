@@ -1,3 +1,7 @@
+---
+date: 2018-06-11T04:01:05Z
+---
+   
 <!--span data-dur="2.708" data-begin="2.050">音訳グループ やまびこ</span>
 <span data-dur="1.641" data-begin="4.758">読み上げ時間：</span>
 span data-dur="3.095" data-begin="6.399">約4分30秒</span-->

@@ -1,6 +1,7 @@
 ---
 layout: print
 title: 音訳グループ やまびこ
+date: 2018-06-11T04:01:05Z
 ---
 <img class="fullw" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />
 

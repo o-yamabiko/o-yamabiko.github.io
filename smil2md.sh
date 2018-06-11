@@ -12,24 +12,30 @@ fi
 
 # create base md
 echo '---' > $2.md
-echo 'layout: caymanyomi' >> $2.md
 
-# if tusinYYYYmm
-if [[ $2 != tusin* ]]; then
-  echo 'title: ' >> $2.md
+# if index
+if [[ $2 = index ]]; then
+  echo 'date: '`date +%Y-%m-%dT%TZ` >> $2.md
 else
-  echo 'title: やまびこ通信'$YEAR'年'$MONTH1'月号' >> $2.md
-fi
+  echo 'layout: caymanyomi' >> $2.md
 
-echo 'author: 音訳グループ やまびこ' >> $2.md
-echo 'date: '`date +%Y-%m-%dT%TZ` >> $2.md
-echo 'oto: '$2'/sound0001' >> $2.md
-echo 'iro: ' >> $2.md
-echo 'gra: ' >> $2.md
-echo 'background: '$2'/default.png' >> $2.md
-echo 'imagefrom: ' >> $2.md
-echo 'imagefromurl: ' >> $2.md
-echo 'navigation: true' >> $2.md
+  # if tusinYYYYmm
+  if [[ $2 != tusin* ]]; then
+    echo 'title: ' >> $2.md
+  else
+    echo 'title: やまびこ通信'$YEAR'年'$MONTH1'月号' >> $2.md
+  fi
+
+  echo 'author: 音訳グループ やまびこ' >> $2.md
+  echo 'date: '`date +%Y-%m-%dT%TZ` >> $2.md
+  echo 'oto: '$2'/sound0001' >> $2.md
+  echo 'iro: ' >> $2.md
+  echo 'gra: ' >> $2.md
+  echo 'background: '$2'/default.png' >> $2.md
+  echo 'imagefrom: ' >> $2.md
+  echo 'imagefromurl: ' >> $2.md
+  echo 'navigation: true' >> $2.md
+fi
 echo '---' >> $2.md
 echo '   ' >> $2.md
 
@@ -110,7 +116,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/｜\(.*\)SILENT< *(\([ぁ-ゟ゠ァ-ヿ]*\)) *>SILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
     -e 's/>\(.*\)SILENT< *(\([ぁ-ゟ゠ァ-ヿ]*\)) *>SILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
     -e 's/SILENT<\(.*\)>SILENT/\1/g' \
-    temp5 > ../$2.md
+    temp5 >> ../$2.md
 
 else
 
