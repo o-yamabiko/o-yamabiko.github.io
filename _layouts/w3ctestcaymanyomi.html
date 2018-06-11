@@ -69,7 +69,7 @@
 
       <footer class="site-footer">
        <div class="site-footer-owner"><a href="{{ site.url }}">音訳グループ やまびこ</a></div>
-      <div>
+      <div itemscope>
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
       </div>
        {% if site.github.is_project_page %}
