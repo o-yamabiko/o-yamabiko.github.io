@@ -33,7 +33,7 @@ grep $1 bn.list > search
 		echo '以下は読み上げ版のリストです。' >> temp.md
 		echo '' >> temp.md
 		cat temp.md bn.list > ./_info/bn.md
-		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' README.md > README.md1 && mv README.md1 README.md
+		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index.md > index.md1 && mv index.md1 index.md
 
 	fi
 

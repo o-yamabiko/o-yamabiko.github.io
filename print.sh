@@ -15,10 +15,10 @@ done
 echo '---' > _p/index.md
 echo 'layout: print' >> _p/index.md
 echo 'title: 音訳グループ やまびこ' >> _p/index.md
-sed -n '/date: /p' README.md >> _p/index.md
+sed -n '/date: /p' index.md >> _p/index.md
 echo '---' >> _p/index.md
 echo '<img class="fullw" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />' >> _p/index.md
 echo '' >> _p/index.md
-sed  -e 's/今お聞きの声は/ホームページの声は/' README.md > temp
+sed  -e 's/今お聞きの声は/ホームページの声は/' index.md > temp
 sed -n '/##/,$p' temp >> _p/index.md
 rm temp
