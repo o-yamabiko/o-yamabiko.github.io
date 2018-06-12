@@ -1,5 +1,5 @@
 ---
-date: 2018-06-12T01:19:55Z
+date: 2018-06-12T03:46:06Z
 ---
    
 <!--span data-dur="2.708" data-begin="2.050">音訳グループ やまびこ</span>
@@ -101,7 +101,7 @@ span data-dur="3.086" data-begin="6.399">約4分40秒</span-->
 <span data-dur="3.968" data-begin="247.070">見学や入会はいつでも受け付けていますので、</span>
 <span data-dur="6.459" data-begin="251.038">音訳のボランティアに興味のある方はお気軽にご連絡ください。</span>
 
-<span data-dur="4.057" data-begin="257.497">連絡先：やまびこ代表大川薫</span>
+<span data-dur="4.057" data-begin="257.497">連絡先：やまびこ代表 大川 薫</span>
 <span data-dur="1.627" data-begin="261.554">（電話番号</span>
 <span data-dur="4.768" data-begin="263.181">03-3910-7331）</span>  
 <span data-dur="2.729" data-begin="267.949"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.632" data-begin="270.678">このサイトについてのお問い合わせ</a></span>
