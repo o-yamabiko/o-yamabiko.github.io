@@ -49,6 +49,9 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/icons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+  {% if page.oto %}
+  <title>音が出ます：{{ page.title }}</title>
+  {% endif %}
   </head>
   <body{% if page.oto %} onload="showtext()"{% endif %}>
         {% if page.oto %}
