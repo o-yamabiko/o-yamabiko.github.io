@@ -4,8 +4,10 @@
     <meta charset='utf-8'>
     <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.oto %}音が出ます：{% endif %}{{ page.title }} | {{ site.title }}</title>
 
-{% seo %}
+            {% seo title=false %}
+	    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
