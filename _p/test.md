@@ -3,6 +3,7 @@ layout: test
 title: やまびこ通信2018年6月号
 author: 音訳グループ やまびこ
 date: 2018-06-06T15:21:36Z
+docid: tusin201806
 oto: tusin201806/sound0001
 iro: 435fb7
 gra: 96d8e8
