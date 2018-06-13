@@ -67,15 +67,15 @@
       {{ content }}
 
       <footer class="site-footer">
-        {% if page.oto %}
-          {% if page.docid %}
-      <div><a href="../{{ page.docid }}.html">このページの読み上げ音声を聞く</a></div>
-          {% endif %}
-        {% endif %}
-       <div class="site-footer-owner"><a href="{{ site.url }}">音訳グループ やまびこ（音が出ます）</a></div>
       <div itemscope>
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>
       </div>
+        {% if page.oto %}
+          {% if page.docid %}
+      <div class="site-footer-owner"><a href="../{{ page.docid }}.html">このページの読み上げ音声を聞く</a></div>
+          {% endif %}
+        {% endif %}
+       <div class="site-footer-owner"><a href="{{ site.url }}">音訳グループ やまびこ（音が出ます）</a></div>
       </footer>
     </section>
   </body>
