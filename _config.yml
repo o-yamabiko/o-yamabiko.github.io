@@ -1,6 +1,7 @@
 lang: ja
 theme: jekyll-theme-cayman
 show_downloads: false
+title: 
 markdown: kramdown
 collections:
   tusin:
