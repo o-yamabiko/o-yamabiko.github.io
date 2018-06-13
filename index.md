@@ -85,7 +85,7 @@ span data-dur="3.086" data-begin="6.399">約4分40秒</span-->
 <span data-dur="3.002" data-begin="207.044">十条台句会から寄せられた俳句、</span>
 <span data-dur="2.481" data-begin="210.046">クイズなど。</span>
 
-- <span data-dur="1.46" data-begin="212.527"><a href="tusin201806.html" data-dur="2.282" data-begin="213.987">最新号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></span>
+- <span data-dur="1.46" data-begin="212.527"><a href="tusin201806.html" data-dur="2.282" data-begin="213.987">最新号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></span>
 - <span data-dur="1.634" data-begin="216.269"><a href="bn.html" data-dur="2.632" data-begin="217.903">バックナンバー</a></span>
 
 ## <span data-dur="2.122" data-begin="220.535">定例会</span>
