@@ -91,10 +91,10 @@
        {% if page.navigation %}
 <div class="nav">
          {% if page.previous %}
-<form action="{{ page.previous.url }}"><input type="submit" value="前号" class="pglinkl" /></form>
+<form action="{{ page.previous.url }}"><input type="hidden" name="action" value="前号" class="pglinkl" /></form>
          {% endif %}
          {% if page.next %}
-<form action="{{ page.next.url }}"><input type="submit" value="次号" class="pglinkr" /></form>
+<form action="{{ page.next.url }}"><input type="hidden" name="action" value="次号" class="pglinkr" /></form>
          {% endif %}
 </div> 
        {% endif %}
