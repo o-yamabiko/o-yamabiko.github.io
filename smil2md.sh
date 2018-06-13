@@ -18,6 +18,7 @@ if [[ $2 = index ]]; then
   echo 'date: '`date +%Y-%m-%dT%TZ` >> $2.md
 else
   echo 'layout: caymanyomi' >> $2.md
+  echo 'docid: '$2 >> $2.md
 
   # if tusinYYYYmm
   if [[ $2 != tusin* ]]; then
