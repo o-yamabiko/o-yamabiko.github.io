@@ -16,7 +16,7 @@ grep $1 bn.list > search
 		:
 	else
   # 0バイトだったら消す
-		(echo '- <a href="'$1'.html">'$YEAR'年'$MONTH1'月号</a>' && cat bn.list) > bn.list1 && mv bn.list1 bn.list
+		(echo '- <a href="'$1'.html">'$YEAR'年'$MONTH1'月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>' && cat bn.list) > bn.list1 && mv bn.list1 bn.list
 		echo '---' > temp.md
 		echo 'layout: caymanyomi' >> temp.md
 		echo 'title: やまびこ通信 バックナンバー' >> temp.md
