@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 1.0//EN" "http://www.w3.org/TR/REC-smil/SMIL10.dtd">
+<smil>
+  <head>
+    <meta name="ncc:generator" content="IMLX2DAILY.DLL 1.0.0"/>
+    <meta name="dc:format" content="Daisy 2.02"/>
+    <meta name="title" content="音訳グループやまびこ"/>
+    <meta name="dc:title" content="音訳グループやまびこ"/>
+    <meta name="ncc:timeInThisSmil" content="00:04:39"/>
+    <layout><region id="txtView"/></layout>
+  </head>
+  <body>
+	<seq dur="279.45s">
+<par endsync="last"><text src="index.html#mrii_0001" id="mrii_0001"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=0.000s" clip-end="npt=2.050s" id="qwrt_0001"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0001" id="xmri_0001"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=2.050s" clip-end="npt=4.758s" id="qwrt_0002"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0002" id="xmri_0002"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=4.758s" clip-end="npt=6.399s" id="qwrt_0003"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0003" id="xmri_0003"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=6.399s" clip-end="npt=9.485s" id="qwrt_0004"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0004" id="xmri_0004"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=9.485s" clip-end="npt=10.877s" id="qwrt_0005"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0005" id="xmri_0005"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=10.877s" clip-end="npt=13.994s" id="qwrt_0006"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0006" id="xmri_0006"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=13.994s" clip-end="npt=19.271s" id="qwrt_0007"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0007" id="xmri_0007"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=19.271s" clip-end="npt=22.047s" id="qwrt_0008"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0008" id="xmri_0008"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=22.047s" clip-end="npt=26.050s" id="qwrt_0009"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0009" id="xmri_0009"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=26.050s" clip-end="npt=32.016s" id="qwrt_000A"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_000A" id="xmri_000A"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=32.016s" clip-end="npt=35.486s" id="qwrt_000B"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_000B" id="xmri_000B"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=35.486s" clip-end="npt=36.568s" id="qwrt_000C"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_000C" id="xmri_000C"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=36.568s" clip-end="npt=41.732s" id="qwrt_000D"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_000D" id="xmri_000D"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=41.732s" clip-end="npt=43.995s" id="qwrt_000E"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_000E" id="xmri_000E"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=43.995s" clip-end="npt=45.441s" id="qwrt_000F"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_000F" id="xmri_000F"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=45.441s" clip-end="npt=47.335s" id="qwrt_0010"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0010" id="xmri_0010"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=47.335s" clip-end="npt=48.643s" id="qwrt_0011"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0011" id="xmri_0011"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=48.643s" clip-end="npt=54.365s" id="qwrt_0012"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0012" id="xmri_0012"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=54.365s" clip-end="npt=57.452s" id="qwrt_0013"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0013" id="xmri_0013"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=57.452s" clip-end="npt=62.451s" id="qwrt_0014"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0014" id="xmri_0014"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=62.451s" clip-end="npt=70.426s" id="qwrt_0015"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0015" id="xmri_0015"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=70.426s" clip-end="npt=71.862s" id="qwrt_0016"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0016" id="xmri_0016"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=71.862s" clip-end="npt=78.373s" id="qwrt_0017"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0017" id="xmri_0017"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=78.373s" clip-end="npt=83.503s" id="qwrt_0018"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0018" id="xmri_0018"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=83.503s" clip-end="npt=85.921s" id="qwrt_0019"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0019" id="xmri_0019"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=85.921s" clip-end="npt=89.184s" id="qwrt_001A"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_001A" id="xmri_001A"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=89.184s" clip-end="npt=93.742s" id="qwrt_001B"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_001B" id="xmri_001B"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=93.742s" clip-end="npt=98.355s" id="qwrt_001C"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_001C" id="xmri_001C"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=98.355s" clip-end="npt=99.982s" id="qwrt_001D"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_001D" id="xmri_001D"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=99.982s" clip-end="npt=105.158s" id="qwrt_001E"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_001E" id="xmri_001E"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=105.158s" clip-end="npt=108.122s" id="qwrt_001F"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_001F" id="xmri_001F"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=108.122s" clip-end="npt=110.980s" id="qwrt_0020"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0020" id="xmri_0020"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=110.980s" clip-end="npt=112.761s" id="qwrt_0021"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0021" id="xmri_0021"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=112.761s" clip-end="npt=114.363s" id="qwrt_0022"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0022" id="xmri_0022"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=114.363s" clip-end="npt=117.192s" id="qwrt_0023"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0023" id="xmri_0023"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=117.192s" clip-end="npt=118.804s" id="qwrt_0024"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0024" id="xmri_0024"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=118.804s" clip-end="npt=120.586s" id="qwrt_0025"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0025" id="xmri_0025"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=120.586s" clip-end="npt=125.583s" id="qwrt_0026"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0026" id="xmri_0026"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=125.583s" clip-end="npt=128.147s" id="qwrt_0027"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0027" id="xmri_0027"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=128.147s" clip-end="npt=130.415s" id="qwrt_0028"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0028" id="xmri_0028"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=130.415s" clip-end="npt=136.266s" id="qwrt_0029"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0029" id="xmri_0029"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=136.266s" clip-end="npt=142.026s" id="qwrt_002A"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_002A" id="xmri_002A"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=142.026s" clip-end="npt=144.237s" id="qwrt_002B"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_002B" id="xmri_002B"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=144.237s" clip-end="npt=148.710s" id="qwrt_002C"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_002C" id="xmri_002C"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=148.710s" clip-end="npt=152.524s" id="qwrt_002D"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_002D" id="xmri_002D"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=152.524s" clip-end="npt=156.479s" id="qwrt_002E"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_002E" id="xmri_002E"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=156.479s" clip-end="npt=161.044s" id="qwrt_002F"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_002F" id="xmri_002F"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=161.044s" clip-end="npt=163.501s" id="qwrt_0030"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0030" id="xmri_0030"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=163.501s" clip-end="npt=167.176s" id="qwrt_0031"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0031" id="xmri_0031"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=167.176s" clip-end="npt=169.034s" id="qwrt_0032"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0032" id="xmri_0032"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=169.034s" clip-end="npt=171.883s" id="qwrt_0033"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0033" id="xmri_0033"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=171.883s" clip-end="npt=176.029s" id="qwrt_0034"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0034" id="xmri_0034"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=176.029s" clip-end="npt=178.096s" id="qwrt_0035"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0035" id="xmri_0035"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=178.096s" clip-end="npt=180.644s" id="qwrt_0036"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0036" id="xmri_0036"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=180.644s" clip-end="npt=182.407s" id="qwrt_0037"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0037" id="xmri_0037"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=182.407s" clip-end="npt=187.020s" id="qwrt_0038"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0038" id="xmri_0038"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=187.020s" clip-end="npt=191.348s" id="qwrt_0039"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0039" id="xmri_0039"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=191.348s" clip-end="npt=193.947s" id="qwrt_003A"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_003A" id="xmri_003A"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=193.947s" clip-end="npt=197.072s" id="qwrt_003B"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_003B" id="xmri_003B"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=197.072s" clip-end="npt=199.963s" id="qwrt_003C"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_003C" id="xmri_003C"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=199.963s" clip-end="npt=201.259s" id="qwrt_003D"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_003D" id="xmri_003D"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=201.259s" clip-end="npt=203.581s" id="qwrt_003E"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_003E" id="xmri_003E"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=203.581s" clip-end="npt=205.725s" id="qwrt_003F"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_003F" id="xmri_003F"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=205.725s" clip-end="npt=207.044s" id="qwrt_0040"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0040" id="xmri_0040"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=207.044s" clip-end="npt=210.046s" id="qwrt_0041"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0041" id="xmri_0041"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=210.046s" clip-end="npt=212.527s" id="qwrt_0042"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0042" id="xmri_0042"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=212.527s" clip-end="npt=213.987s" id="qwrt_0043"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0043" id="xmri_0043"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=213.987s" clip-end="npt=216.269s" id="qwrt_0044"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0044" id="xmri_0044"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=216.269s" clip-end="npt=217.903s" id="qwrt_0045"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0045" id="xmri_0045"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=217.903s" clip-end="npt=220.535s" id="qwrt_0046"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0046" id="xmri_0046"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=220.535s" clip-end="npt=222.657s" id="qwrt_0047"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0047" id="xmri_0047"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=222.657s" clip-end="npt=226.862s" id="qwrt_0048"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0048" id="xmri_0048"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=226.862s" clip-end="npt=230.127s" id="qwrt_0049"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0049" id="xmri_0049"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=230.127s" clip-end="npt=235.804s" id="qwrt_004A"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_004A" id="xmri_004A"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=235.804s" clip-end="npt=239.589s" id="qwrt_004B"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_004B" id="xmri_004B"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=239.589s" clip-end="npt=243.560s" id="qwrt_004C"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_004C" id="xmri_004C"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=243.560s" clip-end="npt=247.070s" id="qwrt_004D"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_004D" id="xmri_004D"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=247.070s" clip-end="npt=251.038s" id="qwrt_004E"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_004E" id="xmri_004E"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=251.038s" clip-end="npt=257.497s" id="qwrt_004F"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_004F" id="xmri_004F"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=257.497s" clip-end="npt=261.554s" id="qwrt_0050"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0050" id="xmri_0050"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=261.554s" clip-end="npt=263.181s" id="qwrt_0051"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0051" id="xmri_0051"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=263.181s" clip-end="npt=267.949s" id="qwrt_0052"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0052" id="xmri_0052"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=267.949s" clip-end="npt=270.678s" id="qwrt_0053"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0053" id="xmri_0053"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=270.678s" clip-end="npt=273.310s" id="qwrt_0054"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0054" id="xmri_0054"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=273.310s" clip-end="npt=278.305s" id="qwrt_0055"/></seq></par>
+<par endsync="last"><text src="index.html#xmri_0055" id="xmri_0055"/><seq><audio src="sounds/sound0001.wav" clip-begin="npt=278.305s" clip-end="npt=279.455s" id="qwrt_0056"/></seq></par>
+</seq>
+  </body>
+</smil>
