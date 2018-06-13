@@ -1,7 +1,6 @@
 lang: ja
 theme: jekyll-theme-cayman
 show_downloads: false
-title: 音訳グループ やまびこ
 markdown: kramdown
 collections:
   tusin:
