@@ -49,13 +49,13 @@ sed \
     mrii0001.smil > begin-end.tsv
 # extract paroles
 LC_COLLATE=C.UTF-8 sed \
-    -e 's/<span class=\"infty_silent\">\([^｜<]*\)<\/span>/SILENT<\1>SILENT/g' \
+    -e 's/<span class=\"infty_silent\">\([^｜<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&nbsp; <span id=/<\/span>\n<span id=/g' \
     index.html > temp1
 sed \
-    -e 's/^.*span id=\"[a-zA-Z0-9_]*\">\(.*\)<\/span.*$/\1/' \
+    -e 's/^.*span id=\"\([a-zA-Z0-9_]*\)\">\(.*\)<\/span.*$/\1\t\2/' \
     -e '/^[ \t]*</d' \
     -e 's/<span [a-zA-Z0-9_\"=]*>//g' \
     -e 's/<\/span>//g' \
@@ -69,15 +69,15 @@ awk '{
 paste dur-begin.tsv paroles.tsv > base.tsv
 # make span
 sed \
-    -e 's/\([0-9\.]*\)\t\([0-9\.]*\)\t\(（リンク）\)/<a href=\"\" data-dur=\"\1\" data-begin=\"\2\">\3<\/a><\/span>/' \
-    -e 's/\([0-9\.]*\)\t\([0-9\.]*\)\t\(.*\)/<span data-dur=\"\1\" data-begin=\"\2\">\3<\/span>/' \
+    -e 's/\([0-9\.]*\)\t\([0-9\.]*\)\t\([a-z]*_[0-9A-Z]*\)\t\(（リンク）\)/<a href=\"\" data-dur=\"\1\" data-begin=\"\2\" id=\"\3\">\4<\/a><\/span>/' \
+    -e 's/\([0-9\.]*\)\t\([0-9\.]*\)\t\([a-z]*_[0-9A-Z]*\)\t\(.*\)/<span data-dur=\"\1\" data-begin=\"\2\" id=\"\3\">\4<\/span>/' \
     base.tsv > temp3
 sed \
     -e ':a;N;$!ba;s/<\/span>\n<a/<a/g' \
     temp3 > temp4
 sed \
-    -e '/>&thinsp;/d' \
-    -e '/>&nbsp;/d' \
+    -e 's/&thinsp;/ /g' \
+    -e 's/&nbsp;/ /g' \
     -e 's/&ensp;/ /g' \
     temp4 > temp5
 
@@ -117,10 +117,10 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/やまびこ代表大川薫/やまびこ代表 大川 薫/' \
     -e 's/\(.*03-3910-7331）.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについてのお問い合わせ.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
-    -e 's/SILENT<（\(カット\)\([0-9]*\)）>SILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
-    -e 's/｜\(.*\)SILENT< *(\([ぁ-ゟ゠ァ-ヿ]*\)) *>SILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/>\(.*\)SILENT< *(\([ぁ-ゟ゠ァ-ヿ]*\)) *>SILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/SILENT<\(.*\)>SILENT/\1/g' \
+    -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
+    -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/SILENTTT\(.*\)SSSILENT/\1/g' \
     temp5 >> ../$2.md
 
 else
@@ -133,21 +133,24 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*>やまびこ通信[0-9]*年[0-9]*月号<.*\)$/\n# \1\n/' \
     -e 's/\(.*月活動報告<.*\)$/\n## \1\n/' \
     -e 's/\(.*月活動予定<.*\)$/\n## \1\n/' \
-    -e 's/\(.*>録音図書.*作成<.*\)$/\n## \1\n/' \
+    -e 's/\(.*>録音図書.*<.*\)$/\n## \1\n/' \
     -e 's/\(.*>対面音訳<.*\)$/\n## \1\n/' \
+    -e 's/\(.*>部会報告<.*\)$/\n## \1\n/' \
+    -e 's/\(.*>外部活動報告<.*\)$/\n## \1\n/' \
     -e 's/\(.*十条台句会.*\)$/\n## \1\n/' \
     -e 's/\(新入会員.*一言\)$/\n## \1\n/' \
     -e 's/\(.*try!!<.*\)$/\n## \1\n/' \
     -e 's/\(.*月の答え<.*\)$/\n### \1\n/' \
     -e 's/\(.*>定例会：<.*\)$/\n\1/' \
     -e 's/\(.*中央図書館3階.*\)$/\1  /' \
-    -e 's/\(.*やまびこ代表 大川 薫.*\)$/\1  /' \
+    -e 's/\(.*\)やまびこ代表 *大川 *薫\(.*\)$/\1やまびこ代表 大川 薫\2  /' \
     -e 's/\(.*03-3910-7331.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについて.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
-    -e 's/SILENT<（\(カット\)\([0-9]*\)）>SILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
-    -e 's/｜\(.*\)SILENT< *(\([ぁ-ゟ゠ァ-ヿ]*\)) *>SILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/>\(.*\)SILENT< *(\([ぁ-ゟ゠ァ-ヿ]*\)) *>SILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/SILENT<\(.*\)>SILENT/\1/g' \
+    -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
+    -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/SSSILENT//g' \
+    -e 's/SILENTTT//g' \
     temp5 >> ../$2.md
 
 fi
