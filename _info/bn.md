@@ -2,17 +2,18 @@
 layout: caymanyomi
 title: やまびこ通信 バックナンバー
 author: 音訳グループ やまびこ
-date: 2018-06-06T17:16:25Z
+date: 2018-07-06T08:38:58Z
 iro: 2679B9
 gra: 95B926
 ---
 
 # やまびこ通信 バックナンバー
 
-<span>2017年12月号から、 </span><span>ChattyInfty3で編集したAITalkの合成音声で</span><span>読み上げ版の発行を始めました。 </span><span>それ以前の号は</span><span>紙に印刷する形で発行していました。</span>
+2017年12月号から、 ChattyInfty3で編集したAITalkの合成音声で読み上げ版の発行を始めました。 それ以前の号は紙に印刷する形で発行していました。
 
 以下は読み上げ版のリストです。
 
+- <a href="tusin201807.html">2018年7月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin201806.html">2018年6月号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin201805.html">2018年5月号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin201804.html">2018年4月号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
