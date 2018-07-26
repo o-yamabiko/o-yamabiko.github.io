@@ -63,6 +63,7 @@ span data-dur="2.82" data-begin="6.399" id="xmri_0003">約5分10秒</span-->
 <span data-dur="2.211" data-begin="151.093" id="xmri_002D">音訳技術を活かして、</span>
 <span data-dur="4.473" data-begin="153.304" id="xmri_002E">聞き取りやすく理解しやすいものをお届けできるように、</span>
 <span data-dur="3.688" data-begin="157.777" id="xmri_002F">レベルアップに努めています。</span>
+
 <span data-dur="4.311" data-begin="161.465" id="xmri_0030">合成音声での音訳に使っているソフトウェアは、</span>
 <span data-dur="3.609" data-begin="165.776" id="xmri_0031"><a href="https://www.ai-j.jp/about/" data-dur="1.782" data-begin="169.385" id="xmri_0032">AITalkという音声合成エンジン</a></span>
 <span data-dur="1.712" data-begin="171.167" id="xmri_0033">が組み込まれた、</span>
