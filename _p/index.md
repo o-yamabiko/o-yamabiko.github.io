@@ -1,91 +1,101 @@
 ---
 layout: print
 title: 音訳グループ やまびこ
-date: 2018-06-12T03:46:06Z
+date: 2018-07-26T07:08:50Z
 ---
 <img class="fullw" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />
 
-## <span data-dur="4.999" data-begin="57.452">音訳とは？ 私たちの活動について</span>
+## <span data-dur="2.968" data-begin="57.186" id="xmri_0013">音訳とは？</span>
 
-<span data-dur="7.975" data-begin="62.451">私たちは東京都北区を中心に活動している音訳ボランティアグループです。</span>
+<span data-dur="7.975" data-begin="60.154" id="xmri_0014">私たちは東京都北区を中心に活動している音訳ボランティアグループです。</span>
 
-<span data-dur="1.436" data-begin="70.426">音訳とは、</span>
-<span data-dur="6.511" data-begin="71.862">障がいや高齢等の理由で文字や図表などを読むことが難しい人のために、</span>
-<span data-dur="5.13" data-begin="78.373">書かれた情報を音声化することです。</span>
+<span data-dur="1.436" data-begin="68.129" id="xmri_0015">音訳とは、</span>
+<span data-dur="6.511" data-begin="69.565" id="xmri_0016">障がいや高齢等の理由で文字や図表などを読むことが難しい人のために、</span>
+<span data-dur="5.13" data-begin="76.076" id="xmri_0017">書かれた情報を音声化することです。</span>
 
-### <span data-dur="2.418" data-begin="83.503">対面音訳</span>
+## <span data-dur="2.817" data-begin="81.206" id="xmri_0018">私たちの活動</span>
 
-<span data-dur="3.263" data-begin="85.921">利用者さまに図書館等へお出でいただき、</span>
-<span data-dur="4.558" data-begin="89.184">書籍や書類をその場で読み上げます。</span>
 
-<span data-dur="4.613" data-begin="93.742">希望日の4日前までに中央図書館にお申し込みください</span>
-<span data-dur="1.627" data-begin="98.355">（電話番号</span>
-<span data-dur="5.176" data-begin="99.982">03-5993-1125）。</span>
+### <span data-dur="2.417" data-begin="84.023" id="xmri_0019">対面音訳</span>
 
-### <span data-dur="2.964" data-begin="105.158">録音図書作成</span>
+<span data-dur="4.535" data-begin="86.440" id="xmri_001A">東京都北区立中央図書館の対面音訳事業に</span>
+<span data-dur="4.013" data-begin="90.975" id="xmri_001B">全面的に協力しています。</span>
+<span data-dur="3.263" data-begin="94.988" id="xmri_001C">利用者さまに図書館等へお出でいただき、</span>
+<span data-dur="4.558" data-begin="98.251" id="xmri_001D">書籍や書類をその場で読み上げます。</span>
 
-<span data-dur="2.858" data-begin="108.122"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.781" data-begin="110.980">著作権法第三十七条</a></span>
-<span data-dur="1.602" data-begin="112.761">に基づいて、</span>
-<span data-dur="2.829" data-begin="114.363">書籍や書類を音訳し、</span>
-<span data-dur="1.612" data-begin="117.192"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="1.782" data-begin="118.804">DAISY規格</a></span>
-<span data-dur="4.997" data-begin="120.586">に準拠した録音図書を製作します。</span>
+<span data-dur="4.613" data-begin="102.809" id="xmri_001E">希望日の4日前までに中央図書館にお申し込みください</span>
+<span data-dur="1.627" data-begin="107.422" id="xmri_001F">（電話番号</span>
+<span data-dur="5.176" data-begin="109.049" id="xmri_0020">03-5993-1125）。</span>
 
-<span data-dur="2.564" data-begin="125.583">人の声で録音するほか、</span>
-<span data-dur="2.268" data-begin="128.147">2017年からは、</span>
-<span data-dur="5.851" data-begin="130.415">合成音声を使った音訳にも取り組み始めました。</span>
+### <span data-dur="2.964" data-begin="114.225" id="xmri_0021">録音図書作成</span>
 
-<span data-dur="5.76" data-begin="136.266">人の声で音訳する録音図書の作成には時間がかかりますが、</span>
-<span data-dur="2.211" data-begin="142.026">音訳技術を活かして、</span>
-<span data-dur="4.473" data-begin="144.237">聞き取りやすく理解しやすいものをお届けできるように、</span>
-<span data-dur="3.814" data-begin="148.710">日々研鑽を積んでいます。</span>
+<span data-dur="2.858" data-begin="117.189" id="xmri_0022"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.782" data-begin="120.047" id="xmri_0023">著作権法第三十七条</a></span>
+<span data-dur="1.601" data-begin="121.829" id="xmri_0024">に基づいて、</span>
+<span data-dur="2.829" data-begin="123.430" id="xmri_0025">書籍や書類を音訳し、</span>
+<span data-dur="1.612" data-begin="126.259" id="xmri_0026"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="1.782" data-begin="127.871" id="xmri_0027">DAISY規格</a></span>
+<span data-dur="4.997" data-begin="129.653" id="xmri_0028">に準拠した録音図書を製作します。</span>
 
-<span data-dur="3.955" data-begin="152.524">合成音声での音訳録音図書の作成は、</span>
-<span data-dur="4.565" data-begin="156.479">人の声ほど音訳技術を駆使することはできませんが、</span>
-<span data-dur="2.457" data-begin="161.044">完成までにかかる時間を</span>
-<span data-dur="3.675" data-begin="163.501">大幅に短縮することができます。</span>
-<span data-dur="1.858" data-begin="167.176">ホームページの声は</span>
-<span data-dur="2.849" data-begin="169.034">合成音声です。</span>
-<span data-dur="4.146" data-begin="171.883">女性の声でも作成できます。</span>
+<span data-dur="2.564" data-begin="134.650" id="xmri_0029">人の声で録音するほか、</span>
+<span data-dur="2.268" data-begin="137.214" id="xmri_002A">2017年からは、</span>
+<span data-dur="5.851" data-begin="139.482" id="xmri_002B">合成音声を使った音訳にも取り組み始めました。</span>
 
-### <span data-dur="2.067" data-begin="176.029">その他</span>
+<span data-dur="5.76" data-begin="145.333" id="xmri_002C">人の声で音訳する録音図書の作成には時間がかかりますが、</span>
+<span data-dur="2.211" data-begin="151.093" id="xmri_002D">音訳技術を活かして、</span>
+<span data-dur="4.473" data-begin="153.304" id="xmri_002E">聞き取りやすく理解しやすいものをお届けできるように、</span>
+<span data-dur="3.688" data-begin="157.777" id="xmri_002F">レベルアップに努めています。</span>
+<span data-dur="4.311" data-begin="161.465" id="xmri_0030">合成音声での音訳に使っているソフトウェアは、</span>
+<span data-dur="3.609" data-begin="165.776" id="xmri_0031"><a href="https://www.ai-j.jp/about/" data-dur="1.782" data-begin="169.385" id="xmri_0032">AITalkという音声合成エンジン</a></span>
+<span data-dur="1.712" data-begin="171.167" id="xmri_0033">が組み込まれた、</span>
+<span data-dur="4.305" data-begin="172.879" id="xmri_0034"><a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="1.782" data-begin="177.184" id="xmri_0035">電子書籍の編集ソフトChattyInfty3</a></span>
+<span data-dur="1.8" data-begin="178.966" id="xmri_0036">です。</span>
+<span data-dur="4.566" data-begin="180.766" id="xmri_0037">人の声ほど音訳技術を駆使することはできませんが、</span>
+<span data-dur="2.456" data-begin="185.332" id="xmri_0038">完成までにかかる時間を</span>
+<span data-dur="3.676" data-begin="187.788" id="xmri_0039">大幅に短縮することができます。</span>
+<span data-dur="1.857" data-begin="191.464" id="xmri_003A">ホームページの声は</span>
+<span data-dur="1.832" data-begin="193.321" id="xmri_003B">合成音声の</span>
+<span data-dur="2.161" data-begin="195.153" id="xmri_003C">「せいじ」です。</span>
+<span data-dur="1.059" data-begin="197.314" id="xmri_003D">他に</span>
+<span data-dur="4.114" data-begin="198.373" id="xmri_003E">「なぎさ」の声でも作成できます。</span>
 
-<span data-dur="2.548" data-begin="178.096">印刷物のテキストデータ化、</span>
-<span data-dur="1.763" data-begin="180.644">機器の設定など、</span>
-<span data-dur="4.613" data-begin="182.407">書かれた情報の音声化に際してお困りのことがあれば、</span>
-<span data-dur="4.328" data-begin="187.020">できる限りのお手伝いをします。</span>
+### <span data-dur="2.067" data-begin="202.487" id="xmri_003F">その他</span>
 
-## <span data-dur="2.599" data-begin="191.348">やまびこ通信</span>
+<span data-dur="2.549" data-begin="204.554" id="xmri_0040">印刷物のテキストデータ化、</span>
+<span data-dur="1.763" data-begin="207.103" id="xmri_0041">機器の設定など、</span>
+<span data-dur="4.612" data-begin="208.866" id="xmri_0042">書かれた情報の音声化に際してお困りのことがあれば、</span>
+<span data-dur="4.329" data-begin="213.478" id="xmri_0043">できる限りのお手伝いをします。</span>
 
-<span data-dur="3.125" data-begin="193.947">音訳グループやまびこが発行している</span>
-<span data-dur="2.891" data-begin="197.072">月刊誌です。</span>
+## <span data-dur="2.598" data-begin="217.807" id="xmri_0044">やまびこ通信</span>
 
-<span data-dur="1.296" data-begin="199.963">内容は、</span>
-<span data-dur="2.322" data-begin="201.259">前月の活動報告、</span>
-<span data-dur="2.144" data-begin="203.581">当月の活動予定、</span>
-<span data-dur="1.319" data-begin="205.725">実績、</span>
-<span data-dur="3.002" data-begin="207.044">十条台句会から寄せられた俳句、</span>
-<span data-dur="2.481" data-begin="210.046">クイズなど。</span>
+<span data-dur="3.126" data-begin="220.405" id="xmri_0045">音訳グループやまびこが発行している</span>
+<span data-dur="3.41" data-begin="223.531" id="xmri_0046">月刊の会報です。</span>
+<span data-dur="1.295" data-begin="226.941" id="xmri_0047">内容は、</span>
+<span data-dur="2.322" data-begin="228.236" id="xmri_0048">前月の活動報告、</span>
+<span data-dur="2.144" data-begin="230.558" id="xmri_0049">当月の活動予定、</span>
+<span data-dur="1.319" data-begin="232.702" id="xmri_004A">実績、</span>
+<span data-dur="3.003" data-begin="234.021" id="xmri_004B">十条台句会から寄せられた俳句、</span>
+<span data-dur="2.48" data-begin="237.024" id="xmri_004C">クイズなど。</span>
 
-- <span data-dur="1.46" data-begin="212.527"><a href="tusin201807.html" data-dur="2.282" data-begin="213.987">最新号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></span>
-- <span data-dur="1.634" data-begin="216.269"><a href="bn.html" data-dur="2.632" data-begin="217.903">バックナンバー</a></span>
+- <span data-dur="1.46" data-begin="239.504" id="xmri_004D"><a href="tusin201807.html" data-dur="2.282" data-begin="240.964" id="xmri_004E">最新号</a></span>
+- <span data-dur="1.634" data-begin="243.246" id="xmri_004F"><a href="bn.html" data-dur="2.632" data-begin="244.880" id="xmri_0050">バックナンバー</a></span>
 
-## <span data-dur="2.122" data-begin="220.535">定例会</span>
+## <span data-dur="2.122" data-begin="247.512" id="xmri_0051">定例会</span>
 
-<span data-dur="4.205" data-begin="222.657">第2・第4金曜日10時～12時に</span>
-<span data-dur="3.265" data-begin="226.862">北区立中央図書館3階で、</span>
-<span data-dur="5.677" data-begin="230.127">やまびこのメンバーが集まって定例会を開いています。</span>
+<span data-dur="4.205" data-begin="249.634" id="xmri_0052">第2・第4金曜日10時～12時に</span>
+<span data-dur="3.265" data-begin="253.839" id="xmri_0053">北区立中央図書館3階で、</span>
+<span data-dur="5.677" data-begin="257.104" id="xmri_0054">やまびこのメンバーが集まって定例会を開いています。</span>
 
-<span data-dur="3.785" data-begin="235.804">第2金曜日の11時から1時間と、</span>
-<span data-dur="3.971" data-begin="239.589">第4金曜日の会議の残り時間を利用して、</span>
-<span data-dur="3.51" data-begin="243.560">勉強会もしています。</span>
+<span data-dur="3.785" data-begin="262.781" id="xmri_0055">第2金曜日の11時から1時間と、</span>
+<span data-dur="3.972" data-begin="266.566" id="xmri_0056">第4金曜日の会議の残り時間を利用して、</span>
+<span data-dur="3.509" data-begin="270.538" id="xmri_0057">勉強会もしています。</span>
 
-<span data-dur="3.968" data-begin="247.070">見学や入会はいつでも受け付けていますので、</span>
-<span data-dur="6.459" data-begin="251.038">音訳のボランティアに興味のある方はお気軽にご連絡ください。</span>
+<span data-dur="3.969" data-begin="274.047" id="xmri_0058">見学や入会はいつでも受け付けていますので、</span>
+<span data-dur="6.458" data-begin="278.016" id="xmri_0059">音訳のボランティアに興味のある方はお気軽にご連絡ください。</span>
 
-<span data-dur="4.057" data-begin="257.497">連絡先：やまびこ代表 大川 薫</span>
-<span data-dur="1.627" data-begin="261.554">（電話番号</span>
-<span data-dur="4.768" data-begin="263.181">03-3910-7331）</span>  
-<span data-dur="2.729" data-begin="267.949"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.632" data-begin="270.678">このサイトについてのお問い合わせ</a></span>
+<span data-dur="4.057" data-begin="284.474" id="xmri_005A">連絡先：やまびこ代表 大川 薫</span>
+<span data-dur="1.627" data-begin="288.531" id="xmri_005B">（電話番号</span>
+<span data-dur="4.769" data-begin="290.158" id="xmri_005C">03-3910-7331）</span>  
+<span data-dur="2.728" data-begin="294.927" id="xmri_005D"><a href="mailto:ymbk2016ml@gmail.com?Subject=やまびこウェブサイトについて" data-dur="2.632" data-begin="297.655" id="xmri_005E">このサイトについてのお問い合わせ</a></span>
 
-<!--span data-dur="4.995" data-begin="273.310">以上でこのページの読み上げは終わりです。</span-->
+<!--span data-dur="4.995" data-begin="300.287" id="xmri_005F">以上でこのページの読み上げは終わりです。</span>
 
+<span data-dur="1.15" data-begin="305.282" id="xmri_0060"> </span-->

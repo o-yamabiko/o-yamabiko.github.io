@@ -79,6 +79,7 @@ sed \
     -e 's/&thinsp;/ /g' \
     -e 's/&nbsp;/ /g' \
     -e 's/&ensp;/ /g' \
+    -e 's/SILENTTT\([^S]*\)SSSILENT/\1/g' \
     temp4 > temp5
 
 if [[ $2 == 'index' ]]; then
@@ -86,7 +87,7 @@ if [[ $2 == 'index' ]]; then
 LC_COLLATE=C.UTF-8 sed \
     -e 's/　/ /g' \
     -e 's/\(.*>\)\(.*\)\(<a.*>\)\(（リンク）\)\(.*\)/\1\3\2\5/' \
-    -e 's/<\(.*>音訳グループ やまびこ.*\)$/<!--\1/' \
+    -e 's/<\(.*data-begin=\"0.000\".*\)$/<!--\1/' \
     -e 's/<\(.*約[0-9]*分[0-9]*秒.*\)>$/\1-->\n/' \
     -e 's/\(.*>注：.*\)$/\1  /' \
     -e 's/\(.*早口になります。.*\)$/\1  /' \
@@ -97,11 +98,14 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/<\(.*>.*終わり.*\)>$/\n<!--\1-->\n/' \
     -e 's/\(.*>音訳とは？.*\)$/\n## \1\n/' \
     -e 's/\(.*音訳ボランティアグループです。.*\)$/\1\n/' \
+    -e 's/\(.*>私たちの活動.*\)$/\n## \1\n/' \
     -e 's/\(.*>対面音訳<.*\)$/\n### \1\n/' \
     -e 's/\(.*その場で読み上げます。.*\)$/\1\n/' \
     -e 's/\(.*>録音図書作成<.*\)$/\n### \1\n/' \
     -e 's/\(.*href=\"\)\(\".*著作権法第三十七条.*\)$/\1http:\/\/elaws\.e-gov\.go\.jp\/search\/elawsSearch\/elaws_search\/lsg0500\/detail?lawId=345AC0000000048\&openerCode=1\2/' \
     -e 's/\(.*href="\)\(".*DAISY規格.*\)$/\1http:\/\/www\.dinf\.ne\.jp\/doc\/daisy\/\2/' \
+    -e 's/\(.*href="\)\(".*電子書籍の編集ソフト.*ChattyInfty3.*\)$/\1http:\/\/www\.sciaccess\.net\/jp\/ChattyInfty\/\2/' \
+    -e 's/\(.*href="\)\(".*AITalk.*\)$/\1https:\/\/www\.ai-j\.jp\/about\/\2/' \
     -e 's/\(.*録音図書を製作します。.*\)$/\1\n/' \
     -e 's/\(.*取り組み始めました。.*\)$/\1\n/' \
     -e 's/\(.*日々研鑽を積んでいます。.*\)$/\1\n/' \
@@ -120,7 +124,6 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
     -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
     -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/SILENTTT\(.*\)SSSILENT/\1/g' \
     temp5 >> ../$2.md
 
 else
@@ -149,8 +152,6 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
     -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
     -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/SSSILENT//g' \
-    -e 's/SILENTTT//g' \
     temp5 >> ../$2.md
 
 fi
