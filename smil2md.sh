@@ -124,6 +124,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
     -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
     -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/> </></' \
     temp5 >> ../$2.md
 
 else
