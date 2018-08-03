@@ -7,7 +7,7 @@ do
     for j in *
       do
         sed \
-          -e 's/^layout: .*/layout: print/' \
+          -e 's/^layout: .*/layout: print_noindex/' \
         $j > ../_p/$j
       done
   cd -

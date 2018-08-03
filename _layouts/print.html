@@ -2,7 +2,6 @@
 <html lang="{{ site.lang | default: "ja" }}">
   <head>
     <meta charset='utf-8'>
-    <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <base href="{{ site.url }}">
 
@@ -70,6 +69,7 @@
         {% if page.oto %}
           {% if page.docid %}
       <div style="text-align:right;"><a href="../{{ page.docid }}.html">このページの読み上げを聞く<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></div>
+      <div style="text-align:right;"><a href="../bn.html">やまびこ通信 バックナンバー</a></div>
           {% endif %}
         {% endif %}
        <div class="site-footer-owner"><a href="{{ site.url }}">音訳グループ やまびこ<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></div>

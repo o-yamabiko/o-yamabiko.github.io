@@ -1,5 +1,5 @@
 ---
-layout: print
+layout: print_noindex
 title: やまびこ通信 バックナンバー
 author: 音訳グループ やまびこ
 date: 2018-07-06T08:38:58Z
