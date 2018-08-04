@@ -13,7 +13,7 @@ do
   cd -
 done
 echo '---' > _p/index.md
-echo 'layout: print' >> _p/index.md
+echo 'layout: print_noindex' >> _p/index.md
 echo 'title: 音訳グループ やまびこ' >> _p/index.md
 sed -n '/date: /p' index.md >> _p/index.md
 echo '---' >> _p/index.md

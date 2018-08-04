@@ -207,14 +207,14 @@ var ReadAlong = {
             if ( e.which === (51 || 99) /*3*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
-                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "倍速";
+                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
         document.addEventListener('keypress', function (e) {
             if ( e.which === (50 || 98) /*2*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
-                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "倍速";
+                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
         document.addEventListener('keypress', function (e) {
