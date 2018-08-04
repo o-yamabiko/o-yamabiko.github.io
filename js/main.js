@@ -39,11 +39,11 @@ window.addEventListener('load', function (e) {
             rate_fast_element.disabled = false;
             rate_fast_element.addEventListener('click', function (e) {
                 args.audio_element.playbackRate = args.audio_element.playbackRate + 0.2;
-                document.getElementById("hayasa").innerHTML = String(Math.round(args.audio_element.playbackRate * 10) / 10) + "倍速";
+                document.getElementById("hayasa").innerHTML = String(Math.round(args.audio_element.playbackRate * 10) / 10) + "&times;";
             }, false);
             rate_slow_element.addEventListener('click', function (e) {
                 args.audio_element.playbackRate = args.audio_element.playbackRate - 0.2;
-                document.getElementById("hayasa").innerHTML = String(Math.round(args.audio_element.playbackRate * 10) / 10) + "倍速";
+                document.getElementById("hayasa").innerHTML = String(Math.round(args.audio_element.playbackRate * 10) / 10) + "&times;";
             }, false);
 	    
             //rate_range_element.addEventListener('change', function (e) {
