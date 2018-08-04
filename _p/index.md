@@ -1,5 +1,5 @@
 ---
-layout: print
+layout: print_noindex
 title: 音訳グループ やまびこ
 date: 2018-07-27T04:58:15Z
 ---
