@@ -2,6 +2,7 @@ lang: ja
 theme: jekyll-theme-cayman
 show_downloads: false
 title: 音訳グループ やまびこ
+logo: /icons/android-chrome-512x512.png
 markdown: kramdown
 collections:
   tusin:
