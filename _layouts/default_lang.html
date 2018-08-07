@@ -2,6 +2,7 @@
 <html lang="{% if page.lang == "eng" %}en{% elsif page.lang == "fra" %}fr{% elsif page.lang == "zho" %}zh{% else %}{{ site.lang | default: "ja" }}{% endif %}">
   <head>
     <meta charset='utf-8'>
+    <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.lang == "eng" %}This page produces a sound: Voice Helpers' Group Yamabiko{% elsif page.lang == "fra" %}Cette page produit un son: Yamabiko le groupe des aides vocaux{% elsif page.lang == "zho" %}此页面产生声音：音译团体Yamabiko{% else %}音が出ます：{{ site.title }}{% endif %}</title>
 {% seo title=false %}
