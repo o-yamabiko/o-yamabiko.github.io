@@ -34,6 +34,9 @@ grep $1 bn.list > search
 		echo '' >> temp.md
 		cat temp.md bn.list > ./_info/bn.md
 		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index.md > index.md1 && mv index.md1 index.md
+		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index-fra.md > index-fra.md1 && mv index-fra.md1 index-fra.md
+		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index-eng.md > index-eng.md1 && mv index-eng.md1 index-eng.md
+		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index-zho.md > index-zho.md1 && mv index-zho.md1 index-zho.md
 
 	fi
 
