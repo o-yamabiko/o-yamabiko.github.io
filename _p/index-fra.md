@@ -1,6 +1,7 @@
 ---
 layout: print_noindex
 title: Yamabiko le groupe des aides vocaux
+translator: Mitsuko Mizuno
 date: 2018-08-06T17:36:28Z
 ---
 <img class="fullw" src="media/index/logo-w2color.png" alt="Yamabiko le groupe des aides vocaux" />

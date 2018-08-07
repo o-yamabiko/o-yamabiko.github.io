@@ -1,6 +1,7 @@
 ---
 layout: print_noindex
 title: 音译团体Yamabiko
+translator: 须藤惠子
 date: 2018-08-07T08:35:55Z
 ---
 <img class="fullw" src="media/index/logo-w2color.png" alt="音译团体Yamabiko" />

@@ -1,6 +1,7 @@
 ---
 layout: print_noindex
 title: The Voice Helpers&apos; Group Yamabiko
+translator: Mitsuko Mizuno
 date: 2018-08-07T03:57:22Z
 ---
 <img class="fullw" src="media/index/logo-w2color.png" alt="The Voice Helpers&apos; Group Yamabiko" />
