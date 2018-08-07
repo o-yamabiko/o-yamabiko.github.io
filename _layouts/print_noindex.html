@@ -73,6 +73,7 @@
       <div style="text-align:right;"><a href="../bn.html">やまびこ通信 バックナンバー</a></div>
           {% endif %}
         {% endif %}
+       <div class="site-footer-owner"><a href="{{ site.url }}">{% if page.lang == "eng" %}Voice Helpers' Group Yamabiko{% elsif page.lang == "fra" %}Yamabiko le groupe des aides vocaux{% elsif page.lang == "zho" %}音译团体Yamabiko{% else %}音訳グループ やまびこ{% endif %}<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="{% if page.lang == "eng" %}with sound{% elsif page.lang == "fra" %}avec son{% elsif page.lang == "zho" %}随着声音{% else %}音声付き{% endif %}" class="gyo" /></a></div>
       {% if page.lang == "eng" %}
       <div>Translated from Japanese by {{ page.translator }}</div>
       {% elsif page.lang == "fra" %}
@@ -81,7 +82,6 @@
       <div>自日语翻译者：{{ page.translator }}</div>
       {% else %}
       {% endif %}
-       <div class="site-footer-owner"><a href="{{ site.url }}">{% if page.lang == "eng" %}Voice Helpers' Group Yamabiko{% elsif page.lang == "fra" %}Yamabiko le groupe des aides vocaux{% elsif page.lang == "zho" %}音译团体Yamabiko{% else %}音訳グループ やまびこ{% endif %}<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="{% if page.lang == "eng" %}with sound{% elsif page.lang == "fra" %}avec son{% elsif page.lang == "zho" %}随着声音{% else %}音声付き{% endif %}" class="gyo" /></a></div>
       <div itemscope>
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% if page.lang == "eng" %}Update date: {{ page.date | date: "%B %d, %Y" }}{% elsif page.lang == "fra" %}Date de mise à jour: {{ page.date | date: "le %d %B %Y" }}{% elsif page.lang == "zho" %}更新日期：{{ page.date | date: "%Y年%m月%d日" }}{% else %}ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}{% endif %}</time>
       </div>
