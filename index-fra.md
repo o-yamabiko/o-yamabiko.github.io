@@ -51,6 +51,7 @@ date: 2018-08-06T17:36:28Z
 <span data-dur="3.262" data-begin="170.340" id="xmri_002F"><a href="http://www.sciaccess.net/jp/ChattyInfty/" data-dur="2.570" data-begin="173.537" id="xmri_0030">l'editeur de livres numériques « ChattyInfty 3 » </a></span>
 <span data-dur="3.164" data-begin="176.140" id="xmri_0033"><a href="https://www.ai-j.jp/about/" data-dur="2.106" data-begin="179.172" id="xmri_0034">dans lequel le moteur de synthèse vocale « AITalk » </a></span>
 <span data-dur="2.010" data-begin="181.248" id="xmri_0036">est incorporé.</span>
+
 <span data-dur="9.919" data-begin="183.225" id="xmri_0037">À la différence de la voix humaine, on ne peut effectuer la technique entière d'aide vocale, mais on peut raccourcir considérablement la durée du travail de la production.</span>
 <span data-dur="2.999" data-begin="193.178" id="xmri_0038">Les voix synthétisées japonaises de la page d'accueil sont</span>
 <span data-dur="1.219" data-begin="196.143" id="xmri_0039">« Seiji » (voix masculine) </span>

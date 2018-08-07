@@ -86,6 +86,7 @@
 
 	<div class="controller">
 	    <div style="position: absolute; left: auto; right: 1em; top: 1em; font-size: small; background: rgba(255, 255, 255, .90);"><a href="/p{{ page.url }}">{% if page.lang == "eng" %}Soundless printable page{% elsif page.lang == "fra" %}Page imprimable sans son{% elsif page.lang == "zho" %}无声打印页面{% else %}音声なし（印刷用）ページ{% endif %}</a></div>
+	    <div style="position: absolute; right: auto; left: 1em; top: 1em; font-size: small; background: rgba(255, 255, 255, .90);">{% if page.lang == "eng" %}<a href="./">Japanese</a> | <a href="index-zho.html">Chinese</a> | <a href="index-fra.html">French</a>{% elsif page.lang == "fra" %}<a href="./">japonais</a> | <a href="index-zho.html">chinois</a> | <a href="index-eng.html">anglais</a>{% elsif page.lang == "zho" %}<a href="./">日文</a> | <a href="index-fra.html">法文</a> | <a href="index-eng.html">英文</a>{% else %}<a href="index-zho.html">中文</a> | <a href="index-fra.html">français</a> | <a href="index-eng.html">English</a>{% endif %}</div>
 
 	    <p style="margin-left: 1rem; margin-top: 3rem;">
               <label for="hyoji" class="tgl tgl-gray">  
