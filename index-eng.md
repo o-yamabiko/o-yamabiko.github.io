@@ -11,7 +11,7 @@ date: 2018-08-07T03:57:22Z
 <span data-dur="3.015" data-begin="7.162" id="xmri_0003">around 5 minutes and a quarter.</span-->
 
 <span data-dur="1.509" data-begin="10.177" id="xmri_0004">Note:</span>  
-<span data-dur="4.196" data-begin="11.686" id="xmri_0005">This is an English translation [of the homepage of this site.</span>
+<span data-dur="4.196" data-begin="11.686" id="xmri_0005">This is an English translation of the homepage of this site.</span>
 <span data-dur="5.134" data-begin="15.882" id="xmri_0006">The Group Yamabiko does not ensure that the translation is accurate.</span>
 
 <span data-dur="4.618" data-begin="21.016" id="xmri_0007">Press the key number 3 to make the speech faster.</span>  
@@ -72,7 +72,7 @@ date: 2018-08-07T03:57:22Z
 
 ### <span data-dur="2.869" data-begin="203.694" id="xmri_0043">Miscellaneous</span>
 
-<span data-dur="5.445" data-begin="206.563" id="xmri_0045">We will help you [as much as possible [to convert information on paper to voice,</span>
+<span data-dur="5.445" data-begin="206.563" id="xmri_0045">We will help you as much as possible to convert information on paper to voice,</span>
 <span data-dur="8.463" data-begin="212.008" id="xmri_0046">such as conversion of printed matter into text files, setting of devices, etc.</span>
 
 ## <span data-dur="3.162" data-begin="220.471" id="xmri_0048">Bulletin Yamabiko</span>
