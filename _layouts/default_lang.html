@@ -100,7 +100,7 @@
               </span>
 	    </p>
             <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
-	        <button id="playback-slow" type="button">{% if page.lang == "eng" %}slow{% elsif page.lang == "fra" %}débit lent{% elsif page.lang == "zho" %}减速{% else %}ゆっくり{% endif %}</button> <span id="hayasa">1&times;</span> <button id="playback-rate" type="button"><span id="skew">{% if page.lang == "eng" %}rapid{% elsif page.lang == "fra" %}débit rapide{% elsif page.lang == "zho" %}加速{% else %}すばやく{% endif %}</span></button>
+	        <button id="playback-slow" type="button">{% if page.lang == "eng" %}slow{% elsif page.lang == "fra" %}lent{% elsif page.lang == "zho" %}减速{% else %}ゆっくり{% endif %}</button> <span id="hayasa">1&times;</span> <button id="playback-rate" type="button"><span id="skew">{% if page.lang == "eng" %}fast{% elsif page.lang == "fra" %}rapide{% elsif page.lang == "zho" %}加速{% else %}すばやく{% endif %}</span></button>
             </p>
 	    <p class="playback-rate-unavailable" hidden>
                 <em>{% if page.lang == "eng" %}(It seems your browser does not support <code>HTMLMediaElement.playbackRate</code>, so you will not be able to change the speech rate.){% elsif page.lang == "fra" %}(Il semble que votre navigateur ne supporte pas <code>HTMLMediaElement.playbackRate</code>. Vous ne pourrez donc pas modifier le débit de la parole.){% elsif page.lang == "zho" %}（您的浏览器似乎不支持<code>HTMLMediaElement.playbackRate</code>，因此您将无法更改语速。）{% else %}(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。){% endif %}</em>

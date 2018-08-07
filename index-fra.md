@@ -9,11 +9,13 @@ date: 2018-08-06T17:36:28Z
 
 <span data-dur="1.318" data-begin="9.557" id="xmri_0004">Note:</span>  
 <span data-dur="4.449" data-begin="10.743" id="xmri_0005">Voici une traduction en français de la page d'accueil de ce site.</span>
-<span data-dur="6.129" data-begin="15.225" id="xmri_0006">Le Groupe Yamabiko n'assure pas que la traduction soit précise.</span>  
-<span data-dur="5.404" data-begin="21.387" id="xmri_0007">Appuyez sur la touche « numéro 3 » pour faire le débit de la parole plus rapide.</span>
-<span data-dur="2.834" data-begin="26.825" id="xmri_0008">« Numéro 2 » pour le faire plus lent,</span>
-<span data-dur="3.922" data-begin="29.626" id="xmri_0009">et « numéro 1 » pour reculer de cinq secondes.</span>
-<span data-dur="6.525" data-begin="33.547" id="xmri_000A">Pour activer ou désactiver la lecture, appuyez sur la touche « espace ».</span>  
+<span data-dur="6.129" data-begin="15.225" id="xmri_0006">Le Groupe Yamabiko n'assure pas que la traduction soit précise.</span>
+
+<span data-dur="5.404" data-begin="21.387" id="xmri_0007">Appuyez sur la touche « numéro 3 » pour faire le débit de la parole plus rapide.</span>  
+<span data-dur="2.834" data-begin="26.825" id="xmri_0008">« Numéro 2 » pour le faire plus lent,</span>  
+<span data-dur="3.922" data-begin="29.626" id="xmri_0009">et « numéro 1 » pour reculer de cinq secondes.</span>  
+<span data-dur="6.525" data-begin="33.547" id="xmri_000A">Pour activer ou désactiver la lecture, appuyez sur la touche « espace ».</span>
+
 <span data-dur="9.128" data-begin="40.039" id="xmri_000B">Si vous utilisez uniquement l'audio sans afficher le texte sur cette page, vous ne pouvez pas ouvrir le lien même si vous entendez le mot « lien ».</span>
 <span data-dur="8.502" data-begin="49.168" id="xmri_000C">Pour ouvrir le lien avec votre lecteur d'écran, désactivez la lecture, et ouvrez le lien à la « Page imprimable sans son ».</span>
 
