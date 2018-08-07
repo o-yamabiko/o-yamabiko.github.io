@@ -1,25 +1,9 @@
 ---
-layout: default_lang
-lang: zho
-translator: 须藤惠子
+layout: print_noindex
+title: 音译团体Yamabiko
 date: 2018-08-07T08:35:55Z
 ---
-   
-<!--span data-dur="2.05" data-begin="0.000" id="mrii_0001">  </span>
-<span data-dur="3.134" data-begin="2.050" id="xmri_0001">音译团体Yamabiko</span>
-<span data-dur="4.579" data-begin="5.184" id="xmri_0002">朗读的持续时间： 约 4分钟10秒</span-->
-
-<span data-dur="1.097" data-begin="8.136" id="xmri_0003">注意：</span>  
-<span data-dur="3.188" data-begin="9.232" id="xmri_0004">这是该网站主页的中文翻译。</span>
-<span data-dur="4.387" data-begin="12.446" id="xmri_0005">团体Yamabiko不保证翻译准确。</span>
-
-<span data-dur="3.8" data-begin="16.832" id="xmri_0006">按"数字键3"可使语音流速更快。</span>  
-<span data-dur="2.066" data-begin="20.607" id="xmri_0007">"数字键2"让它变慢，</span>  
-<span data-dur="2.805" data-begin="22.672" id="xmri_0008">"数字键1"倒退五秒钟。</span>  
-<span data-dur="5.126" data-begin="25.427" id="xmri_0009">要打开或关闭我的声音，请按空格键。</span>
-
-<span data-dur="8.875" data-begin="30.527" id="xmri_000A">如果您只使用音频而不显示此页面上的文字，即使您听到"链接"一词，也无法打开链接。</span>
-<span data-dur="7.932" data-begin="39.377" id="xmri_000B">要使用屏幕阅读器打开链接，请关闭我的声音，然后打开"无声打印页面"的链接。</span>
+<img class="fullw" src="media/index/logo-w2color.png" alt="音译团体Yamabiko" />
 
 ## <span data-dur="3.290" data-begin="49.859" id="xmri_000D">音译是什么？</span>
 
