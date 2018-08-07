@@ -1,6 +1,7 @@
 ---
 layout: print_noindex
 title: 音译团体Yamabiko
+lang: zho
 translator: 须藤惠子
 date: 2018-08-07T08:35:55Z
 ---

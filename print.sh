@@ -26,6 +26,7 @@ rm temp
 echo '---' > _p/index-fra.md
 echo 'layout: print_noindex' >> _p/index-fra.md
 echo 'title: Yamabiko le groupe des aides vocaux' >> _p/index-fra.md
+sed -n '/lang: /p' index-fra.md >> _p/index-fra.md
 sed -n '/translator: /p' index-fra.md >> _p/index-fra.md
 sed -n '/date: /p' index-fra.md >> _p/index-fra.md
 echo '---' >> _p/index-fra.md
@@ -36,6 +37,7 @@ sed -n '/##/,$p' index-fra.md >> _p/index-fra.md
 echo '---' > _p/index-eng.md
 echo 'layout: print_noindex' >> _p/index-eng.md
 echo 'title: The Voice Helpers&apos; Group Yamabiko' >> _p/index-eng.md
+sed -n '/lang: /p' index-eng.md >> _p/index-eng.md
 sed -n '/translator: /p' index-eng.md >> _p/index-eng.md
 sed -n '/date: /p' index-eng.md >> _p/index-eng.md
 echo '---' >> _p/index-eng.md
@@ -46,6 +48,7 @@ sed -n '/##/,$p' index-eng.md >> _p/index-eng.md
 echo '---' > _p/index-zho.md
 echo 'layout: print_noindex' >> _p/index-zho.md
 echo 'title: 音译团体Yamabiko' >> _p/index-zho.md
+sed -n '/lang: /p' index-zho.md >> _p/index-zho.md
 sed -n '/translator: /p' index-zho.md >> _p/index-zho.md
 sed -n '/date: /p' index-zho.md >> _p/index-zho.md
 echo '---' >> _p/index-zho.md

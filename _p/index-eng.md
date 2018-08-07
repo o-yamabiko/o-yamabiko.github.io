@@ -1,6 +1,7 @@
 ---
 layout: print_noindex
 title: The Voice Helpers&apos; Group Yamabiko
+lang: eng
 translator: Mitsuko Mizuno
 date: 2018-08-07T03:57:22Z
 ---
