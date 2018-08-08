@@ -25,7 +25,7 @@ date: 2018-08-07T08:35:55Z
 
 <span data-dur="5.228" data-begin="53.174" id="xmri_000E">我们是以东京都北区为中心的志愿者音译团体。</span>
 
-<span data-dur="10.482" data-begin="58.377" id="xmri_000F">音译是为以障碍者和高龄者等文字和图表读法有困难的，将视觉信息转换为语音。</span>
+<span data-dur="10.482" data-begin="58.377" id="xmri_000F">音译是为障碍者和高龄者等文字和图表读法有困难的，将视觉信息转换为语音信息。</span>
 
 ## <span data-dur="2.474" data-begin="68.859" id="xmri_0010">我们的活动</span>
 
@@ -45,7 +45,7 @@ date: 2018-08-07T08:35:55Z
 
 <span data-dur="7.166" data-begin="116.397" id="xmri_001B">除了人的声音之外，从2017年也开始了合成音声的音译。</span>
 
-<span data-dur="12.318" data-begin="123.512" id="xmri_001C">人的声音音译录音图书很花时间，但我们每天都在努力提高声乐辅助技术的水平，以便录音更容易听，更容易理解。</span>
+<span data-dur="12.318" data-begin="123.512" id="xmri_001C">人的声音音译录音图书很花时间，但我们每天都在努力提高音译技术的水平，以便录音更容易听，更容易理解。</span>
 
 <span data-dur="2.933" data-begin="135.856" id="xmri_001D">合成音声的音译使用的软件是</span>
 <span data-dur="3.494" data-begin="138.789" id="xmri_001E"><a href="https://www.ai-j.jp/about/" data-dur="1.301" data-begin="142.283" id="xmri_001F">加上合成音声引擎AITalk的</a></span>
@@ -61,7 +61,7 @@ date: 2018-08-07T08:35:55Z
 
 ### <span data-dur="2.168" data-begin="172.377" id="xmri_0029">其他</span>
 
-<span data-dur="10.737" data-begin="174.545" id="xmri_002A">印刷品的文本文件化，机器的设定等，要视觉信息音声化的时候，如有遇到困难会尽量帮助的。</span>
+<span data-dur="10.737" data-begin="174.545" id="xmri_002A">印刷品的文本文件化，机器的设定等，要视觉信息音声化的时候，如有遇到困难会尽量帮助大家的。</span>
 
 ## <span data-dur="2.907" data-begin="185.307" id="xmri_002B">Yamabiko通讯</span>
 
@@ -81,6 +81,6 @@ date: 2018-08-07T08:35:55Z
 <span data-dur="2.423" data-begin="226.342" id="xmri_0035">也可以欢迎参观。</span>
 <span data-dur="4.438" data-begin="228.739" id="xmri_0036">对音译志愿者有兴趣的人欢迎联系参加。</span>
 
-<span data-dur="8.289" data-begin="233.177" id="xmri_0037">联系人：Yamabiko代表 大川薰（电话号码: 03-3910-7331）</span>  
+<span data-dur="8.289" data-begin="233.177" id="xmri_0037">联系人：Yamabiko代表 大川 薰（电话号码: 03-3910-7331）</span>  
 <span data-dur="1.836" data-begin="241.516" id="xmri_0038"><a href="mailto:ymbk2016ml@gmail.com?Subject=有关Yamabiko网站的咨询" data-dur="1.938" data-begin="243.327" id="xmri_0039">有关本网站的咨询</a></span>
 
