@@ -79,7 +79,6 @@ sed \
     -e 's/&thinsp;/ /g' \
     -e 's/&nbsp;/ /g' \
     -e 's/&ensp;/ /g' \
-    -e 's/SILENTTT\([^S]*\)SSSILENT/\1/g' \
     temp4 > temp5
 
 if [[ $2 == 'index' ]]; then
@@ -125,6 +124,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
     -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
     -e 's/> </></' \
+    -e 's/SILENTTT\([^S]*\)SSSILENT/\1/g' \
     temp5 >> ../$2.md
 
 else
@@ -151,8 +151,9 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*03-3910-7331.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについて.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
     -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
-    -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ　]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ　]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/SILENTTT\([^S]*\)SSSILENT/\1/g' \
     temp5 >> ../$2.md
 
 fi
