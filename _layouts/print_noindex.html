@@ -76,10 +76,13 @@
        <div class="site-footer-owner"><a href="{{ site.url }}">{% if page.lang == "eng" %}Voice Helpers' Group Yamabiko{% elsif page.lang == "fra" %}Yamabiko le groupe des aides vocaux{% elsif page.lang == "zho" %}音译团体Yamabiko{% else %}音訳グループ やまびこ{% endif %}<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="{% if page.lang == "eng" %}with sound{% elsif page.lang == "fra" %}avec son{% elsif page.lang == "zho" %}随着声音{% else %}音声付き{% endif %}" class="gyo" /></a></div>
       {% if page.lang == "eng" %}
       <div>Translated from Japanese by {{ page.translator }}</div>
+      <div>The Group Yamabiko does not ensure that the translation is accurate.</div>
       {% elsif page.lang == "fra" %}
       <div>Traduit du japonais par {{ page.translator }}</div>
+      <div>Le Groupe Yamabiko n'assure pas que la traduction soit précise.</div>
       {% elsif page.lang == "zho" %}
       <div>自日语翻译者：{{ page.translator }}</div>
+      <div>团体Yamabiko不保证翻译准确。</div>
       {% else %}
       {% endif %}
       <div itemscope>
