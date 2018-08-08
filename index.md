@@ -96,7 +96,7 @@ span data-dur="2.82" data-begin="6.399" id="xmri_0003">約5分10秒</span-->
 <span data-dur="3.003" data-begin="234.186" id="xmri_004B">十条台句会から寄せられた俳句、</span>
 <span data-dur="2.48" data-begin="237.189" id="xmri_004C">クイズなど。</span>
 
-- <span data-dur="1.46" data-begin="239.669" id="xmri_004D"><a href="tusin201807.html" data-dur="2.282" data-begin="241.129" id="xmri_004E">最新号</a></span>
+- <span data-dur="1.46" data-begin="239.669" id="xmri_004D"><a href="tusin201808.html" data-dur="2.282" data-begin="241.129" id="xmri_004E">最新号</a></span>
 - <span data-dur="1.634" data-begin="243.411" id="xmri_004F"><a href="bn.html" data-dur="2.632" data-begin="245.045" id="xmri_0050">バックナンバー</a></span>
 
 ## <span data-dur="2.122" data-begin="247.677" id="xmri_0051">定例会</span>
