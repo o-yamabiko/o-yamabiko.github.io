@@ -11,7 +11,7 @@ date: 2018-08-07T08:35:55Z
 
 <span data-dur="5.228" data-begin="53.174" id="xmri_000E">我们是以东京都北区为中心的志愿者音译团体。</span>
 
-<span data-dur="10.482" data-begin="58.377" id="xmri_000F">音译是为障碍者和高龄者等文字和图表读法有困难的，将视觉信息转换为语音信息。</span>
+<span data-dur="10.482" data-begin="58.377" id="xmri_000F">音译是为残疾人和高龄者等文字和图表读法有困难的，将视觉信息转换为语音信息。</span>
 
 ## <span data-dur="2.474" data-begin="68.859" id="xmri_0010">我们的活动</span>
 
