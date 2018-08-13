@@ -68,7 +68,7 @@
 
       <footer class="site-footer">
         {% if page.oto and page.docid %}
-      <div style="text-align:right;"><a href="../{{ page.docid }}.html">このページの読み上げを聞く<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></div>
+      <div style="text-align:right;"><a href="../{{ page.docid }}.html">{% if page.lang == "eng" %}Listen to the reading aloud of this page.{% elsif page.lang == "fra" %}Écouter la lecture à haute voix de cette page.{% elsif page.lang == "zho" %}听听这个页面的朗读{% else %}このページの読み上げを聞く{% endif %}<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></div>
         {% endif %}
         {% if page.docid contains 'tusin' %}
       <div style="text-align:right;"><a href="{{ site.url }}/bn.html">やまびこ通信 バックナンバー</a></div>
