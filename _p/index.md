@@ -1,6 +1,7 @@
 ---
 layout: print_noindex
 title: 音訳グループ やまびこ
+docid: index
 date: 2018-07-27T04:58:15Z
 ---
 <img class="fullw" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />

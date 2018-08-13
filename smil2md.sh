@@ -14,7 +14,11 @@ fi
 echo '---' > $2.md
 
 # if index
-if [[ $2 = index ]]; then
+if [[ $2 = index* ]]; then
+  echo 'docid: '$2 >> $2.md
+  if [[ $2 != index-* ]]; then
+    echo 'lang: '`sed s/index-// $2` >> $2.md
+  fi
   echo 'date: '`date +%Y-%m-%dT%TZ` >> $2.md
 else
   echo 'layout: caymanyomi' >> $2.md

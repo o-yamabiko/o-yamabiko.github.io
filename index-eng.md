@@ -1,5 +1,6 @@
 ---
 layout: default_lang
+docid: index-eng
 lang: eng
 translator: Mitsuko Mizuno
 date: 2018-08-07T03:57:22Z

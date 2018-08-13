@@ -1,5 +1,6 @@
 ---
 layout: default_lang
+docid: index-zho
 lang: zho
 translator: 须藤惠子
 date: 2018-08-07T08:35:55Z
