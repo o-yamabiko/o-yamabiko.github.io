@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "ja" }}">
+<html lang="{% if page.lang == "eng" %}en{% elsif page.lang == "fra" %}fr{% elsif page.lang == "zho" %}zh{% else %}{{ site.lang | default: "ja" }}{% endif %}">
   <head>
     <meta charset='utf-8'>
     <meta name="robots" content="noindex">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <base href="{{ site.url }}">
+    <title>{% if page.lang == "eng" %}{{ page.title }} | Voice Helpers' Group Yamabiko{% elsif page.lang == "fra" %}{{ page.title }} | Yamabiko le groupe des aides vocaux{% elsif page.lang == "zho" %}{{ page.title }} | 音译团体Yamabiko{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
 
-{% seo %}
+{% seo title=false %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -69,8 +70,10 @@
       <footer class="site-footer">
         {% if page.oto %}
           {% if page.docid %}
-      <div style="text-align:right;"><a href="../{{ page.docid }}.html">このページの読み上げを聞く<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></div>
+      <div style="text-align:right;"><a href="../{{ page.id }}.html">このページの読み上げを聞く<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></div>
+            {% if page.docid contains tusin %}
       <div style="text-align:right;"><a href="../bn.html">やまびこ通信 バックナンバー</a></div>
+            {% endif %}
           {% endif %}
         {% endif %}
        <div class="site-footer-owner"><a href="{{ site.url }}">{% if page.lang == "eng" %}Voice Helpers' Group Yamabiko{% elsif page.lang == "fra" %}Yamabiko le groupe des aides vocaux{% elsif page.lang == "zho" %}音译团体Yamabiko{% else %}音訳グループ やまびこ{% endif %}<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="{% if page.lang == "eng" %}with sound{% elsif page.lang == "fra" %}avec son{% elsif page.lang == "zho" %}随着声音{% else %}音声付き{% endif %}" class="gyo" /></a></div>
