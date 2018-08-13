@@ -69,6 +69,9 @@
       {{ content }}
 
       <footer class="site-footer">
+        {% if page.docid contains 'tusin' %}
+      <div style="text-align:right;"><a href="{{ site.url }}/bn.html">やまびこ通信 バックナンバー</a></div>
+        {% endif %}
        <div class="site-footer-owner"><a href="{{ site.url }}">音訳グループ やまびこ<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></div>
       <div itemscope>
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">ページ更新日： {{ page.date | date: "%Y年%m月%d日" }}</time>

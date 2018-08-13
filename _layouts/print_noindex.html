@@ -72,7 +72,7 @@
       <div style="text-align:right;"><a href="../{{ page.docid }}.html">このページの読み上げを聞く<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></div>
         {% endif %}
         {% if page.docid contains 'tusin' %}
-      <div style="text-align:right;"><a href="../bn.html">やまびこ通信 バックナンバー</a></div>
+      <div style="text-align:right;"><a href="{{ site.url }}/bn.html">やまびこ通信 バックナンバー</a></div>
         {% endif %}
        <div class="site-footer-owner"><a href="{{ site.url }}">{% if page.lang == "eng" %}Voice Helpers' Group Yamabiko{% elsif page.lang == "fra" %}Yamabiko le groupe des aides vocaux{% elsif page.lang == "zho" %}音译团体Yamabiko{% else %}音訳グループ やまびこ{% endif %}<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="{% if page.lang == "eng" %}with sound{% elsif page.lang == "fra" %}avec son{% elsif page.lang == "zho" %}随着声音{% else %}音声付き{% endif %}" class="gyo" /></a></div>
       {% if page.lang == "eng" %}
