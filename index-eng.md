@@ -4,6 +4,7 @@ docid: index-eng
 lang: eng
 translator: Mitsuko Mizuno
 date: 2018-08-07T03:57:22Z
+oto: index-eng/sound0001
 ---
    
 <!--span data-dur="2.05" data-begin="0.000" id="mrii_0001">  </span>

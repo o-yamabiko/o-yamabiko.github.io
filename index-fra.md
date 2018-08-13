@@ -4,6 +4,7 @@ docid: index-fra
 lang: fra
 translator: Mitsuko Mizuno
 date: 2018-08-06T17:36:28Z
+oto: index-fra/sound0001
 ---
 
 <!--span data-dur="2.603" data-begin="1.911" id="xmri_0001">Yamabiko le groupe des aides vocaux</span><span data-dur="1.977" data-begin="4.515" id="xmri_0002">Durée de la lecture à haute voix:</span><span data-dur="3.164" data-begin="6.393" id="xmri_0003">environ 5 minutes.</span-->

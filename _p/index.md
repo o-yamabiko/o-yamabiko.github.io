@@ -3,7 +3,9 @@ layout: print_noindex
 title: 音訳グループ やまびこ
 docid: index
 date: 2018-07-27T04:58:15Z
+oto: index/sound0001
 ---
+
 <img class="fullw" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />
 
 ## <span data-dur="2.968" data-begin="57.186" id="xmri_0013">音訳とは？</span>

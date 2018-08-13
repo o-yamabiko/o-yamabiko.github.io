@@ -5,7 +5,9 @@ docid: index-eng
 lang: eng
 translator: Mitsuko Mizuno
 date: 2018-08-07T03:57:22Z
+oto: index-eng/sound0001
 ---
+
 <img class="fullw" src="media/index/logo-w2color.png" alt="The Voice Helpers&apos; Group Yamabiko" />
 
 ## <span data-dur="3.136" data-begin="58.038" id="xmri_0011">What is voice helping?</span>

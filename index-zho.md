@@ -4,6 +4,7 @@ docid: index-zho
 lang: zho
 translator: 须藤惠子
 date: 2018-08-07T08:35:55Z
+oto: index-zho/sound0001
 ---
    
 <!--span data-dur="2.05" data-begin="0.000" id="mrii_0001">  </span>

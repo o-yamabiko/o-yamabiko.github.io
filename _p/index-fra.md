@@ -5,7 +5,9 @@ docid: index-fra
 lang: fra
 translator: Mitsuko Mizuno
 date: 2018-08-06T17:36:28Z
+oto: index-fra/sound0001
 ---
+
 <img class="fullw" src="media/index/logo-w2color.png" alt="Yamabiko le groupe des aides vocaux" />
 
 ## <span data-dur="3.536" data-begin="62.020" id="xmri_000F">Qu'est-ce que l'aide vocale?</span>

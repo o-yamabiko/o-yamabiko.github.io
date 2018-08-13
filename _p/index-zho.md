@@ -5,7 +5,9 @@ docid: index-zho
 lang: zho
 translator: 须藤惠子
 date: 2018-08-07T08:35:55Z
+oto: index-zho/sound0001
 ---
+
 <img class="fullw" src="media/index/logo-w2color.png" alt="音译团体Yamabiko" />
 
 ## <span data-dur="3.290" data-begin="49.859" id="xmri_000D">音译是什么？</span>

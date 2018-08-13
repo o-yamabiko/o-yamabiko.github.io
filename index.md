@@ -1,6 +1,7 @@
 ---
 docid: index
 date: 2018-07-27T04:58:15Z
+oto: index/sound0001
 ---
    
 <!--span data-dur="2.05" data-begin="0.000" id="mrii_0001">  </span>
