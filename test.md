@@ -1,5 +1,5 @@
 ---
-layout: default_test
+layout: test
 docid: test
 date: 2018-07-27T04:58:15Z
 oto: index/sound0001
