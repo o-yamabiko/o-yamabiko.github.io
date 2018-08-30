@@ -118,7 +118,7 @@
     width: 5rem;
     border: none;
     margin-left: 0;
-    margin-right: 0.3rem;
+    margin-right: 0.2rem;
     padding: 0;
     transform: skewX(40deg);
 }
@@ -202,19 +202,19 @@
                 <em class="error"><strong>残念！</strong> お使いのブラウザはMP3やOggの形式の音声に対応していないため、読み上げ音声を再生できません。</em>
             </p>
 
-	    <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
+	    <p class="playback-rate" hidden>
 	    <button id="playback-playpause" type="button"><img src="media/playpause.png" srcset="media/playpause.svg" alt="再生 停止（スペース・キー）" class="gyo" /></button>
 	    <button id="playback-back" type="button"><img src="media/rewind.png" srcset="media/rewind.svg" alt="5秒戻る（数字の1キー）" class="gyo" /></button>
 	    <button id="playback-forward" type="button"><img src="media/forward.png" srcset="media/forward.svg" alt="5秒進む（数字の4キー）" class="gyo" /></button><br />
 <button id="playback-slow" type="button">ゆっくり</button>
-	    <button id="playback-rate" type="button"><span id="skew">すばやく</span></button>
+	    <button id="playback-rate" type="button"><span id="skew">はやくち</span></button>
 	    <span id="hayasa">1&times;</span>
             </p>
 	    <p class="playback-rate-unavailable" hidden>
                 <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
             </p>
 
-	    <p style="position: absolute; top: 7rem; left: 1rem;">
+	    <p style="position: absolute; top: 6.5rem; left: 1rem;">
               <label for="hyoji" class="tgl tgl-gray">  
                 <input type="checkbox" id="hyoji" onclick="showtext()">
                 <span data-on="文字表示中" data-off="文字を表示"></span>
