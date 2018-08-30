@@ -37,6 +37,97 @@
       }
        @media screen and (max-width: 640px){
        .pconly {display:none;}}
+
+
+       <!--test css-->
+       .playback-rate {
+    position: relative;
+    left: 3%;
+    width: 94%;
+    text-align: center;
+}
+.playback-rate #playback-playpause {
+    position: absolute;
+    left: 0;
+    width:8em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: #ffffff;
+    font-weight: bold;
+    text-align:left;
+    background: #4D90E4;
+    background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A);
+}
+.playback-rate #playback-back {
+    position: absolute;
+    left: 8em;
+    width:8em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: #ffffff;
+    font-weight: bold;
+    text-align:left;
+    background: #4D90E4;
+    background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A);
+}
+.playback-rate #playback-slow {
+    position: absolute;
+    left: 16em;
+    width:8em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: #ffffff;
+    font-weight: bold;
+    text-align:left;
+    background: #4D90E4;
+    background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A);
+}
+.playback-rate #playback-rate {
+    position: absolute;
+    right: 8em;
+    width: 7.5em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 0em 0.5em 0em;
+    color: #ffffff;
+    font-weight: bold;
+    text-align:left;
+    background: #4D90E4;
+    background: linear-gradient(50deg, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A, #4D90E4, #0F4D9A, #4D90E4, #0F4D9A);
+    transform: skewX(-40deg);
+}
+.playback-rate #playback-forward {
+    position: absolute;
+    right: 0;
+    width:8em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: #ffffff;
+    font-weight: bold;
+    text-align:left;
+    background: #4D90E4;
+    background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A);
+}
+.playback-rate #skew {
+    float: right;
+    width: 5em;
+    border: none;
+    margin-left: 0em;
+    margin-right: 2em;
+    padding: 0em;
+    transform: skewX(40deg);
+}
+#hayasa {
+    position: absolute;
+    right: 40%;
+    font-size: medium;
+    font-weight: bold;
+}
+
     </style>
 <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
@@ -80,7 +171,7 @@
   </div>
 
 	<div class="controller">
-	    <div id="chuu" style="font-size:none;"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成はスクリーンリーダーとかち合う恐れがあります。</div>
+	    <div id="chuu" style="font-size: 0;"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成はスクリーンリーダーとかち合う恐れがあります。</div>
 
             <p class="loading">
                 <em><img src="media/loader.gif" alt="Initializing audio"> Loading audio…</em>
