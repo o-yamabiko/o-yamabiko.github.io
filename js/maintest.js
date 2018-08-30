@@ -60,6 +60,13 @@ window.addEventListener('load', function (e) {
 	    var isPlaying = false;
             var back_element = document.getElementById('playback-back');
             var forward_element = document.getElementById('playback-forward');
+	    var minutes = Math.floor(args.audio_element.currentTime / 60);
+	    var seconds = args.audio_element.currentTime - minutes * 60;
+	    function str_pad_left(string,pad,length) {
+                return (new Array(length+1).join(pad)+string).slice(-length);
+            }
+            var finalTime = str_pad_left(minutes,'0',2)+':'+str_pad_left(seconds,'0',2);
+
             playpause_element.addEventListener('click', function (e) {
                 if (isPlaying) {
 		    args.audio_element.pause();
@@ -74,6 +81,9 @@ window.addEventListener('load', function (e) {
             }, false);
             forward_element.addEventListener('click', function (e) {
                 args.audio_element.currentTime += 5;
+            }, false);
+	    args.audio_element.addEventListener("timeupdate", function (e) {
+                document.getElementById("audiotime").innerHTML = finalTime;
             }, false);
 	    
 /* end of addition */
