@@ -83,8 +83,8 @@ window.addEventListener('load', function (e) {
                 args.audio_element.currentTime += 5;
             }, false);
 	    args.audio_element.addEventListener("timeupdate", function (e) {
-                document.getElementById("audiotime").innerHTML = finalTime;
-            }, false);
+                document.getElementById("audiotime").innerHTML = args.audio_element.currentTime;
+            });
 	    
 /* end of addition */
 
