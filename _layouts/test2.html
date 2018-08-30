@@ -52,15 +52,15 @@
 }
        .playback-rate {
     position: absolute;
-    top: 2em;
-   left: 1em;
-    width: 33em;
+    top: 3em;
+   left: 0.5em;
+    width: 20em;
     text-align: center;
 }
 .playback-rate #playback-playpause {
     position: absolute;
     left: 0;
-    width:3em;
+    width:2em;
     border: none;
     border-radius: 0.5em;
     padding: 0.5em;
@@ -71,8 +71,8 @@
 }
 .playback-rate #playback-back {
     position: absolute;
-    left: 4em;
-    width:3em;
+    left: 2.5em;
+    width:2em;
     border: none;
     border-radius: 0.5em;
     padding: 0.5em;
@@ -96,7 +96,7 @@
 }
 .playback-rate #playback-rate {
     position: absolute;
-    right: 4em;
+    right: 2.5em;
     width: 7.5em;
     border: none;
     border-radius: 0.5em;
@@ -111,7 +111,7 @@
 .playback-rate #playback-forward {
     position: absolute;
     right: 0em;
-    width: 3em;
+    width: 2em;
     border: none;
     border-radius: 0.5em;
     padding: 0.5em;
@@ -131,8 +131,8 @@
 }
 #hayasa {
     position: absolute;
-   left: 14em;
-   width: 3em;
+   left: 8em;
+   width: 2em;
     font-size: medium;
     font-weight: bold;
     vertical-align: sub;
@@ -181,7 +181,7 @@
   </div>
 
 	<div class="controller">
-	    <div id="chuu" style="position: absolute; left: auto; right: 1em; bottom: 1em; width: 20em; font-size: small; background: rgba(255, 255, 255, .90);"><div style="font-size: 0;"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成はスクリーンリーダーとかち合う恐れがあります。</div>キー操作：<br />再生・停止はスペース。巻き戻しは数字の1。早送りは数字の4。ゆっくり再生は数字の2。早口再生は数字の3。</div>
+	    <div id="chuu" style="position: absolute; left: auto; right: 1em; bottom: 1em; width: 15em; font-size: small; background: rgba(255, 255, 255, .90);"><div style="font-size: 0;"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成は スクリーンリーダーと かち合う恐れがあります。</div></div>
 
             <p class="loading">
                 <em><img src="media/loader.gif" alt="Initializing audio"> Loading audio…</em>
@@ -207,9 +207,9 @@
             </p>
 
 	    <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
-	    <button id="playback-playpause" type="button"><img src="media/playpause.png" srcset="media/playpause.svg" alt="再生 停止" class="gyo" /></button>
-	    <button id="playback-back" type="button"><img src="media/rewind.png" srcset="media/rewind.svg" alt="5秒戻る" class="gyo" /></button>
-	    <button id="playback-forward" type="button"><img src="media/forward.png" srcset="media/forward.svg" alt="5秒進む" class="gyo" /></button>
+	    <button id="playback-playpause" type="button"><img src="media/playpause.png" srcset="media/playpause.svg" alt="再生 停止（スペース・キー）" class="gyo" /></button>
+	    <button id="playback-back" type="button"><img src="media/rewind.png" srcset="media/rewind.svg" alt="5秒戻る（数字の1キー）" class="gyo" /></button>
+	    <button id="playback-forward" type="button"><img src="media/forward.png" srcset="media/forward.svg" alt="5秒進む（数字の4キー）" class="gyo" /></button>
 	    <button id="playback-slow" type="button">ゆっくり</button>
 	    <button id="playback-rate" type="button"><span id="skew">すばやく</span></button>
 	    <span id="hayasa">1&times;</span>
