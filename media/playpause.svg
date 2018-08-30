@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="62.491577mm"
-   height="41.899132mm"
-   viewBox="0 0 62.491577 41.899132"
+   width="63.592857mm"
+   height="45.517754mm"
+   viewBox="0 0 63.592857 45.517754"
    version="1.1"
    id="svg8"
    inkscape:export-filename="/home/guest/finti/git/o-yamabiko/top/media/playpause.png"
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-301.81137"
-     inkscape:cy="-147.96338"
+     inkscape:cx="770.36962"
+     inkscape:cy="-142.55361"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,37 +59,43 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-46.97033,-67.785558)">
+     transform="translate(-46.369052,-65.598271)">
     <path
        sodipodi:type="star"
-       style="opacity:1;fill:#818181;fill-opacity:1;stroke:none;stroke-width:9.89400005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path815"
        sodipodi:sides="3"
        sodipodi:cx="59.720242"
        sodipodi:cy="88.357147"
-       sodipodi:r1="24.202284"
+       sodipodi:r1="25.702379"
        sodipodi:r2="5.2645993"
-       sodipodi:arg1="-0.031239855"
-       sodipodi:arg2="1.0159576"
+       sodipodi:arg1="-1.8836728e-08"
+       sodipodi:arg2="1.0471974"
        inkscape:flatsided="true"
        inkscape:rounded="0"
        inkscape:randomized="0"
-       d="M 83.910717,87.601194 48.279678,109.68469 46.97033,67.785558 Z"
+       d="m 85.422621,88.357147 -38.553569,22.258913 0,-44.517826 z"
        inkscape:transform-center-x="-19.526265"
-       inkscape:transform-center-y="-12.270893" />
+       inkscape:transform-center-y="-12.270893"
+       inkscape:export-xdpi="300.043"
+       inkscape:export-ydpi="300.043" />
     <rect
-       style="opacity:1;fill:#818181;fill-opacity:1;stroke:none;stroke-width:9.89400005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect817"
        width="8.3154764"
        height="40.82143"
        x="88.446426"
-       y="68.702377" />
+       y="68.702377"
+       inkscape:export-xdpi="300.043"
+       inkscape:export-ydpi="300.043" />
     <rect
        y="68.702377"
        x="101.14643"
        height="40.82143"
        width="8.3154764"
        id="rect819"
-       style="opacity:1;fill:#818181;fill-opacity:1;stroke:none;stroke-width:9.89400005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-xdpi="300.043"
+       inkscape:export-ydpi="300.043" />
   </g>
 </svg>
