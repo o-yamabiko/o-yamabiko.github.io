@@ -82,9 +82,10 @@ window.addEventListener('load', function (e) {
             forward_element.addEventListener('click', function (e) {
                 args.audio_element.currentTime += 5;
             }, false);
-	    args.audio_element.addEventListener("timeupdate", function (e) {
+	    args.audio_element.addEventListener("timeupdate", myFunction);
+	    function myFunction() {
                 document.getElementById("audiotime").innerHTML = args.audio_element.currentTime;
-            });
+            }
 	    
 /* end of addition */
 
