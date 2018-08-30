@@ -40,7 +40,7 @@
 
 
        <!--test css-->
-       .playback-rate {
+       .playback-rate-test {
     position: relative;
    right: 0;
    left: 0;
@@ -49,7 +49,7 @@
    max-width: 40rem;
     text-align: center;
 }
-.playback-rate #playback-playpause {
+#playback-playpause {
     position: absolute;
     left: 0;
     width:8em;
@@ -62,7 +62,7 @@
     background: #4D90E4;
     background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A);
 }
-.playback-rate #playback-back {
+#playback-back {
     position: absolute;
     left: 15%;
     width:8em;
@@ -75,7 +75,7 @@
     background: #4D90E4;
     background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A);
 }
-.playback-rate #playback-slow {
+#playback-slow {
     position: absolute;
     left: 30%;
     width:8em;
@@ -88,7 +88,7 @@
     background: #4D90E4;
     background: linear-gradient(to right, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A);
 }
-.playback-rate #playback-rate {
+#playback-rate {
     position: absolute;
     left: 70%;
     width: 7.5em;
@@ -102,7 +102,7 @@
     background: linear-gradient(50deg, #4D90E4 60%, #0F4D9A, #4D90E4, #0F4D9A, #4D90E4, #0F4D9A, #4D90E4, #0F4D9A);
     transform: skewX(-40deg);
 }
-.playback-rate #playback-forward {
+#playback-forward {
     position: absolute;
     left: 85%;
     width:8em;
@@ -199,7 +199,7 @@
                 <em class="error"><strong>残念！</strong> お使いのブラウザはMP3やOggの形式の音声に対応していないため、読み上げ音声を再生できません。</em>
             </p>
 
-	    <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
+	    <p class="playback-rate-test" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
 	    <button id="playback-playpause" type="button">再生／停止</button>
 	    <button id="playback-back" type="button">5秒戻る</button>
 	    <button id="playback-forward" type="button">5秒進む</button>
