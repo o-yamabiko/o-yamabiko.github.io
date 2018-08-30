@@ -63,11 +63,9 @@ window.addEventListener('load', function (e) {
             playpause_element.addEventListener('click', function (e) {
                 if (isPlaying) {
 		    args.audio_element.pause();
-		    playpause_element.value = "□";
 		    isPlaying = false;
 		} else {
 		    args.audio_element.play();
-		    playpause_element.value = "▷";
 		    isPlaying = true;
 		}
             }, false);
