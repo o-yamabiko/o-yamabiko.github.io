@@ -68,7 +68,6 @@
     font-weight: bold;
     text-align: center;
     background: #4D90E4;
-    vertical-align: text-top;
 }
 .playback-rate #playback-back {
     position: absolute;
@@ -98,7 +97,7 @@
 .playback-rate #playback-rate {
     position: absolute;
     right: 2.5rem;
-    width: 5.5rem;
+    width: 5rem;
     border: none;
     border-radius: 0.5em;
     padding: 0.5em 0em 0.5em 0em;
@@ -132,7 +131,7 @@
 }
 #hayasa {
     position: absolute;
-   left: 8rem;
+   left: 10rem;
    width: 2rem;
     font-size: medium;
     font-weight: bold;
@@ -207,12 +206,12 @@
             </p>
 
 	    <p class="playback-rate" hidden title="Note that increaseing the reading rate will decrease accuracy of word highlights">
-	    <button id="playback-playpause" type="button"><img src="media/playpause.png" srcset="media/playpause.svg" alt="再生 停止（スペース・キー）" class="gyo" /></button>
+	    <div><button id="playback-playpause" type="button"><img src="media/playpause.png" srcset="media/playpause.svg" alt="再生 停止（スペース・キー）" class="gyo" /></button>
 	    <button id="playback-back" type="button"><img src="media/rewind.png" srcset="media/rewind.svg" alt="5秒戻る（数字の1キー）" class="gyo" /></button>
-	    <button id="playback-forward" type="button"><img src="media/forward.png" srcset="media/forward.svg" alt="5秒進む（数字の4キー）" class="gyo" /></button>
-	    <button id="playback-slow" type="button">ゆっくり</button>
+	    <button id="playback-forward" type="button"><img src="media/forward.png" srcset="media/forward.svg" alt="5秒進む（数字の4キー）" class="gyo" /></button></div>
+	    <div><button id="playback-slow" type="button">ゆっくり</button>
 	    <button id="playback-rate" type="button"><span id="skew">すばやく</span></button>
-	    <span id="hayasa">1&times;</span>
+	    <span id="hayasa">1&times;</span></div>
             </p>
 	    <p class="playback-rate-unavailable" hidden>
                 <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
