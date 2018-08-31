@@ -62,9 +62,6 @@ window.addEventListener('load', function (e) {
             var forward_element = document.getElementById('playback-forward');
 	    var audiominutes = Math.floor(args.audio_element.currentTime / 60);
 	    var audioseconds = Math.floor(args.audio_element.currentTime - audiominutes * 60);
-	    var audiodurminutes = Math.floor(args.audio_element.duration / 60);
-	    var audiodurseconds = Math.floor(args.audio_element.duration - audiodurminutes * 60);
-
 
             playpause_element.addEventListener('click', function (e) {
                 if (isPlaying) {
