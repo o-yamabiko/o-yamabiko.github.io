@@ -123,7 +123,10 @@
     transform: skewX(40deg);
 }
 #audiotime {
-   width: 5rem;
+   width: 3rem;
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em;
    text-align: center;
     speak: none;
 }
@@ -135,8 +138,6 @@
          margin-right: auto;
    bottom: 1rem;
    width: 3rem;
-    font-size: medium;
-    font-weight: bold;
     speak: none;
 }
 
@@ -212,7 +213,7 @@
 	    <button id="playback-playpause" type="button"><img src="media/playpause.png" srcset="media/playpause.svg" alt="再生 停止（スペース・キー）" class="gyo" /></button>
 	    <button id="playback-back" type="button"><img src="media/rewind.png" srcset="media/rewind.svg" alt="5秒戻る（数字の1キー）" class="gyo" /></button>
 	    <button id="playback-forward" type="button"><img src="media/forward.png" srcset="media/forward.svg" alt="5秒進む（数字の4キー）" class="gyo" /></button>
-	    <span id="audiotime"> </span>
+	    <span id="audiotime">0:00 / 5:06</span>
             <br />
 <button id="playback-slow" type="button">ゆっくり<span style="font-size: 0;">（数字の2キー）</span></button>
 	    <button id="playback-rate" type="button"><span id="skew">はやくち<span style="font-size: 0;">（数字の2キー）</span></span></button>
