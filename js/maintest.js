@@ -60,8 +60,6 @@ window.addEventListener('load', function (e) {
 	    var isPlaying = false;
             var back_element = document.getElementById('playback-back');
             var forward_element = document.getElementById('playback-forward');
-	    var audiominutes = Math.floor(args.audio_element.currentTime / 60);
-	    var audioseconds = Math.floor(args.audio_element.currentTime - audiominutes * 60);
 
             playpause_element.addEventListener('click', function (e) {
                 if (isPlaying) {
@@ -80,7 +78,7 @@ window.addEventListener('load', function (e) {
             }, false);
 	    args.audio_element.addEventListener("timeupdate", myFunction);
 	    function myFunction() {
-                document.getElementById("audiotime").innerHTML = String(audiominutes) + ":" + ("0" + String(audioseconds)).slice(-2);
+                document.getElementById("audiotime").innerHTML = String(Math.floor(args.audio_element.currentTime / 60)) + ":" + ("0" + Math.floor(args.audio_element.currentTime - Math.floor(args.audio_element.currentTime / 60) * 60)).slice(-2) + " / " + String(Math.floor(args.audio_element.duration / 60)) + ":" + ("0" + Math.floor(args.audio_element.duration - Math.floor(args.audio_element.duration / 60) * 60)).slice(-2);
             }
 	    
 /* end of addition */
