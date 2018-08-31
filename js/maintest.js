@@ -80,7 +80,7 @@ window.addEventListener('load', function (e) {
             }, false);
 	    args.audio_element.addEventListener("timeupdate", myFunction);
 	    function myFunction() {
-                document.getElementById("audiotime").innerHTML = String(audiominutes) + ":" + ("0" + Math.floor(args.audio_element.currentTime - audiominutes * 60)).slice(-2);
+                document.getElementById("audiotime").innerHTML = String(audiominutes) + ":" + ("0" + audioseconds).slice(-2);
             }
 	    
 /* end of addition */
