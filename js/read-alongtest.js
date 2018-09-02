@@ -179,8 +179,8 @@ var ReadAlong = {
             that.selectCurrentWord();
         }
         that.text_element.addEventListener('click', on_select_word_el, false);
-        that.text_element.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 13 /*Enter*/) {
+        that.text_element.addEventListener('keyup', function (e) {
+            if ( e.key === 'Enter' /*Enter*/) {
                 on_select_word_el.call(this, e);
             }
         }, false);
@@ -188,8 +188,8 @@ var ReadAlong = {
         /**
          * Spacebar toggles playback
          */
-        document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === (32 || 48 || 96) /*Space,0*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === 'Space' /*Space*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
@@ -201,8 +201,20 @@ var ReadAlong = {
         }, false);
 
         /**
-         * added to the original: make faster or slower, forward or backword
+         * added to the original: 0 key for play/pause, Escape key for stop. make faster or slower, forward or backword
          */
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === '0' /*0*/) {
+                e.preventDefault();
+                if (that.audio_element.paused) {
+                    that.audio_element.play();
+                }
+                else {
+                    that.audio_element.pause();
+                }
+            }
+        }, false);
+
         document.addEventListener('keyup', function (e) {
             if ( e.key === 'Escape' /*Escape*/) {
                 e.preventDefault();
@@ -219,6 +231,20 @@ var ReadAlong = {
         }, false);
         document.addEventListener('keyup', function (e) {
             if ( e.key === '2' /*2*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
+                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
+            }
+        }, false);
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === 'ArrowUp' /*up arrow*/) {
+                e.preventDefault();
+                    that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
+                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
+            }
+        }, false);
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === 'ArrowDown' /*down arrow*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
