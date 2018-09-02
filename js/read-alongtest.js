@@ -189,7 +189,7 @@ var ReadAlong = {
          * Spacebar toggles playback
          */
         document.addEventListener('keypress', function (e) {
-            if ( e.key === (32 || 48 || 96) /*Space,0*/) {
+            if ( (e.charCode || e.keyCode) === (32 || 48 || 96) /*Space,0*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
