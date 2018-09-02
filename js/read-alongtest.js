@@ -203,47 +203,47 @@ var ReadAlong = {
         /**
          * added to the original: make faster or slower, forward or backword
          */
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === 27 /*Escape*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === 27 /*Escape*/) {
                 e.preventDefault();
                 that.audio_element.pause();
             }
         }, false);
 
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === (51 || 99) /*3*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === (51 || 99) /*3*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === (50 || 98) /*2*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === (50 || 98) /*2*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === (49 || 97) /*1*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === (49 || 97) /*1*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === (52 || 100) /*4*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === (52 || 100) /*4*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
         }, false);
-        document.addEventListener('keydown', function (e) {
-            if ( e.which === 37 /*Left arrow*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === 37 /*Left arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
-        document.addEventListener('keydown', function (e) {
-            if ( e.which === 39 /*Right arrow*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === 39 /*Right arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
