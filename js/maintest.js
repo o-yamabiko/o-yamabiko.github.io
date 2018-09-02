@@ -38,10 +38,12 @@ window.addEventListener('load', function (e) {
             var rate_slow_element = document.getElementById('playback-slow');
             rate_fast_element.disabled = false;
             rate_fast_element.addEventListener('click', function (e) {
+                e.preventDefault();
                 args.audio_element.playbackRate = args.audio_element.playbackRate + 0.2;
                 document.getElementById("hayasa").innerHTML = String(Math.round(args.audio_element.playbackRate * 10) / 10) + "&times;";
             }, false);
             rate_slow_element.addEventListener('click', function (e) {
+                e.preventDefault();
                 args.audio_element.playbackRate = args.audio_element.playbackRate - 0.2;
                 document.getElementById("hayasa").innerHTML = String(Math.round(args.audio_element.playbackRate * 10) / 10) + "&times;";
             }, false);
@@ -71,9 +73,11 @@ window.addEventListener('load', function (e) {
 		}
             }, false);
             back_element.addEventListener('click', function (e) {
+                e.preventDefault();
                 args.audio_element.currentTime -= 5;
             }, false);
             forward_element.addEventListener('click', function (e) {
+                e.preventDefault();
                 args.audio_element.currentTime += 5;
             }, false);
 	    args.audio_element.addEventListener("timeupdate", myFunction);
