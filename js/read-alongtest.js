@@ -187,9 +187,10 @@ var ReadAlong = {
 
         /**
          * Spacebar toggles playback
+	 * modification to the original: p and 0 keys.
          */
         document.addEventListener('keyup', function (e) {
-            if ( e.key === ' ' || e.key === 'p' /*Space*/) {
+            if ( e.key === ' ' || e.key === 'p' || e.key === '0' /*Space or p or 0*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
@@ -201,19 +202,8 @@ var ReadAlong = {
         }, false);
 
         /**
-         * added to the original: 0 key for play/pause, Escape key for stop. make faster or slower, forward or backword
+         * added to the original: Escape key for stop. make faster or slower, forward or backword
          */
-        document.addEventListener('keyup', function (e) {
-            if ( e.key === '0' /*0*/) {
-                e.preventDefault();
-                if (that.audio_element.paused) {
-                    that.audio_element.play();
-                }
-                else {
-                    that.audio_element.pause();
-                }
-            }
-        }, false);
 
         document.addEventListener('keyup', function (e) {
             if ( e.key === 'Escape' /*Escape*/) {
@@ -223,53 +213,27 @@ var ReadAlong = {
         }, false);
 
         document.addEventListener('keyup', function (e) {
-            if ( e.key === '3' /*3*/) {
+            if ( e.key === '3' || e.key === 'ArrowUp' /*3 or up-arrow*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === '2' /*2*/) {
+            if ( e.key === '2' || e.key === 'ArrowDown' /*2 or down-arrow*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === 'ArrowUp' /*up arrow*/) {
-                e.preventDefault();
-                    that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
-                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
-            }
-        }, false);
-        document.addEventListener('keyup', function (e) {
-            if ( e.key === 'ArrowDown' /*down arrow*/) {
-                e.preventDefault();
-                    that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
-                document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
-            }
-        }, false);
-        document.addEventListener('keyup', function (e) {
-            if ( e.key === '1' /*1*/) {
+            if ( e.key === '1' || e.key === 'ArrowLeft' /*1 or left-arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === '4' /*4*/) {
-                e.preventDefault();
-                    that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
-            }
-        }, false);
-        document.addEventListener('keyup', function (e) {
-            if ( e.key === 'ArrowLeft' /*Left arrow*/) {
-                e.preventDefault();
-                    that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
-            }
-        }, false);
-        document.addEventListener('keyup', function (e) {
-            if ( e.key === 'ArrowRight' /*Right arrow*/) {
+            if ( e.key === '4' || e.key === 'ArrowRight' /*4 or right-arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
