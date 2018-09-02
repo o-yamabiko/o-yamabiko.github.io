@@ -218,32 +218,32 @@ var ReadAlong = {
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (50 || 98) /*2*/) {
+            if ( e.key === '2' /*2*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (49 || 97) /*1*/) {
+            if ( e.key === '1' /*1*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (52 || 100) /*4*/) {
+            if ( e.key === '4' /*4*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === 37 /*Left arrow*/) {
+            if ( e.key === 'ArrowLeft' /*Left arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === 39 /*Right arrow*/) {
+            if ( e.key === 'ArrowRight' /*Right arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
