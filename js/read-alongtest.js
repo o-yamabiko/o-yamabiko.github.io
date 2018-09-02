@@ -189,7 +189,7 @@ var ReadAlong = {
          * Spacebar toggles playback
          */
         document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 32 /*Space*/) {
+            if ( (e.charCode || e.keyCode) === (32 || 48 || 96) /*Space,0*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
@@ -203,6 +203,13 @@ var ReadAlong = {
         /**
          * added to the original: make faster or slower, forward or backword
          */
+        document.addEventListener('keypress', function (e) {
+            if ( (e.charCode || e.keyCode) === 27 /*Escape*/) {
+                e.preventDefault();
+                that.audio_element.pause();
+            }
+        }, false);
+
         document.addEventListener('keypress', function (e) {
             if ( e.which === (51 || 99) /*3*/) {
                 e.preventDefault();
