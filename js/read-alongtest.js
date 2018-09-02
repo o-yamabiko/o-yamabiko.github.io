@@ -225,25 +225,13 @@ var ReadAlong = {
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === '1' /*1*/) {
+            if ( e.key === ('1' || 'ArrowLeft') /*1*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === '4' /*4*/) {
-                e.preventDefault();
-                    that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
-            }
-        }, false);
-        document.addEventListener('keyup', function (e) {
-            if ( e.key === 'ArrowLeft' /*Left arrow*/) {
-                e.preventDefault();
-                    that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
-            }
-        }, false);
-        document.addEventListener('keyup', function (e) {
-            if ( e.key === 'ArrowRight' /*Right arrow*/) {
+            if ( e.key === ('4' || 'ArrowRight') /*4*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
