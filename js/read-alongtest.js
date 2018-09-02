@@ -203,17 +203,6 @@ var ReadAlong = {
         /**
          * added to the original: 0 key for play/pause, Escape key for stop. make faster or slower, forward or backword
          */
-        document.addEventListener('keyup', function (e) {
-            if ( e.key === '0' /*0*/) {
-                e.preventDefault();
-                if (that.audio_element.paused) {
-                    that.audio_element.play();
-                }
-                else {
-                    that.audio_element.pause();
-                }
-            }
-        }, false);
 
         document.addEventListener('keyup', function (e) {
             if ( e.key === 'Escape' /*Escape*/) {
