@@ -179,17 +179,18 @@ var ReadAlong = {
             that.selectCurrentWord();
         }
         that.text_element.addEventListener('click', on_select_word_el, false);
-        that.text_element.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 13 /*Enter*/) {
+        that.text_element.addEventListener('keyup', function (e) {
+            if ( e.key === 'Enter' /*Enter*/) {
                 on_select_word_el.call(this, e);
             }
         }, false);
 
         /**
          * Spacebar toggles playback
+	 * modified from the original: replace keypress by keyup.; e.charCode and e.keyCode by e.key. add zero.
          */
-        document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === (32 || 48 || 96) /*Space,0*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === ( 'Space' || 48 || '0') /*Space,0*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
@@ -211,39 +212,39 @@ var ReadAlong = {
         }, false);
 
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (51 || 99) /*3*/) {
+            if ( e.key === (51 || '3') /*3*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (50 || 98) /*2*/) {
+            if ( e.key === (50 || '2') /*2*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (49 || 97) /*1*/) {
+            if ( e.key === (49 || '1') /*1*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (52 || 100) /*4*/) {
+            if ( e.key === (52 || '4') /*4*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === 37 /*Left arrow*/) {
+            if ( e.key === 'ArrowLeft' /*Left arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
         document.addEventListener('keyup', function (e) {
-            if ( e.key === 39 /*Right arrow*/) {
+            if ( e.key === 'ArrowRight' /*Right arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
