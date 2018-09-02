@@ -189,7 +189,7 @@ var ReadAlong = {
          * Spacebar toggles playback
          */
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (' ' || 'p') /*Space*/) {
+            if ( e.key === ' ' || e.key === 'p' /*Space*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
