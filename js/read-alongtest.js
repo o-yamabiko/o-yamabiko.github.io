@@ -211,7 +211,7 @@ var ReadAlong = {
         }, false);
 
         document.addEventListener('keyup', function (e) {
-            if ( e.key === (51 || 99) /*3*/) {
+            if ( e.key === '3' /*3*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
