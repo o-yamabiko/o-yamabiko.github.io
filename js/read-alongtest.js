@@ -204,7 +204,7 @@ var ReadAlong = {
          * added to the original: make faster or slower, forward or backword
          */
         document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 27 /*Escape*/) {
+            if ( e.which === 27 /*Escape*/) {
                 e.preventDefault();
                 that.audio_element.pause();
             }
