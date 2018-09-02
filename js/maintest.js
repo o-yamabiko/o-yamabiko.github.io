@@ -78,7 +78,7 @@ window.addEventListener('load', function (e) {
             }, false);
 	    args.audio_element.addEventListener("timeupdate", myFunction);
 	    function myFunction() {
-                document.getElementById("audiotime").innerHTML = String(Math.floor(args.audio_element.currentTime / 60)) + ":" + ("0" + Math.floor(args.audio_element.currentTime - Math.floor(args.audio_element.currentTime / 60) * 60)).slice(-2) + " / " + String(Math.floor(args.audio_element.duration / 60)) + ":" + ("0" + Math.floor(args.audio_element.duration - Math.floor(args.audio_element.duration / 60) * 60)).slice(-2);
+                document.getElementById("audiotime").innerHTML = String(Math.floor(args.audio_element.currentTime / 60)) + "&prime;" + ("0" + Math.floor(args.audio_element.currentTime - Math.floor(args.audio_element.currentTime / 60) * 60)).slice(-2) + "&Prime;" + " / " + String(Math.floor(args.audio_element.duration / 60)) + "&prime;" + ("0" + Math.floor(args.audio_element.duration - Math.floor(args.audio_element.duration / 60) * 60)).slice(-2) + "&Prime;";
             }
 	    
 /* end of addition */
