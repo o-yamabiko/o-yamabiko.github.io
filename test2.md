@@ -16,7 +16,7 @@ oto: test2/sound0001
 <span data-dur="1.66" data-begin="16.354" id="xmri_0007">エスケープ・キーで、</span>
 <span data-dur="3.846" data-begin="18.014" id="xmri_0008">私の声を停止できます。</span>  
 <span data-dur="1.396" data-begin="21.860" id="xmri_0009">このページで、</span>
-<span data-dur="1.642" data-begin="23.256" id="xmri_000A">「文字を表示」</span>
+<span data-dur="1.642" data-begin="23.256" id="xmri_000A">「文字の表示」</span>
 <span data-dur="2.541" data-begin="24.898" id="xmri_000B">チェックボックスをオンにすると、</span>
 <span data-dur="4.856" data-begin="27.439" id="xmri_000C">リンク先を開く操作ができるようになります。</span>
 
