@@ -29,7 +29,8 @@ oto: test2/sound0001
 <span data-dur="1.436" data-begin="46.324" id="xmri_0010">音訳とは、</span>
 <span data-dur="6.511" data-begin="47.760" id="xmri_0011">障がいや高齢等の理由で文字や図表などを読むことが難しい人のために、</span>
 <span data-dur="5.13" data-begin="54.271" id="xmri_0012">書かれた情報を音声化することです。</span>
-<span data-dur="2.817" data-begin="59.401" id="xmri_0013">私たちの活動</span>
+
+## <span data-dur="2.817" data-begin="59.401" id="xmri_0013">私たちの活動</span>
 
 ### <span data-dur="2.418" data-begin="62.218" id="xmri_0014">対面音訳</span>
 
