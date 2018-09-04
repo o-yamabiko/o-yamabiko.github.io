@@ -268,7 +268,7 @@ font-weight: normal;
 
 	<div class="controller">
 	    <div id="chuu" style="position: absolute; left: auto; right: 1em; bottom: 1em; width: 30em; font-size: small; background: rgba(255, 255, 255, .90);">
-	        <div style="font-size: 0;"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成は スクリーンリーダーと かち合う恐れがあります。
+	        <div style="opacity: 0;"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成は スクリーンリーダーと かち合う恐れがあります。
 		</div>
             </div>
 
@@ -296,14 +296,14 @@ font-weight: normal;
             </p>
 
 	    <p class="playback-rate" hidden>
-	    <button id="playback-playpause" type="button"><img src="media/playpause.png" srcset="media/playpause.svg" alt="" class="gyo" /><span style="font-size: 0;">再生 停止（数字の0キーか、アルファベットのpキー）</span></button>
-	    <button id="playback-back" type="button"><img src="media/rewind.png" srcset="media/rewind.svg" alt="" class="gyo" /><span style="font-size: 0;">5秒戻る（数字の1キーか、左矢印キー）</span></button>
-	    <button id="playback-forward" type="button"><img src="media/forward.png" srcset="media/forward.svg" alt="" class="gyo" /><span style="font-size: 0;">5秒進む（数字の4キーか、右矢印キー）</span></button>
-	    <span style="font-size: 0;">読み上げ時間</span><span id="audiotime"></span>
+	    <button id="playback-playpause" type="button"><img src="media/playpause.png" srcset="media/playpause.svg" alt="" class="gyo" /><span style="opacity: 0;">再生 停止（数字の0キーか、アルファベットのpキー）</span></button>
+	    <button id="playback-back" type="button"><img src="media/rewind.png" srcset="media/rewind.svg" alt="" class="gyo" /><span style="opacity: 0;">5秒戻る（数字の1キーか、左矢印キー）</span></button>
+	    <button id="playback-forward" type="button"><img src="media/forward.png" srcset="media/forward.svg" alt="" class="gyo" /><span style="opacity: 0;">5秒進む（数字の4キーか、右矢印キー）</span></button>
+	    <span style="opacity: 0;">読み上げ時間</span><span id="audiotime"></span>
             <br />
-<button id="playback-slow" type="button">ゆっくり<span style="font-size: 0;">（数字の2キーか、下矢印キー）</span></button>
-	    <button id="playback-rate" type="button"><span id="skew">はやくち<span style="font-size: 0;">（数字の3キーか、上矢印キー）</span></span></button>
-	    <span style="font-size: 0;">読み上げ速さ</span><span id="hayasa">1&times;</span>
+<button id="playback-slow" type="button">ゆっくり<span style="opacity: 0;">（数字の2キーか、下矢印キー）</span></button>
+	    <button id="playback-rate" type="button"><span id="skew">はやくち<span style="opacity: 0;">（数字の3キーか、上矢印キー）</span></span></button>
+	    <span style="opacity: 0;">読み上げ速さ</span><span id="hayasa">1&times;</span>
             </p>
 	    <p class="playback-rate-unavailable" hidden>
                 <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
