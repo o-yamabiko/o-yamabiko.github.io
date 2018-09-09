@@ -1,6 +1,6 @@
 ---
-layout: test2
-docid: test2
+layout: test3
+docid: test3
 date: 2018-09-02T13:21:52Z
 oto: test2/sound0001
 ---
