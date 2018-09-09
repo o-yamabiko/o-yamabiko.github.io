@@ -57,7 +57,7 @@
   <div id="logo"></div>
         {% endif %}
    <div id="passage-text" class="passage">
-    <section class="main-content" id="bun"{% if page.oto %} style="display:none" aria-hidden="true"{% endif %}>
+    <section class="main-content" id="bun"{% if page.oto %} style="display:none"{% endif %}>
 
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -110,7 +110,7 @@
                 <input type="checkbox" id="hyoji" onclick="showtext()">
                 <span data-on="文字表示中" data-off="文字を表示"></span>
               </label>
-              <span id="view" style="display: none;" aria-hidden="true" class="autofocus-current-word">
+              <span id="view" style="display: none;" class="autofocus-current-word">
                 <label for="autofocus-current-word" class="tgl tgl-gray">
 		  <input type="checkbox" id="autofocus-current-word" checked>
                   <span data-on="音声と画面の連動中" data-off="音声・画面を連動に"></span>
