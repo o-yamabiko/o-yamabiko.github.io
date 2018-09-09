@@ -238,7 +238,7 @@ font-weight: normal;
   <body onload="showtext()">
   <div id="logo"></div>
   <div id="passage-text" class="passage">
-    <section class="main-content" id="bun" style="display:none;">
+    <section class="main-content" id="bun" style="display:none;" aria-hidden="true">
       <div style="speak:none;">
       <h2 class="project-name" id="logotitle">音訳グループ やまびこ</h2>
       <!--A long title is annoying on TTS browsers. p class="project-tagline"><span data-dur="5.248" data-begin="2.708">東京都北区を中心に活動する ボランティアグループ</span></p-->
@@ -314,7 +314,7 @@ font-weight: normal;
                 <input type="checkbox" id="hyoji" onclick="showtext()">
                 <span class="checkmark"></span>
               </label>
-              <span id="view" style="display: none; position: absolute; top: 0; left: 10em; width: 14em;" class="autofocus-current-word">
+              <span id="view" style="display: none; position: absolute; top: 0; left: 10em; width: 14em;" aria-hidden="true" class="autofocus-current-word">
                 <label for="autofocus-current-word" class="bluebox">音声と画面の連動
 		  <input type="checkbox" id="autofocus-current-word" checked="checked">
                   <span class="checkmark"></span>

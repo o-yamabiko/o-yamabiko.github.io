@@ -48,7 +48,7 @@
   <body onload="showtext()">
   <div id="logo"></div>
   <div id="passage-text" class="passage">
-    <section class="main-content" id="bun" style="display:none">
+    <section class="main-content" id="bun" style="display:none" aria-hidden="true">
       <h1 class="project-name" id="logotitle">音訳グループ やまびこ</h1>
       <!--A long title is annoying on TTS browsers. p class="project-tagline"><span data-dur="5.248" data-begin="2.708">東京都北区を中心に活動する ボランティアグループ</span></p-->
       {% if site.github.is_project_page %}
@@ -83,7 +83,7 @@
                 <input type="checkbox" id="hyoji" onclick="showtext()">
                 <span data-on="文字表示中" data-off="文字を表示"></span>
               </label>
-              <span id="view" style="display: none;" class="autofocus-current-word">
+              <span id="view" style="display: none;" aria-hidden="true" class="autofocus-current-word">
                 <label for="autofocus-current-word" class="tgl tgl-gray">
 		  <input type="checkbox" id="autofocus-current-word" checked>
                   <span data-on="音声と画面の連動中" data-off="音声・画面を連動に"></span>
