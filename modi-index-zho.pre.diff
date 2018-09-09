@@ -1,0 +1,24 @@
+1c1
+< <!DOCTYPE html>
+---
+> <！DOCTYPE html>
+3,6c3,6
+<   <head>
+<     <meta charset='utf-8'>
+<   </head>
+<   <body>
+---
+> <head>
+> <meta charset='utf-8'>
+> </head>
+> <body>
+9,10c9,10
+< lang: zho
+< translator: 须藤惠子
+---
+> lang：zho
+> translator：须藤惠子
+13c13
+< 音译是[为残疾人和高龄者等[文字和图表读法有困难的，将视觉信息转换为语音信息。
+---
+> 音译是［为残疾人和高龄者等［文字和图表读法有困难的，将视觉信息转换为语音信息。
