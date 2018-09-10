@@ -14,9 +14,9 @@ oto: test3/sound0001
 <span data-dur="1.505" data-begin="11.052" id="xmri_0005">このサイトでは、</span>
 <span data-dur="4.297" data-begin="12.557" id="xmri_0006">主に音声を配信しています。</span>  
 <span data-dur="2.749" data-begin="16.854" id="xmri_0007">私の声を止めるキー操作は、</span>
-<span data-dur="1.688" data-begin="19.603" id="xmri_0008">スペース・キーか、</span>
-<span data-dur="1.695" data-begin="21.291" id="xmri_0009">エスケープ・キーか、</span>
-<span data-dur="1.633" data-begin="22.986" id="xmri_000A">エンター・キーか、</span>
+<span data-dur="1.688" data-begin="19.603" id="xmri_0008">Spaceキーか、</span>
+<span data-dur="1.695" data-begin="21.291" id="xmri_0009">Escキーか、</span>
+<span data-dur="1.633" data-begin="22.986" id="xmri_000A">Enterキーか、</span>
 <span data-dur="1.946" data-begin="24.619" id="xmri_000B">数字の0キーか、</span>
 <span data-dur="3.118" data-begin="26.565" id="xmri_000C">アルファベットのpキーです。</span>
 <span data-dur="2.123" data-begin="29.683" id="xmri_000D">どのキーが使えるかは、</span>
