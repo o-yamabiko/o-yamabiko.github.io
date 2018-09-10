@@ -1,32 +1,12 @@
 ---
-layout: test3
+layout: print_noindex
+title: 音訳グループ やまびこ
 docid: test3
 date: 2018-09-10T10:07:24Z
 oto: test3/sound0001
 ---
    
-<!--span data-dur="2.05" data-begin="0.000" id="mrii_0001">  </span>
-<span data-dur="2.708" data-begin="2.050" id="xmri_0001">音訳グループ やまびこ</span>
-<span data-dur="1.641" data-begin="4.758" id="xmri_0002">読み上げ時間：</span>
-<span data-dur="3.261" data-begin="6.399" id="xmri_0003">約4分45秒</span-->
-
-<span data-dur="1.392" data-begin="9.660" id="xmri_0004">注：</span>  
-<span data-dur="1.505" data-begin="11.052" id="xmri_0005">このサイトでは、</span>
-<span data-dur="4.297" data-begin="12.557" id="xmri_0006">主に音声を配信しています。</span>  
-<span data-dur="2.749" data-begin="16.854" id="xmri_0007">私の声を止めるキー操作は、</span>
-<span data-dur="1.688" data-begin="19.603" id="xmri_0008">スペース・キーか、</span>
-<span data-dur="1.695" data-begin="21.291" id="xmri_0009">エスケープ・キーか、</span>
-<span data-dur="1.633" data-begin="22.986" id="xmri_000A">エンター・キーか、</span>
-<span data-dur="1.946" data-begin="24.619" id="xmri_000B">数字の0キーか、</span>
-<span data-dur="3.118" data-begin="26.565" id="xmri_000C">アルファベットのpキーです。</span>
-<span data-dur="2.123" data-begin="29.683" id="xmri_000D">どのキーが使えるかは、</span>
-<span data-dur="4.241" data-begin="31.806" id="xmri_000E">お使いの機械によって異なります。</span>  
-<span data-dur="1.397" data-begin="36.047" id="xmri_000F">このページで、</span>
-<span data-dur="1.632" data-begin="37.444" id="xmri_0010">「文字の表示」</span>
-<span data-dur="2.54" data-begin="39.076" id="xmri_0011">チェックボックスをオンにすると、</span>
-<span data-dur="4.856" data-begin="41.616" id="xmri_0012">リンク先を開く操作ができるようになります。</span>
-
-<!--span data-dur="3.087" data-begin="46.472" id="xmri_0013">注終わり。</span-->
+<img class="fullw" src="media/index/logo-w2color.png" alt="音訳グループ やまびこ" />
 
 ## <span data-dur="2.968" data-begin="49.559" id="xmri_0014">音訳とは？</span>
 
@@ -73,7 +53,7 @@ oto: test3/sound0001
 <span data-dur="4.566" data-begin="173.304" id="xmri_0038">人の声ほど音訳技術を駆使することはできませんが、</span>
 <span data-dur="2.456" data-begin="177.870" id="xmri_0039">完成までにかかる時間を</span>
 <span data-dur="3.675" data-begin="180.326" id="xmri_003A">大幅に短縮することができます。</span>
-<span data-dur="1.858" data-begin="184.001" id="xmri_003B">今お聞きの声は</span>
+<span data-dur="1.858" data-begin="184.001" id="xmri_003B">ホームページの声は</span>
 <span data-dur="1.832" data-begin="185.859" id="xmri_003C">合成音声の</span>
 <span data-dur="2.161" data-begin="187.691" id="xmri_003D">「せいじ」（男声）です。</span>
 <span data-dur="1.059" data-begin="189.852" id="xmri_003E">他に</span>
