@@ -237,9 +237,9 @@ font-weight: normal;
   </head>
   <body onload="showtext()">
 	<div class="controller">
-            <p class="loading">
+            <!--p class="loading">
                 <em><img src="media/loader.gif" alt="Initializing audio"> Loading audio…</em>
-            </p>
+            </p-->
 
             <p class="passage-audio" hidden>
                 <audio id="passage-audio" class="passage"  style="width: 0; height: 0;" autoplay controls>
@@ -256,9 +256,9 @@ font-weight: normal;
     </object>
                 </audio>
             </p>
-            <p class="passage-audio-unavailable" hidden>
+            <!--p class="passage-audio-unavailable" hidden>
                 <em class="error"><strong>残念！</strong> お使いのブラウザはMP3やOggの形式の音声に対応していないため、読み上げ音声を再生できません。</em>
-            </p>
+            </p-->
 
 	    <div id="chuu" style="position: absolute; left: auto; right: 1em; bottom: 1em; width: 30em; font-size: small; background: rgba(255, 255, 255, .90);">
 	        <div style="font-size: 0;"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成は スクリーンリーダーと かち合う恐れがあります。
@@ -275,9 +275,9 @@ font-weight: normal;
 	    <button id="playback-rate" type="button"><span id="skew">はやくち<span style="font-size: 0;">（数字の3キーか、上矢印キー）</span></span></button>
 	    <span style="font-size: 0;">読み上げ速さ</span><span id="hayasa">1&times;</span>
             </p>
-	    <p class="playback-rate-unavailable" hidden>
+	    <!--p class="playback-rate-unavailable" hidden>
                 <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
-            </p>
+            </p-->
 
 	    <p style="position: absolute; top: 7.5rem; left: 1.5rem;">
               <label for="hyoji" class="bluebox">文字の表示
