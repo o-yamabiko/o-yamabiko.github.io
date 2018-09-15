@@ -13,10 +13,10 @@ span data-dur="2.971" data-begin="6.399" id="xmri_0003">約4分50秒</span-->
 <span data-dur="1.504" data-begin="10.763" id="xmri_0005">このサイトでは、</span>
 <span data-dur="4.297" data-begin="12.267" id="xmri_0006">主に音声を配信しています。</span>
 <span data-dur="1.583" data-begin="16.564" id="xmri_0007">私の声は、</span>
-<span data-dur="3.667" data-begin="18.147" id="xmri_0008">エスケープ・キーで止めることができます。</span>
+<span data-dur="3.667" data-begin="18.147" id="xmri_0008">Escキーで止めることができます。</span>
 <span data-dur="1" data-begin="21.814" id="xmri_0009">ただし、</span>
 <span data-dur="4.037" data-begin="22.814" id="xmri_000A">NetReaderIIをお使いの場合は</span>
-<span data-dur="2.986" data-begin="26.851" id="xmri_000B">エンターキーです。</span>
+<span data-dur="2.986" data-begin="26.851" id="xmri_000B">Enterキーです。</span>
 <span data-dur="1.397" data-begin="29.837" id="xmri_000C">このページで、</span>
 <span data-dur="1.632" data-begin="31.234" id="xmri_000D">「文字の表示」</span>
 <span data-dur="2.54" data-begin="32.866" id="xmri_000E">チェックボックスをオンにすると、</span>
