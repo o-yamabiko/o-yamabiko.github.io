@@ -100,6 +100,13 @@ body {
 .playback-rate label {
     font-weight: normal;
 }
+.autofocus-current-word{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 10em;
+    width: 14em;
+    z-index: -1;}
 //fix width of playback-rate indicator
 .playback-rate {
     position: absolute;
