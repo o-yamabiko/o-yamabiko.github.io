@@ -54,6 +54,35 @@ window.addEventListener('load', function (e) {
             document.querySelector('.playback-rate-unavailable').hidden = false;
         }
 
+/* added to original: play/pause, back/forward button */
+
+            var playpause_element = document.getElementById('playback-playpause');
+	    var isPlaying = false;
+            var back_element = document.getElementById('playback-back');
+            var forward_element = document.getElementById('playback-forward');
+
+            playpause_element.addEventListener('click', function (e) {
+                if (isPlaying) {
+		    args.audio_element.pause();
+		    isPlaying = false;
+		} else {
+		    args.audio_element.play();
+		    isPlaying = true;
+		}
+            }, false);
+            back_element.addEventListener('click', function (e) {
+                args.audio_element.currentTime -= 5;
+            }, false);
+            forward_element.addEventListener('click', function (e) {
+                args.audio_element.currentTime += 5;
+            }, false);
+	    args.audio_element.addEventListener("timeupdate", myFunction);
+	    function myFunction() {
+                document.getElementById("audiotime").innerHTML = String(Math.floor(args.audio_element.currentTime / 60)) + "&prime;" + ("0" + Math.floor(args.audio_element.currentTime - Math.floor(args.audio_element.currentTime / 60) * 60)).slice(-2) + "&Prime;" + " / " + String(Math.floor(args.audio_element.duration / 60)) + "&prime;" + ("0" + Math.floor(args.audio_element.duration - Math.floor(args.audio_element.duration / 60) * 60)).slice(-2) + "&Prime;";
+            }
+	    
+/* end of addition */
+
         ReadAlong.init(args);
 
         document.getElementById('autofocus-current-word').addEventListener('change', function (e) {

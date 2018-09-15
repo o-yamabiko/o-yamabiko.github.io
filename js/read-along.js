@@ -179,17 +179,18 @@ var ReadAlong = {
             that.selectCurrentWord();
         }
         that.text_element.addEventListener('click', on_select_word_el, false);
-        that.text_element.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 13 /*Enter*/) {
+        that.text_element.addEventListener('keyup', function (e) {
+            if ( e.key === 'Enter' /*Enter*/) {
                 on_select_word_el.call(this, e);
             }
         }, false);
 
         /**
-         * Spacebar toggles playback
+         * Spacebar shouldn't toggle playback: e.key === ' ' || 
+	 * modification to the original: p and 0 keys.
          */
-        document.addEventListener('keypress', function (e) {
-            if ( (e.charCode || e.keyCode) === 32 /*Space*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === 'p' || e.key === '0' /*p or 0*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
@@ -201,42 +202,38 @@ var ReadAlong = {
         }, false);
 
         /**
-         * added to the original: make faster or slower, forward or backword
+         * added to the original: Escape key for stop. make faster or slower, forward or backword
          */
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === (51 || 99) /*3*/) {
+
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === 'Escape' /*Escape*/) {
+                e.preventDefault();
+                that.audio_element.pause();
+            }
+        }, false);
+
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === '3' || e.key === 'ArrowUp' /*3 or up-arrow*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate + 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === (50 || 98) /*2*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === '2' || e.key === 'ArrowDown' /*2 or down-arrow*/) {
                 e.preventDefault();
                     that.audio_element.playbackRate = that.audio_element.playbackRate - 0.2 ;
                 document.getElementById("hayasa").innerHTML = String(Math.round(that.audio_element.playbackRate * 10) / 10) + "&times;";
             }
         }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === (49 || 97) /*1*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === '1' || e.key === 'ArrowLeft' /*1 or left-arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
             }
         }, false);
-        document.addEventListener('keypress', function (e) {
-            if ( e.which === (52 || 100) /*4*/) {
-                e.preventDefault();
-                    that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
-            }
-        }, false);
-        document.addEventListener('keydown', function (e) {
-            if ( e.which === 37 /*Left arrow*/) {
-                e.preventDefault();
-                    that.audio_element.currentTime = that.audio_element.currentTime - 5 ;
-            }
-        }, false);
-        document.addEventListener('keydown', function (e) {
-            if ( e.which === 39 /*Right arrow*/) {
+        document.addEventListener('keyup', function (e) {
+            if ( e.key === '4' || e.key === 'ArrowRight' /*4 or right-arrow*/) {
                 e.preventDefault();
                     that.audio_element.currentTime = that.audio_element.currentTime + 5 ;
             }
