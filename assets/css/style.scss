@@ -287,14 +287,14 @@ q {
  }
 
 //popup
+// popup on pc only
+    @media screen and (min-width: 800px){
 //    .parent {
 //      color: $body-link-color;
 //  }
-    .parent .popup {
-      display: none;
-    }
-// popup only on pc
-    @media screen and (max-width: 640px){
+      .parent .popup {
+        display: none;
+      }
       .parent:hover .popup {
         display: block;
         position: absolute;
