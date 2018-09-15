@@ -232,12 +232,13 @@ q {
     .parent:hover .popup {
       display: block;
       position: absolute;
-      background: rgba(0, 0, 0, .95);
-      border-color: #eee;
+      background: rgba(0, 0, 0, .90);
+      border-color: #ccc;
       border-width: 3px;
       border-style: outset;
       margin-right: 5em;
       padding: 1em;
+      z-index: -1;
     }
 
 //arrange images
