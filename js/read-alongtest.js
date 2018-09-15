@@ -186,11 +186,11 @@ var ReadAlong = {
         }, false);
 
         /**
-         * Spacebar toggles playback
+         * Spacebar shouldn't toggle playback: e.key === ' ' || 
 	 * modification to the original: p and 0 keys.
          */
         document.addEventListener('keyup', function (e) {
-            if ( e.key === ' ' || e.key === 'p' || e.key === '0' /*Space or p or 0*/) {
+            if ( e.key === 'p' || e.key === '0' /*p or 0*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
