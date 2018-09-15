@@ -293,19 +293,21 @@ q {
     .parent .popup {
       display: none;
     }
-    .parent:hover .popup {
-      display: block;
-      position: absolute;
-      width: 10em;
-      background: rgba(0, 0, 0, .90);
-      border-color: #333;
-      border-width: 3px;
-      border-style: outset;
-      margin-right: 5em;
-      padding: 1em;
-      z-index: 10;
+// popup only on pc
+    @media screen and (max-width: 640px){
+      .parent:hover .popup {
+        display: block;
+        position: absolute;
+        width: 10em;
+        background: rgba(0, 0, 0, .90);
+        border-color: #333;
+        border-width: 3px;
+        border-style: outset;
+        margin-right: 5em;
+        padding: 1em;
+        z-index: 10;
+      }
     }
-
 //arrange images
       .gyo {
         height: 1.2em;
