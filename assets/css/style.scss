@@ -223,13 +223,13 @@ q {
  }
 
 //popup
-    #parent {
+    .parent {
       color: $body-link-color;
   }
-    #parent #popup {
+    .parent .popup {
       display: none;
     }
-    #parent:hover #popup {
+    .parent:hover .popup {
       display: block;
       position: absolute;
       background: rgba(255, 255, 255, .90);

@@ -14,7 +14,7 @@ fi
 echo '---' > $2.md
 
 # if index
-if [[ $2 = index* ]]; then
+if [[ $2 = index* ]] || [[ $2 = test* ]] ; then
   echo 'docid: '$2 >> $2.md
   if [[ $2 != index-* ]]; then
     echo 'lang: '`sed s/index-// $2` >> $2.md
@@ -86,7 +86,7 @@ sed \
     -e 's/&ensp;/ /g' \
     temp4 > temp5
 
-if [[ $2 == 'index' ]]; then
+if [[ $2 == 'index' ]] || [[ $2 = test* ]] ; then
 
 LC_COLLATE=C.UTF-8 sed \
     -e 's/　/ /g' \
