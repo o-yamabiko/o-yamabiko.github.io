@@ -232,6 +232,7 @@ q {
     .parent:hover .popup {
       display: block;
       position: absolute;
+      width: 10em;
       background: rgba(0, 0, 0, .90);
       border-color: #333;
       border-width: 3px;
