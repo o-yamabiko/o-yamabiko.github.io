@@ -53,7 +53,7 @@
             </p-->
 
             <p class="passage-audio" hidden>
-                <audio id="passage-audio" class="passage"  style="width: 0; height: 0;" autoplay controls>
+                <audio id="passage-audio" class="passage" autoplay controls>
                     <source src="media/index/sound0001.mp3" type="audio/mp3">
                     <source src="media/index/sound0001.ogg" type="audio/ogg">
                     <!--source src="media/index/sound0001.wav" type="audio/wav"-->
@@ -71,26 +71,26 @@
                 <em class="error"><strong>残念！</strong> お使いのブラウザはMP3やOggの形式の音声に対応していないため、読み上げ音声を再生できません。</em>
             </p-->
 
-	    <div id="chuu" style="position: absolute; left: auto; right: 1em; bottom: 1em; width: 30em; font-size: small; background: rgba(255, 255, 255, .90);">
-	        <div style="font-size: 0;"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成は スクリーンリーダーと かち合う恐れがあります。
+	    <div id="chuu">
+	        <div class="sreaderonly"><h1>音が出ます：音訳グループやまびこ</h1>このページの構成は スクリーンリーダーと かち合う恐れがあります。
 		</div>
             </div>
 
 	    <p class="playback-rate" hidden>
-	    <button id="playback-playpause" type="button" class="parent"><img src="media/playpause.png" srcset="media/playpause.svg" alt="" class="gyo" /><span style="font-size: 0;">再生 停止（数字の0キーか、アルファベットのpキー）</span><span class="popup">再生 停止（数字の0キーか、アルファベットのpキー）</span></button>
-	    <button id="playback-back" type="button" class="parent"><img src="media/rewind.png" srcset="media/rewind.svg" alt="" class="gyo" /><span style="font-size: 0;">5秒戻る（数字の1キーか、左矢印キー）</span><span class="popup">5秒戻る（数字の1キーか、左矢印キー）</span></button>
-	    <button id="playback-forward" type="button" class="parent"><img src="media/forward.png" srcset="media/forward.svg" alt="" class="gyo" /><span style="font-size: 0;">5秒進む（数字の4キーか、右矢印キー）</span><span class="popup">5秒進む（数字の4キーか、右矢印キー）</span></button>
-	    <span style="font-size: 0;">読み上げ時間</span><span id="audiotime"></span>
+	    <button id="playback-playpause" type="button" class="parent"><img src="media/playpause.png" srcset="media/playpause.svg" alt="" class="gyo" /><span class="sreaderonly">再生 停止（数字の0キーか、アルファベットのpキー）</span><span class="popup">再生 停止（数字の0キーか、アルファベットのpキー）</span></button>
+	    <button id="playback-back" type="button" class="parent"><img src="media/rewind.png" srcset="media/rewind.svg" alt="" class="gyo" /><span class="sreaderonly">5秒戻る（数字の1キーか、左矢印キー）</span><span class="popup">5秒戻る（数字の1キーか、左矢印キー）</span></button>
+	    <button id="playback-forward" type="button" class="parent"><img src="media/forward.png" srcset="media/forward.svg" alt="" class="gyo" /><span class="sreaderonly">5秒進む（数字の4キーか、右矢印キー）</span><span class="popup">5秒進む（数字の4キーか、右矢印キー）</span></button>
+	    <span class="sreaderonly">読み上げ時間</span><span id="audiotime"></span>
             <br />
-<button id="playback-slow" type="button" class="parent">ゆっくり<span style="font-size: 0;">（数字の2キーか、下矢印キー）</span><span class="popup">数字の2キーか、下矢印キー</span></button>
-	    <button id="playback-rate" type="button" class="parent"><span id="skew">はやくち<span style="font-size: 0;">（数字の3キーか、上矢印キー）</span><span class="popup">数字の3キーか、上矢印キー</span></span></button>
-	    <span style="font-size: 0;">読み上げ速さ</span><span id="hayasa">1&times;</span>
+<button id="playback-slow" type="button" class="parent">ゆっくり<span class="sreaderonly">（数字の2キーか、下矢印キー）</span><span class="popup">数字の2キーか、下矢印キー</span></button>
+	    <button id="playback-rate" type="button" class="parent"><span id="skew">はやくち<span class="sreaderonly">（数字の3キーか、上矢印キー）</span><span class="popup">数字の3キーか、上矢印キー</span></span></button>
+	    <span class="sreaderonly">読み上げ速さ</span><span id="hayasa">1&times;</span>
             </p>
 	    <!--p class="playback-rate-unavailable" hidden>
                 <em>(お使いのブラウザは <code>HTMLMediaElement.playbackRate</code> に対応していないようです。そのため、読み上げの速さを変えることができません。)</em>
             </p-->
 
-	    <p style="position: absolute; top: 7.5rem; left: 1.5rem;">
+	    <p id="showchar">
               <label for="hyoji" class="bluebox">文字の表示
                 <input type="checkbox" id="hyoji" onclick="showtext()">
                 <span class="checkmark"></span>
@@ -106,7 +106,7 @@
             <noscript>
                 <p class="error"><em><strong>お知らせ:</strong> このページの読み上げ機能 HTML5 read-along を利用するには、 JavaScript を有効にしておく必要があります。</em></p>
             </noscript>
-	    <div style="position: absolute; left: auto; right: 1em; top: 1em; font-size: small; background: rgba(255, 255, 255, .90);"><a href="/p{{ page.url }}">音声なし（印刷用）ページ</a></div>
+	    <div id="forprint"><a href="/p{{ page.url }}">音声なし（印刷用）ページ</a></div>
         </div>
 
   <div id="logo"></div>
