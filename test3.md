@@ -1,6 +1,6 @@
 ---
+layout: test3
 docid: test3
-lang: 
 date: 2018-09-15T01:32:20Z
 oto: test3/sound0001
 ---
