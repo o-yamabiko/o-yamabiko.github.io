@@ -223,16 +223,16 @@ q {
  }
 
 //popup
-    .parent {
-      color: $body-link-color;
-  }
+//    .parent {
+//      color: $body-link-color;
+//  }
     .parent .popup {
       display: none;
     }
     .parent:hover .popup {
       display: block;
       position: absolute;
-      background: rgba(255, 255, 255, .90);
+      background: rgba(0, 0, 0, .95);
       border-color: #eee;
       border-width: 3px;
       border-style: outset;
