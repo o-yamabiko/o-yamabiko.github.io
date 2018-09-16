@@ -121,7 +121,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*>その他<.*\)$/\n### \1\n/' \
     -e 's/\(.*>やまびこ通信<.*\)$/\n## \1\n/' \
     -e 's/\(.*月刊誌です。.*\)$/\1\n/' \
-    -e 's/\(.*href="\)\(".*最新号.*\)$/\n- \1tusin'`date +%Y%m`'\.html\2/' \
+    -e 's/\(.*href="\)\(".*最新号\)\(.*\)$/\n- \1tusin'`date +%Y%m`'\.html\2<img src=\"media\/Speaker_Icon_gray\.png\" srcset=\"media\/Speaker_Icon_gray\.svg\" alt=\"音声付き\" class=\"gyo\" \/>\3/' \
     -e 's/\(.*href="\)\(".*バックナンバー.*\)$/- \1bn\.html\2/' \
     -e 's/\(.*>定例会<.*\)$/\n## \1\n/' \
     -e 's/\(.*定例会を開いています。.*\)$/\1\n/' \
