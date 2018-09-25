@@ -143,7 +143,6 @@ var ReadAlong = {
         });
     },
 
-document.addEventListener("DOMContentLoaded", function(){
 
     addEventListeners: function () {
         var that = this;
@@ -279,5 +278,4 @@ document.addEventListener("DOMContentLoaded", function(){
             that.selectCurrentWord();
         }, false);
     }
-});
 };
