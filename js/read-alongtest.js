@@ -144,7 +144,8 @@ var ReadAlong = {
     },
 
 
-    addEventListeners: $(document).ready(function () {
+    
+    addEventListeners: function () {
         var that = this;
 
         /**
@@ -179,12 +180,13 @@ var ReadAlong = {
             that.selectCurrentWord();
         }
         that.text_element.addEventListener('click', on_select_word_el, false);
-        that.text_element.addEventListener('keyup', function (e) {
+$(document).ready(function(){        
+	that.text_element.addEventListener('keyup', function (e) {
             if ( e.key === 'Enter' /*Enter*/) {
                 on_select_word_el.call(this, e);
             }
         }, false);
-
+});
         /**
          * Spacebar shouldn't toggle playback: e.key === ' ' || 
 	 * modification to the original: p and 0 keys.
@@ -276,5 +278,5 @@ var ReadAlong = {
         that.audio_element.addEventListener('ratechange', function (e) {
             that.selectCurrentWord();
         }, false);
-    });
+    }
 };
