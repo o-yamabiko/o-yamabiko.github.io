@@ -189,20 +189,19 @@ var ReadAlong = {
          * Spacebar shouldn't toggle playback: e.key === ' ' || 
 	 * modification to the original: p and 0 keys.
          */
-        $(document).ready(function(){
-	    document.addEventListener('keyup', function (e) {
-                if ( e.key === 'p' || e.key === '0' /*p or 0*/) {
-                    e.preventDefault();
-                    if (that.audio_element.paused) {
-                        that.audio_element.play();
-                    }
-                    else {
-                        that.audio_element.pause();
-                    }
+$(document).ready(        
+	document.addEventListener('keyup', function (e) {
+            if ( e.key === 'p' || e.key === '0' /*p or 0*/) {
+                e.preventDefault();
+                if (that.audio_element.paused) {
+                    that.audio_element.play();
                 }
-            }, false);
-	});
-
+                else {
+                    that.audio_element.pause();
+                }
+            }
+        }, false);
+);
         /**
          * added to the original: Escape key for stop. make faster or slower, forward or backword
          */
