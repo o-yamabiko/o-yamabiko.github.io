@@ -144,7 +144,7 @@ var ReadAlong = {
     },
 
 
-    addEventListeners: function () {
+    addEventListeners: $(document).ready(function () {
         var that = this;
 
         /**
@@ -276,5 +276,5 @@ var ReadAlong = {
         that.audio_element.addEventListener('ratechange', function (e) {
             that.selectCurrentWord();
         }, false);
-    }
+    });
 };
