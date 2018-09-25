@@ -180,18 +180,17 @@ var ReadAlong = {
             that.selectCurrentWord();
         }
         that.text_element.addEventListener('click', on_select_word_el, false);
-$(document).ready(function(){        
-	that.text_element.addEventListener('keyup', function (e) {
+        that.text_element.addEventListener('keyup', function (e) {
             if ( e.key === 'Enter' /*Enter*/) {
                 on_select_word_el.call(this, e);
             }
         }, false);
-});
+
         /**
          * Spacebar shouldn't toggle playback: e.key === ' ' || 
 	 * modification to the original: p and 0 keys.
          */
-	document.addEventListener('keyup', function (e) {
+	$(document).addEventListener('keyup', function (e) {
             if ( e.key === 'p' || e.key === '0' /*p or 0*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
