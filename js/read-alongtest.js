@@ -143,8 +143,8 @@ var ReadAlong = {
         });
     },
 
+document.addEventListener("DOMContentLoaded", function(){
 
-    
     addEventListeners: function () {
         var that = this;
 
@@ -190,7 +190,8 @@ var ReadAlong = {
          * Spacebar shouldn't toggle playback: e.key === ' ' || 
 	 * modification to the original: p and 0 keys.
          */
-	$(document).addEventListener('keyup', function (e) {
+
+	document.addEventListener('keyup', function (e) {
             if ( e.key === 'p' || e.key === '0' /*p or 0*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
@@ -278,4 +279,5 @@ var ReadAlong = {
             that.selectCurrentWord();
         }, false);
     }
+});
 };
