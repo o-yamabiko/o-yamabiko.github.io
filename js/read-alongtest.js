@@ -189,7 +189,6 @@ var ReadAlong = {
          * Spacebar shouldn't toggle playback: e.key === ' ' || 
 	 * modification to the original: p and 0 keys.
          */
-$(document).ready(        
 	document.addEventListener('keyup', function (e) {
             if ( e.key === 'p' || e.key === '0' /*p or 0*/) {
                 e.preventDefault();
@@ -201,7 +200,7 @@ $(document).ready(
                 }
             }
         }, false);
-);
+
         /**
          * added to the original: Escape key for stop. make faster or slower, forward or backword
          */
