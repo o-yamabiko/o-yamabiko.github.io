@@ -54,11 +54,17 @@ sed \
     mrii0001.smil > begin-end.tsv
 # extract paroles
 LC_COLLATE=C.UTF-8 sed \
-    -e 's/<span class=\"infty_silent\">\([^｜<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
+    -e 's/<span class=\"infty_silent\">\([^<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&nbsp; <span id=/<\/span>\n<span id=/g' \
     index.html > temp1
+sed \
+    -e 's/^.*SILENTTT\(([0-9]*)\)\&ensp;\([^(　]*\)\&ensp;\((　*)\)\&ensp;\(.*\)SSSILENT.*$/\1 <ruby>\2<rt>\3<\/rt><\/ruby>\4/' \
+    -e '/^[ \t]*</d' \
+    -e 's/<span [a-zA-Z0-9_\"=]*>//g' \
+    -e 's/<\/span>//g' \
+    temp1 > q.tsv
 sed \
     -e 's/^.*span id=\"\([a-zA-Z0-9_]*\)\">\(.*\)<\/span.*$/\1\t\2/' \
     -e '/^[ \t]*</d' \
@@ -161,10 +167,14 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*03-3910-7331.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについて.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
     -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
-    -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ　]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ　]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/SILENTTT\([^S]*\)SSSILENT/\1/g' \
-    temp5 >> ../$2.md
+    -e 's/\([^ >]*\) *(\([ぁ-ゟ゠ァ-ヿ　]*\)) */<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/ *S*SILENTT* *//g' \
+    temp5 > temp6
+csplit temp6 /読み上げは省略/
+LC_COLLATE=C.UTF-8 sed \
+    -e '/読み上げは省略/d' \
+    xx01 > xx02
+cat xx00 q.tsv xx02 >> ../$2.md
 
 fi
 
