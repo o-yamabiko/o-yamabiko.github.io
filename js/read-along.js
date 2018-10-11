@@ -190,7 +190,7 @@ var ReadAlong = {
 	 * modification to the original: p and 0 keys.
          */
         document.addEventListener('keyup', function (e) {
-            if ( e.key === 'p' || e.key === '0' /*p or 0*/) {
+            if ( e.key === 'p' || e.key === '0' || e.key === 'Escape' /*p or 0 or Escape*/) {
                 e.preventDefault();
                 if (that.audio_element.paused) {
                     that.audio_element.play();
@@ -202,15 +202,15 @@ var ReadAlong = {
         }, false);
 
         /**
-         * added to the original: Escape key for stop. make faster or slower, forward or backword
-         */
+         * added to the original: make faster or slower, forward or backword  Escape key for stop is moved to toggle switches above.
 
         document.addEventListener('keyup', function (e) {
-            if ( e.key === 'Escape' /*Escape*/) {
+            if ( e.key === 'Escape' ) {
                 e.preventDefault();
                 that.audio_element.pause();
             }
         }, false);
+         */
 
         document.addEventListener('keyup', function (e) {
             if ( e.key === '3' || e.key === 'ArrowUp' /*3 or up-arrow*/) {
