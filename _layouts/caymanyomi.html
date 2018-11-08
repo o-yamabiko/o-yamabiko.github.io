@@ -30,16 +30,15 @@
         background-image: url('media/{{ page.background }}');
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-size:cover;
       }
       @media screen and (min-width: 480px){
       body {
-        background-size:cover;
       }
       }
       @media screen and (max-width: 480px){
       body {
         background-position: center bottom;
-        background-size:100% 100%;
       }
       }
         {% endif %}
