@@ -8,6 +8,10 @@ do
       do
         sed \
           -e 's/^layout: .*/layout: print_noindex/' \
+          -e 's/io\/tusin/io\/p\/tusin/' \
+          -e 's/href=\"tusin/href=\"\.\/p\/tusin/' \
+          -e 's/io\/bn/io\/p\/bn/' \
+          -e 's/href=\"bn/href=\"\.\/p\/bn/' \
         $j > ../_p/$j
       done
   cd -
@@ -42,7 +46,13 @@ do
     echo '<img class="fullw" src="media/index/logo-w2color.png" alt="音译团体Yamabiko" />' >> _p/$i
   fi
   echo '' >> _p/$i
-  sed  -e 's/今お聞きの声は/ホームページの声は/' $i > temp
+  LC_COLLATE=C.UTF-8 sed \
+  -e 's/今お聞きの声は/ホームページの声は/' \
+  -e 's/io\/tusin/io\/p\/tusin/' \
+  -e 's/href=\"tusin/href=\"\.\/p\/tusin/' \
+  -e 's/io\/bn/io\/p\/bn/' \
+  -e 's/href=\"bn/href=\"\.\/p\/bn/' \
+  $i > temp
   sed -n '/##/,$p' temp >> _p/$i
   rm temp
 done
