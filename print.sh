@@ -6,12 +6,15 @@ do
   cd $i
     for j in *
       do
-        sed \
+        LC_COLLATE=C.UTF-8 sed \
           -e 's/^layout: .*/layout: print_noindex/' \
-          -e 's/io\/tusin/io\/p\/tusin/' \
-          -e 's/href=\"tusin/href=\"\.\/p\/tusin/' \
-          -e 's/io\/bn/io\/p\/bn/' \
-          -e 's/href=\"bn/href=\"\.\/p\/bn/' \
+          -e 's/io\/tusin/io\/p\/tusin/g' \
+          -e 's/href=\"tusin/href=\"\.\/p\/tusin/g' \
+          -e 's/io\/bn/io\/p\/bn/g' \
+          -e 's/href=\"bn/href=\"\.\/p\/bn/g' \
+          -e 's/<img src=\"media\/Speaker_Icon_gray\.png\" srcset=\"media\/Speaker_Icon_gray\.svg\" alt=\"音声付き\" class=\"gyo\" \/>//g' \
+          -e 's/やまびこ通信 読み上げ版 バックナンバー/やまびこ通信 音声なし（印刷用）ページ バックナンバー/' \
+          -e 's/以下は読み上げ版のリストです。/以下は音声なし（印刷用）ページのリストです。 各ページの右下に、音声版へのリンクがあります。/' \
         $j > ../_p/$j
       done
   cd -
@@ -48,10 +51,11 @@ do
   echo '' >> _p/$i
   LC_COLLATE=C.UTF-8 sed \
   -e 's/今お聞きの声は/ホームページの声は/' \
-  -e 's/io\/tusin/io\/p\/tusin/' \
-  -e 's/href=\"tusin/href=\"\.\/p\/tusin/' \
-  -e 's/io\/bn/io\/p\/bn/' \
-  -e 's/href=\"bn/href=\"\.\/p\/bn/' \
+  -e 's/io\/tusin/io\/p\/tusin/g' \
+  -e 's/href=\"tusin/href=\"\.\/p\/tusin/g' \
+  -e 's/io\/bn/io\/p\/bn/g' \
+  -e 's/href=\"bn/href=\"\.\/p\/bn/g' \
+  -e 's/<img src=\"media\/Speaker_Icon_gray\.png\" srcset=\"media\/Speaker_Icon_gray\.svg\" alt=\"音声付き\" class=\"gyo\" \/>//g' \
   $i > temp
   sed -n '/##/,$p' temp >> _p/$i
   rm temp
