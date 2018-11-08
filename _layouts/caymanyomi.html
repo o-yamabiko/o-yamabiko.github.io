@@ -11,6 +11,24 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <style>
+        {% if page.background %}
+      body {
+        background-image: url('media/{{ page.background }}');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      @media screen and (min-width: 480px){
+      body {
+        background-size:cover;
+      }
+      }
+      @media screen and (max-width: 480px){
+      body {
+        background-position: center bottom;
+        background-size:auto 100%;
+      }
+      }
+        {% endif %}
         {% if page.oto %}
       .main-content {
          padding-top: 12em;
@@ -31,20 +49,6 @@
       .main-content h5,
       .main-content h6{
         color: #{{ page.iro }};
-      }
-        {% endif %}
-        {% if page.background %}
-      body {
-        background-image: url('media/{{ page.background }}');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size:cover;
-      }
-      @media screen and (max-width: 480px){
-      body {
-        background-position: center bottom;
-        background-size:500%;
-      }
       }
         {% endif %}
     </style>
