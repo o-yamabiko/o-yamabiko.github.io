@@ -726,8 +726,11 @@ $toggle-disabled-tab-bg: #FFFFFF;
 }
 
 // footnotes
+.footnote {
+    background: rgba(255, 250, 234, .90);
+}
 .footnotes {
     font-size: small;
-    background: rgba(255, 255, 255, .90);
+    background: rgba(255, 250, 234, .90);
 }
 
