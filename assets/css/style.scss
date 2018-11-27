@@ -31,6 +31,7 @@ $blockquote-text-color: #3A4E56;
 //$table-border-color: #e9ebec !default;
 //$hr-border-color: #eff0f1 !default;
 
+
 @import "{{ site.theme }}";
 
 body {
@@ -707,5 +708,15 @@ $toggle-disabled-tab-bg: #FFFFFF;
     width: 30em;
     font-size: small;
     background: rgba(255, 255, 255, .90);
+}
+
+// learn/_includes/image.html
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+    }
 }
 
