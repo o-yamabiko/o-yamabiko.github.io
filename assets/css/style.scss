@@ -31,6 +31,10 @@ $blockquote-text-color: #3A4E56;
 //$table-border-color: #e9ebec !default;
 //$hr-border-color: #eff0f1 !default;
 
+// learn/_includes/image.html
+$grey-color: #111111;
+$spacing-unit: 1.5em;
+
 
 @import "{{ site.theme }}";
 
