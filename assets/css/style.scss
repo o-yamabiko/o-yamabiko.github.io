@@ -728,8 +728,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
 // footnotes
 .footnote {
     padding: 0 0.5em;
-    border: 0.1pt solid $grey-color;
-    background: rgba(244, 244, 244, .90);
+    background: rgba(240, 240, 240, .90);
 }
 .footnotes {
     font-size: small;
@@ -739,6 +738,6 @@ $toggle-disabled-tab-bg: #FFFFFF;
 .note {
     font-size: small;
     padding: 1em;
-    border: 0.1pt solid $grey-color;
+    border: 0.05pt solid $grey-color;
     background: rgba(244, 244, 244, .90);
 }
