@@ -32,7 +32,7 @@ $blockquote-text-color: #3A4E56;
 //$hr-border-color: #eff0f1 !default;
 
 // learn/_includes/image.html
-$grey-color: #444444;
+$grey-color: #555555;
 $spacing-unit: 1.2em;
 
 
@@ -727,8 +727,8 @@ $toggle-disabled-tab-bg: #FFFFFF;
 
 // footnotes
 .footnote {
-    padding: 0.1em 0.5em;
-    border: 0.2pt solid $grey-color;
+    padding: 0 0.5em;
+    border: 0.1pt solid $grey-color;
     background: rgba(244, 244, 244, .90);
 }
 .footnotes {
@@ -739,6 +739,6 @@ $toggle-disabled-tab-bg: #FFFFFF;
 .note {
     font-size: small;
     padding: 1em;
-    border: 0.2pt solid $grey-color;
+    border: 0.1pt solid $grey-color;
     background: rgba(244, 244, 244, .90);
 }
