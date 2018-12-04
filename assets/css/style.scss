@@ -742,3 +742,24 @@ $toggle-disabled-tab-bg: #FFFFFF;
     border: 0.1pt dotted $grey-color;
     background: rgba(244, 244, 244, .90);
 }
+
+// headers
+.main-content h1 {
+    font-size:2em;
+}
+.main-content h2 {
+    font-size:1.8em;
+}
+.main-content h3 {
+    font-size:1.6em;
+}
+.main-content h4 {
+    font-size:1.4em;
+}
+.main-content h5 {
+    font-size:1.2em;
+}
+.main-content h6 {
+    font-size:1em;
+}
+
