@@ -60,8 +60,9 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/<\/span>\&nbsp; <span id=/<\/span>\n<span id=/g' \
     index.html > temp1
 sed \
-    -e 's/^.*SILENTTT\(([0-9]*)\)\&ensp;\([^(　]*\)\&ensp;\((　*)\)\&ensp;\(.*\)SSSILENT.*$/\1 <ruby>\2<rt>\3<\/rt><\/ruby>\4/' \
-    -e '/^[ \t]*</d' \
+    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
+    -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
+    -e 's/[ S]*SILENT[T ]*//g' \
     -e 's/<span [a-zA-Z0-9_\"=]*>//g' \
     -e 's/<\/span>//g' \
     temp1 > q.tsv
@@ -137,8 +138,8 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*03-3910-7331）.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについてのお問い合わせ.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
     -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
-    -e 's/｜\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/>\(.*\)SILENTTT *(\([ぁ-ゟ゠ァ-ヿ]*\)) *SSSILENT/><ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
+    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
+    -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
     -e 's/> </></' \
     -e 's/SILENTTT\([^S]*\)SSSILENT/\1/g' \
     temp5 >> ../$2.md
@@ -167,8 +168,9 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*03-3910-7331.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについて.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
     -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
-    -e 's/\([^ >]*\) *(\([ぁ-ゟ゠ァ-ヿ　]*\)) */<ruby>\1<rt>(\2)<\/rt><\/ruby>/g' \
-    -e 's/ *S*SILENTT* *//g' \
+    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
+    -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
+    -e 's/[ S]*SILENT[T ]*//g' \
     temp5 > temp6
 csplit temp6 /読み上げは省略/
 LC_COLLATE=C.UTF-8 sed \
