@@ -726,7 +726,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
 }
 
 // footnotes
-.footnote {
+.footnote,.reversefootnote {
     padding: 0 0.5em;
     background: rgba(233, 233, 233, .90);
 }
