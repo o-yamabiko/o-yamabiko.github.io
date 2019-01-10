@@ -28,13 +28,14 @@
         {% if page.background %}
       body {
         background-image: url('media/{{ page.background }}');
-        background-repeat: repeat-x;
         background-attachment: fixed;
         background-position: left top;
+        background-repeat: no-repeat;
         background-size: cover;
       }
       @media screen and (max-width: 640px){
       body {
+        background-repeat: no-repeat;
         background-size: auto 100%;
       }
       }
