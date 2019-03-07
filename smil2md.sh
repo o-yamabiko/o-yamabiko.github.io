@@ -172,11 +172,21 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
     -e 's/[ S]*SILENT[T ]*//g' \
     temp5 > temp6
-csplit temp6 /読み上げは省略/
-LC_COLLATE=C.UTF-8 sed \
-    -e '/読み上げは省略/d' \
-    xx01 > xx02
-cat xx00 q.tsv xx02 >> ../$2.md
+
+    if [[ `grep "読み上げは省略" temp6` == '' ]] ; then
+
+      csplit temp6 /月の答/
+      cat xx00 q.tsv xx01 >> ../$2.md
+
+    else
+
+      csplit temp6 /読み上げは省略/
+      LC_COLLATE=C.UTF-8 sed \
+          -e '/読み上げは省略/d' \
+          xx01 > xx02
+      cat xx00 q.tsv xx02 >> ../$2.md
+
+    fi
 
 fi
 

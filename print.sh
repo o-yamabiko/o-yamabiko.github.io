@@ -8,8 +8,7 @@ do
       do
         LC_COLLATE=C.UTF-8 sed \
           -e 's/^layout: .*/layout: print_noindex/' \
-          -e 's/io\/tusin/io\/p\/tusin/g' \
-          -e 's/href=\"tusin/href=\"\.\/p\/tusin/g' \
+          -e 's/href=\"\(tusin[0-9]*\.html\)/href=\"\.\/p\/\1/g' \
           -e 's/io\/bn/io\/p\/bn/g' \
           -e 's/href=\"bn/href=\"\.\/p\/bn/g' \
           -e 's/<img src=\"media\/Speaker_Icon_gray\.png\" srcset=\"media\/Speaker_Icon_gray\.svg\" alt=\"音声付き\" class=\"gyo\" \/>//g' \
@@ -51,8 +50,7 @@ do
   echo '' >> _p/$i
   LC_COLLATE=C.UTF-8 sed \
   -e 's/今お聞きの声は/ホームページの声は/' \
-  -e 's/io\/tusin/io\/p\/tusin/g' \
-  -e 's/href=\"tusin/href=\"\.\/p\/tusin/g' \
+  -e 's/href=\"\(tusin[0-9]*\.html\)/href=\"\.\/p\/\1/g' \
   -e 's/io\/bn/io\/p\/bn/g' \
   -e 's/href=\"bn/href=\"\.\/p\/bn/g' \
   -e 's/<img src=\"media\/Speaker_Icon_gray\.png\" srcset=\"media\/Speaker_Icon_gray\.svg\" alt=\"音声付き\" class=\"gyo\" \/>//g' \
