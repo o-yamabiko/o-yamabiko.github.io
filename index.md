@@ -1,6 +1,6 @@
 ---
 docid: index
-date: 2018-09-15T16:11:49Z
+date: 2019-03-27T16:54:49Z
 oto: index/sound0001
 ---
    
@@ -76,7 +76,7 @@ span data-dur="2.971" data-begin="6.399" id="xmri_0003">約4分50秒</span-->
 <span data-dur="1.832" data-begin="181.223" id="xmri_0039">合成音声の</span>
 <span data-dur="2.161" data-begin="183.055" id="xmri_003A">「せいじ」（男声）です。</span>
 <span data-dur="1.059" data-begin="185.216" id="xmri_003B">他に</span>
-<span data-dur="4.114" data-begin="186.275" id="xmri_003C">「なぎさ」の声（女声）でも作成できます。</span>
+<span data-dur="4.114" data-begin="186.275" id="xmri_003C">「のぞみ」の声（女声）でも作成できます。</span>
 
 ### <span data-dur="2.067" data-begin="190.389" id="xmri_003D">その他</span>
 
@@ -120,3 +120,4 @@ span data-dur="2.971" data-begin="6.399" id="xmri_0003">約4分50秒</span-->
 <!--span data-dur="4.995" data-begin="288.188" id="xmri_005D">以上でこのページの読み上げは終わりです。</span>
 
 <span data-dur="1.151" data-begin="293.183" id="xmri_005E"></span-->
+
