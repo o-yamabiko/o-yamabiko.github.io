@@ -781,7 +781,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: inherit; /*  */
+  position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 0; /* Location of the box */
   left: 0;
