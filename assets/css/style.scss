@@ -975,8 +975,8 @@ top: 0px;
 
 /* table fixed width */
 
-.tablewidth table {
-    width: 100%;
+.tablewidth td {
+    width: 25%;
 }
 
 .tablewidth tr:nth-child(even){background-color: #f2f2f2;}
