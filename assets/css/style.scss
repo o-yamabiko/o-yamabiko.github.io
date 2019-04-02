@@ -979,3 +979,7 @@ top: 0px;
     width: 100%;
 }
 
+.tablewidth tr:nth-child(even){background-color: #f2f2f2;}
+
+.tablewidth tr:hover {background-color: #ddd;}
+
