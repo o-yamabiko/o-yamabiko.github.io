@@ -767,6 +767,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
     font-size:1em;
 }
 
+/* https://codepen.io/ongtiffany/pen/BoOeQV */
 /*Eliminates padding, centers the thumbnail */
 
 body, html {
@@ -882,8 +883,8 @@ bottom: 0;
 }
 
 .lightbox-target:target img {
-max-height: 100%;
-max-width: 100%;
+max-height: 300%;
+max-width: 300%;
 }
 
 .lightbox-target:target a.lightbox-close {
