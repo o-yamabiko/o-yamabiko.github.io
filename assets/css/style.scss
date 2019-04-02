@@ -780,7 +780,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
 /* scrolling wrapper */
 .scrolling-wrapper {
   overflow-x: scroll;
-  overflow-y: hidden;
+  overflow-y: visible;
   white-space: nowrap;
 
   .card {
