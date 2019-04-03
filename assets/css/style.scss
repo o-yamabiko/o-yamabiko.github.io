@@ -777,4 +777,10 @@ $toggle-disabled-tab-bg: #FFFFFF;
 
 .tablewidth tr:hover {background-color: #ddd;}
 
-
+/* horizontal scroll by mouse wheel */
+#hscroll {
+    width:100%;
+    overflow:scroll;
+    margin:0;
+    padding:0;
+}
