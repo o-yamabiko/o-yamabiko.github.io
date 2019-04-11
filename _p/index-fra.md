@@ -61,7 +61,7 @@ oto: index-fra/sound0001
 <span data-dur="4.515" data-begin="242.213" id="xmri_004C">un haïku collaborés de l'Association de poètes du haïku de Jujodaï,</span>
 <span data-dur="2.933" data-begin="246.695" id="xmri_004E">le quiz, etc.</span>
 
-- <span data-dur="1.384" data-begin="249.595" id="xmri_004F"><a href="./p/tusin201903.html" data-dur="3.098" data-begin="250.979" id="xmri_0050">Le dernier numéro </a></span>
+- <span data-dur="1.384" data-begin="249.595" id="xmri_004F"><a href="./p/tusin201904.html" data-dur="3.098" data-begin="250.979" id="xmri_0050">Le dernier numéro </a></span>
 - <span data-dur="1.351" data-begin="254.143" id="xmri_0052"><a href="./p/bn.html" data-dur="3.625" data-begin="255.428" id="xmri_0053">Les anciens numéros</a></span>
 
 ## <span data-dur="3.691" data-begin="259.119" id="xmri_0055">Réunion régulière</span>
