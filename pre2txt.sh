@@ -73,7 +73,7 @@ for i in *.pre
 	$i-temp > $i-temp2
 	sed \
 	-e 's/^ *//' \
-	-e 's/ *$//' \
+	-e 's/ *$/ /' \
 	$i-temp2 > $i.txt
 diff $i $i.txt > modi-$i.diff
 	if [ -s modi-$i.diff ]; then
