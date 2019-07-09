@@ -58,20 +58,39 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&nbsp; <span id=/<\/span>\n<span id=/g' \
+    -e 's/&ensp;/ /g' \
+    -e 's/&lt;/</g' \
+    -e 's/&gt;/>/g' \
+    -e 's/<h1>.*/xmrii_0001\t /' \
     index.html > temp1
-sed \
+LC_COLLATE=C.UTF-8 sed \
+    -e 's/.*SILENTTT\(.*blockquote.*\)SSSILENT.*/\1/' \
+    -e 's/SILENTTT\(#*\)SSSILENT\(<span id=\"[a-zA-Z0-9_]*\">\)/\2\1/' \
+    -e 's/SILENTTT\(ケス\)SSSILENT\(<span id=\"[a-zA-Z0-9_]*\">\)/\2\1/' \
+    -e 's/\(<\/span>\)SILENTTT\(|:---|---:|\)SSSILENT/\2\1/' \
+    -e 's/\(<\/span>\)SILENTTT\(（カット[0-9]*）\)SSSILENT/\2\1/' \
+    -e 's/\(<\/span>\)\( *SILENTTT[^S]*SSSILENT *\)/\2\1/g' \
+    -e 's/<span id=\"\([a-zA-Z0-9_]*\)\">\([^<]*\)<\/span>/\1\t\2\n/g' \
+    temp1 > temp1a
+LC_COLLATE=C.UTF-8 sed \
+    -e 's/\([^ ]*\) \([^(]*\) \((　*)\) /\1 <ruby>\2<rt>\3<\/rt><\/ruby>/g' \
     -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
     -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
-    -e 's/[ S]*SILENT[T ]*//g' \
-    -e 's/<span [a-zA-Z0-9_\"=]*>//g' \
-    -e 's/<\/span>//g' \
-    temp1 > q.tsv
+    -e 's/[S]*ILEN[T]*//g' \
+    -e 's/<p>//' \
+    -e 's/<\/p>.*/\n/' \
+    temp1a > temp1b
+csplit temp1b /blockquote.*markdown/ /月.*の答/
+mv xx01 q.tsv
 sed \
-    -e 's/^.*span id=\"\([a-zA-Z0-9_]*\)\">\(.*\)<\/span.*$/\1\t\2/' \
-    -e '/^[ \t]*</d' \
     -e 's/<span [a-zA-Z0-9_\"=]*>//g' \
     -e 's/<\/span>//g' \
-    temp1 > paroles.tsv
+    -e 's/^[ \t]*//' \
+    temp1b > temp1m
+sed \
+    -e '/^[^x].*/d' \
+    -e '/^$/d' \
+    temp1m > paroles.tsv
 # calculate dur-begin.tsv
 awk '{
     printf("%s\t%3.3f\n", $2-$1, $1)
@@ -91,6 +110,9 @@ sed \
     -e 's/&thinsp;/ /g' \
     -e 's/&nbsp;/ /g' \
     -e 's/&ensp;/ /g' \
+    -e 's/ケス[^ス]*スケ//g' \
+    -e '/>ケス/d' \
+    -e '/スケ</d' \
     temp4 > temp5
 
 if [[ $2 == 'index' ]] || [[ $2 = test* ]] ; then
@@ -147,44 +169,37 @@ LC_COLLATE=C.UTF-8 sed \
 else
 
 LC_COLLATE=C.UTF-8 sed \
+    -e '/xmrii/d' \
     -e 's/　/ /g' \
     -e 's/\(.*>\)\(.*\)\(<a.*>\)\(（リンク）\)\(.*\)/\1\3\2\5/' \
     -e 's/\(.*>やまびこ通信.*バックナンバー<.*\)$/\n# \1\n/' \
     -e 's/\(.*>[0-9]*年[0-9]*月号<.*\)$/- \1/' \
     -e 's/\(.*>やまびこ通信[0-9]*年[0-9]*月号<.*\)$/\n# \1\n/' \
-    -e 's/\(.*月活動報告<.*\)$/\n## \1\n\n<img class=\"migi\" src=\"media\/'$2'\/cut1\.png\" alt=\"\" \/>\n/' \
-    -e 's/\(.*月活動予定<.*\)$/\n## \1\n\n<img class=\"migi\" src=\"media\/'$2'\/cut2\.png\" alt=\"\" \/>\n/' \
-    -e 's/\(.*>録音図書.*<.*\)$/\n## \1\n/' \
-    -e 's/\(.*>対面音訳<.*\)$/\n## \1\n/' \
-    -e 's/\(.*>部会報告<.*\)$/\n## \1\n/' \
-    -e 's/\(.*>外部活動報告<.*\)$/\n## \1\n/' \
-    -e 's/\(.*十条台句会.*\)$/\n## \1\n/' \
-    -e 's/\(新入会員.*一言\)$/\n## \1\n/' \
-    -e 's/\(.*try!!<.*\)$/\n## \1\n\n<img class=\"migi\" src=\"media\/'$2'\/cut3.png\" alt=\"\" \/>\n/' \
-    -e 's/\(.*月の答え<.*\)$/\n### \1\n/' \
+    -e 's/\(.*>\)\(#* \)\(.*\)$/\n\2\1\3\n/' \
     -e 's/\(.*>定例会：<.*\)$/\n\1/' \
     -e 's/\(.*中央図書館3階.*\)$/\1  /' \
     -e 's/\(.*\)やまびこ代表 *大川 *薫\(.*\)$/\1やまびこ代表 大川 薫\2  /' \
     -e 's/\(.*03-3910-7331.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについて.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
-    -e 's/SILENTTT（\(カット\)\([0-9]*\)）SSSILENT/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
+    -e 's/（カット\([0-9]*\)）<\/span>/<\/span>\n\n<img class=\"migi\" src=\"media\/'$2'\/cut\1\.png" alt=\"\" \/>\n/' \
+    -e 's/|:---|---:|<\/span>/<\/span>\n|:---|---:|/' \
+    -e 's/|<\/span>/<\/span>|/' \
     -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
     -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
-    -e 's/[ S]*SILENT[T ]*//g' \
     temp5 > temp6
 
     if [[ `grep "読み上げは省略" temp6` == '' ]] ; then
 
-      csplit temp6 /月の答/
+      csplit temp6 /月.*の答/ /以上でやまびこ通信/
       cat xx00 q.tsv xx01 >> ../$2.md
 
     else
 
-      csplit temp6 /読み上げは省略/
+      csplit temp6 /読み上げは省略/ /以上でやまびこ通信/
       LC_COLLATE=C.UTF-8 sed \
           -e '/読み上げは省略/d' \
-          xx01 > xx02
-      cat xx00 q.tsv xx02 >> ../$2.md
+          xx01 > xx01m
+      cat xx00 q.tsv xx01m >> ../$2.md
 
     fi
 

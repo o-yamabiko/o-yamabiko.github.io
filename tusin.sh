@@ -42,3 +42,5 @@ grep $1 bn.list > search
 
 rm search temp.md
 
+./print.sh
+
