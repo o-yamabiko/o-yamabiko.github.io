@@ -190,12 +190,12 @@ LC_COLLATE=C.UTF-8 sed \
 
     if [[ `grep "読み上げは省略" temp6` == '' ]] ; then
 
-      csplit temp6 /月.*の答/ /以上でやまびこ通信/
+      csplit temp6 /月.*の答/
       cat xx00 q.tsv xx01 >> ../$2.md
 
     else
 
-      csplit temp6 /読み上げは省略/ /以上でやまびこ通信/
+      csplit temp6 /読み上げは省略/
       LC_COLLATE=C.UTF-8 sed \
           -e '/読み上げは省略/d' \
           xx01 > xx01m
