@@ -81,7 +81,9 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/<\/p>.*/\n/' \
     temp1a > temp1b
 csplit temp1b /blockquote.*markdown/ /月.*の答/
-mv xx01 q.tsv
+LC_COLLATE=C.UTF-8 sed \
+    -e 's/	//g' \
+   xx01 > q.tsv
 sed \
     -e 's/<span [a-zA-Z0-9_\"=]*>//g' \
     -e 's/<\/span>//g' \
