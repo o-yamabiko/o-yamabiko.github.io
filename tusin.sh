@@ -1,22 +1,22 @@
 #!/bin/bash
 
-# $1 should be in the form "tusinYYYYmm".
+# $1 should be in the form "YYYYmm".
 
-YEAR="`echo $1 | sed -e 's/tusin\([0-9][0-9][0-9][0-9]\)[01][0-9]/\1/'`"
-MONTH2="`echo $1 | sed -e 's/tusin[0-9][0-9][0-9][0-9]\([01][0-9]\)/\1/'`"
+YEAR="`echo $1 | sed -e 's/\([0-9][0-9][0-9][0-9]\)[01][0-9]/\1/'`"
+MONTH2="`echo $1 | sed -e 's/[0-9][0-9][0-9][0-9]\([01][0-9]\)/\1/'`"
 if [[ $MONTH2 == '0'* ]]; then
   MONTH1="`echo $MONTH2 | sed -e 's/0\([0-9]\)/\1/'`"
 else
   MONTH1=$MONTH2
 fi
 
-grep $1 bn.list > search
+grep "tusin"$1 bn.list > search
 	if [ -s search ]; then
   # 1バイトでも中身があれば何もしない
 		:
 	else
-  # 0バイトだったら消す
-		(echo '- <a href="'$1'.html">'$YEAR'年'$MONTH1'月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>' && cat bn.list) > bn.list1 && mv bn.list1 bn.list
+  # 0バイトだったら追加
+		(echo '- <a href="tusin'$1'.html">'$YEAR'年'$MONTH1'月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>' && cat bn.list) > bn.list1 && mv bn.list1 bn.list
 		echo '---' > temp.md
 		echo 'layout: caymanyomi' >> temp.md
 		echo 'title: やまびこ通信 バックナンバー' >> temp.md
@@ -33,10 +33,10 @@ grep $1 bn.list > search
 		echo '以下は読み上げ版のリストです。' >> temp.md
 		echo '' >> temp.md
 		cat temp.md bn.list > ./_info/bn.md
-		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index.md > index.md1 && mv index.md1 index.md
-		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index-fra.md > index-fra.md1 && mv index-fra.md1 index-fra.md
-		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index-eng.md > index-eng.md1 && mv index-eng.md1 index-eng.md
-		sed -e 's/\(tusin[0-9]*\)\.html/'$1'\.html/' index-zho.md > index-zho.md1 && mv index-zho.md1 index-zho.md
+		sed -e 's/\(tusin[0-9]*\)\.html/tusin'$1'\.html/' index.md > index.md1 && mv index.md1 index.md
+		sed -e 's/\(tusin[0-9]*\)\.html/tusin'$1'\.html/' index-fra.md > index-fra.md1 && mv index-fra.md1 index-fra.md
+		sed -e 's/\(tusin[0-9]*\)\.html/tusin'$1'\.html/' index-eng.md > index-eng.md1 && mv index-eng.md1 index-eng.md
+		sed -e 's/\(tusin[0-9]*\)\.html/tusin'$1'\.html/' index-zho.md > index-zho.md1 && mv index-zho.md1 index-zho.md
 
 	fi
 
