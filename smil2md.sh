@@ -55,6 +55,7 @@ sed \
 # extract paroles
 LC_COLLATE=C.UTF-8 sed \
     -e 's/<span class=\"infty_silent\">\([^<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
+    -e 's/<span class=\"infty_silent_space\">\([^<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&nbsp; <span id=/<\/span>\n<span id=/g' \
