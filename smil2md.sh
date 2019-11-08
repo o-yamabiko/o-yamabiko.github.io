@@ -51,11 +51,12 @@ cd $1
 sed \
     -e 's/^.* id=\"\([a-zA-Z0-9_]*\)\".*npt=\([0-9\.]*\)s.*npt=\([0-9\.]*\)s.*/\2\t\3\t\1\t/' \
     -e '/ *</d' \
+    -e 's/<\/*b>//g' \
     mrii0001.smil > begin-end.tsv
 # extract paroles
 LC_COLLATE=C.UTF-8 sed \
     -e 's/<span class=\"infty_silent\">\([^<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
-    -e 's/<span class=\"infty_silent_space\">\([^<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
+    -e 's/<span class=\"infty_silent_space\">\([^<]*\)<\/span>/ /g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&nbsp; <span id=/<\/span>\n<span id=/g' \
