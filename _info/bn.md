@@ -2,7 +2,7 @@
 layout: caymanyomi
 title: やまびこ通信 バックナンバー
 author: 音訳グループ やまびこ
-date: 2019-11-07T22:25:16Z
+date: 2019-12-12T04:23:19Z
 iro: 2679B9
 gra: 95B926
 ---
@@ -13,6 +13,7 @@ gra: 95B926
 
 以下は読み上げ版のリストです。
 
+- <a href="tusin201912.html">2019年12月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin201911.html">2019年11月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin201910.html">2019年10月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin201909.html">2019年9月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>

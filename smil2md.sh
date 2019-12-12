@@ -57,7 +57,9 @@ sed \
 LC_COLLATE=C.UTF-8 sed \
     -e 's/<span class=\"infty_silent\">\([^<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
     -e 's/<span class=\"infty_silent_space\">\([^<]*\)<\/span>/ /g' \
+    -e 's/<a href=\"\([^\"]*\)\">\(<span id=[^>]*>\)\([^<]*\)\(<\/span>\)<\/a>/\2[\3](\1)\4/g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
+    -e 's/\(<span id=[^>]*>\)##\(<\/span>\)\&ensp;\(<span id=[^>]*>\)Let/\1\2\n\3## Let/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
     -e 's/<\/span>\&nbsp; <span id=/<\/span>\n<span id=/g' \
     -e 's/&ensp;/ /g' \
@@ -75,8 +77,8 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/<span id=\"\([a-zA-Z0-9_]*\)\">\([^<]*\)<\/span>/\1\t\2\n/g' \
     temp1 > temp1a
 LC_COLLATE=C.UTF-8 sed \
+    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ　]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
     -e 's/\([^ ]*\) \([^(]*\) \((　*)\) /\1 <ruby>\2<rt>\3<\/rt><\/ruby>/g' \
-    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
     -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
     -e 's/[S]*ILEN[T]*//g' \
     -e 's/<p>//' \
