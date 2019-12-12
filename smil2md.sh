@@ -57,7 +57,7 @@ sed \
 LC_COLLATE=C.UTF-8 sed \
     -e 's/<span class=\"infty_silent\">\([^<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
     -e 's/<span class=\"infty_silent_space\">\([^<]*\)<\/span>/ /g' \
-    -e 's/<a href=\"\([^\"]*\)\">\(<span id=[^>]*>\)\([^<]*\)\(<\/span>\)<\/a>/\2[\3](\1)\4/g' \
+    -e 's/<a \(href=\"[^\"]*\"\)>\(<span id=[^>]*>\)\([^<]*\)\(<\/span>\)<\/a>/\2\1 text=\"\3\"\4/g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/\(<span id=[^>]*>\)##\(<\/span>\)\&ensp;\(<span id=[^>]*>\)Let/\1\2\n\3## Let/g' \
     -e 's/<\/span>\&ensp;<span id=/<\/span>\n<span id=/g' \
@@ -77,7 +77,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/<span id=\"\([a-zA-Z0-9_]*\)\">\([^<]*\)<\/span>/\1\t\2\n/g' \
     temp1 > temp1a
 LC_COLLATE=C.UTF-8 sed \
-    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ　]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
+    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ　（）]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
     -e 's/\([^ ]*\) \([^(]*\) \((　*)\) /\1 <ruby>\2<rt>\3<\/rt><\/ruby>/g' \
     -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
     -e 's/[S]*ILEN[T]*//g' \
@@ -87,6 +87,7 @@ LC_COLLATE=C.UTF-8 sed \
 csplit temp1b /blockquote.*markdown/ /月.*の答/
 LC_COLLATE=C.UTF-8 sed \
     -e 's/	//g' \
+    -e '/^$/d' \
    xx01 > q.tsv
 sed \
     -e 's/<span [a-zA-Z0-9_\"=]*>//g' \
@@ -113,13 +114,23 @@ sed \
     -e ':a;N;$!ba;s/<\/span>\n<a/<a/g' \
     temp3 > temp4
 sed \
+    -e 's/<span\([^>]*\)>\(href=\"[^\"]*\"\) text=\"\([^\"]*\)\"<\/span>/<a \2\1>\3<\/a>/' \
+    -e 's/\([^月]*月.*の答.*\)/\1\n<blockquote markdown=\"1\">/' \
+    -e 's/^\(<span[^>]*>定例会：<\/span>\)$/<\/blockquote>\n\n\1/' \
     -e 's/&thinsp;/ /g' \
     -e 's/&nbsp;/ /g' \
     -e 's/&ensp;/ /g' \
     -e 's/ケス[^ス]*スケ//g' \
     -e '/>ケス/d' \
     -e '/スケ</d' \
-    temp4 > temp5
+    -e 's/|:---|---:|<\/span>/<\/span>\n|:---|---:|/g' \
+    -e 's/<span[^>]*> *<\/span>//g' \
+    temp4 > temp41
+
+sed \
+    -e ':a;N;$!ba;s/|<\/span>\n<span/<\/span>|<span/g' \
+    temp41 > temp5
+
 
 if [[ $2 == 'index' ]] || [[ $2 = test* ]] ; then
 
@@ -181,17 +192,16 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*>やまびこ通信.*バックナンバー<.*\)$/\n# \1\n/' \
     -e 's/\(.*>[0-9]*年[0-9]*月号<.*\)$/- \1/' \
     -e 's/\(.*>やまびこ通信[0-9]*年[0-9]*月号<.*\)$/\n# \1\n/' \
-    -e 's/\(.*>\)\(#* \)\(.*\)$/\n\2\1\3\n/' \
+    -e 's/\([^>]*>\)\(#* \)\(.*\)$/\n\2\1\3\n/' \
     -e 's/\(.*>定例会：<.*\)$/\n\1/' \
     -e 's/\(.*中央図書館3階.*\)$/\1  /' \
     -e 's/\(.*\)やまびこ代表 *大川 *薫\(.*\)$/\1やまびこ代表 大川 薫\2  /' \
     -e 's/\(.*03-3910-7331.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについて.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
     -e 's/（カット\([0-9]*\)）<\/span>/<\/span>\n\n<img class=\"migi\" src=\"media\/'$2'\/cut\1\.png" alt=\"\" \/>\n/' \
-    -e 's/|:---|---:|<\/span>/<\/span>\n|:---|---:|/' \
-    -e 's/|<\/span>/<\/span>|/' \
     -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
     -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
+    -e 's/\(<span[^>]*>No\.[0-9 ]*<\/span>\)/\1  /' \
     temp5 > temp6
 
     if [[ `grep "読み上げは省略" temp6` == '' ]] ; then
