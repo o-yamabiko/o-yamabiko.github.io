@@ -2,7 +2,7 @@
 layout: caymanyomi
 title: やまびこ通信 バックナンバー
 author: 音訳グループ やまびこ
-date: 2020-02-13T13:11:20Z
+date: 2020-03-10T10:43:51Z
 iro: 2679B9
 gra: 95B926
 ---
@@ -13,6 +13,7 @@ gra: 95B926
 
 以下は読み上げ版のリストです。
 
+- <a href="tusin202003.html">2020年3月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin202002.html">2020年2月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin202001.html">2020年1月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a href="tusin201912.html">2019年12月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
