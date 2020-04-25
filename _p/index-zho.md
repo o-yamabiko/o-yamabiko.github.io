@@ -27,7 +27,7 @@ oto: index-zho/sound0001
 
 ### <span data-dur="3.111" data-begin="99.641" id="xmri_0015">录音图书作成</span>
 
-<span data-dur="2.805" data-begin="102.727" id="xmri_0016"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="2.193" data-begin="105.507" id="xmri_0017">根据著作权第三十七条规定</a></span>
+<span data-dur="2.805" data-begin="102.727" id="xmri_0016"><a href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="2.193" data-begin="105.507" id="xmri_0017">根据著作权第三十七条规定</a></span>
 <span data-dur="2.066" data-begin="107.624" id="xmri_0018">进行书和书籍音译，</span>
 <span data-dur="1.632" data-begin="109.690"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="2.142" data-begin="111.271" id="xmri_0019">根据Daisy规格</a></span>
 <span data-dur="3.035" data-begin="113.337" id="xmri_001A">进行录音制作。</span>

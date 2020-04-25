@@ -41,7 +41,7 @@ oto: index-fra/sound0001
 
 ### <span data-dur="4.614" data-begin="122.754" id="xmri_001F">Convertir un livre en enregistrement</span>
 
-<span data-dur="3.757" data-begin="127.335" id="xmri_0021"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="2.603" data-begin="131.092" id="xmri_0022">Conformément à l'article 37 de la Loi sur le droit d'auteur,</a></span>
+<span data-dur="3.757" data-begin="127.335" id="xmri_0021"><a href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="2.603" data-begin="131.092" id="xmri_0022">Conformément à l'article 37 de la Loi sur le droit d'auteur,</a></span>
 <span data-dur="4.416" data-begin="133.728" id="xmri_0025">nous convertissons des livres et des documents en enregistrement dans <a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="3.823" data-begin="138.144" id="xmri_0026">le format de DAISY</a>.</span>
 
 <span data-dur="9.029" data-begin="141.934" id="xmri_0029">En plus de la conversion en voix humaine, nous avons commencé à aborder l'usage de voix synthétisées en 2017.</span>

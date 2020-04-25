@@ -32,7 +32,7 @@ oto: index-eng/sound0001
 
 ### <span data-dur="3.569" data-begin="117.091" id="xmri_0023">Convert a book to a recording</span>
 
-<span data-dur="3.92" data-begin="120.660" id="xmri_0025"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.771" data-begin="124.580" id="xmri_0026">In accordance with Section 37 of the Copyright Act,</a></span>
+<span data-dur="3.92" data-begin="120.660" id="xmri_0025"><a href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.771" data-begin="124.580" id="xmri_0026">In accordance with Section 37 of the Copyright Act,</a></span>
 <span data-dur="2.416" data-begin="126.351" id="xmri_0028">we convert books and documents</span>
 <span data-dur="2.606" data-begin="128.767" id="xmri_0029"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="3.02" data-begin="131.373" id="xmri_002A">into recordings in DAISY format.</a></span>
 

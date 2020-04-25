@@ -32,7 +32,7 @@ oto: index/sound0001
 
 ### <span data-dur="2.964" data-begin="102.327" id="xmri_001F">録音図書作成</span>
 
-<span data-dur="2.857" data-begin="105.291" id="xmri_0020"><a href="http://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.782" data-begin="108.148" id="xmri_0021">著作権法第三十七条</a></span>
+<span data-dur="2.857" data-begin="105.291" id="xmri_0020"><a href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=345AC0000000048&openerCode=1" data-dur="1.782" data-begin="108.148" id="xmri_0021">著作権法第三十七条</a></span>
 <span data-dur="1.601" data-begin="109.930" id="xmri_0022">に基づいて、</span>
 <span data-dur="2.829" data-begin="111.531" id="xmri_0023">書籍や書類を音訳し、</span>
 <span data-dur="1.612" data-begin="114.360" id="xmri_0024"><a href="http://www.dinf.ne.jp/doc/daisy/" data-dur="1.782" data-begin="115.972" id="xmri_0025">DAISY規格</a></span>
