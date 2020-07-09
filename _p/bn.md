@@ -2,7 +2,7 @@
 layout: print_noindex
 title: やまびこ通信 バックナンバー
 author: 音訳グループ やまびこ
-date: 2020-06-11T05:56:48Z
+date: 2020-07-09T03:21:21Z
 iro: 2679B9
 gra: 95B926
 ---
@@ -13,6 +13,7 @@ gra: 95B926
 
 以下は音声なし（印刷用）ページのリストです。 各ページの右下に、読み上げ版へのリンクがあります。
 
+- <a href="./p/tusin202007.html">2020年7月号 </a>
 - <a href="./p/tusin202006.html">2020年6月号 </a>
 - <a href="./p/tusin202005.html">2020年5月号 </a>
 - <a href="./p/tusin202004.html">2020年4月号 </a>
