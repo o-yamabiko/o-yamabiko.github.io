@@ -811,16 +811,13 @@ $toggle-disabled-tab-bg: #FFFFFF;
 }
 
 /* tejun table */
-.tejun table {
-    width: 48rem;
-}
 
 .tejun th:first-of-type {
-    width: 2em;
+    width: 1em;
 }
 .tejun th:nth-of-type(2) {
-    width: 10em;
+    width: 6em;
 }
 .tejun.tejun th:nth-of-type(3) {
-    width: 36em;
+    width: 20em;
 }
