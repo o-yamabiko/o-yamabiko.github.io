@@ -813,15 +813,15 @@ $toggle-disabled-tab-bg: #FFFFFF;
 /* tejun table */
 
 .tejun table {
-    width: 22em;
+    width: 100%;
 }
 
 .tejun th:first-of-type {
-    width: 1em;
+    width: 4%;
 }
 .tejun th:nth-of-type(2) {
-    width: 6em;
+    width: 16%;
 }
 .tejun.tejun th:nth-of-type(3) {
-    width: 15em;
+    width: 80%;
 }
