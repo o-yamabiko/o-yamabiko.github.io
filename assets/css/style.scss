@@ -812,6 +812,10 @@ $toggle-disabled-tab-bg: #FFFFFF;
 
 /* tejun table */
 
+.tejun table {
+    width: 22em;
+}
+
 .tejun th:first-of-type {
     width: 1em;
 }
@@ -819,5 +823,5 @@ $toggle-disabled-tab-bg: #FFFFFF;
     width: 6em;
 }
 .tejun.tejun th:nth-of-type(3) {
-    width: 20em;
+    width: 15em;
 }
