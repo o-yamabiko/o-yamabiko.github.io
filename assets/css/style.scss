@@ -809,3 +809,18 @@ $toggle-disabled-tab-bg: #FFFFFF;
     margin:0;
     padding:0;
 }
+
+/* tejun table */
+.tejun table {
+    width: 100%;
+}
+
+.tejun th:first-of-type {
+    width: 5%;
+}
+.tejun th:nth-of-type(2) {
+    width: 20%;
+}
+.tejun.tejun th:nth-of-type(3) {
+    width: 75%;
+}
