@@ -812,7 +812,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
 
 /* tejun table */
 .tejun table {
-    width: 100%;
+    max-width: 48rem;
 }
 
 .tejun th:first-of-type {
