@@ -818,10 +818,13 @@ $toggle-disabled-tab-bg: #FFFFFF;
 
 .tejun th:first-of-type {
     width: 1em;
+    vertical-align: top;
 }
 .tejun th:nth-of-type(2) {
     width: 6em;
+    vertical-align: top;
 }
 .tejun.tejun th:nth-of-type(3) {
     width: auto;
+    vertical-align: top;
 }
