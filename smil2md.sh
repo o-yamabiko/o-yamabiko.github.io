@@ -57,6 +57,7 @@ sed \
 LC_COLLATE=C.UTF-8 sed \
     -e 's/<span class=\"infty_silent\">\([^<]*\)<\/span>/SILENTTT\1SSSILENT/g' \
     -e 's/<span class=\"infty_silent_space\">\([^<]*\)<\/span>/ /g' \
+    -e 's/<span class=\"ja\">\([^<]*\)<\/span>/\1/g' \
     -e 's/<a \(href=\"[^\"]*\"\)>\(<span id=[^>]*>\)\([^<]*\)\(<\/span>\)<\/a>/\2\1 text=\"\3\"\4/g' \
     -e 's/<\/span><span id=/<\/span>\n<span id=/g' \
     -e 's/\(<span id=[^>]*>\)##\(<\/span>\)\&ensp;\(<span id=[^>]*>\)Let/\1\2\n\3## Let/g' \
