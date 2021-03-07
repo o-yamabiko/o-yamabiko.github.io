@@ -71,7 +71,7 @@ oto: index-zho/sound0001
 
 <span data-dur="9.054" data-begin="191.555" id="xmri_002D">内容是上个月的活动报告，本月的活动内容的预告，十条台句会的俳句和谜语等。</span>
 
-- <span data-dur="0.918" data-begin="200.609" id="xmri_002E"><a href="tusin202101.html" data-dur="1.964" data-begin="201.502" id="xmri_002F">最新号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></span>
+- <span data-dur="0.918" data-begin="200.609" id="xmri_002E"><a href="tusin202102.html" data-dur="1.964" data-begin="201.502" id="xmri_002F">最新号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></span>
 - <span data-dur="0.893" data-begin="203.465" id="xmri_0030"><a href="bn.html" data-dur="2.142" data-begin="204.332" id="xmri_0031">过去号</a></span>
 
 ## <span data-dur="2.270" data-begin="206.475" id="xmri_0032">定期会</span>
