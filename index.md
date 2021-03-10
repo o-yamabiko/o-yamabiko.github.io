@@ -96,7 +96,7 @@ span data-dur="2.971" data-begin="6.399" id="xmri_0003">約4分50秒</span-->
 <span data-dur="3.002" data-begin="221.923" id="xmri_0049">十条台句会から寄せられた俳句、</span>
 <span data-dur="2.481" data-begin="224.925" id="xmri_004A">クイズなど。</span>
 
-- <span data-dur="1.46" data-begin="227.406" id="xmri_004B"><a href="tusin202102.html" data-dur="2.282" data-begin="228.866" id="xmri_004C">最新号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></span>
+- <span data-dur="1.46" data-begin="227.406" id="xmri_004B"><a href="tusin202103.html" data-dur="2.282" data-begin="228.866" id="xmri_004C">最新号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a></span>
 - <span data-dur="1.634" data-begin="231.148" id="xmri_004D"><a href="bn.html" data-dur="2.631" data-begin="232.782" id="xmri_004E">バックナンバー</a></span>
 
 ## <span data-dur="2.123" data-begin="235.413" id="xmri_004F">定例会</span>
