@@ -1,6 +1,9 @@
 #!/bin/bash
 # Ruby at a character other than the beginning of a phrase should be prefixedby ｜.
 # It requires MultimediaDAISY2.02 files under directory $1 consisting of only one section. $2 is a project name.
+# todo: 表の処理
+# todo: CD製作時間の改行（行詰め、  入れ）
+# todo: 句会１行化
 
 YEAR="`echo $2 | sed -e 's/tusin\([0-9][0-9][0-9][0-9]\)[01][0-9]/\1/'`"
 MONTH2="`echo $2 | sed -e 's/tusin[0-9][0-9][0-9][0-9]\([01][0-9]\)/\1/'`"
