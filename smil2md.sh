@@ -79,10 +79,10 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/&lt;/</g' \
     -e 's/&gt;/>/g' \
     -e 's/<h1>.*/xmrii_0001\t /' \
-    -e 's/<img src=\"images\(.*\)\" alt=\"\(.*\)\" class.*\/>/![\2](media\/'$2'\1){: .migi}/' \
+    -e 's/<img src=\"images\/image[0]*\([1-9]*\)\.jpg\" .*\/>/![cut\1](media\/'$2'\/cut\1.png){: .migi}/' \
     -e 's/<a\([^>]*\)>\(.*\)\(<span.*>\)\(.*\)\({endspan}\)\(.*\)<\/a>/\3\1((\2\4\6))\5/g' \
-    -e 's/<rt>（<\/rt>/<rt>（　　　）<\/rt>/g' \
     temp0 > temp1
+
 LC_COLLATE=C.UTF-8 sed \
     -e 's/.*_+-\(.*blockquote.*\)+-_.*/\1/' \
     -e 's/_+-\(#*\)+-_\(<span id=\"[a-zA-Z0-9_]*\">\)/\2\1/' \
@@ -93,14 +93,17 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/<span id=\"\([a-zA-Z0-9_]*\)\">\(.*\){endspan}/\1\t\2\n/g' \
     temp1 > temp1a
 LC_COLLATE=C.UTF-8 sed \
-    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ　（）]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
-    -e 's/\([^ ]*\) \([^(]*\) \((　*)\) /\1 <ruby>\2<rt>\3<\/rt><\/ruby>/g' \
-    -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
+    -e 's/\(<rp>(<\/rp><rt>（<\/rt><rp>)<\/rp>\)\([ぁ-ゟ゠ァ-ヿ　（）]*\)<rp>(<\/rp><rt>）<\/rt><rp>)<\/rp>/\2\1/g' \
+    -e 's/<rt>（<\/rt>/<rt>（　　　）<\/rt>/g' \
     -e 's/_+-//g' \
     -e 's/+-_//g' \
     temp1a > temp1b
 csplit temp1b /blockquote.*markdown/ /月.*の答/
+#    -e 's/\([^ ]*\) \([^(]*\) \((　*)\) /\1 <ruby>\2<rt>\3<\/rt><\/ruby>/g' \
+#    -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
+
 LC_COLLATE=C.UTF-8 sed \
+    -e 's/&ensp;/ /g' \
     -e 's/ppp/\n/g' \
     -e 's/<\/p>//' \
     -e 's/	//g' \
@@ -151,8 +154,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e '/<span[^>]*>&thinsp;&thinsp;p*<\/span>/d' \
     temp4 > temp41
 
-sed \
-    -e ':a;N;$!ba;s/|<\/span>\n<span/<\/span>|<span/g' \
+LC_COLLATE=C.UTF-8 sed \
     -e ':a;N;$!ba;s/<span[^>]*>\(#*\)<\/span>\n\(<span[^>]*>[^\n]*<\/span>\)/\1 \2\n/g' \
     -e 's/ppp<\/a>/<\/a>\n/g' \
     temp41 > temp5
@@ -202,12 +204,14 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/やまびこ代表大川薫/やまびこ代表 大川 薫/' \
     -e 's/\(.*03-3910-7331）.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについてのお問い合わせ.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
+    -e 's/\(<rp>(<\/rp><rt>（<\/rt><rp>)<\/rp>\)\([ぁ-ゟ゠ァ-ヿ　（）]*\)<rp>(<\/rp><rt>）<\/rt><rp>)<\/rp>/\2\1/g' \
     -e 's/_+-（\(カット\)\([0-9]*\)）+-_/<img class=\"migi\" src=\"media\/'$2'\/cut\2\.png" alt=\"\1\2\" \/>/' \
-    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
-    -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
     -e 's/> </></' \
     -e 's/_+-\([^+]*\)+-_/\1/g' \
     temp5 >> ../$2.md
+#     -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
+#     -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
+
 
 else
 
@@ -223,11 +227,13 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\(.*\)やまびこ代表 *大川 *薫\(.*\)$/\1やまびこ代表 大川 薫\2  /' \
     -e 's/\(.*03-3910-7331.*\)$/\1  /' \
     -e 's/\(.*href="\)\(".*このサイトについて.*\)$/\1mailto:ymbk2016ml@gmail\.com?Subject=やまびこウェブサイトについて\2/' \
+    -e 's/\(<rp>(<\/rp><rt>（<\/rt><rp>)<\/rp>\)\([ぁ-ゟ゠ァ-ヿ　（）]*\)<rp>(<\/rp><rt>）<\/rt><rp>)<\/rp>/\2\1/g' \
     -e 's/（カット\([0-9]*\)）<\/span>/<\/span>\n\n<img class=\"migi\" src=\"media\/'$2'\/cut\1\.png" alt=\"\" \/>\n/' \
-    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
-    -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
     -e 's/\(<span[^>]*>No\.[0-9 ]*<\/span>\)/\1/' \
     temp5 > temp6
+#    -e 's/｜\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /<ruby>\1<rt>\2<\/rt><\/ruby>/g' \
+#    -e 's/^\(<[^>]*>\)\([^(]*\) (\([ぁ-ゟ゠ァ-ヿ]*\)) /\1<ruby>\2<rt>\3<\/rt><\/ruby>/' \
+
 
     if [[ `grep "読み上げは省略" temp6` == '' ]] ; then
 
