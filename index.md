@@ -1,6 +1,5 @@
 ---
 docid: index
-lang: 
 date: 2021-07-01T01:18:06Z
 oto: index/sound0001
 ---
