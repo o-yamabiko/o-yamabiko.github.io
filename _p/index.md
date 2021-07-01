@@ -93,6 +93,7 @@ oto: index/sound0001
 <span data-dur="4.28" data-begin="266.655" id="xmri_0049" markdown="1">勉強会もしています。</span>
 
 <a data-dur="7.138" data-begin="270.935" id="xmri_004A" markdown="1" href="./learn/">やまびこで作成している学習資料集もあります。</a>
+
 <span data-dur="3.981" data-begin="278.073" id="xmri_004B" markdown="1">見学や入会はいつでも受け付けていますので、</span>
 <span data-dur="3.34" data-begin="282.054" id="xmri_004C" markdown="1">音訳のボランティアに興味のある方は</span>
 <span data-dur="4.284" data-begin="285.394" id="xmri_004D" markdown="1">お気軽にご連絡ください。</span>
