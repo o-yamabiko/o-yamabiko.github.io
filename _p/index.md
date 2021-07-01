@@ -78,8 +78,8 @@ oto: index/sound0001
 <span data-dur="3.238" data-begin="226.679" id="xmri_003E" markdown="1">十条台句会から寄せられた 俳句、</span>
 <span data-dur="3.283" data-begin="229.917" id="xmri_003F" markdown="1">クイズなど。</span>
 
-<a data-dur="4.128" data-begin="233.200" id="xmri_0040" markdown="1" href="./p/tusin202106.html">最新号</a>
-<a data-dur="4.983" data-begin="237.328" id="xmri_0041" markdown="1" href="./p/bn.html">バックナンバー</a>
+- <a data-dur="4.128" data-begin="233.200" id="xmri_0040" markdown="1" href="./p/tusin202106.html">最新号</a>
+- <a data-dur="4.983" data-begin="237.328" id="xmri_0041" markdown="1" href="./p/bn.html">バックナンバー</a>
 
 ## <span data-dur="2.483" data-begin="242.311" id="xmri_0042" markdown="1">定例会</span>
 
