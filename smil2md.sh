@@ -1,9 +1,7 @@
 #!/bin/bash
 # Ruby at a character other than the beginning of a phrase should be prefixedby ｜.
 # It requires MultimediaDAISY2.02 files under directory $1 consisting of only one section. $2 is a project name.
-# todo: 表の処理
 # todo: CD製作時間の改行（行詰め、  入れ）
-# todo: 句会１行化
 
 YEAR="`echo $2 | sed -e 's/tusin\([0-9][0-9][0-9][0-9]\)[01][0-9]/\1/'`"
 MONTH2="`echo $2 | sed -e 's/tusin[0-9][0-9][0-9][0-9]\([01][0-9]\)/\1/'`"
@@ -65,6 +63,7 @@ LC_COLLATE=C.UTF-8 sed \
     index.html > temp0
 LC_COLLATE=C.UTF-8 sed \
     -e 's/<p align=\"right\" style=\"text-align:right;\">\(<span[^>]*>\)/\1classhaigo/g' \
+    -e 's/\({endspan}\)\([^<]*\)</\2\1</g' \
     -e 's/<p>//' \
     -e 's/\(<[^>]*>\)<\/p>/ppp\1/g' \
     -e 's/\({endspan}\)<\/p>/ppp\1/g' \
@@ -79,7 +78,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/&lt;/</g' \
     -e 's/&gt;/>/g' \
     -e 's/<h1>.*/xmrii_0001\t /' \
-    -e 's/<img src=\"images\/image[0]*\([1-9]*\)\.jpg\" .*\/>/![cut\1](media\/'$2'\/cut\1.png){: .migi}/' \
+    -e 's/<img src=\"images\/image[0]*\([1-9]*\)\.\([jp][pn]g\)\" .*\/>/cut\1.\2/' \
     -e 's/<a\([^>]*\)>\([^<]*\)\(<span[^>]*>\)/\3\1((\2/g' \
     -e 's/\({endspan}\)\([^<]*\)<\/a>/))\1\2/g' \
     temp0 > temp1
@@ -95,10 +94,13 @@ LC_COLLATE=C.UTF-8 sed \
     -e 's/\({endspan}\)_+-\(（カット[0-9]*）\)+-_/\2\1/' \
     -e 's/\({endspan}\)\( *_+-[^+]*+-_ *\)/\2\1/g' \
     -e 's/<span id=\"\([a-zA-Z0-9_]*\)\">\([^{]*\){endspan}/\1\t\2\n/g' \
+    -e 's/<span class=\"infty_silent\">\([^{]*\){endspan}/\1/g' \
     temp1 > temp1a
 LC_COLLATE=C.UTF-8 sed \
     -e 's/\(<rp>(<\/rp><rt>（<\/rt><rp>)<\/rp>\)\([ぁ-ゟ゠ァ-ヿ　（）]*\)<rp>(<\/rp><rt>）<\/rt><rp>)<\/rp>/\2\1/g' \
     -e 's/<rt>（<\/rt>/<rt>（　　　）<\/rt>/g' \
+    -e 's/&ensp;<\/p>/<\/p>/g' \
+    -e 's/ class=\"ruby_level_[0-9]\"//g' \
     -e 's/_+-//g' \
     -e 's/+-_//g' \
     temp1a > temp1b
@@ -140,9 +142,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e ':a;N;$!ba;s/\(<span[^>]*>[0-9]*\.<\/span>\)\n\(<span\)/\n\1\2/g' \
     temp3 > temp4
 LC_COLLATE=C.UTF-8 sed \
-    -e 's/<span[^>]*>!/!/g' \
-    -e 's/migi}<\/span>/migi}/g' \
-    -e 's/migi}ppp<\/span>/migi}\n/g' \
+    -e 's/<span[^>]*>\(cut[0-9]\)\(\.[jp][pn]g\)ppp<\/span>/![\1](media\/'$2'\/\1\2){: .migi}\n/g' \
     -e 's/ppp<\/span>/<\/span>\n/g' \
     -e 's/\(<span[^>]*>\)\(#*\)&ensp;/\n\2 \1/g' \
     -e 's/<span\([^>]*\)>\( href[^(]*\)((\([^)]*\)))<\/span>/<a\1\2>\3<\/a>/g' \
@@ -153,6 +153,7 @@ LC_COLLATE=C.UTF-8 sed \
     -e '/スケ</d' \
     -e 's/|:---|---:|<\/span>/<\/span>\n|:---|---:|/g' \
     -e 's/<span[^>]*> *<\/span>//g' \
+    -e 's/|<\/span>/<\/span>|/g' \
     -e 's/>classhaigo/ class=\"haigo\">/g' \
     -e 's/&ensp;/ /g' \
     -e '/<span[^>]*>&thinsp;&thinsp;p*<\/span>/d' \
@@ -161,6 +162,7 @@ LC_COLLATE=C.UTF-8 sed \
 LC_COLLATE=C.UTF-8 sed \
     -e ':a;N;$!ba;s/<span[^>]*>\(#*\)<\/span>\n\(<span[^>]*>[^\n]*<\/span>\)/\1 \2\n/g' \
     -e 's/ppp<\/a>/<\/a>\n/g' \
+    -e ':a;N;$!ba;s/|\n/|/g' \
     temp41 > temp5
 
 
