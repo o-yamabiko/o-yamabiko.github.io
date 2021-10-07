@@ -68,7 +68,7 @@ oto: index-eng/sound0001
 <span data-dur="4.741" data-begin="235.991" id="xmri_004E">a haiku contributed by the Association of Haiku Poets of Jujodai,</span>
 <span data-dur="2.441" data-begin="240.732" id="xmri_004F">quiz, etc.</span>
 
-- <span data-dur="1.544" data-begin="243.173" id="xmri_0050"><a href="./p/tusin202109.html" data-dur="2.671" data-begin="244.717" id="xmri_0051">Last issue </a></span>
+- <span data-dur="1.544" data-begin="243.173" id="xmri_0050"><a href="./p/tusin202110.html" data-dur="2.671" data-begin="244.717" id="xmri_0051">Last issue </a></span>
 - <span data-dur="1.487" data-begin="247.388" id="xmri_0053"><a href="./p/bn.html" data-dur="3.02" data-begin="248.875" id="xmri_0054">Back issues</a></span>
 
 ## <span data-dur="2.908" data-begin="251.895" id="xmri_0056">Regular meeting</span>
