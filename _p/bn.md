@@ -2,7 +2,7 @@
 layout: print_noindex
 title: やまびこ通信 バックナンバー
 author: 音訳グループ やまびこ
-date: 2022-01-13T18:11:13Z
+date: 2022-02-11T00:19:19Z
 iro: 2679B9
 gra: 95B926
 ---
@@ -13,6 +13,7 @@ gra: 95B926
 
 以下は音声なし（印刷用）ページのリストです。 各ページの右下に、読み上げ版へのリンクがあります。
 
+- <a href="./p/tusin202202.html">2022年2月号 </a>{: .highline}
 - <a href="./p/tusin202201.html">2022年1月号 </a>{: .highline}
 - <a href="./p/tusin202112.html">2021年12月号 </a>{: .highline}
 - <a href="./p/tusin202111.html">2021年11月号 </a>{: .highline}

@@ -243,7 +243,7 @@ LC_COLLATE=C.UTF-8 sed \
 
     if [[ `grep "読み上げは省略" temp6` == '' ]] ; then
 
-      csplit temp6 /月.*の答/
+      csplit temp6 /月.*の.*答/
       cat xx00 q.tsv xx01 >> ../$2.md
 
     else
