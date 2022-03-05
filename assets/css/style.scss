@@ -319,7 +319,14 @@ q {
    border-width: 3px;
    border-style: outset;
  }
-
+ .navi {
+   text-align: center;
+   padding: 1em;
+   background: #fff;
+   border-color: #eee;
+   border-width: 3px;
+   border-style: outset;
+ }
 //popup
 //    .parent {
 //      color: $body-link-color;
@@ -752,6 +759,26 @@ $toggle-disabled-tab-bg: #FFFFFF;
         margin-top: $spacing-unit / 3;
         margin-bottom: $spacing-unit;
     }
+}
+
+// footer
+.printfooter {
+    border-top: 1px dotted #eee;
+    width: 100%;
+    max-width: 46em;
+    text-align: center;
+    padding: 1em;
+    font-size: small;
+}
+.otofooter {
+    border-top: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, .90);
 }
 
 // footnotes
