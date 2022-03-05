@@ -6,6 +6,7 @@ function showtext() {
   var view = document.getElementById("view");
   var logo = document.getElementById("logo");
   var chuu = document.getElementById("chuu");
+  var otofooter = document.getElementById("otofooter");
 
   // If the checkbox is checked, display the output text
   if (checkBox.checked == true){
