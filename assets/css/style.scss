@@ -777,7 +777,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
 .printfooter {
     border-top: 1px solid #ccc;
     text-align: center;
-    line-height:200%;
+    line-height:2em;
 }
 #otofooter {
     position: fixed;
@@ -791,6 +791,7 @@ $toggle-disabled-tab-bg: #FFFFFF;
     text-align: center;
     font-size: small;
     background: rgba(255, 255, 255, .90);
+    line-height:2em;
 }
 
 // footnotes
