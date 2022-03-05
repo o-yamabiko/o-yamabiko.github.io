@@ -321,8 +321,12 @@ q {
  }
  .navi {
    text-align: center;
+   margin: .5em; 
+   font-size: medium;
+ }
+ .navibutton {
+   text-align: center;
    padding: .5em;
-   margin: 3em; 
    background: #fff;
    border-color: #eee;
    border-width: 3px;
