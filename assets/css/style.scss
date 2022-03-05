@@ -763,18 +763,18 @@ $toggle-disabled-tab-bg: #FFFFFF;
 
 // footer
 .printfooter {
-    border-top: 1px dotted #eee;
     width: 100%;
     max-width: 46em;
     text-align: center;
     padding: 1em;
     font-size: small;
+    background: rgba(255, 255, 255, .90);
 }
 .otofooter {
-    border-top: 0;
     position: fixed;
     bottom: 0;
-    background: rgba(255, 255, 255, .90);
+    display: flex;
+    justify-content: center;
 }
 
 // footnotes
