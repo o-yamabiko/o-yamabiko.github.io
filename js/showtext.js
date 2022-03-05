@@ -13,11 +13,13 @@ function showtext() {
     view.style.display = "inline";
     logo.style.display = "none";
     chuu.style.display = "none";
+    otofooter.style.display = "none";
   } else {
     bun.style.display = "none";
     view.style.display = "none";
     logo.style.display = "block";
     chuu.style.display = "inline";
+    otofooter.style.display = "block";
   }
 };
 
