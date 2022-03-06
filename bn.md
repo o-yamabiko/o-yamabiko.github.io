@@ -2,7 +2,7 @@
 layout: caymanyomi
 title: やまびこ通信 バックナンバー
 author: 音訳グループ やまびこ
-date: 2022-02-11T00:19:19Z
+date: 2022-03-06T00:19:19Z
 iro: 2679B9
 gra: 95B926
 ---
@@ -11,21 +11,9 @@ gra: 95B926
 
 2017年12月号から、 ChattyInfty3で編集したAITalkの合成音声で読み上げ版の発行を始めました。 それ以前の号は紙に印刷する形で発行していました。
 
-以下は読み上げ版のリストです。
+- <a href="./2022/">2022年</a>{: .highline}
+- <a href="./2021/">2021年</a>{: .highline}
+- <a href="./2020/">2020年</a>{: .highline}
+- <a href="./2019/">2019年</a>{: .highline}
+- <a href="./2018/">2017-2018年</a>{: .highline}
 
-- <a href="tusin202202.html">2022年2月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202201.html">2022年1月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202112.html">2021年12月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202111.html">2021年11月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202110.html">2021年10月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202109.html">2021年9月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202108.html">2021年8月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202107.html">2021年7月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202106.html">2021年6月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202105.html">2021年5月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202104.html">2021年4月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202103.html">2021年3月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202102.html">2021年2月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-- <a href="tusin202101.html">2021年1月号 <img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>{: .highline}
-
-2017-2020 のバックナンバーは調整中。
