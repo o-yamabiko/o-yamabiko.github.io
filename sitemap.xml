@@ -9,7 +9,7 @@
 
 <url>
   <loc>https://o-yamabiko.github.io/</loc>
-  <lastmod>2022-08-11T00:12:28+00:00</lastmod>
+  <lastmod>2022-09-07T14:52:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -18,13 +18,13 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://o-yamabiko.github.io/2022/08.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <loc>https://o-yamabiko.github.io/2022/09.html</loc>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://o-yamabiko.github.io/bn.html</loc>
-  <lastmod>2022-08-11T00:12:28+00:00</lastmod>
+  <lastmod>2022-09-07T14:52:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -34,7 +34,7 @@
 </url>
 <url>
   <loc>https://o-yamabiko.github.io/index.html</loc>
-  <lastmod>2022-08-11T00:12:28+00:00</lastmod>
+  <lastmod>2022-09-07T14:52:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -43,18 +43,23 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://o-yamabiko.github.io/2022/07.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <loc>https://o-yamabiko.github.io/2022/08.html</loc>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://o-yamabiko.github.io/2022/09.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <loc>https://o-yamabiko.github.io/2022/10.html</loc>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://o-yamabiko.github.io/learn/copyright20220806.html</loc>
+  <lastmod>2022-09-07T08:38:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://o-yamabiko.github.io/2022/</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -163,11 +168,6 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://o-yamabiko.github.io/learn/copyright20220806.html</loc>
-  <lastmod>2022-09-07T08:38:33+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://o-yamabiko.github.io/learn/zenkoku20181111.html</loc>
   <lastmod>2022-09-07T08:38:33+00:00</lastmod>
   <priority>0.64</priority>
@@ -213,33 +213,38 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://o-yamabiko.github.io/2022/07.html</loc>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>https://o-yamabiko.github.io/2022/06.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://o-yamabiko.github.io/2022/05.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://o-yamabiko.github.io/2022/04.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://o-yamabiko.github.io/2022/03.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://o-yamabiko.github.io/2022/02.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://o-yamabiko.github.io/2022/01.html</loc>
-  <lastmod>2022-09-07T14:35:05+00:00</lastmod>
+  <lastmod>2022-10-13T09:36:27+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
