@@ -361,6 +361,13 @@ q {
       }
     }
 //arrange images
+      .bottom2 {
+        display:inline-block;
+        vertical-align:bottom;
+        width:49%;
+        height: auto;
+        padding:0.5em 0.5em 0em 0.5em;
+      }
       .gyo {
         height: 1.2em;
 	width: auto;
