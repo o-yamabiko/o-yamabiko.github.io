@@ -43,22 +43,18 @@ $spacing-unit: 1.2em;
 @font-face {
     font-family: 'Migu 1C';
     src: url('https://o-yamabiko.github.io/fonts/migu-1c-regular.woff2') format('woff2'),
-         url('https://o-yamabiko.github.io/fonts/migu-1c-regular.woff') format('woff'),
-         url('https://o-yamabiko.github.io/fonts/migu-1c-regular.ttf') format('truetype'),
-         url('https://o-yamabiko.github.io/fonts/migu-1c-regular.svg#migu-1c-regular') format('svg');
+         url('https://o-yamabiko.github.io/fonts/migu-1c-regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Migu 1C';
     src: url('https://o-yamabiko.github.io/fonts/migu-1c-bold.woff2') format('woff2'),
-         url('https://o-yamabiko.github.io/fonts/migu-1c-bold.woff') format('woff'),
-         url('https://o-yamabiko.github.io/fonts/migu-1c-bold.ttf') format('truetype'),
-         url('https://o-yamabiko.github.io/fonts/migu-1c-bold.svg#migu-1c-bold') format('svg');
+         url('https://o-yamabiko.github.io/fonts/migu-1c-bold.woff') format('woff');
     font-weight: bold;
 }
 
 * {
-  font-family: 'Migu 1C', sans-serif;
+  font-family: 'Migu 1C', Verdana, sans-serif;
 }
 
 
