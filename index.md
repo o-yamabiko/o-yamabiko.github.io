@@ -90,7 +90,6 @@ oto: index/sound0001
 <span data-dur="3.238" data-begin="228.155" id="xmri_0040" markdown="1">十条台句会から寄せられた 俳句、</span>
 <span data-dur="3.283" data-begin="231.393" id="xmri_0041" markdown="1">クイズなど。</span>
 
-- <a data-dur="4.128" data-begin="234.676" id="xmri_0042" markdown="1" href="./2023/04.html">最新号<img src="media/Speaker_Icon_gray.png" srcset="media/Speaker_Icon_gray.svg" alt="音声付き" class="gyo" /></a>
 - <a data-dur="4.982" data-begin="238.804" id="xmri_0043" markdown="1" href="bn.html">バックナンバー</a>
 
 ## <span data-dur="2.484" data-begin="243.786" id="xmri_0044" markdown="1">定例会</span>
@@ -101,8 +100,6 @@ oto: index/sound0001
 <span data-dur="3.483" data-begin="259.286" id="xmri_0047" markdown="1">第2金曜日の11時から1時間と、</span>
 <span data-dur="3.886" data-begin="262.769" id="xmri_0048" markdown="1">第4金曜日の会議の残り時間を利用して、</span>
 <span data-dur="4.28" data-begin="266.655" id="xmri_0049" markdown="1">勉強会もしています。</span>
-
-<a data-dur="7.138" data-begin="270.935" id="xmri_004A" markdown="1" href="./learn/">やまびこで作成している学習資料集もあります。</a>
 
 <span data-dur="3.981" data-begin="278.073" id="xmri_004B" markdown="1">見学や入会はいつでも受け付けていますので、</span>
 <span data-dur="3.34" data-begin="282.054" id="xmri_004C" markdown="1">音訳のボランティアに興味のある方は</span>
