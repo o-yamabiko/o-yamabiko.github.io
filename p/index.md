@@ -81,7 +81,7 @@ oto: index/sound0001
 <span data-dur="3.089" data-begin="210.527" id="xmri_0040" markdown="1">十条台句会から寄せられた 俳句、</span>
 <span data-dur="3.18" data-begin="213.616" id="xmri_0041" markdown="1">クイズなど。</span>
 
-<a data-dur="4.78" data-begin="216.796" id="xmri_0042" markdown="1" href="./p/bn.html">バックナンバー</a>
+<a data-dur="4.78" data-begin="216.796" id="xmri_0042" markdown="1" href="./bn.html">バックナンバー</a>
 
 ## <span data-dur="2.405" data-begin="221.576" id="xmri_0043" markdown="1">定例会</span>
 
