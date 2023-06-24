@@ -11,6 +11,7 @@ gra: 95B926
 
 2017年12月号から、 ChattyInfty3で編集したAITalkの合成音声で読み上げ版の発行を始めました。 それ以前の号は紙に印刷する形で発行していました。
 
+- <a href="https://o-yamabiko.blogspot.com/">2023年7月以降</a>{: .highline}
 - <a href="./2023/">2023年</a>{: .highline}
 - <a href="./2022/">2022年</a>{: .highline}
 - <a href="./2021/">2021年</a>{: .highline}
