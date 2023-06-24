@@ -2,7 +2,7 @@
 layout: caymanyomi
 title: やまびこ通信 バックナンバー
 author: 音訳グループ やまびこ
-date: 2023-01-10T00:19:19Z
+date: 2023-06-24T00:19:19Z
 iro: 2679B9
 gra: 95B926
 ---
